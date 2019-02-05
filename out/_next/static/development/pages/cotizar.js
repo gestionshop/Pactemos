@@ -6105,7 +6105,20 @@ function (_Component) {
       subtype: null,
       category: null,
       weight: undefined,
-      value: undefined
+      value: undefined,
+      visible: false
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "showModal", function () {
+      _this.setState({
+        visible: true
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "closeModal", function () {
+      _this.setState({
+        visible: false
+      });
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "selectType", function (type) {
@@ -6163,58 +6176,58 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 170
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 171
         },
         __self: this
       }, "Cotiza en Compraventa Pactemos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 173
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Top__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 174
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163
+          lineNumber: 176
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "offices-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 164
+          lineNumber: 177
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 178
         },
         __self: this
       }, "Cotizador en l\xEDnea"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 179
         },
         __self: this
       }, "Rellene los campos y recuerde que la informaci\xF3n personal la utilizaremos para confirmarle cu\xE1nto dinero le damos por su art\xEDculo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 174
+          lineNumber: 187
         },
         __self: this
       }, data.map(function (item) {
@@ -6223,31 +6236,6 @@ function (_Component) {
             return _this2.selectType(item);
           },
           className: "cotizar-select-item ".concat(_this2.state.type && item.name === _this2.state.type.name ? 'active' : ''),
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 176
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 179
-          },
-          __self: this
-        }, item.name));
-      })), this.state.type && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "cotizar-select",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 187
-        },
-        __self: this
-      }, this.state.type.options.map(function (item) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          onClick: function onClick() {
-            return _this2.selectSubType(item);
-          },
-          className: "cotizar-select-item ".concat(_this2.state.subtype && item.name === _this2.state.subtype.name ? 'active' : ''),
           __source: {
             fileName: _jsxFileName,
             lineNumber: 189
@@ -6260,11 +6248,36 @@ function (_Component) {
           },
           __self: this
         }, item.name));
+      })), this.state.type && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "cotizar-select",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 200
+        },
+        __self: this
+      }, this.state.type.options.map(function (item) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          onClick: function onClick() {
+            return _this2.selectSubType(item);
+          },
+          className: "cotizar-select-item ".concat(_this2.state.subtype && item.name === _this2.state.subtype.name ? 'active' : ''),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 202
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 205
+          },
+          __self: this
+        }, item.name));
       })), this.state.subtype && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 201
+          lineNumber: 214
         },
         __self: this
       }, this.state.subtype.options.map(function (item) {
@@ -6275,13 +6288,13 @@ function (_Component) {
           className: "cotizar-select-item ".concat(_this2.state.category && item.name === _this2.state.category.name ? 'active' : ''),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 203
+            lineNumber: 216
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 206
+            lineNumber: 219
           },
           __self: this
         }, item.name));
@@ -6289,21 +6302,21 @@ function (_Component) {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 219
+          lineNumber: 232
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 220
+          lineNumber: 233
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 221
+          lineNumber: 234
         },
         __self: this
       }, "Peso"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -6314,56 +6327,58 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 222
+          lineNumber: 235
         },
         __self: this
       }))), this.state.weight && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 236
+          lineNumber: 249
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 237
+          lineNumber: 250
         },
         __self: this
       }, "\xBFCu\xE1nto me dan por mi joya?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 238
+          lineNumber: 251
         },
         __self: this
       }, "Te damos hasta $ ", this.state.value, " pesos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#",
+        onClick: this.showModal,
         className: "cotizar-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 240
+          lineNumber: 253
         },
         __self: this
-      }, "\xA1Quiero el dinero ya!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "\xA1Quiero el dinero ya!")), this.state.visible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "myModal",
         className: "modal",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 244
+          lineNumber: 260
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "modal-content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245
+          lineNumber: 261
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        onClick: this.closeModal,
         className: "close",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 246
+          lineNumber: 262
         },
         __self: this
       }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -6372,7 +6387,7 @@ function (_Component) {
         "data-netlify": "true",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 248
+          lineNumber: 264
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -6381,7 +6396,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 249
+          lineNumber: 265
         },
         __self: this
       }, "Completa tus datos personales"), this.state.type && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -6390,7 +6405,7 @@ function (_Component) {
         value: this.state.type.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 253
+          lineNumber: 269
         },
         __self: this
       }), this.state.subtype && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -6399,7 +6414,7 @@ function (_Component) {
         value: this.state.subtype.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 258
+          lineNumber: 274
         },
         __self: this
       }), this.state.category && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -6408,7 +6423,7 @@ function (_Component) {
         value: this.state.category.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 263
+          lineNumber: 279
         },
         __self: this
       }), this.state.weight && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -6417,105 +6432,10 @@ function (_Component) {
         value: this.state.weight,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 268
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "form-row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 270
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        className: "label",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 271
-        },
-        __self: this
-      }, "Nombres y apellidos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        className: "input",
-        type: "text",
-        name: "names",
-        required: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 272
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "form-row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 274
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        className: "label",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 275
-        },
-        __self: this
-      }, "Correo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        className: "input",
-        type: "text",
-        name: "email",
-        required: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 276
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "form-row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 278
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        className: "label",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 279
-        },
-        __self: this
-      }, "Telefono"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        className: "input",
-        type: "text",
-        name: "mobile",
-        required: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 280
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "form-row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 282
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        className: "label",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 283
-        },
-        __self: this
-      }, "\xBFCu\xE1nto necesita?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        className: "input",
-        type: "text",
-        name: "many",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 284
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
@@ -6529,6 +6449,101 @@ function (_Component) {
           lineNumber: 287
         },
         __self: this
+      }, "Nombres y apellidos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        name: "names",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 288
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 290
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "label",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 291
+        },
+        __self: this
+      }, "Correo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        name: "email",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 292
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 294
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "label",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 295
+        },
+        __self: this
+      }, "Telefono"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        name: "mobile",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 296
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 298
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "label",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 299
+        },
+        __self: this
+      }, "\xBFCu\xE1nto necesita?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        name: "many",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 300
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 302
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "label",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 303
+        },
+        __self: this
       }, "\xBFC\xF3mo se entero de nosotros?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         className: "input",
         type: "text",
@@ -6536,14 +6551,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 288
+          lineNumber: 304
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 291
+          lineNumber: 307
         },
         __self: this
       }, "Enviar datos"))))))));
