@@ -106,6 +106,19 @@ class Cotizar extends Component {
     category: null,
     weight: undefined,
     value: undefined,
+    visible: false,
+  }
+
+  showModal = () => {
+    this.setState({
+      visible: true,
+    })
+  }
+  
+  closeModal = () => {
+    this.setState({
+      visible: false,
+    })
   }
 
   selectType = (type) => {
@@ -237,61 +250,65 @@ class Cotizar extends Component {
                   <h4>¿Cuánto me dan por mi joya?</h4>
                   <span>Te damos hasta $ { this.state.value } pesos</span>
 
-                  <a href="#" className="cotizar-btn">¡Quiero el dinero ya!</a>
+                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Quiero el dinero ya!</a>
                 </div>
               }
 
-              <div id="myModal" className="modal">
-                <div className="modal-content">
-                  <span className="close">&times;</span>
-                  
-                  <form name="cotizacion" method="POST" data-netlify="true">
-                    <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
-                    {
-                      this.state.type
-                      &&
-                      <input type="hidden" name="type" value={this.state.type.name} />
-                    }
-                    {
-                      this.state.subtype
-                      &&
-                      <input type="hidden" name="subtype" value={this.state.subtype.name} />
-                    }
-                    {
-                      this.state.category
-                      &&
-                      <input type="hidden" name="category" value={this.state.category.name} />
-                    }
-                    {
-                      this.state.weight
-                      &&
-                      <input type="hidden" name="category" value={this.state.weight} />
-                    }
-                    <div className="form-row">
-                      <label className="label">Nombres y apellidos</label>
-                      <input className="input" type="text" name="names" required />
-                    </div>
-                    <div className="form-row">
-                      <label className="label">Correo</label>
-                      <input className="input" type="text" name="email" required />
-                    </div>
-                    <div className="form-row">
-                      <label className="label">Telefono</label>
-                      <input className="input" type="text" name="mobile" required />
-                    </div>
-                    <div className="form-row">
-                      <label className="label">¿Cuánto necesita?</label>
-                      <input className="input" type="text" name="many" />
-                    </div>
-                    <div className="form-row">
-                      <label className="label">¿Cómo se entero de nosotros?</label>
-                      <input className="input" type="text" name="source"  required />
-                    </div>
+              {
+                this.state.visible
+                &&
+                <div id="myModal" className="modal">
+                  <div className="modal-content">
+                    <span onClick={ this.closeModal } className="close">&times;</span>
+                    
+                    <form name="cotizacion" method="POST" data-netlify="true">
+                      <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
+                      {
+                        this.state.type
+                        &&
+                        <input type="hidden" name="type" value={this.state.type.name} />
+                      }
+                      {
+                        this.state.subtype
+                        &&
+                        <input type="hidden" name="subtype" value={this.state.subtype.name} />
+                      }
+                      {
+                        this.state.category
+                        &&
+                        <input type="hidden" name="category" value={this.state.category.name} />
+                      }
+                      {
+                        this.state.weight
+                        &&
+                        <input type="hidden" name="category" value={this.state.weight} />
+                      }
+                      <div className="form-row">
+                        <label className="label">Nombres y apellidos</label>
+                        <input className="input" type="text" name="names" required />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">Correo</label>
+                        <input className="input" type="text" name="email" required />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">Telefono</label>
+                        <input className="input" type="text" name="mobile" required />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">¿Cuánto necesita?</label>
+                        <input className="input" type="text" name="many" />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">¿Cómo se entero de nosotros?</label>
+                        <input className="input" type="text" name="source"  required />
+                      </div>
 
-                    <button className="form-btn">Enviar datos</button>
-                  </form>
+                      <button className="form-btn">Enviar datos</button>
+                    </form>
+                  </div>
                 </div>
-              </div>
+              }
             </section>
           </div>
         </div>
