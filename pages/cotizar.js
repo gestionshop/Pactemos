@@ -261,7 +261,7 @@ class Cotizar extends Component {
                   <div className="modal-content">
                     <span onClick={ this.closeModal } className="close">&times;</span>
                     
-                    <form name="cotizacion" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <form name="cotizacion" action="/gracias" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                       <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
                       {
                         this.state.type

@@ -6383,6 +6383,7 @@ function (_Component) {
         __self: this
       }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         name: "cotizacion",
+        action: "/gracias",
         method: "POST",
         "data-netlify": "true",
         "data-netlify-honeypot": "bot-field",
