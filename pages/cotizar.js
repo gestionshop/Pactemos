@@ -110,17 +110,32 @@ class Cotizar extends Component {
 
   selectType = (type) => {
     console.log('type', type)
-    this.setState({ type })
+    this.setState({
+      type,
+      subtype: null,
+      category: null,
+      weight: undefined,
+      value: undefined,
+    })
   }
   
   selectSubType = (subtype) => {
     console.log('subtype', subtype)
-    this.setState({ subtype })
+    this.setState({
+      subtype,
+      category: null,
+      weight: undefined,
+      value: undefined,
+    })
   }
 
   selectCategory = (category) => {
-    console.log('subtype', category)
-    this.setState({ category })
+    console.log('category', category)
+    this.setState({
+      category,
+      weight: undefined,
+      value: undefined,
+    })
   }
 
   onChangeInput = (e) => {
@@ -195,6 +210,10 @@ class Cotizar extends Component {
               }
               
               {
+                this.state.type
+                &&
+                this.state.type.name === 'Joyeria'
+                &&
                 this.state.category
                 &&
                 <div className="cotizar-select">
@@ -222,29 +241,56 @@ class Cotizar extends Component {
                 </div>
               }
 
-              <div style={{ display: 'none' }}>
-                <form action="">
-                  <div>
-                    <label htmlFor="">Nombres y apellidos</label>
-                    <input type="text" />
-                  </div>
-                  <div>
-                    <label htmlFor="">Correo</label>
-                    <input type="text" />
-                  </div>
-                  <div>
-                    <label htmlFor="">Telefono</label>
-                    <input type="text" />
-                  </div>
-                  <div>
-                    <label htmlFor="">¿Cuánto necesita?</label>
-                    <input type="text" />
-                  </div>
-                  <div>
-                    <label htmlFor="">¿Cómo se entero de nosotros?</label>
-                    <input type="text" />
-                  </div>
-                </form>
+              <div id="myModal" className="modal">
+                <div className="modal-content">
+                  <span className="close">&times;</span>
+                  
+                  <form name="cotizacion" method="POST" data-netlify="true">
+                    <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
+                    {
+                      this.state.type
+                      &&
+                      <input type="hidden" name="type" value={this.state.type.name} />
+                    }
+                    {
+                      this.state.subtype
+                      &&
+                      <input type="hidden" name="subtype" value={this.state.subtype.name} />
+                    }
+                    {
+                      this.state.category
+                      &&
+                      <input type="hidden" name="category" value={this.state.category.name} />
+                    }
+                    {
+                      this.state.weight
+                      &&
+                      <input type="hidden" name="category" value={this.state.weight} />
+                    }
+                    <div className="form-row">
+                      <label className="label">Nombres y apellidos</label>
+                      <input className="input" type="text" name="names" required />
+                    </div>
+                    <div className="form-row">
+                      <label className="label">Correo</label>
+                      <input className="input" type="text" name="email" required />
+                    </div>
+                    <div className="form-row">
+                      <label className="label">Telefono</label>
+                      <input className="input" type="text" name="mobile" required />
+                    </div>
+                    <div className="form-row">
+                      <label className="label">¿Cuánto necesita?</label>
+                      <input className="input" type="text" name="many" />
+                    </div>
+                    <div className="form-row">
+                      <label className="label">¿Cómo se entero de nosotros?</label>
+                      <input className="input" type="text" name="source"  required />
+                    </div>
+
+                    <button className="form-btn">Enviar datos</button>
+                  </form>
+                </div>
               </div>
             </section>
           </div>
