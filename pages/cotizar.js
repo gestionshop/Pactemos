@@ -261,7 +261,7 @@ class Cotizar extends Component {
                   <div className="modal-content">
                     <span onClick={ this.closeModal } className="close">&times;</span>
                     
-                    <form name="cotizacion" method="POST" data-netlify="true">
+                    <form name="cotizacion" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                       <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
                       {
                         this.state.type
@@ -304,7 +304,7 @@ class Cotizar extends Component {
                         <input className="input" type="text" name="source"  required />
                       </div>
 
-                      <button className="form-btn">Enviar datos</button>
+                      <button type="submit" className="form-btn">Enviar datos</button>
                     </form>
                   </div>
                 </div>

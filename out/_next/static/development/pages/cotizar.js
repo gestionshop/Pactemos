@@ -6385,6 +6385,7 @@ function (_Component) {
         name: "cotizacion",
         method: "POST",
         "data-netlify": "true",
+        "data-netlify-honeypot": "bot-field",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 264
@@ -6555,6 +6556,7 @@ function (_Component) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
