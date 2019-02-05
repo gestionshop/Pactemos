@@ -3,7 +3,84 @@ import Head from 'next/head';
 import Top from '../components/Top';
 
 
-class Sucursales extends Component {
+const data = [
+  {
+    name: 'Joyeria',
+    options: [
+      {
+        name: 'Oro',
+        options: [
+          {
+            name: '22k',
+            value: 23000,
+          },
+          {
+            name: '18k',
+            value: 13000,
+          },
+          {
+            name: '14k',
+            value: 33000,
+          },
+          {
+            name: '10k',
+            value: 3000,
+          },
+        ],
+      },
+      {
+        name: 'Plata',
+      },
+    ],
+  },
+  {
+    name: 'Articulo',
+  },
+  {
+    name: 'Vender CDT',
+  },
+  {
+    name: 'Otro',
+  },
+]
+
+class Cotizar extends Component {
+  state = {
+    type: null,
+    subtype: null,
+    category: null,
+    weight: undefined,
+    value: undefined,
+  }
+
+  selectType = (type) => {
+    console.log('type', type)
+    this.setState({ type })
+  }
+  
+  selectSubType = (subtype) => {
+    console.log('subtype', subtype)
+    this.setState({ subtype })
+  }
+
+  selectCategory = (category) => {
+    console.log('subtype', category)
+    this.setState({ category })
+  }
+
+  onChangeInput = (e) => {
+    const name = e.target.name
+    const value = e.target.value
+
+    console.log('name', name)
+    console.log('value', value)
+
+    this.setState({
+      [name]: value,
+      value: value*this.state.category.value,
+    })
+  }
+
   render () {
     return (
       <>
@@ -25,57 +102,70 @@ class Sucursales extends Component {
               </div>
 
               <div className="cotizar-select">
-                <div className="cotizar-select-item active">
-                  <span>Joyeria</span>
-                </div>
-                <div className="cotizar-select-item">
-                  <span>Articulo</span>
-                </div>
-                <div className="cotizar-select-item">
-                  <span>Vender CDT</span>
-                </div>
-                <div className="cotizar-select-item">
-                  <span>Otro</span>
-                </div>
+                {
+                  data.map(item => <div
+                    onClick={ () => this.selectType(item) }
+                    className={`cotizar-select-item ${ this.state.type && item.name === this.state.type.name ? 'active' : '' }`}>
+                    <span>{ item.name }</span>
+                  </div>)
+                }
               </div>
               
-              <div className="cotizar-select">
-                <div className="cotizar-select-item active">
-                  <span>Oro</span>
+              {
+                this.state.type
+                &&
+                <div className="cotizar-select">
+                  {
+                    this.state.type.options.map(item => <div
+                      onClick={ () => this.selectSubType(item) }
+                      className={`cotizar-select-item ${ this.state.subtype && item.name === this.state.subtype.name ? 'active' : '' }`}>
+                      <span>{ item.name }</span>
+                    </div>)
+                  }
                 </div>
-                <div className="cotizar-select-item">
-                  <span>Plata</span>
-                </div>
-              </div>
-              
-              <div className="cotizar-select">
-                <div className="cotizar-select-item active">
-                  <span>22k</span>
-                </div>
-                <div className="cotizar-select-item">
-                  <span>18k</span>
-                </div>
-                <div className="cotizar-select-item">
-                  <span>14k</span>
-                </div>
-                <div className="cotizar-select-item">
-                  <span>10k</span>
-                </div>
-              </div>
-              
-              <div className="cotizar-select">
-                <div className="form-input">
-                  <label className="label">Peso</label>
-                  <input className="input" type="text" placeholder="En gramos" />
-                </div>
-              </div>
+              }
 
-              <div className="cotizar-result">
-                <h4>¿Cuánto me dan por mi joya?</h4>
-                <span>Te damos hasta $ 570.000 pesos</span>
+              {
+                this.state.subtype
+                &&
+                <div className="cotizar-select">
+                  {
+                    this.state.subtype.options.map(item => <div
+                      onClick={ () => this.selectCategory(item) }
+                      className={`cotizar-select-item ${ this.state.category && item.name === this.state.category.name ? 'active' : '' }`}>
+                      <span>{ item.name }</span>
+                    </div>)
+                  }
+                </div>
+              }
+              
+              {
+                this.state.category
+                &&
+                <div className="cotizar-select">
+                  <div className="form-input">
+                    <label className="label">Peso</label>
+                    <input
+                      className="input"
+                      type="text"
+                      placeholder="En gramos"
+                      name="weight"
+                      onChange={ this.onChangeInput }
+                    />
+                  </div>
+                </div>
+              }
 
-                <a href="#" className="cotizar-btn">¡Quiero el dinero ya!</a>
-              </div>
+              {
+                this.state.weight
+                &&
+                <div className="cotizar-result">
+                  <h4>¿Cuánto me dan por mi joya?</h4>
+                  <span>Te damos hasta $ { this.state.value } pesos</span>
+
+                  <a href="#" className="cotizar-btn">¡Quiero el dinero ya!</a>
+                </div>
+              }
 
               <div style={{ display: 'none' }}>
                 <form action="">
@@ -109,4 +199,4 @@ class Sucursales extends Component {
   }
 }
 
-export default Sucursales;
+export default Cotizar;
