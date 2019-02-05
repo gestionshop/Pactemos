@@ -12,29 +12,84 @@ const data = [
         options: [
           {
             name: '22k',
-            value: 23000,
+            value: 76000,
           },
           {
             name: '18k',
-            value: 13000,
+            value: 63000,
           },
           {
             name: '14k',
-            value: 33000,
+            value: 48000,
           },
           {
             name: '10k',
-            value: 3000,
+            value: 27000,
           },
         ],
       },
       {
         name: 'Plata',
+        options: [
+          {
+            name: 'Ley 925',
+            value: 800,
+          },
+        ],
       },
     ],
   },
   {
     name: 'Articulo',
+    options: [
+      {
+        name: 'Electrodomesticos',
+        options: [
+          {
+            name: 'Televisor',
+            value: 0,
+          },
+          {
+            name: 'Nevera',
+            value: 0,
+          },
+          {
+            name: 'Estufa',
+            value: 0,
+          },
+          {
+            name: 'Lavadora',
+            value: 0,
+          },
+          {
+            name: 'Equipo de sonido',
+            value: 0,
+          },
+        ],
+      },
+      {
+        name: 'Herramientas',
+        options: [
+          {
+            name: 'Tipo de herramientas',
+            value: 0,
+          },
+        ],
+      },
+      {
+        name: 'Tecnologia',
+        options: [
+          {
+            name: 'Portatil',
+            value: 0,
+          },
+          {
+            name: 'Tablet',
+            value: 0,
+          },
+        ],
+      },
+    ],
   },
   {
     name: 'Vender CDT',
@@ -95,11 +150,11 @@ class Cotizar extends Component {
               <h1>Cotizador en línea</h1>
               <p>Rellene los campos y recuerde que la información personal la utilizaremos para confirmarle cuánto dinero le damos por su artículo</p>
 
-              <div>
+              {/* <div>
                 <span>Información personal</span>
                 <span>Articulo</span>
                 <span>Cotización</span>
-              </div>
+              </div> */}
 
               <div className="cotizar-select">
                 {
