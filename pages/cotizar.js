@@ -158,10 +158,16 @@ class Cotizar extends Component {
     console.log('name', name)
     console.log('value', value)
 
-    this.setState({
-      [name]: value,
-      value: value*this.state.category.value,
-    })
+    if (this.state.type === ' Joyeria') {
+      this.setState({
+        [name]: value,
+        value: value*this.state.category.value,
+      })
+    } else {
+      this.setState({
+        [name]: value,
+      })
+    }
   }
 
   render () {
@@ -196,6 +202,8 @@ class Cotizar extends Component {
               
               {
                 this.state.type
+                &&
+                (this.state.type.name === 'Joyeria' || this.state.type.name === 'Articulo')
                 &&
                 <div className="cotizar-select">
                   {
@@ -241,6 +249,193 @@ class Cotizar extends Component {
                     />
                   </div>
                 </div>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Articulo'
+                &&
+                this.state.category
+                &&
+                <>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Marca</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="brand"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Modelo</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="model"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Tiempo de uso</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="time"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">¿Tiene factura?</label>
+
+                      <label className="radio">
+                        <input
+                          type="radio"
+                          placeholder=""
+                          name="invoice"
+                          value="Si"
+                          onChange={ this.onChangeInput }
+                        /> Si
+                      </label>
+                      <label className="radio">
+                        <input
+                          type="radio"
+                          placeholder=""
+                          name="invoice"
+                          value="No"
+                          onChange={ this.onChangeInput }
+                        /> No
+                      </label>
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Comentarios</label>
+                      <textarea
+                        style={{ height: 60 }}
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="comment"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                </>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Otro'
+                &&
+                <>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Tipo de articulo</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="articleType"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Marca</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="brand"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Tiempo de uso</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="time"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Comentarios</label>
+                      <textarea
+                        style={{ height: 60 }}
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="comment"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                </>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Vender CDT'
+                &&
+                <>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Valor CDT</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="valueCDT"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Fecha de apertura</label>
+                      <input
+                        className="input"
+                        type="date"
+                        placeholder=""
+                        name="openCDT"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Fecha de vencimiento</label>
+                      <input
+                        className="input"
+                        type="date"
+                        placeholder=""
+                        name="closeCDT"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                </>
               }
 
               {

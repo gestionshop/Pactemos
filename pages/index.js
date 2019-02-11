@@ -74,7 +74,7 @@ class Home extends Component {
 
             <section className="home-products">
               <div className="home-products-row">
-                <img src="/static/img/products.png" alt=""/>
+                <img src="/static/img/productos.png" alt=""/>
                 <div>
                   <h2 className="home-products-title">Artículos que puedes convertir en Dinero Inmediato</h2>
 
@@ -102,27 +102,30 @@ class Home extends Component {
           <section className="home-choose">
             <div className="container">
               <div className="home-products-row">
-                <img src="/static/img/products.png" alt=""/>
                 <div>
                   <h2 className="home-products-title">Artículos que puedes convertir en Dinero Inmediato</h2>
 
                   <div>
                     <div>
+                      <img src="/static/img/seguridad.png" alt=""/>
                       <h4>Por seguridad</h4>
                       <p>Compraventas Pactemos es la única empresa en Colombia en la que tus artículos son custodiados y guardados por una empresa de valores hasta que tu decidas regresar por ellas, eso te da la garantía de que tus joyas cuentan con un seguro sin generar costos adicionales.</p>
                     </div>
 
                     <div>
+                      <img src="/static/img/calificado.png" alt=""/>
                       <h4>Personal calificado</h4>
                       <p>Tenemos más de 60 colaboradores capacitados para brindar un buen servicio y la mejor atención, además cuentan con amplios conocimientos y gran experiencia para valorar tus artículos de manera profesional.</p>
                     </div>
 
                     <div>
+                      <img src="/static/img/respaldo.png" alt=""/>
                       <h4>Cuentas con mayor respaldo</h4>
                       <p>Somos una empresa en constante crecimiento, organizada y con procesos administrativos transparentes que permiten que nuestros clientes tengan total confianza a la hora de realizar sus transacciones.</p>
                     </div>
                     
                     <div>
+                      <img src="/static/img/recuperacion.png" alt=""/>
                       <h4>Hacemos todo lo posible para que recupere su articulo</h4>
                       <p>Le avisamos por SMS, mail, llamadas telefónicas, whatsapp, o personalmente el tiempo de su artículo.</p>
                     </div>
