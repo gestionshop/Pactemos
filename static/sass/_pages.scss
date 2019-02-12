@@ -14,9 +14,16 @@
   background-position: center;
   // border-radius: 3px;
 }
+.home-welcome-img {
+  width: 100%;
+  max-width: 600px;
+  img {
+    width: 100%;
+  }
+}
 .home-welcome-btn {
   display: inline-block;
-  min-width: 280px;
+  min-width: 250px;
   margin-top: 30px;
   padding: 15px 20px;
   color: #fff;
@@ -27,24 +34,26 @@
   border-radius: 3px;
 }
 .home-steps {
-  padding: 100px 0 50px 0;
-  // margin-bottom: 30px;
+  padding: 50px 0 30px 0;
   font-size: 1.1rem;
 }
 .home-steps-title {
   margin-bottom: 30px;
   font-size: 1.75rem;
+  text-align: center;
 }
 .home-steps-row {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
 }
 .home-steps-list {
+  order: 2;
   flex-shrink: 0;
   padding-left: 0;
-  width: 35%;
+  width: 100%;
 }
 .home-steps-item {
   display: flex;
@@ -68,20 +77,20 @@
   border-radius: 50%;
 }
 .home-steps-figures {
-  padding-left: 50px;
+  order: 1;
   img {
     width: 100%;
   }
 }
 .home-benefits {
-  padding: 50px 30px 30px 30px;
+  padding: 40px 10px 20px 10px;
   margin-bottom: 30px;
   background-color: #FAFAFA;
   border-radius: 3px;
 }
 .home-benefits-row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .home-benefits-half {
   flex: 1;
@@ -92,15 +101,17 @@
 }
 .home-products-row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 .home-products-img {
-  width: 50%;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 .home-products-title {
   margin-bottom: 30px;
   font-size: 1.75rem;
+  text-align: center;
 }
 .home-choose {
   padding: 100px 0px;
@@ -117,8 +128,9 @@
   justify-content: space-around;
 }
 .home-choose-item {
-  width: 40%;
+  width: 100%;
   text-align: center;
+  margin-bottom: 1rem;
   img {
     width: 120px;
     height: 120px;
@@ -270,14 +282,12 @@
   font-size: 28px;
   font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
-
 .form-row {
   display: flex;
   flex-direction: column;
@@ -287,7 +297,6 @@
     margin-bottom: 10px;
   }
 }
-
 .form-btn {
   padding: 10px 20px;
   color: #fff;
@@ -295,7 +304,50 @@
   border-radius: 3px;
   border: none;
 }
-
 .radio {
   padding: 5px;
+}
+.Footer {
+  margin: 1rem 0;
+  color: rgba(0,0,0,.5);
+}
+
+@media screen and (min-width: 600px) {
+  .home-steps {
+    padding: 100px 0 50px 0;
+  }
+  .home-steps-row {
+    flex-direction: row;
+  }
+  .home-steps-list {
+    order: 1;
+    width: 35%;
+  }
+  .home-steps-title {
+    text-align: left;
+  }
+  .home-steps-figures {
+    order: 2;
+    padding-left: 50px;
+  }
+  .home-benefits {
+    padding: 50px 30px 30px 30px;
+  }
+  .home-benefits-row {
+    flex-direction: row;
+  }
+  .home-products-row {
+    flex-direction: row;
+  }
+  .home-products-img {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .home-products-title {
+    text-align: center;
+  }
+  .home-choose-item {
+    width: 40%;
+    text-align: center;
+  }
 }
