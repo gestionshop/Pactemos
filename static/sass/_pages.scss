@@ -95,6 +95,9 @@
   flex-direction: row;
   align-items: center;
 }
+.home-products-img {
+  width: 50%;
+}
 .home-products-title {
   margin-bottom: 30px;
   font-size: 1.75rem;
@@ -102,6 +105,24 @@
 .home-choose {
   padding: 100px 0px;
   background-color: #FBFCFE;
+}
+.home-choose-title {
+  margin-bottom: 50px;
+  font-size: 1.75rem;
+  text-align: center;
+}
+.home-choose-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.home-choose-item {
+  width: 40%;
+  text-align: center;
+  img {
+    width: 120px;
+    height: 120px;
+  }
 }
 // Elements
 .cover {
