@@ -176,6 +176,7 @@
 }
 .offices-links {
   a {
+    display: inline-block;
     padding: 3px 0;
     margin: 5px;
     color: rgba(0,0,0,1);
@@ -188,12 +189,12 @@
 }
 .offices-row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .offices-item {
-  width: 32%;
+  width: 100%;
   padding: 20px;
   margin-bottom: 20px;
   background-color: #FAFAFA;
@@ -349,5 +350,11 @@
   .home-choose-item {
     width: 40%;
     text-align: center;
+  }
+  .offices-row {
+    flex-direction: row;
+  }
+  .offices-item {
+    width: 32%;
   }
 }
