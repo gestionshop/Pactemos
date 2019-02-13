@@ -16,7 +16,7 @@ class Home extends Component {
 
           <section className="home-welcome">
             <div className="container">
-              <figure>
+              <figure className="home-welcome-img">
                 <img src="/static/img/banner-home.png" alt=""/>
               </figure>
               <a className="home-welcome-btn" href="/cotizar">Cotiza en linea</a>
@@ -63,13 +63,15 @@ class Home extends Component {
                   <h3>Lo que tiene valor para ti, también lo tiene para nosotros</h3>
                   <p>Por eso a través de un contrato con pacto de retroventa, podrás obtener liquidez inmediata dejando como garantía un artículo.</p>
                 </div>
-                <ul className="home-benefits-half">
+                <div className="home-benefits-half">
                   <h4>Beneficios</h4>
-                  <li>Puedes recuperar tu artículo cuando lo decidas</li>
-                  <li>No tienes que vender eso que tanto aprecias</li>
-                  <li>Puedes usar el mismo artículo las veces que quieras</li>
-                  <li>Sin trámites demorados</li>
-                </ul>
+                  <ul>
+                    <li>Puedes recuperar tu artículo cuando lo decidas</li>
+                    <li>No tienes que vender eso que tanto aprecias</li>
+                    <li>Puedes usar el mismo artículo las veces que quieras</li>
+                    <li>Sin trámites demorados</li>
+                  </ul>
+                </div>
               </div>
             </section>
 
