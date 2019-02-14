@@ -160,7 +160,7 @@ class Cotizar extends Component {
     console.log('name', name)
     console.log('value', value)
 
-    if (this.state.type === ' Joyeria') {
+    if (this.state.type.name === 'Joyeria') {
       this.setState({
         [name]: value,
         value: value*this.state.category.value,
