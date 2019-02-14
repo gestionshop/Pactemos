@@ -5,7 +5,27 @@ import Footer from '../components/Footer';
 
 
 class Home extends Component {
+  state = {
+    step: 1,
+  }
+  componentDidMount() {
+    setInterval(() => {
+      let step = this.state.step + 1
+      if (step === 4) {
+        step = 1
+      }
+      this.setState({ step })
+    }, 3000)
+  }
+  showStep = (step) => {
+    this.setState({step})
+  }
   render () {
+    const classStep = 'home-steps-circle'
+    const classStepActive = 'home-steps-circle active'
+    const {
+      step,
+    } = this.state
     return (
       <>
         <Head>
@@ -29,22 +49,22 @@ class Home extends Component {
               <div className="home-steps-row">
                 <ul className="home-steps-list">
                   <h2 className="home-steps-title">Obtén dinero Inmediato en solo 3 pasos !Así de fácil!</h2>
-                  <li className="home-steps-item">
-                    <span className="home-steps-circle">1</span>
+                  <li className="home-steps-item" onClick={() => this.showStep(1)}>
+                    <span className={ step === 1 ? classStepActive : classStep }>1</span>
                     <div>
                       <strong>Paso 1</strong>
                       <p>Encuentra nuestra Compraventa más cercana.</p>
                     </div>
                   </li>
-                  <li className="home-steps-item">
-                    <span className="home-steps-circle">2</span>
+                  <li className="home-steps-item" onClick={() => this.showStep(2)}>
+                    <span className={ step === 2 ? classStepActive : classStep }>2</span>
                     <div>
                       <strong>Paso 2</strong>
                       <p>Trae tu artículo para revisarlo y ofrecerte la máxima valorización.</p>
                     </div>
                   </li>
-                  <li className="home-steps-item">
-                    <span className="home-steps-circle">3</span>
+                  <li className="home-steps-item" onClick={() => this.showStep(3)}>
+                    <span className={ step === 3 ? classStepActive : classStep }>3</span>
                     <div>
                       <strong>Paso 3</strong>
                       <p>Presenta tu cédula, firma el contrato y recibe el dinero en segundos.</p>
@@ -52,7 +72,7 @@ class Home extends Component {
                   </li>
                 </ul>
                 <figure className="home-steps-figures">
-                  <img src="/static/img/step-1.png" alt=""/>
+                  <img src={"/static/img/step-" + this.state.step + ".png"} alt=""/>
                 </figure>
               </div>
             </section>
@@ -82,18 +102,27 @@ class Home extends Component {
                   <h2 className="home-products-title">Artículos que puedes convertir en Dinero Inmediato</h2>
 
                   <div>
-                    <div>
-                      <h4>JOYAS DE ORO Y PLATA</h4>
+                    <div className="home-products-item">
+                      <div className="home-products-item-header">
+                        <img className="home-products-item-img" src="/static/img/diamond.svg" alt=""/>
+                        <h4>Joyas de oro y plata</h4>
+                      </div>
                       <p>La valorización de tus joyas depende de características como: el peso, estado de la joya, pureza del oro, (22k,18k, 14k, 10k etc)</p>
                     </div>
 
-                    <div>
-                      <h4>OTROS PRODUCTOS</h4>
+                    <div className="home-products-item">
+                      <div className="home-products-item-header">
+                        <img className="home-products-item-img" src="/static/img/refrigerator.svg" alt=""/>
+                        <h4>Otros productos</h4>
+                      </div>
                       <p>Electrodomésticos, Herramientas, Tecnología, Bicicletas y más.</p>
                     </div>
 
-                    <div>
-                      <h4>Tu CDT</h4>
+                    <div className="home-products-item">
+                      <div className="home-products-item-header">
+                        <img className="home-products-item-img" src="/static/img/file.svg" alt=""/>
+                        <h4>Tu CDT</h4>
+                      </div>
                       <p>Puedes obtener el dinero de tu cdt antes de la fecha de vencimiento.</p>
                     </div>
                   </div>
