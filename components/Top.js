@@ -28,7 +28,7 @@ class Top extends Component {
             <nav className="Top_list_desktop">
                 <a className="Top_item" href="/">Inicio</a>
                 <a className="Top_item" href="/sucursales">Sucursales</a>
-                <a className="Top_item" href="/cotizar">Cotizar en linea</a>
+                <a className="Top_item Top_item_button" href="/cotizar">Cotizar en linea</a>
               </nav>
           </div>
         </div>

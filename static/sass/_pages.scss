@@ -32,6 +32,10 @@
   text-transform: uppercase;
   background-color: #000;
   border-radius: 3px;
+  &:hover {
+    background-color: rgba(0,0,0,.85);
+    color: #fff;
+  }
 }
 .home-steps {
   padding: 50px 0 30px 0;
@@ -60,6 +64,7 @@
   align-items: center;
   list-style: none;
   margin-bottom: 20px;
+  cursor: pointer;
   p {
     margin-bottom: 0;
   }
@@ -73,8 +78,11 @@
   height: 50px;
   margin-right: 10px;
   font-weight: bold;
-  background-color: #F1CF00;
+  background-color: rgb(204, 204, 204);
   border-radius: 50%;
+  &.active {
+    background-color: #F1CF00;
+  }
 }
 .home-steps-figures {
   order: 1;
@@ -106,12 +114,28 @@
 }
 .home-products-img {
   width: 100%;
+  max-width: 400px;
   margin-bottom: 1rem;
 }
 .home-products-title {
-  margin-bottom: 30px;
+  margin-bottom: left;
   font-size: 1.75rem;
   text-align: center;
+}
+.home-products-item {
+  margin-top: 30px;
+}
+.home-products-item-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  h4 {
+    margin-bottom: 0;
+  }
+}
+.home-products-item-img {
+  width: 35px;
+  margin-right: 7px;
 }
 .home-choose {
   padding: 100px 0px;
@@ -132,8 +156,8 @@
   text-align: center;
   margin-bottom: 1rem;
   img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    // height: 120px;
   }
 }
 // Elements
@@ -343,9 +367,10 @@
   .home-products-img {
     width: 50%;
     margin-bottom: 0;
+    margin-right: 30px;
   }
   .home-products-title {
-    text-align: center;
+    text-align: left;
   }
   .home-choose-item {
     width: 40%;

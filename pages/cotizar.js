@@ -170,6 +170,10 @@ class Cotizar extends Component {
     }
   }
 
+  submit = () => {
+    const url = ''
+  }
+
   render () {
     return (
       <>
@@ -183,12 +187,6 @@ class Cotizar extends Component {
             <section className="offices-header">
               <h1>Cotizador en línea</h1>
               <p>Rellene los campos y recuerde que la información personal la utilizaremos para confirmarle cuánto dinero le damos por su artículo</p>
-
-              {/* <div>
-                <span>Información personal</span>
-                <span>Articulo</span>
-                <span>Cotización</span>
-              </div> */}
 
               <div className="cotizar-select">
                 {
@@ -456,7 +454,7 @@ class Cotizar extends Component {
                   <div className="modal-content">
                     <span onClick={ this.closeModal } className="close">&times;</span>
                     
-                    <form name="cotizacion" action="/gracias" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <form name="cotizacion" action="/gracias" method="POST" onSubmit={ this.submit }>
                       <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
                       {
                         this.state.type
