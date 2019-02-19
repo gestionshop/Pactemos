@@ -192,7 +192,7 @@ class Cotizar extends Component {
         </Head>
         <div>
           <Top />
-          {/* <img className="cover" src="/static/img/oficinas.png" alt=""/> */}
+          <img className="cover" src="/static/img/cover-cotizar.png" alt=""/>
           {
             this.state.submited
             ?
