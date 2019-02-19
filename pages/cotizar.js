@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 import Top from '../components/Top';
 import axios from 'axios';
+import Footer from '../components/Footer'
 
 
 const data = [
@@ -124,7 +125,6 @@ class Cotizar extends Component {
   }
 
   selectType = (type) => {
-    console.log('type', type)
     this.setState({
       type,
       subtype: null,
@@ -135,7 +135,6 @@ class Cotizar extends Component {
   }
   
   selectSubType = (subtype) => {
-    console.log('subtype', subtype)
     this.setState({
       subtype,
       category: null,
@@ -145,7 +144,6 @@ class Cotizar extends Component {
   }
 
   selectCategory = (category) => {
-    console.log('category', category)
     this.setState({
       category,
       weight: undefined,
@@ -156,9 +154,6 @@ class Cotizar extends Component {
   onChangeInput = (e) => {
     const name = e.target.name
     const value = e.target.value
-
-    console.log('name', name)
-    console.log('value', value)
 
     if (this.state.type.name === 'Joyeria') {
       this.setState({
@@ -177,9 +172,9 @@ class Cotizar extends Component {
 
     const url = 'http://localhost:3001/api/pactemos/cotizacion'
     axios.post(url, this.state).then(res => {
-      console.log('res data', res)
       this.setState({ visible: false, submited: true })
     }).catch(error => {
+      alert('Ocurrio un error y no se pudo enviar la cotización.')
       console.log('res error', error)
     })
   }
@@ -190,14 +185,21 @@ class Cotizar extends Component {
         <Head>
           <title>Cotiza en Compraventa Pactemos</title>
         </Head>
-        <div>
+        <div className="cotizar">
           <Top />
           <img className="cover" src="/static/img/cover-cotizar.png" alt=""/>
           {
             this.state.submited
             ?
             <div className="container">
-              <h1>Gracias por enviar tu cotización</h1>
+              <div style={{
+                margin: 30,
+                textAlign: 'center',
+                fontSize: 18,
+              }}>
+                <h1>Gracias por enviar tu cotización</h1>
+                <p>Uno de nuestros asesores se comunicará contigo.</p>
+              </div>
             </div>
             :
             <div className="container">
@@ -454,6 +456,10 @@ class Cotizar extends Component {
                 }
 
                 {
+                  this.state.type
+                  &&
+                  this.state.type.name === 'Joyeria'
+                  &&
                   this.state.weight
                   &&
                   <div className="cotizar-result">
@@ -461,6 +467,66 @@ class Cotizar extends Component {
                     <span>Te damos hasta $ { this.state.value } pesos</span>
 
                     <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Quiero el dinero ya!</a>
+                  </div>
+                }
+
+                {
+                  this.state.type
+                  &&
+                  this.state.type.name === 'Articulo'
+                  &&
+                  this.state.brand
+                  &&
+                  this.state.model
+                  &&
+                  this.state.time
+                  &&
+                  this.state.invoice
+                  &&
+                  this.state.comment
+                  &&
+                  <div className="cotizar-result">
+                    <h4>¿Cuánto me dan por mi artículo?</h4>
+
+                    <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+                  </div>
+                }
+
+                {
+                  this.state.type
+                  &&
+                  this.state.type.name === 'Vender CDT'
+                  &&
+                  this.state.valueCDT
+                  &&
+                  this.state.openCDT
+                  &&
+                  this.state.closeCDT
+                  &&
+                  <div className="cotizar-result">
+                    <h4>¿Cuánto me dan por mi CDT?</h4>
+
+                    <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+                  </div>
+                }
+
+                {
+                  this.state.type
+                  &&
+                  this.state.type.name === 'Otro'
+                  &&
+                  this.state.articleType
+                  &&
+                  this.state.brand
+                  &&
+                  this.state.time
+                  &&
+                  this.state.comment
+                  &&
+                  <div className="cotizar-result">
+                    <h4>¿Cuánto me dan por mi artículo?</h4>
+
+                    <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
                   </div>
                 }
 
@@ -523,6 +589,9 @@ class Cotizar extends Component {
             </div>
           }
           
+        </div>
+        <div className="container">
+          <Footer />
         </div>
       </>
     )

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 import Top from '../components/Top';
+import Footer from '../components/Footer';
 
 
 class Sucursales extends Component {
@@ -218,6 +219,10 @@ class Sucursales extends Component {
                 </article>
               </div>
             </section>
+          </div>
+
+          <div className="container">
+            <Footer />
           </div>
         </div>
       </>

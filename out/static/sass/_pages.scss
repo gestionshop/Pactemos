@@ -195,9 +195,11 @@
 }
 .form-input {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  width: 75%;
+  align-items: flex-start;
   label {
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
 }
 .label {
@@ -207,7 +209,7 @@
 }
 .input {
   height: 38px;
-  min-width: 200px;
+  min-width: 100%;
   padding: 2px 8px;
   font-size: 14px;
   font-weight: 300;
@@ -253,6 +255,9 @@
   background-color: #FAFAFA;
 }
 // Cotizar
+.cotizar {
+  padding-bottom: 100px;
+}
 .cotizar-select {
   display: flex;
   flex-direction: row;
@@ -362,8 +367,10 @@
   padding: 5px;
 }
 .Footer {
-  margin: 1rem 0;
+  margin: 50px 0 0 0;
+  padding: 1rem;
   color: rgba(0,0,0,.5);
+  border-top: 1px solid rgba(0,0,0,.1);
 }
 .home-servicios-list {
   margin-top: 10px;
