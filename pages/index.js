@@ -138,26 +138,34 @@ class Home extends Component {
               <div className="home-choose-list">
                 <div className="home-choose-item">
                   <img src="/static/img/seguridad.png" alt=""/>
-                  <h4>Por seguridad</h4>
-                  <p>Compraventas Pactemos es la única empresa en Colombia en la que tus artículos son custodiados y guardados por una empresa de valores hasta que tu decidas regresar por ellas, eso te da la garantía de que tus joyas cuentan con un seguro sin generar costos adicionales.</p>
+                  <div>
+                    <h3>Por seguridad</h3>
+                    <p>Compraventas Pactemos es la única empresa en Colombia en la que tus artículos son custodiados y guardados por una empresa de valores hasta que tu decidas regresar por ellas, eso te da la garantía de que tus joyas cuentan con un seguro sin generar costos adicionales.</p>
+                  </div>
                 </div>
 
-                <div className="home-choose-item">
+                <div className="home-choose-item right">
+                  <div>
+                    <h3>Personal calificado</h3>
+                    <p>Tenemos más de 60 colaboradores capacitados para brindar un buen servicio y la mejor atención, además cuentan con amplios conocimientos y gran experiencia para valorar tus artículos de manera profesional.</p>
+                  </div>
                   <img src="/static/img/calificado.png" alt=""/>
-                  <h4>Personal calificado</h4>
-                  <p>Tenemos más de 60 colaboradores capacitados para brindar un buen servicio y la mejor atención, además cuentan con amplios conocimientos y gran experiencia para valorar tus artículos de manera profesional.</p>
                 </div>
 
                 <div className="home-choose-item">
                   <img src="/static/img/respaldo.png" alt=""/>
-                  <h4>Cuentas con mayor respaldo</h4>
-                  <p>Somos una empresa en constante crecimiento, organizada y con procesos administrativos transparentes que permiten que nuestros clientes tengan total confianza a la hora de realizar sus transacciones.</p>
+                  <div>
+                    <h3>Cuentas con mayor respaldo</h3>
+                    <p>Somos una empresa en constante crecimiento, organizada y con procesos administrativos transparentes que permiten que nuestros clientes tengan total confianza a la hora de realizar sus transacciones.</p>
+                  </div>
                 </div>
                 
-                <div className="home-choose-item">
+                <div className="home-choose-item right">
+                  <div>
+                    <h3>Hacemos todo lo posible para que recupere su articulo</h3>
+                    <p>Le avisamos por SMS, mail, llamadas telefónicas, whatsapp, o personalmente el tiempo de su artículo.</p>
+                  </div>
                   <img src="/static/img/recuperacion.png" alt=""/>
-                  <h4>Hacemos todo lo posible para que recupere su articulo</h4>
-                  <p>Le avisamos por SMS, mail, llamadas telefónicas, whatsapp, o personalmente el tiempo de su artículo.</p>
                 </div>
               </div>
             </div>
@@ -166,14 +174,14 @@ class Home extends Component {
           <div className="container">
             <section className="home-products">
               <div className="home-products-row">
-                <img className="home-products-img" src="/static/img/productos.png" alt=""/>
+                <img className="home-products-img" src="/static/img/mas-servicios.png" alt=""/>
                 <div>
-                  <h2 className="home-products-title">Además de ofrecerte dinero inmediato, en compraventas pactemos podrás</h2>
+                  <h2 className="home-products-title">Además de ofrecerte dinero inmediato, en Compraventas Pactemos podrás</h2>
                   <p>Comprar lo que necesites, joyas de oro y plata, electrodomésticos, herramientas, tecnología, bicicletas y mucho más.</p>
 
                   <div>
                     <h4>¿Porque comprar en nuestras compraventas?</h4>
-                    <ul>
+                    <ul className="home-servicios-list">
                       <li>Nuestros artículos usados se venden con precios sorprendentes y lo mejor con Garantía.</li>
                       <li>Vendemos artículos totalmente nuevos con garantía.</li>
                       <li>Te entregamos factura, así que su compra es totalmente legal, en caso de algún reclamo.</li>

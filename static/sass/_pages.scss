@@ -7,9 +7,9 @@
   padding: 100px 15px;
   margin-bottom: 30px;
   text-align: center;
-  background-color: #F1CF00;
+  // background-color: #F1CF00;
   background-image: url('/static/img/cover.png');
-  background-size: 'cover';
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   // border-radius: 3px;
@@ -106,6 +106,7 @@
 }
 .home-products {
   padding: 100px 0;
+  font-size: 17px;
 }
 .home-products-row {
   display: flex;
@@ -118,9 +119,17 @@
   margin-bottom: 1rem;
 }
 .home-products-title {
-  margin-bottom: left;
   font-size: 1.75rem;
   text-align: center;
+  &::after {
+    display: block;
+    content: ' ';
+    width: 50px;
+    height: 4px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #000;
+  }
 }
 .home-products-item {
   margin-top: 30px;
@@ -145,6 +154,17 @@
   margin-bottom: 50px;
   font-size: 1.75rem;
   text-align: center;
+  &::after {
+    display: block;
+    content: ' ';
+    width: 50px;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #000;
+  }
 }
 .home-choose-list {
   display: flex;
@@ -152,12 +172,21 @@
   justify-content: space-around;
 }
 .home-choose-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+  max-width: 700px;
+  margin: 0rem auto;
+  padding: 30px;
+  font-size: 17px;
   text-align: center;
-  margin-bottom: 1rem;
   img {
-    width: 200px;
-    // height: 120px;
+    width: 250px;
+    margin-bottom: 1rem;
+  }
+  &.right {
+    flex-direction: column-reverse;
   }
 }
 // Elements
@@ -336,7 +365,12 @@
   margin: 1rem 0;
   color: rgba(0,0,0,.5);
 }
-
+.home-servicios-list {
+  margin-top: 10px;
+  li {
+    padding: 5px 0;
+  }
+}
 @media screen and (min-width: 600px) {
   .home-steps {
     padding: 100px 0 50px 0;
@@ -373,8 +407,11 @@
     text-align: left;
   }
   .home-choose-item {
-    width: 40%;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
+    &.right {
+      flex-direction: row;
+    }
   }
   .offices-row {
     flex-direction: row;
