@@ -302,7 +302,7 @@ class Cotizar extends Component {
                     </div>
                     <div className="cotizar-select">
                       <div className="form-input">
-                        <label className="label">Tiempo de uso</label>
+                        <label className="label">Tiempo de uso (Ej. 2 año y/o 3 meses)</label>
                         <input
                           className="input"
                           type="text"
