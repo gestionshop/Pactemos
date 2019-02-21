@@ -16,7 +16,7 @@ class Sucursales extends Component {
           <img className="cover" src="/static/img/oficinas.png" alt=""/>
           <div className="container">
             <section className="offices-header">
-              <h1>Sucursales de Compraventa Pactemos</h1>
+              <h1>Sucursales de Compraventas Pactemos</h1>
               <p>Compraventas PACTEMOS está presente en la Región Caribe con la misión de ofrecer dinero de manera inmediata, con el profesionalismo y la seguridad que nos caracteriza</p>
 
               <div className="offices-links">
