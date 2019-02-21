@@ -6212,7 +6212,7 @@ function (_Component) {
           lineNumber: 19
         },
         __self: this
-      }, "Sucursales de Compraventa Pactemos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "Sucursales de Compraventas Pactemos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -7679,7 +7679,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!***********************************!*\
   !*** multi ./pages/sucursales.js ***!
   \***********************************/
@@ -7704,5 +7704,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=sucursales.js.map
