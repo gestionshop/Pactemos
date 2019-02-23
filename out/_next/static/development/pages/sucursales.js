@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/components/Footer.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Footer.js";
 
 
 var Footer = function Footer() {
@@ -40,7 +40,7 @@ var Footer = function Footer() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/components/Top.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Top.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -6120,7 +6120,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Top__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Top */ "./components/Top.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/pages/sucursales.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/pages/sucursales.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -6212,7 +6212,7 @@ function (_Component) {
           lineNumber: 19
         },
         __self: this
-      }, "Sucursales de Compraventa Pactemos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "Sucursales de Compraventas Pactemos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -6324,7 +6324,7 @@ function (_Component) {
         },
         __self: this
       }, "Whatsapp: (301) 2693491")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549332912741",
+        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678351597",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -6356,7 +6356,7 @@ function (_Component) {
           lineNumber: 46
         },
         __self: this
-      }, "Centro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Centro Historico"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
@@ -6387,7 +6387,7 @@ function (_Component) {
         },
         __self: this
       }, "Whatsapp: (301) 4591953")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549332912741",
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.9438841859064!2d-75.54726288520233!3d10.426027892559857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336734bcab%3A0x80fb1c0a483159fc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678599400",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -6413,25 +6413,19 @@ function (_Component) {
           lineNumber: 55
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 56
         },
         __self: this
-      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Centro Historico"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 57
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6643639"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 57
@@ -6443,8 +6437,20 @@ function (_Component) {
           lineNumber: 58
         },
         __self: this
-      }, "Whatsapp: (301) 5641900")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549333730134",
+      }, "Tel\xE9fono: (57) (5) 6602108"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }, "Whatsapp: (301) 3427401")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550684847260",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -6454,54 +6460,60 @@ function (_Component) {
         allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 61
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "offices-item",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 64
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 65
         },
         __self: this
-      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 66
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6602108"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Centro Historico"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
         },
         __self: this
-      }, "Whatsapp: (301) 3427401")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3923.9428961193234!2d-75.5478612!3d10.4261063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9e98238177%3A0xe738cc01ffab19d!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549333954593",
+      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
+      }, "Tel\xE9fono: (57) (5) 6643639"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }, "Whatsapp: (301) 5641900")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678758676",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -6511,50 +6523,56 @@ function (_Component) {
         allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 71
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 74
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 75
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 76
+        },
+        __self: this
+      }, "Centro Historico"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
         },
         __self: this
       }, "Calle de las Carretas # 34-35"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 77
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 78
         },
         __self: this
       }, "Tel\xE9fono: (57) (5) 6602165"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 78
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 79
         },
         __self: this
       }, "Whatsapp: (301) 3427402")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
@@ -6568,50 +6586,56 @@ function (_Component) {
         allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 81
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 84
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 85
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 86
+        },
+        __self: this
+      }, "Centro Historico"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
         },
         __self: this
       }, "Portal de Los Dulces"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 87
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 88
         },
         __self: this
       }, "Tel\xE9fono: (57) (5) 6642182"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 88
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 89
         },
         __self: this
       }, "Whatsapp: (301) 4690899")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
@@ -6625,176 +6649,173 @@ function (_Component) {
         allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 91
         },
         __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        id: "SantaMarta",
-        className: "offices-section",
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 94
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93
-        },
-        __self: this
-      }, "Sucursales en Santa Marta"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "offices-row",
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 95
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "offices-item",
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 96
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
+      }, "Bazurto"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 97
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+      }, "C.C Almacentro. Lc 4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 98
         },
         __self: this
-      }, "Bocagrande"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Tel\xE9fono: (57) (5) 6722307"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
-        },
-        __self: this
-      }, "Cra 3. #5-187."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 98
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 99
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 679900"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
+      }, "Whatsapp: (301) 4591953")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15696.435195677646!2d-75.5319144!3d10.412933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336739ee27%3A0xe004f300461b33f5!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685706336",
+        width: "100%",
+        height: "300",
+        frameborder: "0",
+        style: {
+          border: 0
         },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 101
         },
         __self: this
-      }, "Whatsapp: (301) 2693491")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549332912741",
-        width: "100%",
-        height: "300",
-        frameborder: "0",
-        style: {
-          border: 0
-        },
-        allowfullscreen: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103
-        },
-        __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 104
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 105
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 106
+        },
+        __self: this
+      }, "San Jos\xE9 de los Campanos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
+      }, "Cra 101 B # 38a \u2013 83"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 108
         },
         __self: this
-      }, "Centro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Tel\xE9fono: (57) (5) 6510864"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
-        },
-        __self: this
-      }, "C.C. El Ca\xF1onazo Lc 7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 108
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 109
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6641747"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 110
+      }, "Whatsapp: (301) 5743072")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62793.386460644135!2d-75.5196553502831!3d10.37489710418542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6243d5ad04cb9%3A0x447ed1d5cc8838d1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685997994",
+        width: "100%",
+        height: "300",
+        frameborder: "0",
+        style: {
+          border: 0
         },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 111
         },
         __self: this
-      }, "Whatsapp: (301) 4591953")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549332912741",
-        width: "100%",
-        height: "300",
-        frameborder: "0",
-        style: {
-          border: 0
-        },
-        allowfullscreen: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113
-        },
-        __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "offices-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 116
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
+      }, "Boquilla"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 117
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Calle Principal"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 117
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 118
         },
         __self: this
-      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Tel\xE9fono: (57) (5) 6567398"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 118
@@ -6806,20 +6827,8 @@ function (_Component) {
           lineNumber: 119
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6643639"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 120
-        },
-        __self: this
-      }, "Whatsapp: (301) 5641900")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549333730134",
+      }, "Whatsapp: (301) 5641898")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.316602453616!2d-75.49634278520185!3d10.475688692526003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6dc9239c51bf628!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686118622",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -6829,29 +6838,35 @@ function (_Component) {
         allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122
+          lineNumber: 121
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 124
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 125
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 126
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Poz\xF3n"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 127
         },
         __self: this
-      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Cra 88 # 56 \u2013 01"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 127
@@ -6863,7 +6878,7 @@ function (_Component) {
           lineNumber: 128
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6602108"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Tel\xE9fono: (57) (5) 6525986"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 128
@@ -6875,8 +6890,8 @@ function (_Component) {
           lineNumber: 129
         },
         __self: this
-      }, "Whatsapp: (301) 3427401")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3923.9428961193234!2d-75.5478612!3d10.4261063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9e98238177%3A0xe738cc01ffab19d!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549333954593",
+      }, "Whatsapp: (301) 5371045")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.187033103457!2d-75.45656518520244!3d10.406715192573053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f3ddd534608a617!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686260599",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -6902,25 +6917,19 @@ function (_Component) {
           lineNumber: 135
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 136
         },
         __self: this
-      }, "Calle de las Carretas # 34-35"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 136
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Turbaco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 137
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6602165"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Calle Real"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 137
@@ -6932,8 +6941,20 @@ function (_Component) {
           lineNumber: 138
         },
         __self: this
-      }, "Whatsapp: (301) 3427402")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d980.9932095654385!2d-75.5499182!3d10.42373!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac2a1efd5a816337!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334238857",
+      }, "Tel\xE9fono: (57) (5) 6556703"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 138
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 139
+        },
+        __self: this
+      }, "Whatsapp: (300) 3624794")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.153038568312!2d-75.4133455852031!3d10.329635092625642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef621201fd2b38f%3A0xd3322370741e7037!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686340612",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -6943,258 +6964,258 @@ function (_Component) {
         allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140
+          lineNumber: 141
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "offices-item",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 143
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 144
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 145
         },
         __self: this
-      }, "Portal de Los Dulces"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 145
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 146
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6642182"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 146
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Santa Rosa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 147
         },
         __self: this
-      }, "Whatsapp: (301) 4690899")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.975917491086!2d-75.55167528520231!3d10.423485592561649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd85ca545176562b9!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334285429",
-        width: "100%",
-        height: "300",
-        frameborder: "0",
-        style: {
-          border: 0
+      }, "Cll 16 # 27 \u2013 19"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147
         },
-        allowfullscreen: true,
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 149
         },
         __self: this
+      }, "Whatsapp: (300) 5371641")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.737488074561!2d-75.37505958520211!3d10.442393692548684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50bda012238516e6!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686568316",
+        width: "100%",
+        height: "300",
+        frameborder: "0",
+        style: {
+          border: 0
+        },
+        allowfullscreen: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 151
+        },
+        __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        id: "Sabanalarga",
+        id: "SantaMarta",
         className: "offices-section",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 153
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 154
-        },
-        __self: this
-      }, "Sucursales en Sabanalarga"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "offices-row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 156
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "offices-item",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 157
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 158
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 159
-        },
-        __self: this
-      }, "Bocagrande"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Sucursales en Santa Marta"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "offices-row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 160
         },
         __self: this
-      }, "Cra 3. #5-187."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 160
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "offices-item",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 161
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 679900"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 161
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 162
         },
         __self: this
-      }, "Whatsapp: (301) 2693491")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549332912741",
-        width: "100%",
-        height: "300",
-        frameborder: "0",
-        style: {
-          border: 0
-        },
-        allowfullscreen: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 164
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "offices-item",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 167
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 168
-        },
-        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 169
+          lineNumber: 163
         },
         __self: this
       }, "Centro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 170
+          lineNumber: 164
         },
         __self: this
-      }, "C.C. El Ca\xF1onazo Lc 7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Cra 5 # 22-42. Edificio Galaxia, Lc 102"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 170
+          lineNumber: 164
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 171
+          lineNumber: 165
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6641747"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Tel\xE9fono: (57) (5) 4230982"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 165
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 166
+        },
+        __self: this
+      }, "Whatsapp: (301) 4690898")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2956707198887!2d-74.21331748519506!3d11.239646492008227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f6e47c110cbfe8e!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686996394",
+        width: "100%",
+        height: "300",
+        frameborder: "0",
+        style: {
+          border: 0
+        },
+        allowfullscreen: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 168
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "offices-item",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 171
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 172
         },
         __self: this
-      }, "Whatsapp: (301) 4591953")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549332912741",
-        width: "100%",
-        height: "300",
-        frameborder: "0",
-        style: {
-          border: 0
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 173
         },
-        allowfullscreen: true,
+        __self: this
+      }, "Centro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 174
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "offices-item",
+      }, "Cra 5 # 21-16"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 177
+          lineNumber: 174
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 175
+        },
+        __self: this
+      }, "Tel\xE9fono: (57) (5) 4235885"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 175
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 176
+        },
+        __self: this
+      }, "Whatsapp: (301) 4690898")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.280309546607!2d-74.21315948519509!3d11.240778192007443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a2c8b1df5ce81f!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687087695",
+        width: "100%",
+        height: "300",
+        frameborder: "0",
+        style: {
+          border: 0
+        },
+        allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 178
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 179
-        },
-        __self: this
-      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 179
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 180
-        },
-        __self: this
-      }, "Tel\xE9fono: (57) (5) 6643639"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 180
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "offices-item",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 181
         },
         __self: this
-      }, "Whatsapp: (301) 5641900")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549333730134",
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 182
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 183
+        },
+        __self: this
+      }, "Concepci\xF3n 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 184
+        },
+        __self: this
+      }, "Mz Y, Casa 19, V\xEDa Bodegas Donado"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 184
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 185
+        },
+        __self: this
+      }, "Tel\xE9fono: (57) (5) 4227033"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 185
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 186
+        },
+        __self: this
+      }, "Whatsapp: (301) 4591962")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.2843219031215!2d-74.1851218017892!3d11.217330699060529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85addced21a4077b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687212249",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -7204,54 +7225,60 @@ function (_Component) {
         allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 183
+          lineNumber: 188
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 186
+          lineNumber: 191
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 187
+          lineNumber: 192
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 188
+          lineNumber: 193
         },
         __self: this
-      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Av. El R\xEDo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 188
+          lineNumber: 194
+        },
+        __self: this
+      }, "Av el R\xEDo con Av del Libertador 30 -146 Local 3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 194
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 189
+          lineNumber: 195
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6602108"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Tel\xE9fono: (57) (5) 4335584"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 189
+          lineNumber: 195
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 190
+          lineNumber: 196
         },
         __self: this
-      }, "Whatsapp: (301) 3427401")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3923.9428961193234!2d-75.5478612!3d10.4261063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9e98238177%3A0xe738cc01ffab19d!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549333954593",
+      }, "Whatsapp: (301) 2354964")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.3693103837036!2d-74.18024168519506!3d11.234219692011902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9502c4bc05dd012b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687299501",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -7261,31 +7288,10 @@ function (_Component) {
         allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 192
-        },
-        __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        id: "Baranoa",
-        className: "offices-section",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 197
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 198
         },
         __self: this
-      }, "Sucursales en Baranoa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "offices-row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 200
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
@@ -7304,28 +7310,16 @@ function (_Component) {
           lineNumber: 203
         },
         __self: this
-      }, "Bocagrande"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Av. del Libertador"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 204
         },
         __self: this
-      }, "Cra 3. #5-187."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Av del Libertador # 27- 231"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 204
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 205
-        },
-        __self: this
-      }, "Tel\xE9fono: (57) (5) 679900"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 205
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -7334,8 +7328,8 @@ function (_Component) {
           lineNumber: 206
         },
         __self: this
-      }, "Whatsapp: (301) 2693491")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549332912741",
+      }, "Whatsapp: (301) 5182136")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31306.821438336814!2d-74.1914037844727!3d11.235445492707479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f50509742b69%3A0x70dcf32fd507edfc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687408283",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -7352,40 +7346,28 @@ function (_Component) {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 211
+          lineNumber: 212
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 212
+          lineNumber: 213
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 213
-        },
-        __self: this
-      }, "Centro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 214
         },
         __self: this
-      }, "C.C. El Ca\xF1onazo Lc 7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 214
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Gaira"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 215
         },
         __self: this
-      }, "Tel\xE9fono: (57) (5) 6641747"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }, "Gaira. Cra 10"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 215
@@ -7397,8 +7379,20 @@ function (_Component) {
           lineNumber: 216
         },
         __self: this
-      }, "Whatsapp: (301) 4591953")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1sen!2spe!4v1549332912741",
+      }, "Tel\xE9fono: (57) (5) 4223031"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 216
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 217
+        },
+        __self: this
+      }, "Whatsapp: (300) 3427389")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.975917491086!2d-75.55167528520231!3d10.423485592561649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd85ca545176562b9!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334285429",
         width: "100%",
         height: "300",
         frameborder: "0",
@@ -7408,20 +7402,251 @@ function (_Component) {
         allowfullscreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 218
+          lineNumber: 219
+        },
+        __self: this
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        id: "Sabanalarga",
+        className: "offices-section",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 224
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 225
+        },
+        __self: this
+      }, "Sucursales en Sabanalarga"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "offices-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 227
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "offices-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 228
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 229
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 230
+        },
+        __self: this
+      }, "Centro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 231
+        },
+        __self: this
+      }, "Calle 20 # 18 56"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 231
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 232
+        },
+        __self: this
+      }, "Tel\xE9fono: (57) (5) 8783266"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 232
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 233
+        },
+        __self: this
+      }, "Whatsapp: (301) 4690900")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.3240711754543!2d-74.92180648520049!3d10.631912492419694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x639e96966faedc13!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687625791",
+        width: "100%",
+        height: "300",
+        frameborder: "0",
+        style: {
+          border: 0
+        },
+        allowfullscreen: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 235
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "offices-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 238
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 239
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 240
+        },
+        __self: this
+      }, "Centro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 241
+        },
+        __self: this
+      }, "Cra 19 # 20-14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 241
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 242
+        },
+        __self: this
+      }, "Tel\xE9fono: (57) (5) 8780844"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 242
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 243
+        },
+        __self: this
+      }, "Whatsapp: (300) 3427390")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.320161577322!2d-74.9218880852005!3d10.63221679241953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5de3543be7879%3A0xa7b0a4514b66adc1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687728972",
+        width: "100%",
+        height: "300",
+        frameborder: "0",
+        style: {
+          border: 0
+        },
+        allowfullscreen: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 245
+        },
+        __self: this
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        id: "Baranoa",
+        className: "offices-section",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 251
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 252
+        },
+        __self: this
+      }, "Sucursales en Baranoa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "offices-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 254
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "offices-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 255
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 256
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 257
+        },
+        __self: this
+      }, "Centro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 258
+        },
+        __self: this
+      }, "Cra 19 # 18-09"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 258
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 259
+        },
+        __self: this
+      }, "Tel\xE9fono: (57) (5) 8789116"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 259
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 260
+        },
+        __self: this
+      }, "Whatsapp: (301) 4690917")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2076397095116!2d-74.91727868519912!3d10.795402992308668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde4ef80f7d4b722d!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687835364",
+        width: "100%",
+        height: "300",
+        frameborder: "0",
+        style: {
+          border: 0
+        },
+        allowfullscreen: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 262
         },
         __self: this
       }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 224
+          lineNumber: 269
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 225
+          lineNumber: 270
         },
         __self: this
       }))));
@@ -7454,7 +7679,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!***********************************!*\
   !*** multi ./pages/sucursales.js ***!
   \***********************************/
@@ -7479,5 +7704,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=sucursales.js.map
