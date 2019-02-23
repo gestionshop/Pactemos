@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 const data = [
   {
-    name: 'Joyeria',
+    name: 'Joyería',
     options: [
       {
         name: 'Oro',
@@ -34,7 +34,7 @@ const data = [
         name: 'Plata',
         options: [
           {
-            name: 'Ley 925',
+            name: 'Platería',
             value: 800,
           },
         ],
@@ -42,10 +42,10 @@ const data = [
     ],
   },
   {
-    name: 'Articulo',
+    name: 'Artículos',
     options: [
       {
-        name: 'Electrodomesticos',
+        name: 'Electrodomésticos',
         options: [
           {
             name: 'Televisor',
@@ -79,7 +79,7 @@ const data = [
         ],
       },
       {
-        name: 'Tecnologia',
+        name: 'Tecnología',
         options: [
           {
             name: 'Portatil',
@@ -94,10 +94,10 @@ const data = [
     ],
   },
   {
-    name: 'Vender CDT',
+    name: 'Otros',
   },
   {
-    name: 'Otro',
+    name: 'Vender CDT',
   },
 ]
 
@@ -155,7 +155,7 @@ class Cotizar extends Component {
     const name = e.target.name
     const value = e.target.value
 
-    if (this.state.type.name === 'Joyeria') {
+    if (this.state.type.name === 'Joyería') {
       this.setState({
         [name]: value,
         value: value*this.state.category.value,
@@ -220,7 +220,7 @@ class Cotizar extends Component {
                 {
                   this.state.type
                   &&
-                  (this.state.type.name === 'Joyeria' || this.state.type.name === 'Articulo')
+                  (this.state.type.name === 'Joyería' || this.state.type.name === 'Artículos')
                   &&
                   <div className="cotizar-select">
                     {
@@ -250,13 +250,13 @@ class Cotizar extends Component {
                 {
                   this.state.type
                   &&
-                  this.state.type.name === 'Joyeria'
+                  this.state.type.name === 'Joyería'
                   &&
                   this.state.category
                   &&
                   <div className="cotizar-select">
                     <div className="form-input">
-                      <label className="label">Peso</label>
+                      <label className="label">Peso aproximado</label>
                       <input
                         className="input"
                         type="text"
@@ -271,7 +271,7 @@ class Cotizar extends Component {
                 {
                   this.state.type
                   &&
-                  this.state.type.name === 'Articulo'
+                  this.state.type.name === 'Artículos'
                   &&
                   this.state.category
                   &&
@@ -355,7 +355,7 @@ class Cotizar extends Component {
                 {
                   this.state.type
                   &&
-                  this.state.type.name === 'Otro'
+                  this.state.type.name === 'Otros'
                   &&
                   <>
                     <div className="cotizar-select">
@@ -458,7 +458,7 @@ class Cotizar extends Component {
                 {
                   this.state.type
                   &&
-                  this.state.type.name === 'Joyeria'
+                  this.state.type.name === 'Joyería'
                   &&
                   this.state.weight
                   &&
@@ -473,7 +473,7 @@ class Cotizar extends Component {
                 {
                   this.state.type
                   &&
-                  this.state.type.name === 'Articulo'
+                  this.state.type.name === 'Artículos'
                   &&
                   this.state.brand
                   &&
@@ -513,7 +513,7 @@ class Cotizar extends Component {
                 {
                   this.state.type
                   &&
-                  this.state.type.name === 'Otro'
+                  this.state.type.name === 'Otros'
                   &&
                   this.state.articleType
                   &&
@@ -560,24 +560,31 @@ class Cotizar extends Component {
                           <input type="hidden" name="category" value={this.state.weight} />
                         }
                         <div className="form-row">
-                          <label className="label">Nombres y apellidos</label>
+                          <label className="label">Nombres y apellidos *</label>
                           <input className="input" type="text" name="names" required />
                         </div>
                         <div className="form-row">
-                          <label className="label">Correo</label>
-                          <input className="input" type="text" name="email" required />
+                          <label className="label">Celular *</label>
+                          <input className="input" type="text" name="mobile" required />
                         </div>
                         <div className="form-row">
-                          <label className="label">Telefono</label>
-                          <input className="input" type="text" name="mobile" required />
+                          <label className="label">Correo</label>
+                          <input className="input" type="text" name="email" />
                         </div>
                         <div className="form-row">
                           <label className="label">¿Cuánto necesita?</label>
                           <input className="input" type="text" name="many" />
                         </div>
                         <div className="form-row">
-                          <label className="label">¿Cómo se entero de nosotros?</label>
-                          <input className="input" type="text" name="source"  required />
+                          <label className="label">¿Cómo nos contactó? *</label>
+                          <select name="source" className="input" required>
+                            <option value="Radio">Radio</option>
+                            <option value="Volantes">Volantes</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Google">Google</option>
+                            <option value="Amigos">Amigos</option>
+                            <option value="Otro">Otro</option>
+                          </select>
                         </div>
 
                         <button type="submit" className="form-btn">Enviar datos</button>

@@ -81,7 +81,7 @@ class Home extends Component {
               <div className="home-benefits-row">
                 <div className="home-benefits-half">
                   <h3>Lo que tiene valor para ti, también lo tiene para nosotros</h3>
-                  <p>Por eso a través de un contrato con pacto de retroventa, podrás obtener liquidez inmediata dejando como garantía un artículo.</p>
+                  <p>Por eso a través de una compraventa con pacto de retroventa, podrás obtener dinero inmediato con tus artículos.</p>
                 </div>
                 <div className="home-benefits-half">
                   <h4>Beneficios</h4>
@@ -125,6 +125,8 @@ class Home extends Component {
                       </div>
                       <p>Puedes obtener el dinero de tu cdt antes de la fecha de vencimiento.</p>
                     </div>
+
+                    <a className="home-welcome-btn" href="/cotizar">Cotiza aquí</a>
                   </div>
                 </div>
               </div>
@@ -176,13 +178,13 @@ class Home extends Component {
               <div className="home-products-row">
                 <img className="home-products-img" src="/static/img/mas-servicios.png" alt=""/>
                 <div>
-                  <h2 className="home-products-title">Además de ofrecerte dinero inmediato, en Compraventas Pactemos podrás</h2>
+                  <h2 className="home-products-title">Además en compraventas pactemos podrás:</h2>
                   <p>Comprar lo que necesites, joyas de oro y plata, electrodomésticos, herramientas, tecnología, bicicletas y mucho más.</p>
 
                   <div>
                     <h4>¿Porque comprar en nuestras compraventas?</h4>
                     <ul className="home-servicios-list">
-                      <li>Nuestros artículos usados se venden con precios sorprendentes y lo mejor con Garantía.</li>
+                      <li>Nuestros artículos usados se venden con precios sorprendentes y lo mejor, con  <strong>Garantía</strong>.</li>
                       <li>Vendemos artículos totalmente nuevos con garantía.</li>
                       <li>Te entregamos factura, así que su compra es totalmente legal, en caso de algún reclamo.</li>
                     </ul>
