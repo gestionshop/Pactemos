@@ -18,7 +18,7 @@ const data = [
           },
           {
             name: '18k',
-            value: 63000,
+            value: 90000,
           },
           {
             name: '14k',
@@ -276,9 +276,25 @@ class Cotizar extends Component {
                   this.state.category
                   &&
                   <>
+                    {
+                      this.state.category.name === 'Herramientas'
+                      &&
+                      <div className="cotizar-select">
+                        <div className="form-input">
+                          <label className="label">Tipo de herramienta *</label>
+                          <input
+                            className="input"
+                            type="text"
+                            placeholder=""
+                            name="type"
+                            onChange={ this.onChangeInput }
+                          />
+                        </div>
+                      </div>
+                    }
                     <div className="cotizar-select">
                       <div className="form-input">
-                        <label className="label">Marca</label>
+                        <label className="label">Marca *</label>
                         <input
                           className="input"
                           type="text"
@@ -302,7 +318,7 @@ class Cotizar extends Component {
                     </div>
                     <div className="cotizar-select">
                       <div className="form-input">
-                        <label className="label">Tiempo de uso (Ej. 2 año y/o 3 meses)</label>
+                        <label className="label">Tiempo de uso (Ej. 2 año y/o 3 meses) *</label>
                         <input
                           className="input"
                           type="text"
@@ -314,7 +330,7 @@ class Cotizar extends Component {
                     </div>
                     <div className="cotizar-select">
                       <div className="form-input">
-                        <label className="label">¿Tiene factura?</label>
+                        <label className="label">¿Tiene factura? *</label>
 
                         <label className="radio">
                           <input
@@ -477,14 +493,14 @@ class Cotizar extends Component {
                   &&
                   this.state.brand
                   &&
-                  this.state.model
-                  &&
+                  // this.state.model
+                  // &&
                   this.state.time
                   &&
                   this.state.invoice
                   &&
-                  this.state.comment
-                  &&
+                  // this.state.comment
+                  // &&
                   <div className="cotizar-result">
                     <h4>¿Cuánto me dan por mi artículo?</h4>
 
