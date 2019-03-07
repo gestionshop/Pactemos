@@ -167,6 +167,14 @@ class Cotizar extends Component {
     }
   }
 
+  onChangeSelect = (e) => {
+    const name = e.target.name
+    const value = e.target.value
+    this.setState({
+      [name]: value,
+    })
+  }
+
   submit = (e) => {
     e.preventDefault()
 
@@ -555,45 +563,49 @@ class Cotizar extends Component {
                       
                       <form name="cotizacion" method="POST" onSubmit={ this.submit }>
                         <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
-                        {
-                          this.state.type
-                          &&
-                          <input type="hidden" name="type" value={this.state.type.name} />
-                        }
-                        {
-                          this.state.subtype
-                          &&
-                          <input type="hidden" name="subtype" value={this.state.subtype.name} />
-                        }
-                        {
-                          this.state.category
-                          &&
-                          <input type="hidden" name="category" value={this.state.category.name} />
-                        }
-                        {
-                          this.state.weight
-                          &&
-                          <input type="hidden" name="category" value={this.state.weight} />
-                        }
                         <div className="form-row">
                           <label className="label">Nombres y apellidos *</label>
-                          <input className="input" type="text" name="names" required />
+                          <input
+                            className="input"
+                            type="text"
+                            name="names"
+                            onChange={ this.onChangeInput }
+                            required />
                         </div>
                         <div className="form-row">
                           <label className="label">Celular *</label>
-                          <input className="input" type="text" name="mobile" required />
+                          <input
+                            className="input"
+                            type="text"
+                            name="mobile"
+                            onChange={ this.onChangeInput }
+                            required />
                         </div>
                         <div className="form-row">
                           <label className="label">Correo</label>
-                          <input className="input" type="text" name="email" />
+                          <input
+                            className="input"
+                            type="text"
+                            onChange={ this.onChangeInput }
+                            name="email" />
                         </div>
                         <div className="form-row">
                           <label className="label">¿Cuánto necesita?</label>
-                          <input className="input" type="text" name="many" />
+                          <input
+                            className="input"
+                            type="text"
+                            onChange={ this.onChangeInput }
+                            name="many" />
                         </div>
                         <div className="form-row">
                           <label className="label">¿Cómo nos contactó? *</label>
-                          <select name="source" className="input" required>
+                          <select
+                            name="source"
+                            className="input"
+                            onChange={ this.onChangeSelect }
+                            required
+                          >
+                            <option>Seleccionar uno</option>
                             <option value="Radio">Radio</option>
                             <option value="Volantes">Volantes</option>
                             <option value="Facebook">Facebook</option>
