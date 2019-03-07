@@ -36,7 +36,7 @@ class Sucursales extends Component {
                     <h4>Bocagrande</h4>
                     <span>Cra 3. #5-187.</span><br/>
                     <span>Teléfono: (57) (5) 679900</span><br/>
-                    <span>Whatsapp: (301) 2693491</span>
+                    <span>Whatsapp: (300) 7820709</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678351597" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
                 </article>
@@ -58,7 +58,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6602108</span><br/>
                     <span>Whatsapp: (301) 3427401</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550684847260" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31391.53792661738!2d-75.5588053!3d10.4261583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9e98238177%3A0xe738cc01ffab19d!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1551970686506" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -106,7 +106,7 @@ class Sucursales extends Component {
                   <h4>San José de los Campanos</h4>
                     <span>Cra 101 B # 38a – 83</span><br/>
                     <span>Teléfono: (57) (5) 6510864</span><br/>
-                    <span>Whatsapp: (301) 5743072</span>
+                    <span>Whatsapp: (301) 5641662</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62793.386460644135!2d-75.5196553502831!3d10.37489710418542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6243d5ad04cb9%3A0x447ed1d5cc8838d1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685997994" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
                 </article>
@@ -201,7 +201,7 @@ class Sucursales extends Component {
                 <article className="offices-item">
                   <address>
                     <h4>Av. del Libertador</h4>
-                    <span>Av del Libertador # 27- 231</span><br/>
+                    <span>Av. del Libertador # 27- 231</span><br/>
                     {/* <span>Teléfono: (57) (5) 6602165</span><br/> */}
                     <span>Whatsapp: (301) 5182136</span>
                   </address>
@@ -212,11 +212,11 @@ class Sucursales extends Component {
                 <article className="offices-item">
                   <address>
                   <h4>Gaira</h4>
-                    <span>Gaira. Cra 10</span><br/>
+                    <span>Cra 10 # 9-35</span><br/>
                     <span>Teléfono: (57) (5) 4223031</span><br/>
                     <span>Whatsapp: (300) 3427389</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.975917491086!2d-75.55167528520231!3d10.423485592561649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd85ca545176562b9!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334285429" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.782486285229!2d-74.22803368519541!3d11.20372299203245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f55792c3773%3A0xf297fd92c7ec589!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1551971258960" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
                 </article>
               </div>
             </section>
@@ -254,8 +254,8 @@ class Sucursales extends Component {
               <div className="offices-row">
                 <article className="offices-item">
                   <address>
-                    <h4>Centro</h4>
-                    <span>Cra 19 # 18-09</span><br/>
+                    <h4>Baranoa</h4>
+                    <span> Cra 19 # 18-18 Local 2</span><br/>
                     <span>Teléfono: (57) (5) 8789116</span><br/>
                     <span>Whatsapp: (301) 4690917</span>
                   </address>

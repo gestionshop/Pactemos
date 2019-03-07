@@ -12,7 +12,8 @@ class Thanks extends Component {
         <div>
           <Top />
           <div className="container">
-            <h1>¡Gracias! Un asesor se comunicara contigo.</h1>
+            <h1>¡YA ESTÁ EN PROCESO TU SOLICITUD!</h1>
+            <h3>Uno de nuestros asesores se comunicará contigo para confirmar el valor que podrás recibir por tu artículo</h3>
           </div>
         </div>
       </>

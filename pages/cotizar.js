@@ -205,8 +205,8 @@ class Cotizar extends Component {
                 textAlign: 'center',
                 fontSize: 18,
               }}>
-                <h1>Gracias por enviar tu cotización</h1>
-                <p>Uno de nuestros asesores se comunicará contigo.</p>
+                <h1>¡YA ESTÁ EN PROCESO TU SOLICITUD!</h1>
+                <p>Uno de nuestros asesores se comunicará contigo para confirmar el valor que podrás recibir por tu artículo</p>
               </div>
             </div>
             :

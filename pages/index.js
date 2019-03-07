@@ -53,21 +53,21 @@ class Home extends Component {
                     <span className={ step === 1 ? classStepActive : classStep }>1</span>
                     <div>
                       <strong>Paso 1</strong>
-                      <p>Encuentra nuestra Compraventa más cercana.</p>
+                      <p>Revisa cuánto te damos por tu artículo AQUÍ</p>
                     </div>
                   </li>
                   <li className="home-steps-item" onClick={() => this.showStep(2)}>
                     <span className={ step === 2 ? classStepActive : classStep }>2</span>
                     <div>
                       <strong>Paso 2</strong>
-                      <p>Trae tu artículo para revisarlo y ofrecerte la máxima valorización.</p>
+                      <p>Danos tus datos personales y recibirás la confirmación.</p>
                     </div>
                   </li>
                   <li className="home-steps-item" onClick={() => this.showStep(3)}>
                     <span className={ step === 3 ? classStepActive : classStep }>3</span>
                     <div>
                       <strong>Paso 3</strong>
-                      <p>Presenta tu cédula, firma el contrato y recibe el dinero en segundos.</p>
+                      <p>Obtén el dinero que necesitas.</p>
                     </div>
                   </li>
                 </ul>
