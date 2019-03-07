@@ -53,7 +53,7 @@ class Home extends Component {
                     <span className={ step === 1 ? classStepActive : classStep }>1</span>
                     <div>
                       <strong>Paso 1</strong>
-                      <p>Revisa cuánto te damos por tu artículo AQUÍ</p>
+                      <p>Revisa cuánto te damos por tu artículo <a href="/cotizar">AQUI</a></p>
                     </div>
                   </li>
                   <li className="home-steps-item" onClick={() => this.showStep(2)}>
