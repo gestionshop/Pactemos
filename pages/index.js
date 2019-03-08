@@ -29,7 +29,7 @@ class Home extends Component {
     return (
       <>
         <Head>
-          <title>Compraventa Pactemos - Dinero inmediato</title>
+          <title>Compraventas Pactemos - Dinero inmediato</title>
         </Head>
         <div>
           <Top />

@@ -36,7 +36,8 @@ var Footer = function Footer() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "Footer-link",
-    href: "https://www.facebook.com/pactemosalmacenesdecompraventa/?tn-str=k*F",
+    href: "https://www.facebook.com/pactemosalmacenesdecompraventa",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -62,6 +63,7 @@ var Footer = function Footer() {
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "Footer-link",
     href: "https://twitter.com/PactemosCv",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -92,4 +94,4 @@ var Footer = function Footer() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.c2a63186abf854d1c9f4.hot-update.js.map
+//# sourceMappingURL=index.js.2f2657b0b4333bf41d88.hot-update.js.map
