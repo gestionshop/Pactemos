@@ -131,6 +131,27 @@ class Home extends Component {
                 </div>
               </div>
             </section>
+            
+            <section className="home-contact">
+              <div className="home-contact-header">
+                <h3>¿Cuanto me dan por mis artículos?</h3>
+                <p>Ya no tienes que salir de casa para saber cuánto dinero puedes recibir por tu joya de oro, televisor o herramienta, ahora puedes hacerlo desde la comodidad de tu casa u oficina.</p>
+              </div>
+              <div className="home-contact-row">
+                <div className="home-contact-item">
+                  <strong>Asesoría por Whatsapp</strong>
+                  <a href="https://wa.me/573015371656" target="_blank">+573015371656</a>
+                </div>
+                <div className="home-contact-item">
+                  <strong>Cotizador en línea</strong>
+                  <a href="/cotizar">Ir a página</a>
+                </div>
+                <div className="home-contact-item">
+                  <strong>Llámanos</strong>
+                  <a href="tel:573015371656">+573015371656</a>
+                </div>
+              </div>
+            </section>
           </div>
 
           <section className="home-choose">

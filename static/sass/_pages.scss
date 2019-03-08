@@ -367,16 +367,52 @@
   padding: 5px;
 }
 .Footer {
+  display: flex;
+  justify-content: space-between;
   margin: 50px 0 0 0;
   padding: 1rem;
   color: rgba(0,0,0,.5);
   border-top: 1px solid rgba(0,0,0,.1);
+}
+.Footer-link {
+  display: inline-block;
+  margin-left: 5px;
 }
 .home-servicios-list {
   margin-top: 10px;
   li {
     padding: 5px 0;
   }
+}
+.news-list {
+  display: flex;
+  flex-direction: column;
+}
+.news-item {
+  margin-bottom: 1rem;
+  width: 100%;
+  img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.home-contact {
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+  padding: 30px 50px;
+  text-align: center;
+  background-color: #FAFAFA;
+  border-radius: 3px;
+}
+.home-contact-row {
+  display: flex;
+  flex-direction: column;
+}
+.home-contact-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (min-width: 600px) {
   .home-steps {
@@ -425,5 +461,16 @@
   }
   .offices-item {
     width: 32%;
+  }
+  .news-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .news-item {
+    width: 49%;
+  }
+  .home-contact-row {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

@@ -71,12 +71,12 @@ const data = [
       },
       {
         name: 'Herramientas',
-        options: [
-          {
-            name: 'Tipo de herramientas',
-            value: 0,
-          },
-        ],
+        // options: [
+        //   {
+        //     name: 'Tipo de herramientas',
+        //     value: 0,
+        //   },
+        // ],
       },
       {
         name: 'Tecnología',
@@ -174,6 +174,17 @@ class Cotizar extends Component {
       [name]: value,
     })
   }
+  
+  onChangeTipoHerramienta = (e) => {
+    const name = e.target.name
+    const value = e.target.value
+    this.setState({
+      category: {
+        name,
+        value,
+      }
+    })
+  }
 
   submit = (e) => {
     e.preventDefault()
@@ -244,6 +255,8 @@ class Cotizar extends Component {
                 {
                   this.state.subtype
                   &&
+                  this.state.subtype.options
+                  &&
                   <div className="cotizar-select">
                     {
                       this.state.subtype.options.map(item => <div
@@ -252,6 +265,27 @@ class Cotizar extends Component {
                         <span>{ item.name }</span>
                       </div>)
                     }
+                  </div>
+                }
+
+                {
+                  this.state.subtype
+                  &&
+                  this.state.subtype.name === 'Herramientas'
+                  &&
+                  <div className="cotizar-select">
+                    <div className="form-row">
+                      <label className="label">Tipo de herramienta</label>
+                      <select
+                        name="tipo_herramienta"
+                        className="input"
+                        onChange={ this.onChangeTipoHerramienta }
+                        required
+                      >
+                        <option>Seleccionar uno</option>
+                        <option value="Martillo">Martillo</option>
+                      </select>
+                    </div>
                   </div>
                 }
                 
