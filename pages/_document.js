@@ -17,12 +17,9 @@ export default class MyDocument extends Document {
           <div id="fb-root"></div>
           <div className="fb-customerchat"
             attribution="setup_tool"
-            page_id="1072706216154212"
+            page_id="182612678488770"
             logged_in_greeting="¡Hola! ¿Cómo te puedo ayudar?"
             logged_out_greeting="¡Hola! ¿Cómo te puedo ayudar?">
-          </div>
-          <div className="fb-customerchat"
-            page_id="1072706216154212">
           </div>
           <script dangerouslySetInnerHTML={{__html: `window.fbAsyncInit = function() {
               FB.init({
