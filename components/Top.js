@@ -12,7 +12,9 @@ class Top extends Component {
       <header className="Top">
         <div className="container">
           <div className="Top_row">
-            <img className="Top_logo" src="/static/img/logo.png" alt="Compra Venta Pactemos"/>
+          <a href="/">
+            <img className="Top_logo" src="/static/img/logo.png" alt="Compra Venta Pactemos" /> 
+          </a>
 
             <img onClick={ this.showMenu } className="Top_menu_icon" src="/static/img/menu.svg" alt=""/>
 
