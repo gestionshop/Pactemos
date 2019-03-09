@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Footer.js";
+var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/components/Footer.js";
 
 
 var Footer = function Footer() {
@@ -130,7 +130,7 @@ var Footer = function Footer() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Top.js";
+var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/components/Top.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -209,30 +209,37 @@ function (_Component) {
           lineNumber: 14
         },
         __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "Top_logo",
         src: "/static/img/logo.png",
         alt: "Compra Venta Pactemos",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         onClick: this.showMenu,
         className: "Top_menu_icon",
         src: "/static/img/menu.svg",
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 19
         },
         __self: this
       }), this.state.visible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
         className: "Top_list",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 24
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -240,7 +247,7 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 25
         },
         __self: this
       }, "Inicio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -248,7 +255,7 @@ function (_Component) {
         href: "/sucursales",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 26
         },
         __self: this
       }, "Sucursales"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -256,7 +263,7 @@ function (_Component) {
         href: "/noticias",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 27
         },
         __self: this
       }, "Noticias"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -264,14 +271,14 @@ function (_Component) {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 28
         },
         __self: this
       }, "Cotizar en linea")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
         className: "Top_list_desktop",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -279,7 +286,7 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 32
         },
         __self: this
       }, "Inicio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -287,7 +294,7 @@ function (_Component) {
         href: "/sucursales",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 33
         },
         __self: this
       }, "Sucursales"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -295,7 +302,7 @@ function (_Component) {
         href: "/noticias",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 34
         },
         __self: this
       }, "Noticias"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -303,7 +310,7 @@ function (_Component) {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 35
         },
         __self: this
       }, "Cotizar en linea")))));
@@ -6226,7 +6233,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Top__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Top */ "./components/Top.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/pages/noticias.js";
+var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/pages/noticias.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -6349,11 +6356,11 @@ function (_Component) {
           lineNumber: 26
         },
         __self: this
-      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vel beatae, quia nam quisquam sequi quibusdam adipisci non neque! Blanditiis nisi iste doloribus placeat natus. Adipisci, nostrum nam. Temporibus, eaque?")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      }, "\xBFC\xF3mo identificar una compraventa confiable? Ten en cuenta estos tres consejos. Son conocidas com\xFAnmente como casas de empe\xF1o y hay un sinn\xFAmero de estas en el pa\xEDs, pero \xBFC\xF3mo escoger una compraventa confiable y segura en caso de necesitar dinero? 1. Observa las instalaciones y el nivel de seguridad de estas, esto te dar\xE1 mayor tranquilidad a la hora de dejar tus joyas de oro u otros art\xEDculos. 2. Ten en cuenta la atenci\xF3n y el profesionalismo del personal, es muy importante que te generen confianza y que te ayuden a resolver todas las dudas que tengas. 3. Cobertura, una compraventa con m\xFAltiples sucursales te generar\xE1 m\xE1s confianza y respaldo.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "news-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 39
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -6361,25 +6368,63 @@ function (_Component) {
         alt: "Noticia img",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 40
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 41
         },
         __self: this
       }, "Noticia importante 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 42
+        },
+        __self: this
+      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vel beatae, quia nam quisquam sequi quibusdam adipisci non neque! Blanditiis nisi iste doloribus placeat natus. Adipisci, nostrum nam. Temporibus, eaque?"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "news-list",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "news-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        width: "560",
+        height: "315",
+        src: "https://www.youtube.com/embed/InjMrg3pbQM",
+        frameborder: "0",
+        allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+        allowfullscreen: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }, "Noticia importante 3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
         },
         __self: this
       }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vel beatae, quia nam quisquam sequi quibusdam adipisci non neque! Blanditiis nisi iste doloribus placeat natus. Adipisci, nostrum nam. Temporibus, eaque?"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 55
         },
         __self: this
       }))));
@@ -6412,7 +6457,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*********************************!*\
   !*** multi ./pages/noticias.js ***!
   \*********************************/
@@ -6437,5 +6482,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=noticias.js.map
