@@ -282,11 +282,17 @@ class Cotizar extends Component {
                         onChange={ this.onChangeTipoHerramienta }
                         required
                       >
-                        <option>Seleccionar uno</option>
-                        <option value="Pulidora">Pulidora</option>
+                        <option>Seleccionar una</option>
                         <option value="Taladro">Taladro</option>
+                        <option value="Pulidora">Pulidora</option>
                         <option value="Caladora">Caladora</option>
                         <option value="Trozadora">Trozadora</option>
+                        <option value="Ingledora">Ingledora</option>
+                        <option value="Sierra Circular">Sierra Circular</option>
+                        <option value="Lijadora">Lijadora</option>
+                        <option value="Ruteadora">Ruteadora</option>
+                        <option value="Pistola de Impacto">Pistola de Impacto</option>
+                        <option value="Cortadora">Cortadora</option>
                       </select>
                     </div>
                   </div>
