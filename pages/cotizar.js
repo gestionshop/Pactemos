@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Top from '../components/Top';
 import axios from 'axios';
 import Footer from '../components/Footer'
+import * as funtions from '../funciones/funciones';
 
 
 const data = [
@@ -531,7 +532,7 @@ class Cotizar extends Component {
                   &&
                   <div className="cotizar-result">
                     <h4>¿Cuánto me dan por mi joya?</h4>
-                    <span>Te damos hasta $ { this.state.value } pesos</span>
+                    <span>Te damos hasta $ { funtions.FormatMil(this.state.value) } pesos</span>
 
                     <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Quiero el dinero ya!</a>
                   </div>
