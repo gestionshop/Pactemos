@@ -283,7 +283,10 @@ class Cotizar extends Component {
                         required
                       >
                         <option>Seleccionar uno</option>
-                        <option value="Martillo">Martillo</option>
+                        <option value="Pulidora">Pulidora</option>
+                        <option value="Taladro">Taladro</option>
+                        <option value="Caladora">Caladora</option>
+                        <option value="Trozadora">Trozadora</option>
                       </select>
                     </div>
                   </div>
