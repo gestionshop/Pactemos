@@ -9,7 +9,7 @@ class Sucursales extends Component {
     return (
       <>
         <Head>
-          <title>Noticias de Pactemos</title>
+          <title>Noticias</title>
         </Head>
         <div>
           <Top />

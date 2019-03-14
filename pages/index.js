@@ -39,7 +39,7 @@ class Home extends Component {
               <figure className="home-welcome-img">
                 <img src="/static/img/banner-home.png" alt=""/>
               </figure>
-              <a className="home-welcome-btn" href="/cotizar">Cotiza en linea</a>
+              <a className="home-welcome-btn" href="/cotizar">Obtenlo aqui</a>
             </div>
           </section>
 
@@ -138,17 +138,23 @@ class Home extends Component {
                 <p>Ya no tienes que salir de casa para saber cuánto dinero puedes recibir por tu joya de oro, televisor o herramienta, ahora puedes hacerlo desde la comodidad de tu casa u oficina.</p>
               </div>
               <div className="home-contact-row">
-                <div className="home-contact-item">
+                {/* <div className="home-contact-item">
                   <strong>Asesoría por Whatsapp</strong>
                   <a href="https://wa.me/573015371656" target="_blank">+573015371656</a>
+                </div> */}
+                <div className="home-contact-item">
+                  {/* <strong>Asesoría por Whatsapp</strong> */}
+                  <a className="Top_item_button Top_item" href="https://wa.me/573015371656" target="_blank">Asesoría por Whatsapp</a>
+                  {/* <a href="https://wa.me/573015371656" target="_blank">+573015371656</a> */}
                 </div>
                 <div className="home-contact-item">
-                  <strong>Cotizador en línea</strong>
-                  <a href="/cotizar">Ir a página</a>
+                  {/* <strong>Cotizador en línea</strong> */}
+                  <a className="Top_item_button Top_item" href="/cotizar" >Cotizador en línea</a>
+                  {/* <a href="/cotizar">Ir a página</a> */}
                 </div>
                 <div className="home-contact-item">
-                  <strong>Llámanos</strong>
-                  <a href="tel:573015371656">+573015371656</a>
+                  {/* <strong>Servicio a Domicilio</strong> */}
+                  <a className="Top_item_button Top_item" href="#" >Servicio a Domicilio</a>
                 </div>
               </div>
             </section>

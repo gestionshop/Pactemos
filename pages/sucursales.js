@@ -96,7 +96,7 @@ class Sucursales extends Component {
                   <h4>Bazurto</h4>
                     <span>C.C Almacentro. Lc 4</span><br/>
                     <span>Teléfono: (57) (5) 6722307</span><br/>
-                    <span>Whatsapp: (301) 4591953</span>
+                    <span>Whatsapp: (301) 5641662</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15696.435195677646!2d-75.5319144!3d10.412933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336739ee27%3A0xe004f300461b33f5!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685706336" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
                 </article>
@@ -106,7 +106,7 @@ class Sucursales extends Component {
                   <h4>San José de los Campanos</h4>
                     <span>Cra 101 B # 38a – 83</span><br/>
                     <span>Teléfono: (57) (5) 6510864</span><br/>
-                    <span>Whatsapp: (301) 5641662</span>
+                    <span>Whatsapp: (301) 5743072</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62793.386460644135!2d-75.5196553502831!3d10.37489710418542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6243d5ad04cb9%3A0x447ed1d5cc8838d1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685997994" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
                 </article>
@@ -173,7 +173,7 @@ class Sucursales extends Component {
                     <h4>Centro</h4>
                     <span>Cra 5 # 21-16</span><br/>
                     <span>Teléfono: (57) (5) 4235885</span><br/>
-                    <span>Whatsapp: (301) 4690898</span>
+                    <span>Whatsapp: (300) 3427387</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.280309546607!2d-74.21315948519509!3d11.240778192007443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a2c8b1df5ce81f!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687087695" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
                 </article>
@@ -193,7 +193,7 @@ class Sucursales extends Component {
                     <h4>Av. El Río</h4>
                     <span>Av el Río con Av del Libertador 30 -146 Local 3</span><br/>
                     <span>Teléfono: (57) (5) 4335584</span><br/>
-                    <span>Whatsapp: (301) 2354964</span>
+                    <span>Whatsapp: (302) 2354964</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.3693103837036!2d-74.18024168519506!3d11.234219692011902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9502c4bc05dd012b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687299501" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
                 </article>

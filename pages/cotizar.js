@@ -14,10 +14,6 @@ const data = [
         name: 'Oro',
         options: [
           {
-            name: '22k',
-            value: 76000,
-          },
-          {
             name: '18k',
             value: 90000,
           },
@@ -35,7 +31,7 @@ const data = [
         name: 'Plata',
         options: [
           {
-            name: 'Platería',
+            name: 'Ley 925',
             value: 800,
           },
         ],
@@ -47,28 +43,28 @@ const data = [
     options: [
       {
         name: 'Electrodomésticos',
-        options: [
-          {
-            name: 'Televisor',
-            value: 0,
-          },
-          {
-            name: 'Nevera',
-            value: 0,
-          },
-          {
-            name: 'Estufa',
-            value: 0,
-          },
-          {
-            name: 'Lavadora',
-            value: 0,
-          },
-          {
-            name: 'Equipo de sonido',
-            value: 0,
-          },
-        ],
+        // options: [
+        //   {
+        //     name: 'Televisor',
+        //     value: 0,
+        //   },
+        //   {
+        //     name: 'Nevera',
+        //     value: 0,
+        //   },
+        //   {
+        //     name: 'Estufa',
+        //     value: 0,
+        //   },
+        //   {
+        //     name: 'Lavadora',
+        //     value: 0,
+        //   },
+        //   {
+        //     name: 'Equipo de sonido',
+        //     value: 0,
+        //   },
+        // ],
       },
       {
         name: 'Herramientas',
@@ -81,16 +77,16 @@ const data = [
       },
       {
         name: 'Tecnología',
-        options: [
-          {
-            name: 'Portatil',
-            value: 0,
-          },
-          {
-            name: 'Tablet',
-            value: 0,
-          },
-        ],
+        // options: [
+        //   {
+        //     name: 'Portatil',
+        //     value: 0,
+        //   },
+        //   {
+        //     name: 'Tablet',
+        //     value: 0,
+        //   },
+        // ],
       },
     ],
   },
@@ -187,6 +183,29 @@ class Cotizar extends Component {
     })
   }
 
+  onChangeElectrodomesticos = (e) => {
+    const name = e.target.name
+    const value = e.target.value
+    this.setState({
+      category: {
+        name,
+        value,
+      }
+    })
+  }
+
+  onChangeTecnologia = (e) => {
+    const name = e.target.name
+    const value = e.target.value
+    this.setState({
+      category: {
+        name,
+        value,
+      }
+    })
+  }
+
+  
   submit = (e) => {
     e.preventDefault()
 
@@ -276,24 +295,73 @@ class Cotizar extends Component {
                   &&
                   <div className="cotizar-select">
                     <div className="form-row">
-                      <label className="label">Tipo de herramienta</label>
+                      {/* <label className="label">Tipo de herramienta</label> */}
                       <select
                         name="tipo_herramienta"
                         className="input"
                         onChange={ this.onChangeTipoHerramienta }
                         required
                       >
-                        <option>Seleccionar una</option>
+                        <option>Seleccionar una herramienta</option>
                         <option value="Taladro">Taladro</option>
                         <option value="Pulidora">Pulidora</option>
                         <option value="Caladora">Caladora</option>
-                        <option value="Trozadora">Trozadora</option>
-                        <option value="Ingledora">Ingledora</option>
+                        <option value="Trozadora">Tronzadora</option>
+                        <option value="Ingledora">Ingletadora</option>
                         <option value="Sierra Circular">Sierra Circular</option>
                         <option value="Lijadora">Lijadora</option>
                         <option value="Ruteadora">Ruteadora</option>
                         <option value="Pistola de Impacto">Pistola de Impacto</option>
                         <option value="Cortadora">Cortadora</option>
+                        <option value="Otro">Otros</option>
+                      </select>
+                    </div>
+                  </div>
+                }
+
+                {
+                  this.state.subtype
+                  &&
+                  this.state.subtype.name === 'Electrodomésticos'
+                  &&
+                  <div className="cotizar-select">
+                    <div className="form-row">
+                      {/* <label className="label">Tipo de Electrodomésticos</label> */}
+                      <select
+                        name="tipo_electrodomesticos"
+                        className="input"
+                        onChange={ this.onChangeElectrodomesticos }
+                        required
+                      >
+                        <option>Selecciona un electrodoméstico</option>
+                        <option value="Taladro">Televisor</option>
+                        <option value="Pulidora">Nevera</option>
+                        <option value="Caladora">Estufa</option>
+                        <option value="Trozadora">Equipo de Sonido</option>
+                        <option value="Otro">Otros</option>
+                      </select>
+                    </div>
+                  </div>
+                }
+
+                {
+                  this.state.subtype
+                  &&
+                  this.state.subtype.name === 'Tecnología'
+                  &&
+                  <div className="cotizar-select">
+                    <div className="form-row">
+                      {/* <label className="label">Tipo de Electrodomésticos</label> */}
+                      <select
+                        name="tipo_tecnologia"
+                        className="input"
+                        onChange={ this.onChangeTecnologia }
+                        required
+                      >
+                        <option>Selecciona un articulo</option>
+                        <option value="Taladro">Portatil</option>
+                        <option value="Pulidora">Tablet</option>
+                        <option value="Otro">Otros</option>
                       </select>
                     </div>
                   </div>
@@ -328,7 +396,7 @@ class Cotizar extends Component {
                   this.state.category
                   &&
                   <>
-                    {
+                    {/* {
                       this.state.category.name === 'Herramientas'
                       &&
                       <div className="cotizar-select">
@@ -343,7 +411,7 @@ class Cotizar extends Component {
                           />
                         </div>
                       </div>
-                    }
+                    } */}
                     <div className="cotizar-select">
                       <div className="form-input">
                         <label className="label">Marca *</label>
@@ -535,6 +603,14 @@ class Cotizar extends Component {
                     <span>Te damos hasta $ { funtions.FormatMil(this.state.value) } pesos</span>
 
                     <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Quiero el dinero ya!</a>
+
+                    <p style={{
+                      marginTop: 10,
+                      // textAlign: 'center',
+                      fontSize: 13,
+                    }}>
+                      *Aplican condiciones
+                    </p>
                   </div>
                 }
 
@@ -557,6 +633,14 @@ class Cotizar extends Component {
                     <h4>¿Cuánto me dan por mi artículo?</h4>
 
                     <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+
+                    <p style={{
+                      marginTop: 10,
+                      fontSize: 13,
+                    }}>
+                      *Aplican condiciones
+                    </p>
+
                   </div>
                 }
 
@@ -575,6 +659,14 @@ class Cotizar extends Component {
                     <h4>¿Cuánto me dan por mi CDT?</h4>
 
                     <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+
+                    <p style={{
+                      marginTop: 10,
+                      fontSize: 13,
+                    }}>
+                      *Aplican condiciones
+                    </p>
+
                   </div>
                 }
 
@@ -595,6 +687,14 @@ class Cotizar extends Component {
                     <h4>¿Cuánto me dan por mi artículo?</h4>
 
                     <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+
+                    <p style={{
+                      marginTop: 10,
+                      fontSize: 13,
+                    }}>
+                      *Aplican condiciones
+                    </p>
+
                   </div>
                 }
 
@@ -608,7 +708,7 @@ class Cotizar extends Component {
                       <form name="cotizacion" method="POST" onSubmit={ this.submit }>
                         <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
                         <div className="form-row">
-                          <label className="label">Nombres y apellidos *</label>
+                          <label className="label">Nombres y Apellidos *</label>
                           <input
                             className="input"
                             type="text"
@@ -649,10 +749,11 @@ class Cotizar extends Component {
                             onChange={ this.onChangeSelect }
                             required
                           >
-                            <option>Seleccionar uno</option>
+                            {/* <option>Seleccionar uno</option> */}
                             <option value="Radio">Radio</option>
                             <option value="Volantes">Volantes</option>
                             <option value="Facebook">Facebook</option>
+                            <option value="Instagram">Instagram</option>
                             <option value="Google">Google</option>
                             <option value="Amigos">Amigos</option>
                             <option value="Otro">Otro</option>
@@ -661,6 +762,7 @@ class Cotizar extends Component {
 
                         <button type="submit" className="form-btn">Enviar datos</button>
                       </form>
+                      
                     </div>
                   </div>
                 }
