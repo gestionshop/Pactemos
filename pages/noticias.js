@@ -22,39 +22,33 @@ class Sucursales extends Component {
             <section className="news-list">
               <article className="news-item">
                 <img src="/static/img/blog.jpg" alt="Noticia img"/>
-                <h2>¿Cómo identificar una compraventa confiable?</h2>
-                
-                <p>Ten en cuenta estos tres consejos.
-                    Son conocidas comúnmente como casas de empeño y hay un sinnúmero de estas en
-                    el país, pero ¿Cómo escoger una compraventa confiable y segura en caso de
-                    necesitar dinero?
-                </p>
-                <p>
-                    1. Observa las instalaciones y el nivel de seguridad de estas, esto te dará mayor
-                    tranquilidad a la hora de dejar tus joyas de oro u otros artículos.<br/>
-                    2. Ten en cuenta la atención y el profesionalismo del personal, es muy importante que
-                    te generen confianza y que te ayuden a resolver todas las dudas que tengas.<br/>
-                    3. Cobertura, una compraventa con múltiples sucursales te generará más confianza y
-                    respaldo.
+                <div>
+                  <h2>¿Cómo identificar una compraventa confiable?</h2>
+                  
+                  <p>Ten en cuenta estos tres consejos.
+                      Son conocidas comúnmente como casas de empeño y hay un sinnúmero de estas en
+                      el país, pero ¿Cómo escoger una compraventa confiable y segura en caso de
+                      necesitar dinero?
                   </p>
+                  <p>
+                      1. Observa las instalaciones y el nivel de seguridad de estas, esto te dará mayor
+                      tranquilidad a la hora de dejar tus joyas de oro u otros artículos.<br/>
+                      2. Ten en cuenta la atención y el profesionalismo del personal, es muy importante que
+                      te generen confianza y que te ayuden a resolver todas las dudas que tengas.<br/>
+                      3. Cobertura, una compraventa con múltiples sucursales te generará más confianza y
+                      respaldo.
+                    </p>
+                </div>
               </article>
             
               <article className="news-item">
                 <img src="https://picsum.photos/600/300/?gravity=east" alt="Noticia img"/>
-                <h2>Noticia importante </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vel beatae, quia nam quisquam sequi quibusdam adipisci non neque! Blanditiis nisi iste doloribus placeat natus. Adipisci, nostrum nam. Temporibus, eaque?</p>
-              </article>
-              
-            </section>
-            {/* <section className="news-list">
-            
-              <article className="news-item">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/InjMrg3pbQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h2>Noticia importante 3</h2>
+                <div>
+                  <h2>Noticia importante </h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vel beatae, quia nam quisquam sequi quibusdam adipisci non neque! Blanditiis nisi iste doloribus placeat natus. Adipisci, nostrum nam. Temporibus, eaque?</p>
+                </div>
               </article>
-              
-            </section> */}
+            </section>
             <Footer />
           </div>
         </div>
