@@ -396,22 +396,6 @@ class Cotizar extends Component {
                   this.state.category
                   &&
                   <>
-                    {/* {
-                      this.state.category.name === 'Herramientas'
-                      &&
-                      <div className="cotizar-select">
-                        <div className="form-input">
-                          <label className="label">Tipo de herramienta *</label>
-                          <input
-                            className="input"
-                            type="text"
-                            placeholder=""
-                            name="type"
-                            onChange={ this.onChangeInput }
-                          />
-                        </div>
-                      </div>
-                    } */}
                     <div className="cotizar-select">
                       <div className="form-input">
                         <label className="label">Marca *</label>
@@ -606,7 +590,6 @@ class Cotizar extends Component {
 
                     <p style={{
                       marginTop: 10,
-                      // textAlign: 'center',
                       fontSize: 13,
                     }}>
                       *Aplican condiciones
@@ -621,14 +604,10 @@ class Cotizar extends Component {
                   &&
                   this.state.brand
                   &&
-                  // this.state.model
-                  // &&
                   this.state.time
                   &&
                   this.state.invoice
                   &&
-                  // this.state.comment
-                  // &&
                   <div className="cotizar-result">
                     <h4>¿Cuánto me dan por mi artículo?</h4>
 
