@@ -138,23 +138,23 @@ class Home extends Component {
                 <p>Ya no tienes que salir de casa para saber cuánto dinero puedes recibir por tu joya de oro, televisor o herramienta, ahora puedes hacerlo desde la comodidad de tu casa u oficina.</p>
               </div>
               <div className="home-contact-row">
-                {/* <div className="home-contact-item">
-                  <strong>Asesoría por Whatsapp</strong>
-                  <a href="https://wa.me/573015371656" target="_blank">+573015371656</a>
-                </div> */}
                 <div className="home-contact-item">
-                  {/* <strong>Asesoría por Whatsapp</strong> */}
-                  <a className="Top_item_button Top_item" href="https://wa.me/573015371656" target="_blank">Asesoría por Whatsapp</a>
-                  {/* <a href="https://wa.me/573015371656" target="_blank">+573015371656</a> */}
+                  <a className="home-contact-link" href="https://wa.me/573015371656" target="_blank">
+                    <img src="/static/img/whatsapp.svg" alt="Asesoría por Whatsapp" />
+                    <span>Asesoría por Whatsapp</span>
+                  </a>
                 </div>
                 <div className="home-contact-item">
-                  {/* <strong>Cotizador en línea</strong> */}
-                  <a className="Top_item_button Top_item" href="/cotizar" >Cotizador en línea</a>
-                  {/* <a href="/cotizar">Ir a página</a> */}
+                  <a className="home-contact-link" href="/cotizar" target="_blank">
+                    <img src="/static/img/computer.svg" alt="Cotizador en línea" />
+                    <span>Cotizador en línea</span>
+                  </a>
                 </div>
                 <div className="home-contact-item">
-                  {/* <strong>Servicio a Domicilio</strong> */}
-                  <a className="Top_item_button Top_item" href="#" >Servicio a Domicilio</a>
+                  <a className="home-contact-link" href="#" target="_blank">
+                    <img src="/static/img/hand.svg" alt="Servicio a Domicilio" />
+                    <span>Servicio a Domicilio</span>
+                  </a>
                 </div>
               </div>
             </section>
