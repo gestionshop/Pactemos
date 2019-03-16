@@ -367,7 +367,7 @@
 .Footer {
   display: flex;
   justify-content: space-between;
-  margin: 50px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 1rem;
   color: rgba(0,0,0,.5);
   border-top: 1px solid rgba(0,0,0,.1);
@@ -375,6 +375,32 @@
 .Footer-link {
   display: inline-block;
   margin-left: 5px;
+}
+.Footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+  font-size: 14.5px;
+  img {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 1rem;
+  }
+}
+.Footer-info-title {
+  display: block;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  &::after {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: #000;
+  }
 }
 .home-servicios-list {
   margin-top: 10px;
@@ -488,5 +514,8 @@
   .home-contact-row {
     flex-direction: row;
     justify-content: space-between;
+  }
+  .Footer-info {
+    flex-direction: row;
   }
 }

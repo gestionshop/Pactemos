@@ -7,6 +7,7 @@ class Top extends Component {
     visible: false,
     visibleModal: false,
     submited: false,
+    typeData: 'domicilio',
   }
   showMenu = () => {
     this.setState({ visible: !this.state.visible })

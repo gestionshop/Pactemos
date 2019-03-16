@@ -5,7 +5,7 @@
   height: 65px;
 }
 .Top_logo {
-  height: 45px;
+  height: 35px;
 }
 .Top_list {
   position: absolute;
@@ -38,6 +38,9 @@
   }
 }
 @media screen and (min-width: 600px) {
+  .Top_logo {
+    height: 45px;
+  }
   .Top_list {
     position: relative;
     left: 0;

@@ -2,11 +2,16 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 import Top from '../components/Top';
 import Footer from '../components/Footer';
+import axios from 'axios';
 
 
 class Home extends Component {
   state = {
     step: 1,
+    visible: false,
+    visibleModal: false,
+    submited: false,
+    typeData: 'domicilio',
   }
   componentDidMount() {
     setInterval(() => {
@@ -16,6 +21,38 @@ class Home extends Component {
       }
       this.setState({ step })
     }, 3000)
+  }
+  showModal = (e) => {
+    e.preventDefault()
+    this.setState({ visibleModal: true })
+  }
+  closeModal = () => {
+    this.setState({ visibleModal: false })
+  }
+  onChangeInput = (e) => {
+    const name = e.target.name
+    const value = e.target.value
+    this.setState({
+      [name]: value,
+    })
+  }
+  onChangeSelect = (e) => {
+    const name = e.target.name
+    const value = e.target.value
+    this.setState({
+      [name]: value,
+    })
+  }
+  submit = (e) => {
+    e.preventDefault()
+
+    const url = 'http://localhost:3001/api/pactemos/cotizacion'
+    axios.post(url, this.state).then(res => {
+      this.setState({ submited: true })
+    }).catch(error => {
+      alert('Ocurrio un error y no se pudo enviar la información.')
+      console.log('res error', error)
+    })
   }
   showStep = (step) => {
     this.setState({step})
@@ -151,7 +188,7 @@ class Home extends Component {
                   </a>
                 </div>
                 <div className="home-contact-item">
-                  <a className="home-contact-link" href="#" >
+                  <a className="home-contact-link" href="#" onClick={this.showModal}>
                     <img src="/static/img/hand.svg" alt="Servicio a Domicilio" />
                     <span>Servicio a Domicilio</span>
                   </a>
@@ -221,6 +258,79 @@ class Home extends Component {
             </section>
 
             <Footer />
+
+            {
+              this.state.visibleModal
+              &&
+              <div id="myModal" className="modal">
+                <div className="modal-content">
+                  <span onClick={ this.closeModal } className="close">&times;</span>
+                  
+                  {
+                    this.state.submited
+                    ?
+                    <p>La información se envio a la CompraVenta.</p>
+                    :
+                    <form name="cotizacion" method="POST" onSubmit={ this.submit }>
+                      <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
+                      <div className="form-row">
+                        <label className="label">Nombres y Apellidos *</label>
+                        <input
+                          className="input"
+                          type="text"
+                          name="names"
+                          onChange={ this.onChangeInput }
+                          required />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">Celular *</label>
+                        <input
+                          className="input"
+                          type="text"
+                          name="mobile"
+                          onChange={ this.onChangeInput }
+                          required />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">Correo</label>
+                        <input
+                          className="input"
+                          type="text"
+                          onChange={ this.onChangeInput }
+                          name="email" />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">¿Cuánto necesita?</label>
+                        <input
+                          className="input"
+                          type="text"
+                          onChange={ this.onChangeInput }
+                          name="many" />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">¿Cómo nos contactó? *</label>
+                        <select
+                          name="source"
+                          className="input"
+                          onChange={ this.onChangeSelect }
+                          required
+                        >
+                          <option value="Radio">Radio</option>
+                          <option value="Volantes">Volantes</option>
+                          <option value="Facebook">Facebook</option>
+                          <option value="Instagram">Instagram</option>
+                          <option value="Google">Google</option>
+                          <option value="Amigos">Amigos</option>
+                          <option value="Otro">Otro</option>
+                        </select>
+                      </div>
+
+                      <button type="submit" className="form-btn">Enviar datos</button>
+                    </form>
+                  }
+                </div>
+              </div>
+            }
           </div>
         </div>
       </>
