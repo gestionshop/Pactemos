@@ -157,6 +157,8 @@ class Cotizar extends Component {
         [name]: value,
         value: value*this.state.category.value,
       })
+      console.log('valor',this.state.value)
+      console.log('categoria',this.state.category.value)
     } else {
       this.setState({
         [name]: value,
