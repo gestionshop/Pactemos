@@ -183,7 +183,7 @@ var Footer = function Footer() {
     src: "/static/img/facebook.svg",
     width: "24",
     height: "24",
-    viewBox: "0 0 0 0",
+    viewBox: "0 0 24 24",
     alt: "Compra Venta Pactemos",
     __source: {
       fileName: _jsxFileName,
@@ -203,7 +203,7 @@ var Footer = function Footer() {
     src: "/static/img/youtube.svg",
     width: "24",
     height: "24",
-    viewBox: "0 0 0 0",
+    viewBox: "0 0 24 24",
     alt: "Compra Venta Pactemos",
     __source: {
       fileName: _jsxFileName,
@@ -223,7 +223,7 @@ var Footer = function Footer() {
     src: "/static/img/instagram.svg",
     width: "24",
     height: "24",
-    viewBox: "0 0 0 0",
+    viewBox: "0 0 24 24",
     alt: "Compra Venta Pactemos",
     __source: {
       fileName: _jsxFileName,
@@ -8671,46 +8671,46 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 71
         },
         __self: this
       }, "Compraventas Pactemos - Dinero inmediato")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 73
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Top__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 74
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "home-welcome",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 76
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 77
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
         className: "home-welcome-img",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 78
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -8718,7 +8718,7 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 79
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -8726,42 +8726,42 @@ function (_Component) {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 81
         },
         __self: this
       }, "Obtenlo aqui"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 85
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "home-steps",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 87
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-steps-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 88
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "home-steps-list",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 89
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "home-steps-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 90
         },
         __self: this
       }, "Obt\xE9n dinero Inmediato en solo 3 pasos !As\xED de f\xE1cil!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -8771,39 +8771,39 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 91
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: step === 1 ? classStepActive : classStep,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 92
         },
         __self: this
       }, "1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 93
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 94
         },
         __self: this
       }, "Paso 1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 95
         },
         __self: this
       }, "Revisa cu\xE1nto te damos por tu art\xEDculo ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 95
         },
         __self: this
       }, "AQUI")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -8813,32 +8813,32 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 98
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: step === 2 ? classStepActive : classStep,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 99
         },
         __self: this
       }, "2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 100
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 101
         },
         __self: this
       }, "Paso 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 102
         },
         __self: this
       }, "Danos tus datos personales y recibir\xE1s la confirmaci\xF3n."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -8848,39 +8848,39 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 105
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: step === 3 ? classStepActive : classStep,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 106
         },
         __self: this
       }, "3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 107
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 108
         },
         __self: this
       }, "Paso 3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 109
         },
         __self: this
       }, "Obt\xE9n el dinero que necesitas.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
         className: "home-steps-figures",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 113
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -8888,97 +8888,97 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 114
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "home-benefits",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 119
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-benefits-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 120
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-benefits-half",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 121
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120
+          lineNumber: 122
         },
         __self: this
       }, "Lo que tiene valor para ti, tambi\xE9n lo tiene para nosotros"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121
+          lineNumber: 123
         },
         __self: this
       }, "Por eso a trav\xE9s de una compraventa con pacto de retroventa, podr\xE1s obtener dinero inmediato con tus art\xEDculos.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-benefits-half",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 125
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 126
         },
         __self: this
       }, "Beneficios"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 127
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126
+          lineNumber: 128
         },
         __self: this
       }, "Puedes recuperar tu art\xEDculo cuando lo decidas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127
+          lineNumber: 129
         },
         __self: this
       }, "No tienes que vender eso que tanto aprecias"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128
+          lineNumber: 130
         },
         __self: this
       }, "Puedes usar el mismo art\xEDculo las veces que quieras"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 131
         },
         __self: this
       }, "Sin tr\xE1mites demorados"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "home-products",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 137
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-products-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 138
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -8987,40 +8987,40 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 139
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138
+          lineNumber: 140
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "home-products-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139
+          lineNumber: 141
         },
         __self: this
       }, "Art\xEDculos que puedes convertir en Dinero Inmediato"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 141
+          lineNumber: 143
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-products-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142
+          lineNumber: 144
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-products-item-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143
+          lineNumber: 145
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9029,33 +9029,33 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 146
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 147
         },
         __self: this
       }, "Joyas de oro y plata")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147
+          lineNumber: 149
         },
         __self: this
       }, "La valorizaci\xF3n de tus joyas depende de caracter\xEDsticas como: el peso, estado de la joya, pureza del oro, (22k,18k, 14k, 10k etc)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-products-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150
+          lineNumber: 152
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-products-item-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 153
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9064,33 +9064,33 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 154
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153
+          lineNumber: 155
         },
         __self: this
       }, "Otros productos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 157
         },
         __self: this
       }, "Electrodom\xE9sticos, Herramientas, Tecnolog\xEDa, Bicicletas y m\xE1s.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-products-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 160
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-products-item-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 161
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9099,19 +9099,19 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 162
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 163
         },
         __self: this
       }, "Tu CDT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163
+          lineNumber: 165
         },
         __self: this
       }, "Puedes obtener el dinero de tu cdt antes de la fecha de vencimiento.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -9119,47 +9119,47 @@ function (_Component) {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 168
         },
         __self: this
       }, "Cotiza aqu\xED"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "home-contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 172
+          lineNumber: 174
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-contact-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173
+          lineNumber: 175
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 174
+          lineNumber: 176
         },
         __self: this
       }, "\xBFCuanto me dan por mis art\xEDculos?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 175
+          lineNumber: 177
         },
         __self: this
       }, "Ya no tienes que salir de casa para saber cu\xE1nto dinero puedes recibir por tu joya de oro, televisor o herramienta, ahora puedes hacerlo desde la comodidad de tu casa u oficina.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-contact-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 177
+          lineNumber: 179
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-contact-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 178
+          lineNumber: 180
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -9168,7 +9168,7 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 179
+          lineNumber: 181
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9176,20 +9176,20 @@ function (_Component) {
         alt: "Asesor\xEDa por Whatsapp",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 180
+          lineNumber: 182
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 181
+          lineNumber: 183
         },
         __self: this
       }, "Asesor\xEDa por Whatsapp"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-contact-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 184
+          lineNumber: 186
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -9197,7 +9197,7 @@ function (_Component) {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 185
+          lineNumber: 187
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9205,20 +9205,20 @@ function (_Component) {
         alt: "Cotizador en l\xEDnea",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 186
+          lineNumber: 188
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 187
+          lineNumber: 189
         },
         __self: this
       }, "Cotizador en l\xEDnea"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-contact-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 190
+          lineNumber: 192
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -9227,7 +9227,7 @@ function (_Component) {
         onClick: this.showModal,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 191
+          lineNumber: 193
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9235,48 +9235,48 @@ function (_Component) {
         alt: "Servicio a Domicilio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 192
+          lineNumber: 194
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 193
+          lineNumber: 195
         },
         __self: this
       }, "Servicio a Domicilio")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "home-choose",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 200
+          lineNumber: 202
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 201
+          lineNumber: 203
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "home-choose-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 202
+          lineNumber: 204
         },
         __self: this
       }, "Porque elegir a Compraventas Pactemos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-choose-list",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 204
+          lineNumber: 206
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-choose-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 205
+          lineNumber: 207
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9284,50 +9284,50 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 206
+          lineNumber: 208
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 207
+          lineNumber: 209
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 208
+          lineNumber: 210
         },
         __self: this
       }, "Por seguridad"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 209
+          lineNumber: 211
         },
         __self: this
       }, "Compraventas Pactemos es la \xFAnica empresa en Colombia en la que tus art\xEDculos son custodiados y guardados por una empresa de valores hasta que tu decidas regresar por ellas, eso te da la garant\xEDa de que tus joyas cuentan con un seguro sin generar costos adicionales."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-choose-item right",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 213
+          lineNumber: 215
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 214
+          lineNumber: 216
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 215
+          lineNumber: 217
         },
         __self: this
       }, "Personal calificado"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 216
+          lineNumber: 218
         },
         __self: this
       }, "Tenemos m\xE1s de 60 colaboradores capacitados para brindar un buen servicio y la mejor atenci\xF3n, adem\xE1s cuentan con amplios conocimientos y gran experiencia para valorar tus art\xEDculos de manera profesional.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9335,14 +9335,14 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 218
+          lineNumber: 220
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-choose-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 221
+          lineNumber: 223
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9350,50 +9350,50 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 222
+          lineNumber: 224
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 223
+          lineNumber: 225
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 224
+          lineNumber: 226
         },
         __self: this
       }, "Cuentas con mayor respaldo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 225
+          lineNumber: 227
         },
         __self: this
       }, "Somos una empresa en constante crecimiento, organizada y con procesos administrativos transparentes que permiten que nuestros clientes tengan total confianza a la hora de realizar sus transacciones."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-choose-item right",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 229
+          lineNumber: 231
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230
+          lineNumber: 232
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 231
+          lineNumber: 233
         },
         __self: this
       }, "Hacemos todo lo posible para que recupere su articulo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 232
+          lineNumber: 234
         },
         __self: this
       }, "Le avisamos por SMS, mail, llamadas telef\xF3nicas, whatsapp, o personalmente el tiempo de su art\xEDculo.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9401,28 +9401,28 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234
+          lineNumber: 236
         },
         __self: this
       }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 240
+          lineNumber: 242
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "home-products",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241
+          lineNumber: 243
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-products-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 242
+          lineNumber: 244
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -9431,75 +9431,75 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 243
+          lineNumber: 245
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 244
+          lineNumber: 246
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "home-products-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245
+          lineNumber: 247
         },
         __self: this
       }, "Adem\xE1s en compraventas pactemos podr\xE1s:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 246
+          lineNumber: 248
         },
         __self: this
       }, "Comprar lo que necesites, joyas de oro y plata, electrodom\xE9sticos, herramientas, tecnolog\xEDa, bicicletas y mucho m\xE1s."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 248
+          lineNumber: 250
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 249
+          lineNumber: 251
         },
         __self: this
       }, "\xBFPorque comprar en nuestras compraventas?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "home-servicios-list",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 250
+          lineNumber: 252
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 251
+          lineNumber: 253
         },
         __self: this
       }, "Nuestros art\xEDculos usados se venden con precios sorprendentes y lo mejor, con  ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 251
+          lineNumber: 253
         },
         __self: this
       }, "Garant\xEDa"), "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 252
+          lineNumber: 254
         },
         __self: this
       }, "Vendemos art\xEDculos totalmente nuevos con garant\xEDa."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 253
+          lineNumber: 255
         },
         __self: this
       }, "Te entregamos factura, as\xED que su compra es totalmente legal, en caso de alg\xFAn reclamo.")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 260
+          lineNumber: 262
         },
         __self: this
       }), this.state.visibleModal && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -9507,14 +9507,14 @@ function (_Component) {
         className: "modal",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 265
+          lineNumber: 267
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "modal-content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 266
+          lineNumber: 268
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -9522,13 +9522,13 @@ function (_Component) {
         className: "close",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 267
+          lineNumber: 269
         },
         __self: this
       }, "\xD7"), this.state.submited ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 272
+          lineNumber: 274
         },
         __self: this
       }, "La informaci\xF3n se envio a la CompraVenta.") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -9537,7 +9537,7 @@ function (_Component) {
         onSubmit: this.submit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 274
+          lineNumber: 276
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -9546,21 +9546,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 275
+          lineNumber: 277
         },
         __self: this
       }, "Completa tus datos personales"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 276
+          lineNumber: 278
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 277
+          lineNumber: 279
         },
         __self: this
       }, "Nombres y Apellidos *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9571,21 +9571,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 278
+          lineNumber: 280
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 285
+          lineNumber: 287
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 286
+          lineNumber: 288
         },
         __self: this
       }, "Celular *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9596,21 +9596,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 287
+          lineNumber: 289
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 294
+          lineNumber: 296
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 295
+          lineNumber: 297
         },
         __self: this
       }, "Correo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9620,21 +9620,21 @@ function (_Component) {
         name: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 296
+          lineNumber: 298
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 302
+          lineNumber: 304
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 303
+          lineNumber: 305
         },
         __self: this
       }, "\xBFCu\xE1nto necesita?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9644,21 +9644,21 @@ function (_Component) {
         name: "many",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 304
+          lineNumber: 306
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 310
+          lineNumber: 312
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 311
+          lineNumber: 313
         },
         __self: this
       }, "\xBFC\xF3mo nos contact\xF3? *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
@@ -9668,56 +9668,56 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 312
+          lineNumber: 314
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 318
+          lineNumber: 320
         },
         __self: this
       }, "Radio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Volantes",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 319
+          lineNumber: 321
         },
         __self: this
       }, "Volantes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Facebook",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 320
+          lineNumber: 322
         },
         __self: this
       }, "Facebook"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 321
+          lineNumber: 323
         },
         __self: this
       }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Google",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 322
+          lineNumber: 324
         },
         __self: this
       }, "Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Amigos",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 323
+          lineNumber: 325
         },
         __self: this
       }, "Amigos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 324
+          lineNumber: 326
         },
         __self: this
       }, "Otro"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -9725,7 +9725,7 @@ function (_Component) {
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 328
+          lineNumber: 330
         },
         __self: this
       }, "Enviar datos")))))));

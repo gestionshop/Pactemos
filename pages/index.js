@@ -58,11 +58,13 @@ class Home extends Component {
     this.setState({step})
   }
   render () {
+  
     const classStep = 'home-steps-circle'
     const classStepActive = 'home-steps-circle active'
     const {
       step,
     } = this.state
+
     return (
       <>
         <Head>
@@ -79,7 +81,7 @@ class Home extends Component {
               <a className="home-welcome-btn" href="/cotizar">Obtenlo aqui</a>
             </div>
           </section>
-
+        
           <div className="container">
 
             <section className="home-steps">
