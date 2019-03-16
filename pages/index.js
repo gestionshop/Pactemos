@@ -145,13 +145,13 @@ class Home extends Component {
                   </a>
                 </div>
                 <div className="home-contact-item">
-                  <a className="home-contact-link" href="/cotizar" target="_blank">
+                  <a className="home-contact-link" href="/cotizar">
                     <img src="/static/img/computer.svg" alt="Cotizador en línea" />
                     <span>Cotizador en línea</span>
                   </a>
                 </div>
                 <div className="home-contact-item">
-                  <a className="home-contact-link" href="#" target="_blank">
+                  <a className="home-contact-link" href="#" >
                     <img src="/static/img/hand.svg" alt="Servicio a Domicilio" />
                     <span>Servicio a Domicilio</span>
                   </a>

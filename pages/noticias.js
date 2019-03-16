@@ -15,7 +15,7 @@ class Sucursales extends Component {
           <Top />
           <div className="container">
             <section className="offices-header">
-              <h1>Noticias de Pactemos</h1>
+              <h1>Noticias</h1>
               <p>Revisa nuestras últimas novedades de nuestra empresa</p>
             </section>
 
