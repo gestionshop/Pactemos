@@ -11,11 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-<<<<<<< HEAD
 var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/components/Footer.js";
-=======
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Footer.js";
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
 
 
 var Footer = function Footer() {
@@ -254,12 +250,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-<<<<<<< HEAD
-var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/components/Top.js";
-=======
 /* harmony import */ var _pages_gracias__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/gracias */ "./pages/gracias.js");
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Top.js";
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
+var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/components/Top.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -284,10 +276,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
 var Top =
 /*#__PURE__*/
 function (_Component) {
@@ -348,25 +337,15 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
-<<<<<<< HEAD
       e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
       var url = 'https://gestionshop.co/api/pactemos/cotizacion';
-=======
-      e.preventDefault();
-      var url = 'https://gestionshohp.co/api/pactemos/cotizacion'; // const url = 'http://localhost:3001/api/pactemos/cotizacion'
-
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           submited: true
         });
       }).catch(function (error) {
-<<<<<<< HEAD
-        alert('Ocurrio un error y no se pudo enviar la información.');
-=======
         alert('Ocurrio un error y no se pudo enviar la información');
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         console.log('res error', error);
       });
     });
@@ -543,32 +522,20 @@ function (_Component) {
           lineNumber: 84
         },
         __self: this
-<<<<<<< HEAD
-      }, "\xD7"), this.state.submited ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-=======
       }, "\xD7"), this.state.submited ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_gracias__WEBPACK_IMPORTED_MODULE_2__["default"], {
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         __source: {
           fileName: _jsxFileName,
           lineNumber: 89
         },
         __self: this
-<<<<<<< HEAD
-      }, "La informaci\xF3n se envio a la CompraVenta.") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-=======
       }) // <p>La información se envio a la CompraVenta.</p>
       : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         name: "cotizacion",
         method: "POST",
         onSubmit: this.submit,
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 91
-=======
           lineNumber: 92
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -577,33 +544,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 92
-=======
           lineNumber: 93
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Completa tus datos personales"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 93
-=======
           lineNumber: 94
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 94
-=======
           lineNumber: 95
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Nombres y Apellidos *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -614,33 +569,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 95
-=======
           lineNumber: 96
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 102
-=======
           lineNumber: 103
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 103
-=======
           lineNumber: 104
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Celular *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -651,33 +594,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 104
-=======
           lineNumber: 105
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 111
-=======
           lineNumber: 112
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 112
-=======
           lineNumber: 113
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Correo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -687,33 +618,21 @@ function (_Component) {
         name: "email",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 113
-=======
           lineNumber: 114
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 119
-=======
           lineNumber: 120
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 120
-=======
           lineNumber: 121
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "\xBFCu\xE1nto necesita?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -723,33 +642,21 @@ function (_Component) {
         name: "many",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 121
-=======
           lineNumber: 122
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 127
-=======
           lineNumber: 128
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 128
-=======
           lineNumber: 129
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "\xBFC\xF3mo nos contact\xF3? *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
@@ -759,16 +666,6 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 129
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-        value: "Radio",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 135
-=======
           lineNumber: 130
         },
         __self: this
@@ -783,73 +680,48 @@ function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 137
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Radio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Volantes",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 136
-=======
           lineNumber: 138
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Volantes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Facebook",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 137
-=======
           lineNumber: 139
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Facebook"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Instagram",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 138
-=======
           lineNumber: 140
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Google",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 139
-=======
           lineNumber: 141
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Amigos",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 140
-=======
           lineNumber: 142
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Amigos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 141
-=======
           lineNumber: 143
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Otro"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -857,11 +729,7 @@ function (_Component) {
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 145
-=======
           lineNumber: 147
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Enviar datos")))));
@@ -8664,8 +8532,6 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-<<<<<<< HEAD
-=======
 /***/ "./pages/gracias.js":
 /*!**************************!*\
   !*** ./pages/gracias.js ***!
@@ -8677,7 +8543,7 @@ module.exports = function(originalModule) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/pages/gracias.js";
+var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/pages/gracias.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -8774,7 +8640,6 @@ function (_Component) {
 
 /***/ }),
 
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -8792,12 +8657,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
-<<<<<<< HEAD
-var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/pages/index.js";
-=======
 /* harmony import */ var _gracias__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./gracias */ "./pages/gracias.js");
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/pages/index.js";
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
+var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -8825,10 +8686,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
 var Home =
 /*#__PURE__*/
 function (_Component) {
@@ -8884,15 +8742,9 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
-<<<<<<< HEAD
       e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
       var url = 'https://gestionshop.co/api/pactemos/cotizacion';
-=======
-      e.preventDefault();
-      var url = 'https://gestionshop.co/api/pactemos/cotizacion'; // const url = 'http://localhost:3001/api/pactemos/cotizacion'
-
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
       axios__WEBPACK_IMPORTED_MODULE_4___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           submited: true
@@ -9794,32 +9646,20 @@ function (_Component) {
           lineNumber: 270
         },
         __self: this
-<<<<<<< HEAD
-      }, "\xD7"), this.state.submited ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-=======
       }, "\xD7"), this.state.submited ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_gracias__WEBPACK_IMPORTED_MODULE_5__["default"], {
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         __source: {
           fileName: _jsxFileName,
           lineNumber: 275
         },
         __self: this
-<<<<<<< HEAD
-      }, "La informaci\xF3n se envio a la CompraVenta.") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-=======
       }) // <p>La información se envio a la CompraVenta.</p>
       : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         name: "cotizacion",
         method: "POST",
         onSubmit: this.submit,
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 277
-=======
           lineNumber: 278
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -9828,33 +9668,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 278
-=======
           lineNumber: 279
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Completa tus datos personales"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 279
-=======
           lineNumber: 280
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 280
-=======
           lineNumber: 281
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Nombres y Apellidos *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9865,33 +9693,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 281
-=======
           lineNumber: 282
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 288
-=======
           lineNumber: 289
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 289
-=======
           lineNumber: 290
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Celular *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9902,33 +9718,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 290
-=======
           lineNumber: 291
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 297
-=======
           lineNumber: 298
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 298
-=======
           lineNumber: 299
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Correo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9938,33 +9742,21 @@ function (_Component) {
         name: "email",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 299
-=======
           lineNumber: 300
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 305
-=======
           lineNumber: 306
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 306
-=======
           lineNumber: 307
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "\xBFCu\xE1nto necesita?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9974,33 +9766,21 @@ function (_Component) {
         name: "many",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 307
-=======
           lineNumber: 308
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 313
-=======
           lineNumber: 314
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 314
-=======
           lineNumber: 315
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "\xBFC\xF3mo nos contact\xF3? *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
@@ -10010,16 +9790,6 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 315
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-        value: "Radio",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 321
-=======
           lineNumber: 316
         },
         __self: this
@@ -10034,73 +9804,48 @@ function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 323
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Radio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Volantes",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 322
-=======
           lineNumber: 324
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Volantes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Facebook",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 323
-=======
           lineNumber: 325
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Facebook"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Instagram",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 324
-=======
           lineNumber: 326
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Google",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 325
-=======
           lineNumber: 327
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Amigos",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 326
-=======
           lineNumber: 328
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Amigos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 327
-=======
           lineNumber: 329
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Otro"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -10108,11 +9853,7 @@ function (_Component) {
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
-<<<<<<< HEAD
-          lineNumber: 331
-=======
           lineNumber: 333
->>>>>>> 2db11b04e4587c079a6a579ac76e9a2795d55b69
         },
         __self: this
       }, "Enviar datos")))))));
