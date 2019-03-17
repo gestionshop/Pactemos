@@ -41,7 +41,7 @@ class Top extends Component {
     axios.post(url, this.state).then(res => {
       this.setState({ submited: true })
     }).catch(error => {
-      alert('Ocurrio un error y no se pudo enviar la información.')
+      alert('Ocurrio un error y no se pudo enviar la información')
       console.log('res error', error)
     })
   }
