@@ -337,9 +337,9 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
-      e.preventDefault();
-      var url = 'https://gestionshohp.co/api/pactemos/cotizacion'; // const url = 'http://localhost:3001/api/pactemos/cotizacion'
+      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
+      var url = 'https://gestionshop.co/api/pactemos/cotizacion';
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           submited: true
@@ -8742,9 +8742,9 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
-      e.preventDefault();
-      var url = 'https://gestionshop.co/api/pactemos/cotizacion'; // const url = 'http://localhost:3001/api/pactemos/cotizacion'
+      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
+      var url = 'https://gestionshop.co/api/pactemos/cotizacion';
       axios__WEBPACK_IMPORTED_MODULE_4___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           submited: true

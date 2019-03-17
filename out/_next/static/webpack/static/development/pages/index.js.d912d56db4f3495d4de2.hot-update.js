@@ -101,7 +101,7 @@ function (_Component) {
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
       e.preventDefault();
-      var url = 'https://gestionshohp.co/api/pactemos/cotizacion'; // const url = 'http://localhost:3001/api/pactemos/cotizacion'
+      var url = 'http://localhost:3001/api/pactemos/cotizacion'; // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
 
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
@@ -507,4 +507,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.fd24aee7e093cee43bd2.hot-update.js.map
+//# sourceMappingURL=index.js.d912d56db4f3495d4de2.hot-update.js.map
