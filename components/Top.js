@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-
+import Thanks from '../pages/gracias'
 
 class Top extends Component {
   state = {
@@ -85,7 +85,8 @@ class Top extends Component {
               {
                 this.state.submited
                 ?
-                <p>La información se envio a la CompraVenta.</p>
+                <Thanks/>
+                // <p>La información se envio a la CompraVenta.</p>
                 :
                 <form name="cotizacion" method="POST" onSubmit={ this.submit }>
                   <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
@@ -131,6 +132,7 @@ class Top extends Component {
                       onChange={ this.onChangeSelect }
                       required
                     >
+                      <option></option>
                       <option value="Radio">Radio</option>
                       <option value="Volantes">Volantes</option>
                       <option value="Facebook">Facebook</option>

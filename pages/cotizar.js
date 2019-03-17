@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Top from '../components/Top';
 import axios from 'axios';
 import Footer from '../components/Footer'
+import Thanks from './gracias'
 import * as funtions from '../funciones/funciones';
 
 
@@ -211,6 +212,7 @@ class Cotizar extends Component {
   submit = (e) => {
     e.preventDefault()
 
+    // const url = 'http://gestionshop.co/api/pactemos/cotizacion'
     const url = 'http://localhost:3001/api/pactemos/cotizacion'
     axios.post(url, this.state).then(res => {
       this.setState({ visible: false, submited: true })
@@ -232,16 +234,17 @@ class Cotizar extends Component {
           {
             this.state.submited
             ?
-            <div className="container">
-              <div style={{
-                margin: 30,
-                textAlign: 'center',
-                fontSize: 18,
-              }}>
-                <h1>¡YA ESTÁ EN PROCESO TU SOLICITUD!</h1>
-                <p>Uno de nuestros asesores se comunicará contigo para confirmar el valor que podrás recibir por tu artículo</p>
-              </div>
-            </div>
+            <Thanks/>
+            // <div className="container">
+            //   <div style={{
+            //     margin: 30,
+            //     textAlign: 'center',
+            //     fontSize: 18,
+            //   }}>
+            //     <h1>¡YA ESTÁ EN PROCESO TU SOLICITUD!</h1>
+            //     <p>Uno de nuestros asesores se comunicará contigo para confirmar el valor que podrás recibir por tu artículo</p>
+            //   </div>
+            // </div>
             :
             <div className="container">
               <section className="offices-header">
@@ -336,10 +339,10 @@ class Cotizar extends Component {
                         required
                       >
                         <option>Selecciona un electrodoméstico</option>
-                        <option value="Taladro">Televisor</option>
-                        <option value="Pulidora">Nevera</option>
-                        <option value="Caladora">Estufa</option>
-                        <option value="Trozadora">Equipo de Sonido</option>
+                        <option value="Televisor">Televisor</option>
+                        <option value="Nevera">Nevera</option>
+                        <option value="Estufa">Estufa</option>
+                        <option value="Equipo de Sonido">Equipo de Sonido</option>
                         <option value="Otro">Otros</option>
                       </select>
                     </div>
@@ -361,8 +364,8 @@ class Cotizar extends Component {
                         required
                       >
                         <option>Selecciona un articulo</option>
-                        <option value="Taladro">Portatil</option>
-                        <option value="Pulidora">Tablet</option>
+                        <option value="Portatil">Portatil</option>
+                        <option value="Tablet">Tablet</option>
                         <option value="Otro">Otros</option>
                       </select>
                     </div>
@@ -730,7 +733,7 @@ class Cotizar extends Component {
                             onChange={ this.onChangeSelect }
                             required
                           >
-                            {/* <option>Seleccionar uno</option> */}
+                            <option></option>
                             <option value="Radio">Radio</option>
                             <option value="Volantes">Volantes</option>
                             <option value="Facebook">Facebook</option>
