@@ -143,9 +143,13 @@ class Cotizar extends Component {
 
   selectCategory = (category) => {
     this.setState({
-      category,
-      weight: undefined,
-      value: undefined,
+      category: null,
+    }, () => {
+      this.setState({
+        category,
+        weight: undefined,
+        value: undefined,
+      })
     })
   }
 
@@ -153,13 +157,11 @@ class Cotizar extends Component {
     const name = e.target.name
     const value = e.target.value
 
-    if (this.state.type.name === 'Joyería') {
+    if (this.state.type.name === 'Joyería' && name === 'weight') {
       this.setState({
         [name]: value,
         value: value*this.state.category.value,
       })
-      console.log('valor',this.state.value)
-      console.log('categoria',this.state.category.value)
     } else {
       this.setState({
         [name]: value,
@@ -235,16 +237,6 @@ class Cotizar extends Component {
             this.state.submited
             ?
             <Thanks/>
-            // <div className="container">
-            //   <div style={{
-            //     margin: 30,
-            //     textAlign: 'center',
-            //     fontSize: 18,
-            //   }}>
-            //     <h1>¡YA ESTÁ EN PROCESO TU SOLICITUD!</h1>
-            //     <p>Uno de nuestros asesores se comunicará contigo para confirmar el valor que podrás recibir por tu artículo</p>
-            //   </div>
-            // </div>
             :
             <div className="container">
               <section className="offices-header">
@@ -733,7 +725,7 @@ class Cotizar extends Component {
                             onChange={ this.onChangeSelect }
                             required
                           >
-                            <option></option>
+                            <option>Seleccionar una</option>
                             <option value="Radio">Radio</option>
                             <option value="Volantes">Volantes</option>
                             <option value="Facebook">Facebook</option>

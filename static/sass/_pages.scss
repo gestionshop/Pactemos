@@ -259,6 +259,7 @@
 .cotizar-select {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 1rem;
 }
@@ -366,6 +367,7 @@
 }
 .Footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: 20px 0 0 0;
   padding: 1rem;
@@ -375,6 +377,10 @@
 .Footer-link {
   display: inline-block;
   margin-left: 5px;
+  margin-top: 10px;
+  &:nth-child(1) {
+    margin-left: 0;
+  }
 }
 .Footer-info {
   display: flex;
@@ -517,5 +523,11 @@
   }
   .Footer-info {
     flex-direction: row;
+  }
+  .Footer {
+    flex-direction: row;
+  }
+  .Footer-link {
+    margin-top: 0;
   }
 }

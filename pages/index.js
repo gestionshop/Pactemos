@@ -319,7 +319,7 @@ class Home extends Component {
                           onChange={ this.onChangeSelect }
                           required
                         >
-                          <option></option>
+                          <option>Seleccionar</option>
                           <option value="Radio">Radio</option>
                           <option value="Volantes">Volantes</option>
                           <option value="Facebook">Facebook</option>
