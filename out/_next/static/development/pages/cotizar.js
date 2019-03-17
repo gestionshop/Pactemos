@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/components/Footer.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Footer.js";
 
 
 var Footer = function Footer() {
@@ -251,7 +251,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _pages_gracias__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/gracias */ "./pages/gracias.js");
-var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/components/Top.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Top.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -337,9 +337,9 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
-      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
+      e.preventDefault();
+      var url = 'http://localhost:3001/api/pactemos/cotizacion'; // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
 
-      var url = 'https://gestionshop.co/api/pactemos/cotizacion';
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           submited: true
@@ -675,7 +675,7 @@ function (_Component) {
           lineNumber: 136
         },
         __self: this
-      }, "Seleccionar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Radio",
         __source: {
           fileName: _jsxFileName,
@@ -8587,7 +8587,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 /* harmony import */ var _gracias__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./gracias */ "./pages/gracias.js");
 /* harmony import */ var _funciones_funciones__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../funciones/funciones */ "./funciones/funciones.js");
-var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/pages/cotizar.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/pages/cotizar.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -8818,9 +8818,9 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
-      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
+      e.preventDefault();
+      var url = 'http://localhost:3001/api/pactemos/cotizacion'; // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
 
-      var url = 'https://gestionshop.co/api/pactemos/cotizacion';
       axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           visible: false,
@@ -9943,6 +9943,7 @@ function (_Component) {
         className: "input",
         onChange: this.onChangeSelect,
         required: true,
+        placeholder: "Seleccione una opcion",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 722
@@ -9951,56 +9952,56 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 728
+          lineNumber: 729
         },
         __self: this
-      }, "Seleccionar una"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 729
+          lineNumber: 730
         },
         __self: this
       }, "Radio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Volantes",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 730
+          lineNumber: 731
         },
         __self: this
       }, "Volantes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Facebook",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 731
+          lineNumber: 732
         },
         __self: this
       }, "Facebook"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 732
+          lineNumber: 733
         },
         __self: this
       }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Google",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 733
+          lineNumber: 734
         },
         __self: this
       }, "Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Amigos",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 734
+          lineNumber: 735
         },
         __self: this
       }, "Amigos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 735
+          lineNumber: 736
         },
         __self: this
       }, "Otro"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -10008,20 +10009,20 @@ function (_Component) {
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 739
+          lineNumber: 740
         },
         __self: this
       }, "Enviar datos"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 750
+          lineNumber: 751
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 751
+          lineNumber: 752
         },
         __self: this
       })));
@@ -10065,7 +10066,7 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/edwinpgm/Sites/Pactemos/pages/gracias.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/pages/gracias.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 

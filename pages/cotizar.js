@@ -214,8 +214,8 @@ class Cotizar extends Component {
   submit = (e) => {
     e.preventDefault()
 
-    // const url = 'http://localhost:3001/api/pactemos/cotizacion'
-    const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+    const url = 'http://localhost:3001/api/pactemos/cotizacion'
+    // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
     axios.post(url, this.state).then(res => {
       this.setState({ visible: false, submited: true })
     }).catch(error => {
@@ -724,8 +724,9 @@ class Cotizar extends Component {
                             className="input"
                             onChange={ this.onChangeSelect }
                             required
+                            placeholder = "Seleccione una opcion"
                           >
-                            <option>Seleccionar una</option>
+                            <option></option>
                             <option value="Radio">Radio</option>
                             <option value="Volantes">Volantes</option>
                             <option value="Facebook">Facebook</option>

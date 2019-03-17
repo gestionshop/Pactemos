@@ -46,8 +46,8 @@ class Home extends Component {
   submit = (e) => {
     e.preventDefault()
 
-    // const url = 'http://localhost:3001/api/pactemos/cotizacion'
-    const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+    const url = 'http://localhost:3001/api/pactemos/cotizacion'
+    // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
     axios.post(url, this.state).then(res => {
       this.setState({ submited: true })
     }).catch(error => {
@@ -319,7 +319,7 @@ class Home extends Component {
                           onChange={ this.onChangeSelect }
                           required
                         >
-                          <option>Seleccionar</option>
+                          <option></option>
                           <option value="Radio">Radio</option>
                           <option value="Volantes">Volantes</option>
                           <option value="Facebook">Facebook</option>
