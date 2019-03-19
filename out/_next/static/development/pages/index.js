@@ -337,9 +337,9 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
-      e.preventDefault();
-      var url = 'http://localhost:3001/api/pactemos/cotizacion'; // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
+      var url = 'https://gestionshop.co/api/pactemos/cotizacion';
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           submited: true
@@ -8610,7 +8610,13 @@ function (_Component) {
           lineNumber: 16
         },
         __self: this
-      }, "En minutos recibir\xE1s la llamada de uno de nuestros asesores"))));
+      }, "En minutos recibir\xE1s la llamada de uno de nuestros asesores"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, "\xA1En COMPRAVENTAS PACTEMOS estamos para servirTE!"))));
     }
   }]);
 
@@ -9886,7 +9892,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -9911,5 +9917,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map

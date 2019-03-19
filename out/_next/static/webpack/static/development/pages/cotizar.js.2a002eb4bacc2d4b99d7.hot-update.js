@@ -78,7 +78,13 @@ function (_Component) {
           lineNumber: 16
         },
         __self: this
-      }, "En minutos recibir\xE1s la llamada de uno de nuestros asesores"))));
+      }, "En minutos recibir\xE1s la llamada de uno de nuestros asesores"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, "\xA1En COMPRAVENTAS PACTEMOS estamos para servirTE!"))));
     }
   }]);
 
@@ -109,4 +115,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=cotizar.js.b124b12e1893d500d32a.hot-update.js.map
+//# sourceMappingURL=cotizar.js.2a002eb4bacc2d4b99d7.hot-update.js.map

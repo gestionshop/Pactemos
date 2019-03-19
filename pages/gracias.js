@@ -14,6 +14,7 @@ class Thanks extends Component {
                 }}>
               <h2>¡YA ESTÁ EN PROCESO TU SOLICITUD!</h2>
               <p>En minutos recibirás la llamada de uno de nuestros asesores</p>
+              <p>¡En COMPRAVENTAS PACTEMOS estamos para servirTE!</p>
             </div>
           </div>
       </>
