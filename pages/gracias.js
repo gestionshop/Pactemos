@@ -13,7 +13,7 @@ class Thanks extends Component {
                   fontSize: 18,
                 }}>
               <h2>¡YA ESTÁ EN PROCESO TU SOLICITUD!</h2>
-              <p>Uno de nuestros asesores se comunicará contigo para confirmar el valor que podrás recibir por tu artículo</p>
+              <p>En minutos recibirás la llamada de uno de nuestros asesores</p>
             </div>
           </div>
       </>

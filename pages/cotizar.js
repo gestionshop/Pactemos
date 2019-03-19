@@ -236,7 +236,7 @@ class Cotizar extends Component {
           {
             this.state.submited
             ?
-            <Thanks/>
+            <Thanks />
             :
             <div className="container">
               <section className="offices-header">

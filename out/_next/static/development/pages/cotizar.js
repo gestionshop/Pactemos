@@ -8818,9 +8818,9 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
-      e.preventDefault();
-      var url = 'http://localhost:3001/api/pactemos/cotizacion'; // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
+      var url = 'https://gestionshop.co/api/pactemos/cotizacion';
       axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           visible: false,
@@ -10133,7 +10133,7 @@ function (_Component) {
           lineNumber: 16
         },
         __self: this
-      }, "Uno de nuestros asesores se comunicar\xE1 contigo para confirmar el valor que podr\xE1s recibir por tu art\xEDculo"))));
+      }, "En minutos recibir\xE1s la llamada de uno de nuestros asesores"))));
     }
   }]);
 
