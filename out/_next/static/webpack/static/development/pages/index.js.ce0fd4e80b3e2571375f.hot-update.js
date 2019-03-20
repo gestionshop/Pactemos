@@ -1,4 +1,4 @@
-webpackHotUpdate("static/development/pages/cotizar.js",{
+webpackHotUpdate("static/development/pages/index.js",{
 
 /***/ "./components/Top.js":
 /*!***************************!*\
@@ -507,4 +507,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=cotizar.js.0e29b3f64500cafe23d1.hot-update.js.map
+//# sourceMappingURL=index.js.ce0fd4e80b3e2571375f.hot-update.js.map
