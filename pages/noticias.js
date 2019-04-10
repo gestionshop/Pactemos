@@ -41,13 +41,13 @@ class Sucursales extends Component {
                 </div>
               </article>
             
-              <article className="news-item">
+              {/* <article className="news-item">
                 <img src="https://picsum.photos/600/300/?gravity=east" alt="Noticia img"/>
                 <div>
-                  <h2>Noticia importante </h2>
+                  <h2>Noticia importante</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vel beatae, quia nam quisquam sequi quibusdam adipisci non neque! Blanditiis nisi iste doloribus placeat natus. Adipisci, nostrum nam. Temporibus, eaque?</p>
                 </div>
-              </article>
+              </article> */}
             </section>
             <Footer />
           </div>
