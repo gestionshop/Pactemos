@@ -113,6 +113,7 @@ class Cotizar extends Component {
     value: undefined,
     visible: false,
     submited: false,
+    files: [],
   }
 
   showModal = () => {
@@ -219,13 +220,37 @@ class Cotizar extends Component {
   submit = (e) => {
     e.preventDefault()
 
-    // const url = 'http://localhost:3001/api/pactemos/cotizacion'
-    const url = 'https://gestionshop.co/api/pactemos/cotizacion'
-    axios.post(url, this.state).then(res => {
+    const url = 'http://localhost:3001/api/pactemos/cotizacion'
+    // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+    // axios.post(url, this.state).then(res => {
+    //   this.setState({ visible: false, submited: true })
+    // }).catch(error => {
+    //   alert('Ocurrio un error y no se pudo enviar la cotización.')
+    //   console.log('res error', error)
+    // })
+
+    let formData = new FormData()
+    for( var i = 0; i < this.state.files.length; i++ ){
+      let file = this.state.files[i]
+      formData.append('files[' + i + ']', file)
+    }
+    formData.append('data', JSON.stringify(this.state))
+    
+    axios.post(url,
+      formData,
+      {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      }
+    ).then(res => {
       this.setState({ visible: false, submited: true })
-    }).catch(error => {
-      alert('Ocurrio un error y no se pudo enviar la cotización.')
-      console.log('res error', error)
+    })
+  }
+
+  onDrop = (files) => {
+    this.setState({
+      files,
     })
   }
 
