@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
 import Top from '../components/Top';
 import axios from 'axios';
 import Footer from '../components/Footer'
 import Thanks from './gracias'
 import * as funtions from '../funciones/funciones';
 
+
+const Dropzone = dynamic(import('react-dropzone'), {
+  ssr: false,
+});
 
 const data = [
   {
@@ -242,6 +247,25 @@ class Cotizar extends Component {
               <section className="offices-header">
                 <h1>Cotizador en línea</h1>
                 <p>Rellene los campos y recuerde que la información personal la utilizaremos para confirmarle cuánto dinero le damos por su artículo</p>
+
+                <Dropzone onDrop={this.onDrop} multiple={false}>
+                  {({getRootProps, getInputProps}) => (
+                    <section>
+                      <div {...getRootProps()}>
+                        <input {...getInputProps()} />
+                        <div style={{
+                          margin: '30px 0 10px 0',
+                          padding: 30,
+                          color: '#aaa',
+                          textAlign: 'center',
+                          border: '1px dashed #ccc',
+                        }}>
+                          <span>Arrastra la imagen o clic para elegir</span>
+                        </div>
+                      </div>
+                    </section>
+                  )}
+                </Dropzone>
 
                 <div className="cotizar-select">
                   {
