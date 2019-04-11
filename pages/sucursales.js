@@ -38,7 +38,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 679900</span><br/>
                     <span>Whatsapp: (300) 7820709</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678351597" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678351597" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
                 <article className="offices-item">
@@ -48,7 +48,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6641747</span><br/>
                     <span>Whatsapp: (301) 4591953</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.9438841859064!2d-75.54726288520233!3d10.426027892559857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336734bcab%3A0x80fb1c0a483159fc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678599400" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.9438841859064!2d-75.54726288520233!3d10.426027892559857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336734bcab%3A0x80fb1c0a483159fc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678599400" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -58,7 +58,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6602108</span><br/>
                     <span>Whatsapp: (301) 3427401</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31391.53792661738!2d-75.5588053!3d10.4261583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9e98238177%3A0xe738cc01ffab19d!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1551970686506" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31391.53792661738!2d-75.5588053!3d10.4261583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9e98238177%3A0xe738cc01ffab19d!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1551970686506" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -68,7 +68,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6643639</span><br/>
                     <span>Whatsapp: (301) 5641900</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678758676" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678758676" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
                 <article className="offices-item">
@@ -78,7 +78,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6602165</span><br/>
                     <span>Whatsapp: (301) 3427402</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d980.9932095654385!2d-75.5499182!3d10.42373!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac2a1efd5a816337!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334238857" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d980.9932095654385!2d-75.5499182!3d10.42373!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac2a1efd5a816337!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334238857" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -88,7 +88,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6642182</span><br/>
                     <span>Whatsapp: (301) 4690899</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.975917491086!2d-75.55167528520231!3d10.423485592561649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd85ca545176562b9!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334285429" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.975917491086!2d-75.55167528520231!3d10.423485592561649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd85ca545176562b9!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334285429" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -98,7 +98,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6722307</span><br/>
                     <span>Whatsapp: (301) 5641662</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15696.435195677646!2d-75.5319144!3d10.412933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336739ee27%3A0xe004f300461b33f5!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685706336" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15696.435195677646!2d-75.5319144!3d10.412933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336739ee27%3A0xe004f300461b33f5!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685706336" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -108,7 +108,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6510864</span><br/>
                     <span>Whatsapp: (301) 5743072</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62793.386460644135!2d-75.5196553502831!3d10.37489710418542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6243d5ad04cb9%3A0x447ed1d5cc8838d1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685997994" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62793.386460644135!2d-75.5196553502831!3d10.37489710418542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6243d5ad04cb9%3A0x447ed1d5cc8838d1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685997994" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -118,7 +118,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6567398</span><br/>
                     <span>Whatsapp: (301) 5641898</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.316602453616!2d-75.49634278520185!3d10.475688692526003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6dc9239c51bf628!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686118622" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.316602453616!2d-75.49634278520185!3d10.475688692526003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6dc9239c51bf628!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686118622" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
                 <article className="offices-item">
@@ -128,7 +128,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6525986</span><br/>
                     <span>Whatsapp: (301) 5371045</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.187033103457!2d-75.45656518520244!3d10.406715192573053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f3ddd534608a617!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686260599" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.187033103457!2d-75.45656518520244!3d10.406715192573053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f3ddd534608a617!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686260599" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -138,7 +138,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6556703</span><br/>
                     <span>Whatsapp: (300) 3624794</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.153038568312!2d-75.4133455852031!3d10.329635092625642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef621201fd2b38f%3A0xd3322370741e7037!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686340612" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.153038568312!2d-75.4133455852031!3d10.329635092625642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef621201fd2b38f%3A0xd3322370741e7037!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686340612" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -148,7 +148,7 @@ class Sucursales extends Component {
                     {/* <span>Teléfono: (57) (5) 6601479</span><br/> */}
                     <span>Whatsapp: (300) 5371641</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.737488074561!2d-75.37505958520211!3d10.442393692548684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50bda012238516e6!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686568316" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.737488074561!2d-75.37505958520211!3d10.442393692548684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50bda012238516e6!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686568316" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
               </div>
@@ -165,7 +165,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 4230982</span><br/>
                     <span>Whatsapp: (301) 4690898</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2956707198887!2d-74.21331748519506!3d11.239646492008227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f6e47c110cbfe8e!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686996394" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2956707198887!2d-74.21331748519506!3d11.239646492008227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f6e47c110cbfe8e!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686996394" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
                 <article className="offices-item">
@@ -175,7 +175,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 4235885</span><br/>
                     <span>Whatsapp: (300) 3427387</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.280309546607!2d-74.21315948519509!3d11.240778192007443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a2c8b1df5ce81f!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687087695" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.280309546607!2d-74.21315948519509!3d11.240778192007443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a2c8b1df5ce81f!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687087695" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
                 <article className="offices-item">
@@ -185,7 +185,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 4227033</span><br/>
                     <span>Whatsapp: (301) 4591962</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.2843219031215!2d-74.1851218017892!3d11.217330699060529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85addced21a4077b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687212249" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.2843219031215!2d-74.1851218017892!3d11.217330699060529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85addced21a4077b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687212249" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
                 <article className="offices-item">
@@ -195,7 +195,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 4335584</span><br/>
                     <span>Whatsapp: (302) 2354964</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.3693103837036!2d-74.18024168519506!3d11.234219692011902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9502c4bc05dd012b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687299501" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.3693103837036!2d-74.18024168519506!3d11.234219692011902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9502c4bc05dd012b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687299501" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
                 <article className="offices-item">
@@ -205,7 +205,7 @@ class Sucursales extends Component {
                     {/* <span>Teléfono: (57) (5) 6602165</span><br/> */}
                     <span>Whatsapp: (301) 5182136</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31306.821438336814!2d-74.1914037844727!3d11.235445492707479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f50509742b69%3A0x70dcf32fd507edfc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687408283" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31306.821438336814!2d-74.1914037844727!3d11.235445492707479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f50509742b69%3A0x70dcf32fd507edfc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687408283" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 
@@ -216,7 +216,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 4223031</span><br/>
                     <span>Whatsapp: (300) 3427389</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.782486285229!2d-74.22803368519541!3d11.20372299203245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f55792c3773%3A0xf297fd92c7ec589!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1551971258960" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.782486285229!2d-74.22803368519541!3d11.20372299203245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f55792c3773%3A0xf297fd92c7ec589!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1551971258960" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
               </div>
             </section>
@@ -232,7 +232,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 8783266</span><br/>
                     <span>Whatsapp: (301) 4690900</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.3240711754543!2d-74.92180648520049!3d10.631912492419694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x639e96966faedc13!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687625791" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.3240711754543!2d-74.92180648520049!3d10.631912492419694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x639e96966faedc13!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687625791" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
                 <article className="offices-item">
@@ -242,7 +242,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 8780844</span><br/>
                     <span>Whatsapp: (300) 3427390</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.320161577322!2d-74.9218880852005!3d10.63221679241953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5de3543be7879%3A0xa7b0a4514b66adc1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687728972" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.320161577322!2d-74.9218880852005!3d10.63221679241953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5de3543be7879%3A0xa7b0a4514b66adc1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687728972" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
               </div>
@@ -259,7 +259,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 8789116</span><br/>
                     <span>Whatsapp: (301) 4690917</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2076397095116!2d-74.91727868519912!3d10.795402992308668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde4ef80f7d4b722d!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687835364" width="100%" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2076397095116!2d-74.91727868519912!3d10.795402992308668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde4ef80f7d4b722d!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687835364" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
                 
               </div>

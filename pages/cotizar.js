@@ -241,10 +241,15 @@ class Cotizar extends Component {
     })
   }
 
-  onDrop = (files) => {
-    this.setState({
-      files,
-    })
+  onDrop = (newFiles) => {
+    let { files } = this.state
+    files = files.concat(newFiles)
+    this.setState({ files })
+  }
+
+  deleteFiles = (e) => {
+    e.preventDefault()
+    this.setState({ files: [] })
   }
 
   render () {
@@ -256,568 +261,569 @@ class Cotizar extends Component {
         <div className="cotizar">
           <Top />
           <img className="cover" src="/static/img/cover-cotizar.png" alt=""/>
-          {
-            this.state.submited
-            ?
-            <Thanks />
-            :
-            <div className="container">
-              <section className="offices-header">
-                <h1>Cotizador en línea</h1>
-                <p>Rellene los campos y recuerde que la información personal la utilizaremos para confirmarle cuánto dinero le damos por su artículo</p>
+          <div className="container">
+            <section className="offices-header">
+              <h1>Cotizador en línea</h1>
+              <p>Rellene los campos y recuerde que la información personal la utilizaremos para confirmarle cuánto dinero le damos por su artículo</p>
 
-                <Dropzone onDrop={this.onDrop} multiple={false}>
-                  {({getRootProps, getInputProps, isDragActive}) => (
-                    <section style={{
-                      margin: '30px 0 10px 0',
-                    }}>
-                      <p style={{
+              <Dropzone onDrop={this.onDrop} multiple={false}>
+                {({getRootProps, getInputProps, isDragActive}) => (
+                  <section style={{
+                    margin: '30px 0 10px 0',
+                  }}>
+                    <p style={{
+                      textAlign: 'left',
+                      fontSize: 14,
+                    }}><strong>Agregar imagen</strong> (opcional)</p>
+                    <div {...getRootProps()}>
+                      <input {...getInputProps()} />
+                      <div style={{
+                        padding: 30,
+                        color: '#aaa',
+                        textAlign: 'center',
+                        border: '1px dashed #ccc',
+                      }}>
+                        {
+                          isDragActive
+                          ?
+                          <span>Soltar archivo</span>
+                          :
+                          <span>Arrastra la imagen o clic para elegir</span>
+                        }
+                      </div>
+                    </div>
+                    {
+                      this.state.files
+                      &&
+                      this.state.files.length > 0
+                      &&
+                      <div style={{
+                        marginTop: 10,
+                        padding: '10px 20px',
                         textAlign: 'left',
                         fontSize: 14,
-                      }}><strong>Agregar imagen</strong> (opcional)</p>
-                      <div {...getRootProps()}>
-                        <input {...getInputProps()} />
-                        <div style={{
-                          padding: 30,
-                          color: '#aaa',
-                          textAlign: 'center',
-                          border: '1px dashed #ccc',
-                        }}>
-                          {
-                            isDragActive
-                            ?
-                            <span>Soltar archivo</span>
-                            :
-                            <span>Arrastra la imagen o clic para elegir</span>
-                          }
-                        </div>
-                      </div>
-                      {
-                        this.state.files
-                        &&
-                        this.state.files.length > 0
-                        &&
-                        <div style={{
-                          marginTop: 10,
-                          padding: '10px 20px',
-                          textAlign: 'left',
-                          fontSize: 14,
-                          backgroundColor: '#f3f0ee',
-                          borderRadius: 4,
-                        }}>
-                          <h4>Archivo seleccionado</h4>
-                          {
-                            this.state.files.map(item => <li>{ item.name }</li>)
-                          }
-                        </div>
-                      }
-                    </section>
-                  )}
-                </Dropzone>
+                        backgroundColor: '#f3f0ee',
+                        borderRadius: 4,
+                      }}>
+                        <h4>Archivo seleccionado</h4>
+                        {
+                          this.state.files.map(item => <li>{ item.name }</li>)
+                        }
 
+                        <a href="#" onClick={ this.deleteFiles } style={{
+                          display: 'block',
+                          marginTop: 10,
+                          fontSize: 13,
+                          color: '#555',
+                        }}>Borrar archivos seleccionados</a>
+                      </div>
+                    }
+                  </section>
+                )}
+              </Dropzone>
+
+              <div className="cotizar-select">
+                {
+                  data.map(item => <div
+                    onClick={ () => this.selectType(item) }
+                    className={`cotizar-select-item ${ this.state.type && item.name === this.state.type.name ? 'active' : '' }`}>
+                    <span>{ item.name }</span>
+                  </div>)
+                }
+              </div>
+              
+              {
+                this.state.type
+                &&
+                (this.state.type.name === 'Joyería' || this.state.type.name === 'Artículos')
+                &&
                 <div className="cotizar-select">
                   {
-                    data.map(item => <div
-                      onClick={ () => this.selectType(item) }
-                      className={`cotizar-select-item ${ this.state.type && item.name === this.state.type.name ? 'active' : '' }`}>
+                    this.state.type.options.map(item => <div
+                      onClick={ () => this.selectSubType(item) }
+                      className={`cotizar-select-item ${ this.state.subtype && item.name === this.state.subtype.name ? 'active' : '' }`}>
                       <span>{ item.name }</span>
                     </div>)
                   }
                 </div>
-                
-                {
-                  this.state.type
-                  &&
-                  (this.state.type.name === 'Joyería' || this.state.type.name === 'Artículos')
-                  &&
-                  <div className="cotizar-select">
-                    {
-                      this.state.type.options.map(item => <div
-                        onClick={ () => this.selectSubType(item) }
-                        className={`cotizar-select-item ${ this.state.subtype && item.name === this.state.subtype.name ? 'active' : '' }`}>
-                        <span>{ item.name }</span>
-                      </div>)
-                    }
-                  </div>
-                }
+              }
 
-                {
-                  this.state.subtype
-                  &&
-                  this.state.subtype.options
-                  &&
-                  <div className="cotizar-select">
-                    {
-                      this.state.subtype.options.map(item => <div
-                        onClick={ () => this.selectCategory(item) }
-                        className={`cotizar-select-item ${ this.state.category && item.name === this.state.category.name ? 'active' : '' }`}>
-                        <span>{ item.name }</span>
-                      </div>)
-                    }
-                  </div>
-                }
+              {
+                this.state.subtype
+                &&
+                this.state.subtype.options
+                &&
+                <div className="cotizar-select">
+                  {
+                    this.state.subtype.options.map(item => <div
+                      onClick={ () => this.selectCategory(item) }
+                      className={`cotizar-select-item ${ this.state.category && item.name === this.state.category.name ? 'active' : '' }`}>
+                      <span>{ item.name }</span>
+                    </div>)
+                  }
+                </div>
+              }
 
-                {
-                  this.state.subtype
-                  &&
-                  this.state.subtype.name === 'Herramientas'
-                  &&
-                  <div className="cotizar-select">
-                    <div className="form-row">
-                      {/* <label className="label">Tipo de herramienta</label> */}
-                      <select
-                        name="tipo_herramienta"
-                        className="input"
-                        onChange={ this.onChangeTipoHerramienta }
-                        required
-                      >
-                        <option>Seleccionar una herramienta</option>
-                        <option value="Taladro">Taladro</option>
-                        <option value="Pulidora">Pulidora</option>
-                        <option value="Caladora">Caladora</option>
-                        <option value="Trozadora">Tronzadora</option>
-                        <option value="Ingledora">Ingletadora</option>
-                        <option value="Sierra Circular">Sierra Circular</option>
-                        <option value="Lijadora">Lijadora</option>
-                        <option value="Ruteadora">Ruteadora</option>
-                        <option value="Pistola de Impacto">Pistola de Impacto</option>
-                        <option value="Cortadora">Cortadora</option>
-                        <option value="Otro">Otros</option>
-                      </select>
-                    </div>
+              {
+                this.state.subtype
+                &&
+                this.state.subtype.name === 'Herramientas'
+                &&
+                <div className="cotizar-select">
+                  <div className="form-row">
+                    {/* <label className="label">Tipo de herramienta</label> */}
+                    <select
+                      name="tipo_herramienta"
+                      className="input"
+                      onChange={ this.onChangeTipoHerramienta }
+                      required
+                    >
+                      <option>Seleccionar una herramienta</option>
+                      <option value="Taladro">Taladro</option>
+                      <option value="Pulidora">Pulidora</option>
+                      <option value="Caladora">Caladora</option>
+                      <option value="Trozadora">Tronzadora</option>
+                      <option value="Ingledora">Ingletadora</option>
+                      <option value="Sierra Circular">Sierra Circular</option>
+                      <option value="Lijadora">Lijadora</option>
+                      <option value="Ruteadora">Ruteadora</option>
+                      <option value="Pistola de Impacto">Pistola de Impacto</option>
+                      <option value="Cortadora">Cortadora</option>
+                      <option value="Otro">Otros</option>
+                    </select>
                   </div>
-                }
+                </div>
+              }
 
-                {
-                  this.state.subtype
-                  &&
-                  this.state.subtype.name === 'Electrodomésticos'
-                  &&
-                  <div className="cotizar-select">
-                    <div className="form-row">
-                      {/* <label className="label">Tipo de Electrodomésticos</label> */}
-                      <select
-                        name="tipo_electrodomesticos"
-                        className="input"
-                        onChange={ this.onChangeElectrodomesticos }
-                        required
-                      >
-                        <option>Selecciona un electrodoméstico</option>
-                        <option value="Televisor">Televisor</option>
-                        <option value="Nevera">Nevera</option>
-                        <option value="Estufa">Estufa</option>
-                        <option value="Equipo de Sonido">Equipo de Sonido</option>
-                        <option value="Otro">Otros</option>
-                      </select>
-                    </div>
+              {
+                this.state.subtype
+                &&
+                this.state.subtype.name === 'Electrodomésticos'
+                &&
+                <div className="cotizar-select">
+                  <div className="form-row">
+                    {/* <label className="label">Tipo de Electrodomésticos</label> */}
+                    <select
+                      name="tipo_electrodomesticos"
+                      className="input"
+                      onChange={ this.onChangeElectrodomesticos }
+                      required
+                    >
+                      <option>Selecciona un electrodoméstico</option>
+                      <option value="Televisor">Televisor</option>
+                      <option value="Nevera">Nevera</option>
+                      <option value="Estufa">Estufa</option>
+                      <option value="Equipo de Sonido">Equipo de Sonido</option>
+                      <option value="Otro">Otros</option>
+                    </select>
                   </div>
-                }
+                </div>
+              }
 
-                {
-                  this.state.subtype
-                  &&
-                  this.state.subtype.name === 'Tecnología'
-                  &&
-                  <div className="cotizar-select">
-                    <div className="form-row">
-                      {/* <label className="label">Tipo de Electrodomésticos</label> */}
-                      <select
-                        name="tipo_tecnologia"
-                        className="input"
-                        onChange={ this.onChangeTecnologia }
-                        required
-                      >
-                        <option>Selecciona un articulo</option>
-                        <option value="Portatil">Portatil</option>
-                        <option value="Tablet">Tablet</option>
-                        <option value="Otro">Otros</option>
-                      </select>
-                    </div>
+              {
+                this.state.subtype
+                &&
+                this.state.subtype.name === 'Tecnología'
+                &&
+                <div className="cotizar-select">
+                  <div className="form-row">
+                    {/* <label className="label">Tipo de Electrodomésticos</label> */}
+                    <select
+                      name="tipo_tecnologia"
+                      className="input"
+                      onChange={ this.onChangeTecnologia }
+                      required
+                    >
+                      <option>Selecciona un articulo</option>
+                      <option value="Portatil">Portatil</option>
+                      <option value="Tablet">Tablet</option>
+                      <option value="Otro">Otros</option>
+                    </select>
                   </div>
-                }
-                
-                {
-                  this.state.type
-                  &&
-                  this.state.type.name === 'Joyería'
-                  &&
-                  this.state.category
-                  &&
+                </div>
+              }
+              
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Joyería'
+                &&
+                this.state.category
+                &&
+                <div className="cotizar-select">
+                  <div className="form-input">
+                    <label className="label">Peso aproximado</label>
+                    <input
+                      className="input"
+                      type="text"
+                      placeholder="En gramos"
+                      name="weight"
+                      onChange={ this.onChangeInput }
+                    />
+                  </div>
+                </div>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Artículos'
+                &&
+                this.state.category
+                &&
+                <>
                   <div className="cotizar-select">
                     <div className="form-input">
-                      <label className="label">Peso aproximado</label>
+                      <label className="label">Marca *</label>
                       <input
                         className="input"
                         type="text"
-                        placeholder="En gramos"
-                        name="weight"
+                        placeholder=""
+                        name="brand"
                         onChange={ this.onChangeInput }
                       />
                     </div>
                   </div>
-                }
-
-                {
-                  this.state.type
-                  &&
-                  this.state.type.name === 'Artículos'
-                  &&
-                  this.state.category
-                  &&
-                  <>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Marca *</label>
-                        <input
-                          className="input"
-                          type="text"
-                          placeholder=""
-                          name="brand"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Modelo</label>
-                        <input
-                          className="input"
-                          type="text"
-                          placeholder=""
-                          name="model"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Tiempo de uso (Ej. 2 año y/o 3 meses) *</label>
-                        <input
-                          className="input"
-                          type="text"
-                          placeholder=""
-                          name="time"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">¿Tiene factura? *</label>
-
-                        <label className="radio">
-                          <input
-                            type="radio"
-                            placeholder=""
-                            name="invoice"
-                            value="Si"
-                            onChange={ this.onChangeInput }
-                          /> Si
-                        </label>
-                        <label className="radio">
-                          <input
-                            type="radio"
-                            placeholder=""
-                            name="invoice"
-                            value="No"
-                            onChange={ this.onChangeInput }
-                          /> No
-                        </label>
-                      </div>
-                    </div>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Comentarios</label>
-                        <textarea
-                          style={{ height: 60 }}
-                          className="input"
-                          type="text"
-                          placeholder=""
-                          name="comment"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                  </>
-                }
-
-                {
-                  this.state.type
-                  &&
-                  this.state.type.name === 'Otros'
-                  &&
-                  <>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Tipo de articulo</label>
-                        <input
-                          className="input"
-                          type="text"
-                          placeholder=""
-                          name="articleType"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Marca</label>
-                        <input
-                          className="input"
-                          type="text"
-                          placeholder=""
-                          name="brand"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Tiempo de uso</label>
-                        <input
-                          className="input"
-                          type="text"
-                          placeholder=""
-                          name="time"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Comentarios</label>
-                        <textarea
-                          style={{ height: 60 }}
-                          className="input"
-                          type="text"
-                          placeholder=""
-                          name="comment"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                  </>
-                }
-
-                {
-                  this.state.type
-                  &&
-                  this.state.type.name === 'Vender CDT'
-                  &&
-                  <>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Valor CDT</label>
-                        <input
-                          className="input"
-                          type="text"
-                          placeholder=""
-                          name="valueCDT"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Fecha de apertura</label>
-                        <input
-                          className="input"
-                          type="date"
-                          placeholder=""
-                          name="openCDT"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                    <div className="cotizar-select">
-                      <div className="form-input">
-                        <label className="label">Fecha de vencimiento</label>
-                        <input
-                          className="input"
-                          type="date"
-                          placeholder=""
-                          name="closeCDT"
-                          onChange={ this.onChangeInput }
-                        />
-                      </div>
-                    </div>
-                  </>
-                }
-
-                {
-                  this.state.type
-                  &&
-                  this.state.type.name === 'Joyería'
-                  &&
-                  this.state.weight
-                  &&
-                  <div className="cotizar-result">
-                    <h4>¿Cuánto me dan por mi joya?</h4>
-                    <span>Te damos hasta $ { funtions.FormatMil(this.state.value) } pesos</span>
-
-                    <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Quiero el dinero ya!</a>
-
-                    <p style={{
-                      marginTop: 10,
-                      fontSize: 13,
-                    }}>
-                      *Aplican condiciones
-                    </p>
-                  </div>
-                }
-
-                {
-                  this.state.type
-                  &&
-                  this.state.type.name === 'Artículos'
-                  &&
-                  this.state.brand
-                  &&
-                  this.state.time
-                  &&
-                  this.state.invoice
-                  &&
-                  <div className="cotizar-result">
-                    <h4>¿Cuánto me dan por mi artículo?</h4>
-
-                    <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
-
-                    <p style={{
-                      marginTop: 10,
-                      fontSize: 13,
-                    }}>
-                      *Aplican condiciones
-                    </p>
-
-                  </div>
-                }
-
-                {
-                  this.state.type
-                  &&
-                  this.state.type.name === 'Vender CDT'
-                  &&
-                  this.state.valueCDT
-                  &&
-                  this.state.openCDT
-                  &&
-                  this.state.closeCDT
-                  &&
-                  <div className="cotizar-result">
-                    <h4>¿Cuánto me dan por mi CDT?</h4>
-
-                    <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
-
-                    <p style={{
-                      marginTop: 10,
-                      fontSize: 13,
-                    }}>
-                      *Aplican condiciones
-                    </p>
-
-                  </div>
-                }
-
-                {
-                  this.state.type
-                  &&
-                  this.state.type.name === 'Otros'
-                  &&
-                  this.state.articleType
-                  &&
-                  this.state.brand
-                  &&
-                  this.state.time
-                  &&
-                  this.state.comment
-                  &&
-                  <div className="cotizar-result">
-                    <h4>¿Cuánto me dan por mi artículo?</h4>
-
-                    <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
-
-                    <p style={{
-                      marginTop: 10,
-                      fontSize: 13,
-                    }}>
-                      *Aplican condiciones
-                    </p>
-
-                  </div>
-                }
-
-                {
-                  this.state.visible
-                  &&
-                  <div id="myModal" className="modal">
-                    <div className="modal-content">
-                      <span onClick={ this.closeModal } className="close">&times;</span>
-                      
-                      <form name="cotizacion" method="POST" onSubmit={ this.submit }>
-                        <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
-                        <div className="form-row">
-                          <label className="label">Nombres y Apellidos *</label>
-                          <input
-                            className="input"
-                            type="text"
-                            name="names"
-                            onChange={ this.onChangeInput }
-                            required />
-                        </div>
-                        <div className="form-row">
-                          <label className="label">Celular *</label>
-                          <input
-                            className="input"
-                            type="text"
-                            name="mobile"
-                            onChange={ this.onChangeInput }
-                            required />
-                        </div>
-                        <div className="form-row">
-                          <label className="label">Correo</label>
-                          <input
-                            className="input"
-                            type="text"
-                            onChange={ this.onChangeInput }
-                            name="email" />
-                        </div>
-                        <div className="form-row">
-                          <label className="label">¿Cuánto necesita?</label>
-                          <input
-                            className="input"
-                            type="text"
-                            onChange={ this.onChangeInput }
-                            name="many" />
-                        </div>
-                        <div className="form-row">
-                          <label className="label">¿Cómo nos contactó? *</label>
-                          <select
-                            name="source"
-                            className="input"
-                            onChange={ this.onChangeSelect }
-                            required
-                            placeholder = "Seleccione una opcion"
-                          >
-                            <option></option>
-                            <option value="Radio">Radio</option>
-                            <option value="Volantes">Volantes</option>
-                            <option value="Facebook">Facebook</option>
-                            <option value="Instagram">Instagram</option>
-                            <option value="Google">Google</option>
-                            <option value="Amigos">Amigos</option>
-                            <option value="Otro">Otro</option>
-                          </select>
-                        </div>
-
-                        <button type="submit" className="form-btn">Enviar datos</button>
-                      </form>
-                      
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Modelo</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="model"
+                        onChange={ this.onChangeInput }
+                      />
                     </div>
                   </div>
-                }
-              </section>
-            </div>
-          }
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Tiempo de uso (Ej. 2 año y/o 3 meses) *</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="time"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">¿Tiene factura? *</label>
+
+                      <label className="radio">
+                        <input
+                          type="radio"
+                          placeholder=""
+                          name="invoice"
+                          value="Si"
+                          onChange={ this.onChangeInput }
+                        /> Si
+                      </label>
+                      <label className="radio">
+                        <input
+                          type="radio"
+                          placeholder=""
+                          name="invoice"
+                          value="No"
+                          onChange={ this.onChangeInput }
+                        /> No
+                      </label>
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Comentarios</label>
+                      <textarea
+                        style={{ height: 60 }}
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="comment"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                </>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Otros'
+                &&
+                <>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Tipo de articulo</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="articleType"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Marca</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="brand"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Tiempo de uso</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="time"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Comentarios</label>
+                      <textarea
+                        style={{ height: 60 }}
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="comment"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                </>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Vender CDT'
+                &&
+                <>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Valor CDT</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder=""
+                        name="valueCDT"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Fecha de apertura</label>
+                      <input
+                        className="input"
+                        type="date"
+                        placeholder=""
+                        name="openCDT"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Fecha de vencimiento</label>
+                      <input
+                        className="input"
+                        type="date"
+                        placeholder=""
+                        name="closeCDT"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
+                  </div>
+                </>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Joyería'
+                &&
+                this.state.weight
+                &&
+                <div className="cotizar-result">
+                  <h4>¿Cuánto me dan por mi joya?</h4>
+                  <span>Te damos hasta $ { funtions.FormatMil(this.state.value) } pesos</span>
+
+                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Quiero el dinero ya!</a>
+
+                  <p style={{
+                    marginTop: 10,
+                    fontSize: 13,
+                  }}>
+                    *Aplican condiciones
+                  </p>
+                </div>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Artículos'
+                &&
+                this.state.brand
+                &&
+                this.state.time
+                &&
+                this.state.invoice
+                &&
+                <div className="cotizar-result">
+                  <h4>¿Cuánto me dan por mi artículo?</h4>
+
+                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+
+                  <p style={{
+                    marginTop: 10,
+                    fontSize: 13,
+                  }}>
+                    *Aplican condiciones
+                  </p>
+
+                </div>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Vender CDT'
+                &&
+                this.state.valueCDT
+                &&
+                this.state.openCDT
+                &&
+                this.state.closeCDT
+                &&
+                <div className="cotizar-result">
+                  <h4>¿Cuánto me dan por mi CDT?</h4>
+
+                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+
+                  <p style={{
+                    marginTop: 10,
+                    fontSize: 13,
+                  }}>
+                    *Aplican condiciones
+                  </p>
+
+                </div>
+              }
+
+              {
+                this.state.type
+                &&
+                this.state.type.name === 'Otros'
+                &&
+                this.state.articleType
+                &&
+                this.state.brand
+                &&
+                this.state.time
+                &&
+                this.state.comment
+                &&
+                <div className="cotizar-result">
+                  <h4>¿Cuánto me dan por mi artículo?</h4>
+
+                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+
+                  <p style={{
+                    marginTop: 10,
+                    fontSize: 13,
+                  }}>
+                    *Aplican condiciones
+                  </p>
+
+                </div>
+              }
+
+              {
+                this.state.visible
+                &&
+                <div id="myModal" className="modal">
+                  <div className="modal-content">
+                    <span onClick={ this.closeModal } className="close">&times;</span>
+                    
+                    <form name="cotizacion" method="POST" onSubmit={ this.submit }>
+                      <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
+                      <div className="form-row">
+                        <label className="label">Nombres y Apellidos *</label>
+                        <input
+                          className="input"
+                          type="text"
+                          name="names"
+                          onChange={ this.onChangeInput }
+                          required />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">Celular *</label>
+                        <input
+                          className="input"
+                          type="text"
+                          name="mobile"
+                          onChange={ this.onChangeInput }
+                          required />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">Correo</label>
+                        <input
+                          className="input"
+                          type="text"
+                          onChange={ this.onChangeInput }
+                          name="email" />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">¿Cuánto necesita?</label>
+                        <input
+                          className="input"
+                          type="text"
+                          onChange={ this.onChangeInput }
+                          name="many" />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">¿Cómo nos contactó? *</label>
+                        <select
+                          name="source"
+                          className="input"
+                          onChange={ this.onChangeSelect }
+                          required
+                          placeholder = "Seleccione una opcion"
+                        >
+                          <option></option>
+                          <option value="Radio">Radio</option>
+                          <option value="Volantes">Volantes</option>
+                          <option value="Facebook">Facebook</option>
+                          <option value="Instagram">Instagram</option>
+                          <option value="Google">Google</option>
+                          <option value="Amigos">Amigos</option>
+                          <option value="Otro">Otro</option>
+                        </select>
+                      </div>
+
+                      <button type="submit" className="form-btn">Enviar datos</button>
+                    </form>
+                    
+                  </div>
+                </div>
+              }
+            </section>
+          </div>
           
         </div>
         <div className="container">
