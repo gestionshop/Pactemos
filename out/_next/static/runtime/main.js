@@ -1722,7 +1722,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.5' };
+var core = module.exports = { version: '2.6.3' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -6370,7 +6370,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/Edwinpgm/Sites/Pactemos/.next");
+      source_map_support_1.rewriteStacktrace(error, "/Users/sr.arnold/Sites/cotizador/Pactemos/.next");
       return error;
     }
   };

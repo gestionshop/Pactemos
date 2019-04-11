@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/Edwinpgm/Sites/Pactemos/components/Footer.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Footer.js";
 
 
 var Footer = function Footer() {
@@ -265,7 +265,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/Edwinpgm/Sites/Pactemos/components/Top.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Top.js";
 
 
 
@@ -330,9 +330,9 @@ function (_Component) {
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "submit", function (e) {
-      e.preventDefault();
-      var url = 'http://localhost:3001/api/pactemos/domicilio'; // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/domicilio'
 
+      var url = 'https://gestionshop.co/api/pactemos/domicilio';
       axios__WEBPACK_IMPORTED_MODULE_8___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           submited: true
@@ -3515,7 +3515,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.5' };
+var core = module.exports = { version: '2.6.3' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -5929,10 +5929,10 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgracias&absolutePagePath=%2FUsers%2FEdwinpgm%2FSites%2FPactemos%2Fpages%2Fgracias.js!./":
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgracias&absolutePagePath=%2FUsers%2FEdwinpgm%2FSites%2FPactemos%2Fpages%2Fgracias.js ***!
-  \*******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgracias&absolutePagePath=%2FUsers%2Fsr.arnold%2FSites%2Fcotizador%2FPactemos%2Fpages%2Fgracias.js!./":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgracias&absolutePagePath=%2FUsers%2Fsr.arnold%2FSites%2Fcotizador%2FPactemos%2Fpages%2Fgracias.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6183,7 +6183,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/Edwinpgm/Sites/Pactemos/pages/gracias.js";
+var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/pages/gracias.js";
 
 
 
@@ -6297,14 +6297,14 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 2:
-/*!***********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fgracias&absolutePagePath=%2FUsers%2FEdwinpgm%2FSites%2FPactemos%2Fpages%2Fgracias.js ***!
-  \***********************************************************************************************************************************/
+/***/ 3:
+/*!************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fgracias&absolutePagePath=%2FUsers%2Fsr.arnold%2FSites%2Fcotizador%2FPactemos%2Fpages%2Fgracias.js ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fgracias&absolutePagePath=%2FUsers%2FEdwinpgm%2FSites%2FPactemos%2Fpages%2Fgracias.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgracias&absolutePagePath=%2FUsers%2FEdwinpgm%2FSites%2FPactemos%2Fpages%2Fgracias.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fgracias&absolutePagePath=%2FUsers%2Fsr.arnold%2FSites%2Fcotizador%2FPactemos%2Fpages%2Fgracias.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgracias&absolutePagePath=%2FUsers%2Fsr.arnold%2FSites%2Fcotizador%2FPactemos%2Fpages%2Fgracias.js!./");
 
 
 /***/ }),
@@ -6320,5 +6320,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=gracias.js.map
