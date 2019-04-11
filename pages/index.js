@@ -46,10 +46,11 @@ class Home extends Component {
   submit = (e) => {
     e.preventDefault()
 
-    // const url = 'http://localhost:3001/api/pactemos/cotizacion'
-    const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+    // const url = 'http://localhost:3001/api/pactemos/domicilio'
+    const url = 'https://gestionshop.co/api/pactemos/domicilio'
     axios.post(url, this.state).then(res => {
       this.setState({ submited: true })
+      window.location.replace('/gracias')
     }).catch(error => {
       alert('Ocurrio un error y no se pudo enviar la información.')
       console.log('res error', error)
