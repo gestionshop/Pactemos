@@ -40,6 +40,7 @@ class Top extends Component {
     const url = 'https://gestionshop.co/api/pactemos/cotizacion'
     axios.post(url, this.state).then(res => {
       this.setState({ submited: true })
+      window.location.replace('/gracias')
     }).catch(error => {
       alert('Ocurrio un error y no se pudo enviar la información')
       console.log('res error', error)
@@ -82,71 +83,63 @@ class Top extends Component {
           <div id="myModal" className="modal">
             <div className="modal-content">
               <span onClick={ this.closeModal } className="close">&times;</span>
-              
-              {
-                this.state.submited
-                ?
-                <Thanks/>
-                // <p>La información se envio a la CompraVenta.</p>
-                :
-                <form name="cotizacion" method="POST" onSubmit={ this.submit }>
-                  <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
-                  <div className="form-row">
-                    <label className="label">Nombres y Apellidos *</label>
-                    <input
-                      className="input"
-                      type="text"
-                      name="names"
-                      onChange={ this.onChangeInput }
-                      required />
-                  </div>
-                  <div className="form-row">
-                    <label className="label">Celular *</label>
-                    <input
-                      className="input"
-                      type="text"
-                      name="mobile"
-                      onChange={ this.onChangeInput }
-                      required />
-                  </div>
-                  <div className="form-row">
-                    <label className="label">Correo</label>
-                    <input
-                      className="input"
-                      type="text"
-                      onChange={ this.onChangeInput }
-                      name="email" />
-                  </div>
-                  <div className="form-row">
-                    <label className="label">¿Cuánto necesita?</label>
-                    <input
-                      className="input"
-                      type="text"
-                      onChange={ this.onChangeInput }
-                      name="many" />
-                  </div>
-                  <div className="form-row">
-                    <label className="label">¿Cómo nos contactó? *</label>
-                    <select
-                      name="source"
-                      className="input"
-                      onChange={ this.onChangeSelect }
-                      required
-                    >
-                      <option></option>
-                      <option value="Radio">Radio</option>
-                      <option value="Volantes">Volantes</option>
-                      <option value="Facebook">Facebook</option>
-                      <option value="Instagram">Instagram</option>
-                      <option value="Google">Google</option>
-                      <option value="Amigos">Amigos</option>
-                      <option value="Otro">Otro</option>
-                    </select>
-                  </div>
+              <form name="cotizacion" method="POST" onSubmit={ this.submit }>
+                <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
+                <div className="form-row">
+                  <label className="label">Nombres y Apellidos *</label>
+                  <input
+                    className="input"
+                    type="text"
+                    name="names"
+                    onChange={ this.onChangeInput }
+                    required />
+                </div>
+                <div className="form-row">
+                  <label className="label">Celular *</label>
+                  <input
+                    className="input"
+                    type="text"
+                    name="mobile"
+                    onChange={ this.onChangeInput }
+                    required />
+                </div>
+                <div className="form-row">
+                  <label className="label">Correo</label>
+                  <input
+                    className="input"
+                    type="text"
+                    onChange={ this.onChangeInput }
+                    name="email" />
+                </div>
+                <div className="form-row">
+                  <label className="label">¿Cuánto necesita?</label>
+                  <input
+                    className="input"
+                    type="text"
+                    onChange={ this.onChangeInput }
+                    name="many" />
+                </div>
+                <div className="form-row">
+                  <label className="label">¿Cómo nos contactó? *</label>
+                  <select
+                    name="source"
+                    className="input"
+                    onChange={ this.onChangeSelect }
+                    required
+                  >
+                    <option></option>
+                    <option value="Radio">Radio</option>
+                    <option value="Volantes">Volantes</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Google">Google</option>
+                    <option value="Amigos">Amigos</option>
+                    <option value="Otro">Otro</option>
+                  </select>
+                </div>
 
-                  <button type="submit" className="form-btn">Enviar datos</button>
-                </form>
-              }
+                <button type="submit" className="form-btn">Enviar datos</button>
+              </form>
             </div>
           </div>
         }
