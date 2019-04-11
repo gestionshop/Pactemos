@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Footer.js";
+var _jsxFileName = "/Users/Edwinpgm/Sites/Pactemos/components/Footer.js";
 
 
 var Footer = function Footer() {
@@ -251,7 +251,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _pages_gracias__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/gracias */ "./pages/gracias.js");
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/components/Top.js";
+var _jsxFileName = "/Users/Edwinpgm/Sites/Pactemos/components/Top.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -265,11 +265,11 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -295,20 +295,20 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Top)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
+    _defineProperty(_assertThisInitialized(_this), "state", {
       visible: false,
       visibleModal: false,
       submited: false,
       typeData: 'domicilio'
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "showMenu", function () {
+    _defineProperty(_assertThisInitialized(_this), "showMenu", function () {
       _this.setState({
         visible: !_this.state.visible
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "showModal", function (e) {
+    _defineProperty(_assertThisInitialized(_this), "showModal", function (e) {
       e.preventDefault();
 
       _this.setState({
@@ -316,27 +316,27 @@ function (_Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "closeModal", function () {
+    _defineProperty(_assertThisInitialized(_this), "closeModal", function () {
       _this.setState({
         visibleModal: false
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onChangeInput", function (e) {
+    _defineProperty(_assertThisInitialized(_this), "onChangeInput", function (e) {
       var name = e.target.name;
       var value = e.target.value;
 
       _this.setState(_defineProperty({}, name, value));
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onChangeSelect", function (e) {
+    _defineProperty(_assertThisInitialized(_this), "onChangeSelect", function (e) {
       var name = e.target.name;
       var value = e.target.value;
 
       _this.setState(_defineProperty({}, name, value));
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
+    _defineProperty(_assertThisInitialized(_this), "submit", function (e) {
       e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
       var url = 'https://gestionshop.co/api/pactemos/cotizacion';
@@ -801,6 +801,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/array/is-array */ ".
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/get-iterator */ "./node_modules/core-js/library/fn/get-iterator.js");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js":
 /*!********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js ***!
@@ -809,6 +820,28 @@ module.exports = __webpack_require__(/*! core-js/library/fn/array/is-array */ ".
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./node_modules/core-js/library/fn/is-iterable.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/map.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/map.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/map */ "./node_modules/core-js/library/fn/map.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "./node_modules/core-js/library/fn/object/assign.js");
 
 /***/ }),
 
@@ -845,6 +878,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-prope
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-symbols */ "./node_modules/core-js/library/fn/object/get-own-property-symbols.js");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js":
 /*!********************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js ***!
@@ -853,6 +897,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-prope
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ "./node_modules/core-js/library/fn/object/get-prototype-of.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./node_modules/core-js/library/fn/object/keys.js");
 
 /***/ }),
 
@@ -1217,6 +1272,45 @@ function _nonIterableSpread() {
 }
 
 module.exports = _nonIterableSpread;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/objectSpread.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/objectSpread.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$getOwnPropertyDescriptor = __webpack_require__(/*! ../core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
+
+var _Object$getOwnPropertySymbols = __webpack_require__(/*! ../core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
+
+var _Object$keys = __webpack_require__(/*! ../core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+
+var defineProperty = __webpack_require__(/*! ./defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/defineProperty.js");
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    var ownKeys = _Object$keys(source);
+
+    if (typeof _Object$getOwnPropertySymbols === 'function') {
+      ownKeys = ownKeys.concat(_Object$getOwnPropertySymbols(source).filter(function (sym) {
+        return _Object$getOwnPropertyDescriptor(source, sym).enumerable;
+      }));
+    }
+
+    ownKeys.forEach(function (key) {
+      defineProperty(target, key, source[key]);
+    });
+  }
+
+  return target;
+}
+
+module.exports = _objectSpread;
 
 /***/ }),
 
@@ -3024,6 +3118,20 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/get-iterator.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/get-iterator.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
+__webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
+module.exports = __webpack_require__(/*! ../modules/core.get-iterator */ "./node_modules/core-js/library/modules/core.get-iterator.js");
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/fn/is-iterable.js":
 /*!********************************************************!*\
   !*** ./node_modules/core-js/library/fn/is-iterable.js ***!
@@ -3034,6 +3142,38 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 __webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
 __webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
 module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_modules/core-js/library/modules/core.is-iterable.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/map.js":
+/*!************************************************!*\
+  !*** ./node_modules/core-js/library/fn/map.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/es6.object.to-string */ "./node_modules/core-js/library/modules/es6.object.to-string.js");
+__webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
+__webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
+__webpack_require__(/*! ../modules/es6.map */ "./node_modules/core-js/library/modules/es6.map.js");
+__webpack_require__(/*! ../modules/es7.map.to-json */ "./node_modules/core-js/library/modules/es7.map.to-json.js");
+__webpack_require__(/*! ../modules/es7.map.of */ "./node_modules/core-js/library/modules/es7.map.of.js");
+__webpack_require__(/*! ../modules/es7.map.from */ "./node_modules/core-js/library/modules/es7.map.from.js");
+module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Map;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/assign.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/assign.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.assign */ "./node_modules/core-js/library/modules/es6.object.assign.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.assign;
 
 
 /***/ }),
@@ -3086,6 +3226,19 @@ module.exports = function getOwnPropertyDescriptor(it, key) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/object/get-own-property-symbols.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-own-property-symbols.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.symbol */ "./node_modules/core-js/library/modules/es6.symbol.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getOwnPropertySymbols;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/fn/object/get-prototype-of.js":
 /*!********************************************************************!*\
   !*** ./node_modules/core-js/library/fn/object/get-prototype-of.js ***!
@@ -3095,6 +3248,19 @@ module.exports = function getOwnPropertyDescriptor(it, key) {
 
 __webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getPrototypeOf;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/keys.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/keys.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.keys */ "./node_modules/core-js/library/modules/es6.object.keys.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.keys;
 
 
 /***/ }),
@@ -3693,7 +3859,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.3' };
+var core = module.exports = { version: '2.6.5' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -4508,6 +4674,52 @@ function PromiseCapability(C) {
 module.exports.f = function (C) {
   return new PromiseCapability(C);
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-assign.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-assign.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// 19.1.2.1 Object.assign(target, source, ...)
+var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+var gOPS = __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js");
+var pIE = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js");
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var IObject = __webpack_require__(/*! ./_iobject */ "./node_modules/core-js/library/modules/_iobject.js");
+var $assign = Object.assign;
+
+// should work with symbols and should have deterministic property order (V8 bug)
+module.exports = !$assign || __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
+  var A = {};
+  var B = {};
+  // eslint-disable-next-line no-undef
+  var S = Symbol();
+  var K = 'abcdefghijklmnopqrst';
+  A[S] = 7;
+  K.split('').forEach(function (k) { B[k] = k; });
+  return $assign({}, A)[S] != 7 || Object.keys($assign({}, B)).join('') != K;
+}) ? function assign(target, source) { // eslint-disable-line no-unused-vars
+  var T = toObject(target);
+  var aLen = arguments.length;
+  var index = 1;
+  var getSymbols = gOPS.f;
+  var isEnum = pIE.f;
+  while (aLen > index) {
+    var S = IObject(arguments[index++]);
+    var keys = getSymbols ? getKeys(S).concat(getSymbols(S)) : getKeys(S);
+    var length = keys.length;
+    var j = 0;
+    var key;
+    while (length > j) if (isEnum.call(S, key = keys[j++])) T[key] = S[key];
+  } return T;
+} : $assign;
 
 
 /***/ }),
@@ -5449,6 +5661,24 @@ module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/libr
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/core.get-iterator.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/core.get-iterator.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var get = __webpack_require__(/*! ./core.get-iterator-method */ "./node_modules/core-js/library/modules/core.get-iterator-method.js");
+module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js").getIterator = function (it) {
+  var iterFn = get(it);
+  if (typeof iterFn != 'function') throw TypeError(it + ' is not iterable!');
+  return anObject(iterFn.call(it));
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/core.is-iterable.js":
 /*!******************************************************************!*\
   !*** ./node_modules/core-js/library/modules/core.is-iterable.js ***!
@@ -5580,6 +5810,52 @@ addToUnscopables('entries');
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/es6.map.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.map.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var strong = __webpack_require__(/*! ./_collection-strong */ "./node_modules/core-js/library/modules/_collection-strong.js");
+var validate = __webpack_require__(/*! ./_validate-collection */ "./node_modules/core-js/library/modules/_validate-collection.js");
+var MAP = 'Map';
+
+// 23.1 Map Objects
+module.exports = __webpack_require__(/*! ./_collection */ "./node_modules/core-js/library/modules/_collection.js")(MAP, function (get) {
+  return function Map() { return get(this, arguments.length > 0 ? arguments[0] : undefined); };
+}, {
+  // 23.1.3.6 Map.prototype.get(key)
+  get: function get(key) {
+    var entry = strong.getEntry(validate(this, MAP), key);
+    return entry && entry.v;
+  },
+  // 23.1.3.9 Map.prototype.set(key, value)
+  set: function set(key, value) {
+    return strong.def(validate(this, MAP), key === 0 ? 0 : key, value);
+  }
+}, strong, true);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.assign.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.assign.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.3.1 Object.assign(target, source)
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ "./node_modules/core-js/library/modules/_object-assign.js") });
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/es6.object.create.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/core-js/library/modules/es6.object.create.js ***!
@@ -5642,6 +5918,26 @@ var $getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ "./node_modules/c
 __webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('getPrototypeOf', function () {
   return function getPrototypeOf(it) {
     return $getPrototypeOf(toObject(it));
+  };
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.keys.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.keys.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.14 Object.keys(O)
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var $keys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+
+__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('keys', function () {
+  return function keys(it) {
+    return $keys(toObject(it));
   };
 });
 
@@ -6272,6 +6568,47 @@ setToStringTag(global.JSON, 'JSON', true);
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/es7.map.from.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.map.from.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://tc39.github.io/proposal-setmap-offrom/#sec-map.from
+__webpack_require__(/*! ./_set-collection-from */ "./node_modules/core-js/library/modules/_set-collection-from.js")('Map');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.map.of.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.map.of.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://tc39.github.io/proposal-setmap-offrom/#sec-map.of
+__webpack_require__(/*! ./_set-collection-of */ "./node_modules/core-js/library/modules/_set-collection-of.js")('Map');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.map.to-json.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.map.to-json.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://github.com/DavidBruant/Map-Set.prototype.toJSON
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+
+$export($export.P + $export.R, 'Map', { toJSON: __webpack_require__(/*! ./_collection-to-json */ "./node_modules/core-js/library/modules/_collection-to-json.js")('Map') });
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/es7.promise.finally.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/core-js/library/modules/es7.promise.finally.js ***!
@@ -6455,6 +6792,150 @@ function isSlowBuffer (obj) {
 
 /***/ }),
 
+/***/ "./node_modules/next/dist/lib/dynamic.js":
+/*!***********************************************!*\
+  !*** ./node_modules/next/dist/lib/dynamic.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.noSSR = noSSR;
+exports.default = dynamic;
+
+var _keys = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js"));
+
+var _objectSpread2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/objectSpread.js"));
+
+var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js"));
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _loadable = _interopRequireDefault(__webpack_require__(/*! ./loadable */ "./node_modules/next/dist/lib/loadable.js"));
+
+var isServerSide = typeof window === 'undefined';
+
+function noSSR(LoadableInitializer, loadableOptions) {
+  // Removing webpack and modules means react-loadable won't try preloading
+  delete loadableOptions.webpack;
+  delete loadableOptions.modules; // This check is neccesary to prevent react-loadable from initializing on the server
+
+  if (!isServerSide) {
+    return LoadableInitializer(loadableOptions);
+  } // This will only be rendered on the server side
+
+
+  return function () {
+    return _react.default.createElement(loadableOptions.loading, {
+      error: null,
+      isLoading: true,
+      pastDelay: false,
+      timedOut: false
+    });
+  };
+}
+
+function DefaultLoading() {
+  return _react.default.createElement("p", null, "loading...");
+}
+
+function dynamic(dynamicOptions, options) {
+  var loadableFn = _loadable.default;
+  var loadableOptions = {
+    // A loading component is not required, so we default it
+    loading: function loading(_ref) {
+      var error = _ref.error,
+          isLoading = _ref.isLoading;
+
+      if (true) {
+        if (isLoading) {
+          return _react.default.createElement(DefaultLoading, null);
+        }
+
+        if (error) {
+          return _react.default.createElement("p", null, error.message, _react.default.createElement("br", null), error.stack);
+        }
+      }
+
+      return _react.default.createElement(DefaultLoading, null);
+    } // Support for direct import(), eg: dynamic(import('../hello-world'))
+    // Note that this is only kept for the edge case where someone is passing in a promise as first argument
+    // The react-loadable babel plugin will turn dynamic(import('../hello-world')) into dynamic(() => import('../hello-world'))
+    // To make sure we don't execute the import without rendering first
+
+  };
+
+  if (typeof dynamicOptions.then === 'function') {
+    loadableOptions.loader = function () {
+      return dynamicOptions;
+    }; // Support for having import as a function, eg: dynamic(() => import('../hello-world'))
+
+  } else if (typeof dynamicOptions === 'function') {
+    loadableOptions.loader = dynamicOptions; // Support for having first argument being options, eg: dynamic({loader: import('../hello-world')})
+  } else if ((0, _typeof2.default)(dynamicOptions) === 'object') {
+    loadableOptions = (0, _objectSpread2.default)({}, loadableOptions, dynamicOptions);
+  } // Support for passing options, eg: dynamic(import('../hello-world'), {loading: () => <p>Loading something</p>})
+
+
+  loadableOptions = (0, _objectSpread2.default)({}, loadableOptions, options); // Support for `render` when using a mapping, eg: `dynamic({ modules: () => {return {HelloWorld: import('../hello-world')}, render(props, loaded) {} } })
+
+  if (dynamicOptions.render) {
+    loadableOptions.render = function (loaded, props) {
+      return dynamicOptions.render(props, loaded);
+    };
+  } // Support for `modules` when using a mapping, eg: `dynamic({ modules: () => {return {HelloWorld: import('../hello-world')}, render(props, loaded) {} } })
+
+
+  if (dynamicOptions.modules) {
+    loadableFn = _loadable.default.Map;
+    var loadModules = {};
+    var modules = dynamicOptions.modules();
+    (0, _keys.default)(modules).forEach(function (key) {
+      var value = modules[key];
+
+      if (typeof value.then === 'function') {
+        loadModules[key] = function () {
+          return value.then(function (mod) {
+            return mod.default || mod;
+          });
+        };
+
+        return;
+      }
+
+      loadModules[key] = value;
+    });
+    loadableOptions.loader = loadModules;
+  } // coming from build/babel/plugins/react-loadable-plugin.js
+
+
+  if (loadableOptions.loadableGenerated) {
+    loadableOptions = (0, _objectSpread2.default)({}, loadableOptions, loadableOptions.loadableGenerated);
+    delete loadableOptions.loadableGenerated;
+  } // support for disabling server side rendering, eg: dynamic(import('../hello-world'), {ssr: false})
+
+
+  if (typeof loadableOptions.ssr === 'boolean') {
+    if (!loadableOptions.ssr) {
+      delete loadableOptions.ssr;
+      return noSSR(loadableFn, loadableOptions);
+    }
+
+    delete loadableOptions.ssr;
+  }
+
+  return loadableFn(loadableOptions);
+}
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/lib/head.js":
 /*!********************************************!*\
   !*** ./node_modules/next/dist/lib/head.js ***!
@@ -6610,6 +7091,398 @@ function unique() {
 var _default = (0, _sideEffect.default)(reduceComponents, onStateChange, mapOnServer)(Head);
 
 exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/lib/loadable.js":
+/*!************************************************!*\
+  !*** ./node_modules/next/dist/lib/loadable.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+var _isArray = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js"));
+
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js"));
+
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js"));
+
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js"));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js"));
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/defineProperty.js"));
+
+var _getIterator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/get-iterator */ "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js"));
+
+var _assign = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js"));
+
+var _promise = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js"));
+
+var _keys = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js"));
+
+var _map = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/map */ "./node_modules/@babel/runtime-corejs2/core-js/map.js"));
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+/**
+@copyright (c) 2017-present James Kyle <me@thejameskyle.com>
+ MIT License
+ Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+ The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+*/
+// https://github.com/jamiebuilds/react-loadable/blob/v5.5.0/src/index.js
+// Modified to be compatible with webpack 4 / Next.js
+var ALL_INITIALIZERS = [];
+var READY_INITIALIZERS = new _map.default();
+var initialized = false;
+
+function load(loader) {
+  var promise = loader();
+  var state = {
+    loading: true,
+    loaded: null,
+    error: null
+  };
+  state.promise = promise.then(function (loaded) {
+    state.loading = false;
+    state.loaded = loaded;
+    return loaded;
+  }).catch(function (err) {
+    state.loading = false;
+    state.error = err;
+    throw err;
+  });
+  return state;
+}
+
+function loadMap(obj) {
+  var state = {
+    loading: false,
+    loaded: {},
+    error: null
+  };
+  var promises = [];
+
+  try {
+    (0, _keys.default)(obj).forEach(function (key) {
+      var result = load(obj[key]);
+
+      if (!result.loading) {
+        state.loaded[key] = result.loaded;
+        state.error = result.error;
+      } else {
+        state.loading = true;
+      }
+
+      promises.push(result.promise);
+      result.promise.then(function (res) {
+        state.loaded[key] = res;
+      }).catch(function (err) {
+        state.error = err;
+      });
+    });
+  } catch (err) {
+    state.error = err;
+  }
+
+  state.promise = _promise.default.all(promises).then(function (res) {
+    state.loading = false;
+    return res;
+  }).catch(function (err) {
+    state.loading = false;
+    throw err;
+  });
+  return state;
+}
+
+function resolve(obj) {
+  return obj && obj.__esModule ? obj.default : obj;
+}
+
+function render(loaded, props) {
+  return _react.default.createElement(resolve(loaded), props);
+}
+
+function createLoadableComponent(loadFn, options) {
+  var _class, _temp;
+
+  var opts = (0, _assign.default)({
+    loader: null,
+    loading: null,
+    delay: 200,
+    timeout: null,
+    render: render,
+    webpack: null,
+    modules: null
+  }, options);
+  var res = null;
+
+  function init() {
+    if (!res) {
+      res = loadFn(opts.loader);
+    }
+
+    return res.promise;
+  } // Server only
+
+
+  if (typeof window === 'undefined') {
+    ALL_INITIALIZERS.push(init);
+  } // Client only
+
+
+  if (!initialized && typeof window !== 'undefined' && typeof opts.webpack === 'function') {
+    var moduleIds = opts.webpack();
+    var _iteratorNormalCompletion = true;
+    var _didIteratorError = false;
+    var _iteratorError = undefined;
+
+    try {
+      for (var _iterator = (0, _getIterator2.default)(moduleIds), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+        var moduleId = _step.value;
+        READY_INITIALIZERS.set(moduleId, function () {
+          return init();
+        });
+      }
+    } catch (err) {
+      _didIteratorError = true;
+      _iteratorError = err;
+    } finally {
+      try {
+        if (!_iteratorNormalCompletion && _iterator.return != null) {
+          _iterator.return();
+        }
+      } finally {
+        if (_didIteratorError) {
+          throw _iteratorError;
+        }
+      }
+    }
+  }
+
+  return _temp = _class =
+  /*#__PURE__*/
+  function (_React$Component) {
+    (0, _inherits2.default)(LoadableComponent, _React$Component);
+
+    function LoadableComponent(props) {
+      var _this;
+
+      (0, _classCallCheck2.default)(this, LoadableComponent);
+      _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(LoadableComponent).call(this, props));
+      (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "retry", function () {
+        _this.setState({
+          error: null,
+          loading: true,
+          timedOut: false
+        });
+
+        res = loadFn(opts.loader);
+
+        _this._loadModule();
+      });
+      init();
+      _this.state = {
+        error: res.error,
+        pastDelay: false,
+        timedOut: false,
+        loading: res.loading,
+        loaded: res.loaded
+      };
+      return _this;
+    }
+
+    (0, _createClass2.default)(LoadableComponent, [{
+      key: "componentWillMount",
+      value: function componentWillMount() {
+        this._mounted = true;
+
+        this._loadModule();
+      }
+    }, {
+      key: "_loadModule",
+      value: function _loadModule() {
+        var _this2 = this;
+
+        if (this.context.loadable && (0, _isArray.default)(opts.modules)) {
+          opts.modules.forEach(function (moduleName) {
+            _this2.context.loadable.report(moduleName);
+          });
+        }
+
+        if (!res.loading) {
+          return;
+        }
+
+        if (typeof opts.delay === 'number') {
+          if (opts.delay === 0) {
+            this.setState({
+              pastDelay: true
+            });
+          } else {
+            this._delay = setTimeout(function () {
+              _this2.setState({
+                pastDelay: true
+              });
+            }, opts.delay);
+          }
+        }
+
+        if (typeof opts.timeout === 'number') {
+          this._timeout = setTimeout(function () {
+            _this2.setState({
+              timedOut: true
+            });
+          }, opts.timeout);
+        }
+
+        var update = function update() {
+          if (!_this2._mounted) {
+            return;
+          }
+
+          _this2.setState({
+            error: res.error,
+            loaded: res.loaded,
+            loading: res.loading
+          });
+
+          _this2._clearTimeouts();
+        };
+
+        res.promise.then(function () {
+          update();
+        }) // eslint-disable-next-line handle-callback-err
+        .catch(function (err) {
+          update();
+        });
+      }
+    }, {
+      key: "componentWillUnmount",
+      value: function componentWillUnmount() {
+        this._mounted = false;
+
+        this._clearTimeouts();
+      }
+    }, {
+      key: "_clearTimeouts",
+      value: function _clearTimeouts() {
+        clearTimeout(this._delay);
+        clearTimeout(this._timeout);
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        if (this.state.loading || this.state.error) {
+          return _react.default.createElement(opts.loading, {
+            isLoading: this.state.loading,
+            pastDelay: this.state.pastDelay,
+            timedOut: this.state.timedOut,
+            error: this.state.error,
+            retry: this.retry
+          });
+        } else if (this.state.loaded) {
+          return opts.render(this.state.loaded, this.props);
+        } else {
+          return null;
+        }
+      }
+    }], [{
+      key: "preload",
+      value: function preload() {
+        return init();
+      }
+    }]);
+    return LoadableComponent;
+  }(_react.default.Component), (0, _defineProperty2.default)(_class, "contextTypes", {
+    loadable: _propTypes.default.shape({
+      report: _propTypes.default.func.isRequired
+    })
+  }), _temp;
+}
+
+function Loadable(opts) {
+  return createLoadableComponent(load, opts);
+}
+
+function LoadableMap(opts) {
+  if (typeof opts.render !== 'function') {
+    throw new Error('LoadableMap requires a `render(loaded, props)` function');
+  }
+
+  return createLoadableComponent(loadMap, opts);
+}
+
+Loadable.Map = LoadableMap;
+
+function flushInitializers(initializers) {
+  var promises = [];
+
+  while (initializers.length) {
+    var init = initializers.pop();
+    promises.push(init());
+  }
+
+  return _promise.default.all(promises).then(function () {
+    if (initializers.length) {
+      return flushInitializers(initializers);
+    }
+  });
+}
+
+Loadable.preloadAll = function () {
+  return new _promise.default(function (resolve, reject) {
+    flushInitializers(ALL_INITIALIZERS).then(resolve, reject);
+  });
+};
+
+Loadable.preloadReady = function (webpackIds) {
+  return new _promise.default(function (resolve, reject) {
+    var initializers = webpackIds.reduce(function (allInitalizers, moduleId) {
+      var initializer = READY_INITIALIZERS.get(moduleId);
+
+      if (!initializer) {
+        return allInitalizers;
+      }
+
+      allInitalizers.push(initializer);
+      return allInitalizers;
+    }, []);
+    initialized = true; // Make sure the object is cleared
+
+    READY_INITIALIZERS.clear(); // We always will resolve, errors should be handled within loading UIs.
+
+    flushInitializers(initializers).then(resolve, resolve);
+  });
+};
+
+module.exports = Loadable;
 
 /***/ }),
 
@@ -6900,6 +7773,18 @@ function getURL() {
 
 /***/ }),
 
+/***/ "./node_modules/next/dynamic.js":
+/*!**************************************!*\
+  !*** ./node_modules/next/dynamic.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/lib/dynamic */ "./node_modules/next/dist/lib/dynamic.js")
+
+
+/***/ }),
+
 /***/ "./node_modules/next/head.js":
 /*!***********************************!*\
   !*** ./node_modules/next/head.js ***!
@@ -6914,12 +7799,12 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_84cc4fe3fc17a4546c27 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_84cc4fe3fc17a4546c27 */ "dll-reference dll_84cc4fe3fc17a4546c27"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -7120,12 +8005,12 @@ process.umask = function() { return 0; };
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_84cc4fe3fc17a4546c27 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_84cc4fe3fc17a4546c27 */ "dll-reference dll_84cc4fe3fc17a4546c27"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -7733,23 +8618,23 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_84cc4fe3fc17a4546c27 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_84cc4fe3fc17a4546c27 */ "dll-reference dll_84cc4fe3fc17a4546c27"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_84cc4fe3fc17a4546c27 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_84cc4fe3fc17a4546c27 */ "dll-reference dll_84cc4fe3fc17a4546c27"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -8581,15 +9466,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Top__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Top */ "./components/Top.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-/* harmony import */ var _gracias__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./gracias */ "./pages/gracias.js");
-/* harmony import */ var _funciones_funciones__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../funciones/funciones */ "./funciones/funciones.js");
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/pages/cotizar.js";
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dynamic */ "./node_modules/next/dynamic.js");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Top__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Top */ "./components/Top.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _gracias__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./gracias */ "./pages/gracias.js");
+/* harmony import */ var _funciones_funciones__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../funciones/funciones */ "./funciones/funciones.js");
+var _jsxFileName = "/Users/Edwinpgm/Sites/Pactemos/pages/cotizar.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -8601,11 +9490,11 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -8616,6 +9505,18 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+
+var Dropzone = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(function () {
+  return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! react-dropzone */ "./node_modules/react-dropzone/dist/es/index.js"));
+}, {
+  ssr: false,
+  loadableGenerated: {
+    webpack: function webpack() {
+      return [/*require.resolve*/(/*! react-dropzone */ "./node_modules/react-dropzone/dist/es/index.js")];
+    },
+    modules: ['react-dropzone']
+  }
+});
 var data = [{
   name: 'Joyería',
   options: [{
@@ -8708,29 +9609,30 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Cotizar)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
+    _defineProperty(_assertThisInitialized(_this), "state", {
       type: null,
       subtype: null,
       category: null,
       weight: undefined,
       value: undefined,
       visible: false,
-      submited: false
+      submited: false,
+      files: []
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "showModal", function () {
+    _defineProperty(_assertThisInitialized(_this), "showModal", function () {
       _this.setState({
         visible: true
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "closeModal", function () {
+    _defineProperty(_assertThisInitialized(_this), "closeModal", function () {
       _this.setState({
         visible: false
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "selectType", function (type) {
+    _defineProperty(_assertThisInitialized(_this), "selectType", function (type) {
       _this.setState({
         type: type,
         subtype: null,
@@ -8740,7 +9642,7 @@ function (_Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "selectSubType", function (subtype) {
+    _defineProperty(_assertThisInitialized(_this), "selectSubType", function (subtype) {
       _this.setState({
         subtype: subtype,
         category: null,
@@ -8749,7 +9651,7 @@ function (_Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "selectCategory", function (category) {
+    _defineProperty(_assertThisInitialized(_this), "selectCategory", function (category) {
       _this.setState({
         category: null
       }, function () {
@@ -8761,7 +9663,7 @@ function (_Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onChangeInput", function (e) {
+    _defineProperty(_assertThisInitialized(_this), "onChangeInput", function (e) {
       var name = e.target.name;
       var value = e.target.value;
 
@@ -8774,14 +9676,14 @@ function (_Component) {
       }
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onChangeSelect", function (e) {
+    _defineProperty(_assertThisInitialized(_this), "onChangeSelect", function (e) {
       var name = e.target.name;
       var value = e.target.value;
 
       _this.setState(_defineProperty({}, name, value));
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onChangeTipoHerramienta", function (e) {
+    _defineProperty(_assertThisInitialized(_this), "onChangeTipoHerramienta", function (e) {
       var name = e.target.name;
       var value = e.target.value;
 
@@ -8793,7 +9695,7 @@ function (_Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onChangeElectrodomesticos", function (e) {
+    _defineProperty(_assertThisInitialized(_this), "onChangeElectrodomesticos", function (e) {
       var name = e.target.name;
       var value = e.target.value;
 
@@ -8805,7 +9707,7 @@ function (_Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onChangeTecnologia", function (e) {
+    _defineProperty(_assertThisInitialized(_this), "onChangeTecnologia", function (e) {
       var name = e.target.name;
       var value = e.target.value;
 
@@ -8817,18 +9719,34 @@ function (_Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "submit", function (e) {
-      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/cotizacion'
+    _defineProperty(_assertThisInitialized(_this), "submit", function (e) {
+      e.preventDefault();
+      var url = 'http://localhost:3001/api/pactemos/cotizacion';
+      var formData = new FormData();
 
-      var url = 'https://gestionshop.co/api/pactemos/cotizacion';
-      axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(url, _this.state).then(function (res) {
+      for (var i = 0; i < _this.state.files.length; i++) {
+        var file = _this.state.files[i];
+        formData.append('files[' + i + ']', file);
+      }
+
+      formData.append('data', JSON.stringify(_this.state));
+      axios__WEBPACK_IMPORTED_MODULE_4___default.a.post(url, formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      }).then(function (res) {
         _this.setState({
           visible: false,
           submited: true
         });
-      }).catch(function (error) {
-        alert('Ocurrio un error y no se pudo enviar la cotización.');
-        console.log('res error', error);
+
+        window.location.replace('/gracias');
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onDrop", function (files) {
+      _this.setState({
+        files: files
       });
     });
 
@@ -8843,26 +9761,26 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230
+          lineNumber: 253
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 231
+          lineNumber: 254
         },
         __self: this
       }, "Cotiza en Compraventa Pactemos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 233
+          lineNumber: 256
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Top__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Top__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234
+          lineNumber: 257
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -8871,46 +9789,148 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 235
+          lineNumber: 258
         },
         __self: this
-      }), this.state.submited ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_gracias__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      }), this.state.submited ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_gracias__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 239
+          lineNumber: 262
         },
         __self: this
       }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241
+          lineNumber: 264
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         className: "offices-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 242
+          lineNumber: 265
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 243
+          lineNumber: 266
         },
         __self: this
       }, "Cotizador en l\xEDnea"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 244
+          lineNumber: 267
         },
         __self: this
-      }, "Rellene los campos y recuerde que la informaci\xF3n personal la utilizaremos para confirmarle cu\xE1nto dinero le damos por su art\xEDculo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Rellene los campos y recuerde que la informaci\xF3n personal la utilizaremos para confirmarle cu\xE1nto dinero le damos por su art\xEDculo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Dropzone, {
+        onDrop: this.onDrop,
+        multiple: false,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 269
+        },
+        __self: this
+      }, function (_ref) {
+        var getRootProps = _ref.getRootProps,
+            getInputProps = _ref.getInputProps,
+            isDragActive = _ref.isDragActive;
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+          style: {
+            margin: '30px 0 10px 0'
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 271
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+          style: {
+            textAlign: 'left',
+            fontSize: 14
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 274
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 277
+          },
+          __self: this
+        }, "Agregar imagen"), " (opcional)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, getRootProps(), {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 278
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", _extends({}, getInputProps(), {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 279
+          },
+          __self: this
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          style: {
+            padding: 30,
+            color: '#aaa',
+            textAlign: 'center',
+            border: '1px dashed #ccc'
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 280
+          },
+          __self: this
+        }, isDragActive ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 289
+          },
+          __self: this
+        }, "Soltar archivo") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 291
+          },
+          __self: this
+        }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          style: {
+            marginTop: 10,
+            padding: '10px 20px',
+            textAlign: 'left',
+            fontSize: 14,
+            backgroundColor: '#f3f0ee',
+            borderRadius: 4
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 300
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 308
+          },
+          __self: this
+        }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 310
+            },
+            __self: this
+          }, item.name);
+        })));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 246
+          lineNumber: 318
         },
         __self: this
       }, data.map(function (item) {
@@ -8921,13 +9941,13 @@ function (_Component) {
           className: "cotizar-select-item ".concat(_this2.state.type && item.name === _this2.state.type.name ? 'active' : ''),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 248
+            lineNumber: 320
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 251
+            lineNumber: 323
           },
           __self: this
         }, item.name));
@@ -8935,7 +9955,7 @@ function (_Component) {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 261
+          lineNumber: 333
         },
         __self: this
       }, this.state.type.options.map(function (item) {
@@ -8946,13 +9966,13 @@ function (_Component) {
           className: "cotizar-select-item ".concat(_this2.state.subtype && item.name === _this2.state.subtype.name ? 'active' : ''),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 263
+            lineNumber: 335
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 266
+            lineNumber: 338
           },
           __self: this
         }, item.name));
@@ -8960,7 +9980,7 @@ function (_Component) {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 277
+          lineNumber: 349
         },
         __self: this
       }, this.state.subtype.options.map(function (item) {
@@ -8971,13 +9991,13 @@ function (_Component) {
           className: "cotizar-select-item ".concat(_this2.state.category && item.name === _this2.state.category.name ? 'active' : ''),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 279
+            lineNumber: 351
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 282
+            lineNumber: 354
           },
           __self: this
         }, item.name));
@@ -8985,14 +10005,14 @@ function (_Component) {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 293
+          lineNumber: 365
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 294
+          lineNumber: 366
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
@@ -9002,104 +10022,104 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 296
+          lineNumber: 368
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 302
+          lineNumber: 374
         },
         __self: this
       }, "Seleccionar una herramienta"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Taladro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 303
+          lineNumber: 375
         },
         __self: this
       }, "Taladro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Pulidora",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 304
+          lineNumber: 376
         },
         __self: this
       }, "Pulidora"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Caladora",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 305
+          lineNumber: 377
         },
         __self: this
       }, "Caladora"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Trozadora",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 306
+          lineNumber: 378
         },
         __self: this
       }, "Tronzadora"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Ingledora",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 307
+          lineNumber: 379
         },
         __self: this
       }, "Ingletadora"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Sierra Circular",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 308
+          lineNumber: 380
         },
         __self: this
       }, "Sierra Circular"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Lijadora",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 309
+          lineNumber: 381
         },
         __self: this
       }, "Lijadora"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Ruteadora",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 310
+          lineNumber: 382
         },
         __self: this
       }, "Ruteadora"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Pistola de Impacto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 311
+          lineNumber: 383
         },
         __self: this
       }, "Pistola de Impacto"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Cortadora",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 312
+          lineNumber: 384
         },
         __self: this
       }, "Cortadora"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 313
+          lineNumber: 385
         },
         __self: this
       }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Electrodomésticos' && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 324
+          lineNumber: 396
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 325
+          lineNumber: 397
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
@@ -9109,62 +10129,62 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 327
+          lineNumber: 399
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 333
+          lineNumber: 405
         },
         __self: this
       }, "Selecciona un electrodom\xE9stico"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Televisor",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 334
+          lineNumber: 406
         },
         __self: this
       }, "Televisor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Nevera",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 335
+          lineNumber: 407
         },
         __self: this
       }, "Nevera"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Estufa",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 336
+          lineNumber: 408
         },
         __self: this
       }, "Estufa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Equipo de Sonido",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 337
+          lineNumber: 409
         },
         __self: this
       }, "Equipo de Sonido"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 338
+          lineNumber: 410
         },
         __self: this
       }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Tecnología' && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 349
+          lineNumber: 421
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 350
+          lineNumber: 422
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
@@ -9174,55 +10194,55 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 352
+          lineNumber: 424
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 358
+          lineNumber: 430
         },
         __self: this
       }, "Selecciona un articulo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Portatil",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 359
+          lineNumber: 431
         },
         __self: this
       }, "Portatil"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Tablet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 360
+          lineNumber: 432
         },
         __self: this
       }, "Tablet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 361
+          lineNumber: 433
         },
         __self: this
       }, "Otros")))), this.state.type && this.state.type.name === 'Joyería' && this.state.category && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 374
+          lineNumber: 446
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 375
+          lineNumber: 447
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 376
+          lineNumber: 448
         },
         __self: this
       }, "Peso aproximado"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9233,28 +10253,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 377
+          lineNumber: 449
         },
         __self: this
       }))), this.state.type && this.state.type.name === 'Artículos' && this.state.category && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 396
+          lineNumber: 468
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 397
+          lineNumber: 469
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 398
+          lineNumber: 470
         },
         __self: this
       }, "Marca *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9265,28 +10285,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 399
+          lineNumber: 471
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 408
+          lineNumber: 480
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 409
+          lineNumber: 481
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 410
+          lineNumber: 482
         },
         __self: this
       }, "Modelo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9297,28 +10317,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 411
+          lineNumber: 483
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 420
+          lineNumber: 492
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 421
+          lineNumber: 493
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 422
+          lineNumber: 494
         },
         __self: this
       }, "Tiempo de uso (Ej. 2 a\xF1o y/o 3 meses) *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9329,35 +10349,35 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 423
+          lineNumber: 495
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 432
+          lineNumber: 504
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 433
+          lineNumber: 505
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 434
+          lineNumber: 506
         },
         __self: this
       }, "\xBFTiene factura? *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 436
+          lineNumber: 508
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9368,14 +10388,14 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 437
+          lineNumber: 509
         },
         __self: this
       }), " Si"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 445
+          lineNumber: 517
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9386,28 +10406,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 446
+          lineNumber: 518
         },
         __self: this
       }), " No"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 456
+          lineNumber: 528
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 457
+          lineNumber: 529
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 458
+          lineNumber: 530
         },
         __self: this
       }, "Comentarios"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
@@ -9421,28 +10441,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 459
+          lineNumber: 531
         },
         __self: this
       })))), this.state.type && this.state.type.name === 'Otros' && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 478
+          lineNumber: 550
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 479
+          lineNumber: 551
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 480
+          lineNumber: 552
         },
         __self: this
       }, "Tipo de articulo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9453,28 +10473,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 481
+          lineNumber: 553
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 490
+          lineNumber: 562
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 491
+          lineNumber: 563
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 492
+          lineNumber: 564
         },
         __self: this
       }, "Marca"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9485,28 +10505,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 493
+          lineNumber: 565
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 502
+          lineNumber: 574
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 503
+          lineNumber: 575
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 504
+          lineNumber: 576
         },
         __self: this
       }, "Tiempo de uso"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9517,28 +10537,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 505
+          lineNumber: 577
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 514
+          lineNumber: 586
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 515
+          lineNumber: 587
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 516
+          lineNumber: 588
         },
         __self: this
       }, "Comentarios"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
@@ -9552,28 +10572,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 517
+          lineNumber: 589
         },
         __self: this
       })))), this.state.type && this.state.type.name === 'Vender CDT' && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 536
+          lineNumber: 608
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 537
+          lineNumber: 609
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 538
+          lineNumber: 610
         },
         __self: this
       }, "Valor CDT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9584,28 +10604,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 539
+          lineNumber: 611
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 548
+          lineNumber: 620
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 549
+          lineNumber: 621
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 550
+          lineNumber: 622
         },
         __self: this
       }, "Fecha de apertura"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9616,28 +10636,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 551
+          lineNumber: 623
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 560
+          lineNumber: 632
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 561
+          lineNumber: 633
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 562
+          lineNumber: 634
         },
         __self: this
       }, "Fecha de vencimiento"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9648,35 +10668,35 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 563
+          lineNumber: 635
         },
         __self: this
       })))), this.state.type && this.state.type.name === 'Joyería' && this.state.weight && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 582
+          lineNumber: 654
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 583
+          lineNumber: 655
         },
         __self: this
       }, "\xBFCu\xE1nto me dan por mi joya?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 584
+          lineNumber: 656
         },
         __self: this
-      }, "Te damos hasta $ ", _funciones_funciones__WEBPACK_IMPORTED_MODULE_6__["FormatMil"](this.state.value), " pesos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Te damos hasta $ ", _funciones_funciones__WEBPACK_IMPORTED_MODULE_7__["FormatMil"](this.state.value), " pesos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#",
         onClick: this.showModal,
         className: "cotizar-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 586
+          lineNumber: 658
         },
         __self: this
       }, "\xA1Quiero el dinero ya!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -9686,20 +10706,20 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 588
+          lineNumber: 660
         },
         __self: this
       }, "*Aplican condiciones")), this.state.type && this.state.type.name === 'Artículos' && this.state.brand && this.state.time && this.state.invoice && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 608
+          lineNumber: 680
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 609
+          lineNumber: 681
         },
         __self: this
       }, "\xBFCu\xE1nto me dan por mi art\xEDculo?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -9708,7 +10728,7 @@ function (_Component) {
         className: "cotizar-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 611
+          lineNumber: 683
         },
         __self: this
       }, "\xA1Desc\xFAbrelo!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -9718,20 +10738,20 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 613
+          lineNumber: 685
         },
         __self: this
       }, "*Aplican condiciones")), this.state.type && this.state.type.name === 'Vender CDT' && this.state.valueCDT && this.state.openCDT && this.state.closeCDT && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 634
+          lineNumber: 706
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 635
+          lineNumber: 707
         },
         __self: this
       }, "\xBFCu\xE1nto me dan por mi CDT?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -9740,7 +10760,7 @@ function (_Component) {
         className: "cotizar-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 637
+          lineNumber: 709
         },
         __self: this
       }, "\xA1Desc\xFAbrelo!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -9750,20 +10770,20 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 639
+          lineNumber: 711
         },
         __self: this
       }, "*Aplican condiciones")), this.state.type && this.state.type.name === 'Otros' && this.state.articleType && this.state.brand && this.state.time && this.state.comment && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "cotizar-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 662
+          lineNumber: 734
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 663
+          lineNumber: 735
         },
         __self: this
       }, "\xBFCu\xE1nto me dan por mi art\xEDculo?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -9772,7 +10792,7 @@ function (_Component) {
         className: "cotizar-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 665
+          lineNumber: 737
         },
         __self: this
       }, "\xA1Desc\xFAbrelo!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -9782,7 +10802,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 667
+          lineNumber: 739
         },
         __self: this
       }, "*Aplican condiciones")), this.state.visible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -9790,14 +10810,14 @@ function (_Component) {
         className: "modal",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 680
+          lineNumber: 752
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "modal-content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 681
+          lineNumber: 753
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -9805,7 +10825,7 @@ function (_Component) {
         className: "close",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 682
+          lineNumber: 754
         },
         __self: this
       }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -9814,7 +10834,7 @@ function (_Component) {
         onSubmit: this.submit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 684
+          lineNumber: 756
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -9823,21 +10843,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 685
+          lineNumber: 757
         },
         __self: this
       }, "Completa tus datos personales"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 686
+          lineNumber: 758
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 687
+          lineNumber: 759
         },
         __self: this
       }, "Nombres y Apellidos *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9848,21 +10868,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 688
+          lineNumber: 760
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 695
+          lineNumber: 767
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 696
+          lineNumber: 768
         },
         __self: this
       }, "Celular *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9873,21 +10893,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 697
+          lineNumber: 769
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 704
+          lineNumber: 776
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 705
+          lineNumber: 777
         },
         __self: this
       }, "Correo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9897,21 +10917,21 @@ function (_Component) {
         name: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 706
+          lineNumber: 778
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 712
+          lineNumber: 784
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 713
+          lineNumber: 785
         },
         __self: this
       }, "\xBFCu\xE1nto necesita?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -9921,21 +10941,21 @@ function (_Component) {
         name: "many",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 714
+          lineNumber: 786
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 720
+          lineNumber: 792
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 721
+          lineNumber: 793
         },
         __self: this
       }, "\xBFC\xF3mo nos contact\xF3? *"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
@@ -9946,62 +10966,62 @@ function (_Component) {
         placeholder: "Seleccione una opcion",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 722
+          lineNumber: 794
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 729
+          lineNumber: 801
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 730
+          lineNumber: 802
         },
         __self: this
       }, "Radio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Volantes",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 731
+          lineNumber: 803
         },
         __self: this
       }, "Volantes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Facebook",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 732
+          lineNumber: 804
         },
         __self: this
       }, "Facebook"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 733
+          lineNumber: 805
         },
         __self: this
       }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Google",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 734
+          lineNumber: 806
         },
         __self: this
       }, "Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Amigos",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 735
+          lineNumber: 807
         },
         __self: this
       }, "Amigos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 736
+          lineNumber: 808
         },
         __self: this
       }, "Otro"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -10009,20 +11029,20 @@ function (_Component) {
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 740
+          lineNumber: 812
         },
         __self: this
       }, "Enviar datos"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 751
+          lineNumber: 823
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 752
+          lineNumber: 824
         },
         __self: this
       })));
@@ -10066,7 +11086,11 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/sr.arnold/Sites/cotizador/Pactemos/pages/gracias.js";
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Top__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Top */ "./components/Top.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+var _jsxFileName = "/Users/Edwinpgm/Sites/Pactemos/pages/gracias.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -10086,8 +11110,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
- // import Head from 'next/head';
-// import Top from '../components/Top';
+
+
+
+
 
 var Thanks =
 /*#__PURE__*/
@@ -10103,11 +11129,45 @@ function (_Component) {
   _createClass(Thanks, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, "Cotiza en Compraventa Pactemos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "cotizar",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Top__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "cover",
+        src: "/static/img/cover-cotizar.png",
+        alt: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 17
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -10118,28 +11178,41 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 18
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 23
         },
         __self: this
       }, "\xA1YA EST\xC1 EN PROCESO TU SOLICITUD!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 24
         },
         __self: this
       }, "En minutos recibir\xE1s la llamada de uno de nuestros asesores"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 25
         },
         __self: this
-      }, "\xA1En COMPRAVENTAS PACTEMOS estamos para servirTE!"))));
+      }, "\xA1En COMPRAVENTAS PACTEMOS estamos para servirte!")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      })));
     }
   }]);
 
@@ -10183,14 +11256,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_831a3634f66cb1dada0c":
+/***/ "dll-reference dll_84cc4fe3fc17a4546c27":
 /*!*******************************************!*\
-  !*** external "dll_831a3634f66cb1dada0c" ***!
+  !*** external "dll_84cc4fe3fc17a4546c27" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_831a3634f66cb1dada0c;
+module.exports = dll_84cc4fe3fc17a4546c27;
 
 /***/ })
 
