@@ -46,8 +46,8 @@ class Home extends Component {
   submit = (e) => {
     e.preventDefault()
 
-    // const url = 'http://localhost:3001/api/pactemos/cotizacion'
-    const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+    const url = 'http://localhost:3001/api/pactemos/cotizacion'
+    // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
     axios.post(url, this.state).then(res => {
       this.setState({ submited: true })
     }).catch(error => {
