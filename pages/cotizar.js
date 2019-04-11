@@ -219,15 +219,7 @@ class Cotizar extends Component {
   
   submit = (e) => {
     e.preventDefault()
-
     const url = 'http://localhost:3001/api/pactemos/cotizacion'
-    // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
-    // axios.post(url, this.state).then(res => {
-    //   this.setState({ visible: false, submited: true })
-    // }).catch(error => {
-    //   alert('Ocurrio un error y no se pudo enviar la cotización.')
-    //   console.log('res error', error)
-    // })
 
     let formData = new FormData()
     for( var i = 0; i < this.state.files.length; i++ ){
@@ -245,6 +237,7 @@ class Cotizar extends Component {
       }
     ).then(res => {
       this.setState({ visible: false, submited: true })
+      window.location.replace('/gracias')
     })
   }
 
