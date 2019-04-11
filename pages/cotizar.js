@@ -274,20 +274,50 @@ class Cotizar extends Component {
                 <p>Rellene los campos y recuerde que la información personal la utilizaremos para confirmarle cuánto dinero le damos por su artículo</p>
 
                 <Dropzone onDrop={this.onDrop} multiple={false}>
-                  {({getRootProps, getInputProps}) => (
-                    <section>
+                  {({getRootProps, getInputProps, isDragActive}) => (
+                    <section style={{
+                      margin: '30px 0 10px 0',
+                    }}>
+                      <p style={{
+                        textAlign: 'left',
+                        fontSize: 14,
+                      }}><strong>Agregar imagen</strong> (opcional)</p>
                       <div {...getRootProps()}>
                         <input {...getInputProps()} />
                         <div style={{
-                          margin: '30px 0 10px 0',
                           padding: 30,
                           color: '#aaa',
                           textAlign: 'center',
                           border: '1px dashed #ccc',
                         }}>
-                          <span>Arrastra la imagen o clic para elegir</span>
+                          {
+                            isDragActive
+                            ?
+                            <span>Soltar archivo</span>
+                            :
+                            <span>Arrastra la imagen o clic para elegir</span>
+                          }
                         </div>
                       </div>
+                      {
+                        this.state.files
+                        &&
+                        this.state.files.length > 0
+                        &&
+                        <div style={{
+                          marginTop: 10,
+                          padding: '10px 20px',
+                          textAlign: 'left',
+                          fontSize: 14,
+                          backgroundColor: '#f3f0ee',
+                          borderRadius: 4,
+                        }}>
+                          <h4>Archivo seleccionado</h4>
+                          {
+                            this.state.files.map(item => <li>{ item.name }</li>)
+                          }
+                        </div>
+                      }
                     </section>
                   )}
                 </Dropzone>
