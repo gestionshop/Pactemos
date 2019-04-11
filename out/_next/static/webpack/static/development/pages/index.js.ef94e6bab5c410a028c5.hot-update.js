@@ -95,9 +95,9 @@ function (_Component) {
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "submit", function (e) {
-      e.preventDefault();
-      var url = 'http://localhost:3001/api/pactemos/domicilio'; // const url = 'https://gestionshop.co/api/pactemos/domicilio'
+      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/domicilio'
 
+      var url = 'https://gestionshop.co/api/pactemos/domicilio';
       axios__WEBPACK_IMPORTED_MODULE_11___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           submited: true
@@ -1221,4 +1221,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.ce39a0b6fbf96a16b2de.hot-update.js.map
+//# sourceMappingURL=index.js.ef94e6bab5c410a028c5.hot-update.js.map

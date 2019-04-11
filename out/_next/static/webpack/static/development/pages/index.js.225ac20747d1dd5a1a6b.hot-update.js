@@ -1,4 +1,4 @@
-webpackHotUpdate("static/development/pages/cotizar.js",{
+webpackHotUpdate("static/development/pages/index.js",{
 
 /***/ "./components/Top.js":
 /*!***************************!*\
@@ -93,9 +93,9 @@ function (_Component) {
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "submit", function (e) {
-      e.preventDefault();
-      var url = 'http://localhost:3001/api/pactemos/domicilio'; // const url = 'https://gestionshop.co/api/pactemos/domicilio'
+      e.preventDefault(); // const url = 'http://localhost:3001/api/pactemos/domicilio'
 
+      var url = 'https://gestionshop.co/api/pactemos/domicilio';
       axios__WEBPACK_IMPORTED_MODULE_8___default.a.post(url, _this.state).then(function (res) {
         _this.setState({
           submited: true
@@ -119,28 +119,28 @@ function (_Component) {
         className: "Top",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 52
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 53
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "Top_row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 55
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -149,7 +149,7 @@ function (_Component) {
         alt: "Compra Venta Pactemos",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 56
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -159,14 +159,14 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 59
         },
         __self: this
       }), this.state.visible && react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", {
         className: "Top_list",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -174,7 +174,7 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 65
         },
         __self: this
       }, "Inicio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -182,7 +182,7 @@ function (_Component) {
         href: "/sucursales",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 66
         },
         __self: this
       }, "Sucursales"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -190,7 +190,7 @@ function (_Component) {
         href: "/noticias",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 67
         },
         __self: this
       }, "Noticias"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -199,7 +199,7 @@ function (_Component) {
         onClick: this.showModal,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 68
         },
         __self: this
       }, "Servicio a Domicilio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -207,14 +207,14 @@ function (_Component) {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 69
         },
         __self: this
       }, "Cotizar en linea")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", {
         className: "Top_list_desktop",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 72
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -222,7 +222,7 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 73
         },
         __self: this
       }, "Inicio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -230,7 +230,7 @@ function (_Component) {
         href: "/sucursales",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 74
         },
         __self: this
       }, "Sucursales"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -238,7 +238,7 @@ function (_Component) {
         href: "/noticias",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 75
         },
         __self: this
       }, "Noticias"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -247,7 +247,7 @@ function (_Component) {
         onClick: this.showModal,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 76
         },
         __self: this
       }, "Servicio a Domicilio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -255,7 +255,7 @@ function (_Component) {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 77
         },
         __self: this
       }, "Cotizar en linea")))), this.state.visibleModal && react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
@@ -263,14 +263,14 @@ function (_Component) {
         className: "modal",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 84
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "modal-content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 85
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
@@ -278,7 +278,7 @@ function (_Component) {
         className: "close",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 86
         },
         __self: this
       }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
@@ -287,7 +287,7 @@ function (_Component) {
         onSubmit: this.submit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 87
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", {
@@ -296,21 +296,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 88
         },
         __self: this
       }, "Completa tus datos personales"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 89
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 90
         },
         __self: this
       }, "Nombres y Apellidos *"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
@@ -321,21 +321,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 91
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 98
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 99
         },
         __self: this
       }, "Celular *"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
@@ -346,21 +346,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 100
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 107
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 108
         },
         __self: this
       }, "Correo"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
@@ -370,21 +370,21 @@ function (_Component) {
         name: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 109
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116
+          lineNumber: 115
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 116
         },
         __self: this
       }, "\xBFCu\xE1nto necesita?"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
@@ -394,21 +394,21 @@ function (_Component) {
         name: "many",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 117
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 123
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 124
         },
         __self: this
       }, "\xBFC\xF3mo nos contact\xF3? *"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("select", {
@@ -418,62 +418,62 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126
+          lineNumber: 125
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 131
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 132
         },
         __self: this
       }, "Radio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Volantes",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134
+          lineNumber: 133
         },
         __self: this
       }, "Volantes"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Facebook",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 134
         },
         __self: this
       }, "Facebook"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 135
         },
         __self: this
       }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Google",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 136
         },
         __self: this
       }, "Google"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Amigos",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138
+          lineNumber: 137
         },
         __self: this
       }, "Amigos"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139
+          lineNumber: 138
         },
         __self: this
       }, "Otro"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
@@ -481,7 +481,7 @@ function (_Component) {
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143
+          lineNumber: 142
         },
         __self: this
       }, "Enviar datos")))));
@@ -496,4 +496,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=cotizar.js.e0eaa916ec9e79f5dbca.hot-update.js.map
+//# sourceMappingURL=index.js.225ac20747d1dd5a1a6b.hot-update.js.map

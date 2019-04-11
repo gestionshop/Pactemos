@@ -1,4 +1,4 @@
-webpackHotUpdate("static/development/pages/index.js",{
+webpackHotUpdate("static/development/pages/gracias.js",{
 
 /***/ "./components/Top.js":
 /*!***************************!*\
@@ -496,4 +496,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.b7d68fe5f908a0eb4a6a.hot-update.js.map
+//# sourceMappingURL=gracias.js.225ac20747d1dd5a1a6b.hot-update.js.map
