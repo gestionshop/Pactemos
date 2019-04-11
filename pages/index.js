@@ -46,13 +46,8 @@ class Home extends Component {
   submit = (e) => {
     e.preventDefault()
 
-<<<<<<< HEAD
-    const url = 'http://localhost:3001/api/pactemos/domicilio'
-    // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
-=======
     // const url = 'http://localhost:3001/api/pactemos/domicilio'
     const url = 'https://gestionshop.co/api/pactemos/domicilio'
->>>>>>> 11e4d2cf0eaa44c0515d5e072d8e2b6652146c7d
     axios.post(url, this.state).then(res => {
       this.setState({ submited: true })
       window.location.replace('/gracias')
@@ -276,11 +271,11 @@ class Home extends Component {
                   <span onClick={ this.closeModal } className="close">&times;</span>
                   
                   {
-                    this.state.submited
-                    ?
-                    <Thanks/>
-                    // <p>La información se envio a la CompraVenta.</p>
-                    :
+                    // this.state.submited
+                    // ?
+                    // <Thanks/>
+                    // // <p>La información se envio a la CompraVenta.</p>
+                    // :
                     <form name="cotizacion" method="POST" onSubmit={ this.submit }>
                       <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
                       <div className="form-row">
