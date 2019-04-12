@@ -35,7 +35,7 @@ class Sucursales extends Component {
                   <address>
                     <h4>Bocagrande</h4>
                     <span>Cra 3. #5-187.</span><br/>
-                    <span>Teléfono: (57) (5) 679900</span><br/>
+                    <span>Teléfono: (57) (5) 6799000</span><br/>
                     <span>Whatsapp: (300) 7820709</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678351597" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
