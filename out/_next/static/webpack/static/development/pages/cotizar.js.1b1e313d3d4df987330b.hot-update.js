@@ -372,127 +372,11 @@ function (_Component) {
           lineNumber: 267
         },
         __self: this
-      }, "Rellene los campos y recuerde que la informaci\xF3n personal la utilizaremos para confirmarle cu\xE1nto dinero le damos por su art\xEDculo"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Dropzone, {
-        onDrop: this.onDrop,
-        multiple: false,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 269
-        },
-        __self: this
-      }, function (_ref) {
-        var getRootProps = _ref.getRootProps,
-            getInputProps = _ref.getInputProps,
-            isDragActive = _ref.isDragActive;
-        return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("section", {
-          style: {
-            margin: '30px 0 10px 0'
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 271
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
-          style: {
-            textAlign: 'left',
-            fontSize: 14
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 274
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("strong", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 277
-          },
-          __self: this
-        }, "Agregar imagen"), " (opcional)"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getRootProps(), {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 278
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getInputProps(), {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 279
-          },
-          __self: this
-        })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-          style: {
-            padding: 30,
-            color: '#aaa',
-            textAlign: 'center',
-            border: '1px dashed #ccc'
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 280
-          },
-          __self: this
-        }, isDragActive ? react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 289
-          },
-          __self: this
-        }, "Soltar archivo") : react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 291
-          },
-          __self: this
-        }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-          style: {
-            marginTop: 10,
-            padding: '10px 20px',
-            textAlign: 'left',
-            fontSize: 14,
-            backgroundColor: '#f3f0ee',
-            borderRadius: 4
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 300
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h4", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 308
-          },
-          __self: this
-        }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
-          return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("li", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 310
-            },
-            __self: this
-          }, item.name);
-        }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("a", {
-          href: "#",
-          onClick: _this2.deleteFiles,
-          style: {
-            display: 'block',
-            marginTop: 10,
-            fontSize: 13,
-            color: '#555'
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 313
-          },
-          __self: this
-        }, "Borrar archivos seleccionados")));
-      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+      }, "Rellene los campos y recuerde que la informaci\xF3n personal la utilizaremos para confirmarle cu\xE1nto dinero le damos por su art\xEDculo"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 325
+          lineNumber: 269
         },
         __self: this
       }, data.map(function (item) {
@@ -503,13 +387,13 @@ function (_Component) {
           className: "cotizar-select-item ".concat(_this2.state.type && item.name === _this2.state.type.name ? 'active' : ''),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 327
+            lineNumber: 271
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 330
+            lineNumber: 274
           },
           __self: this
         }, item.name));
@@ -517,7 +401,7 @@ function (_Component) {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 340
+          lineNumber: 284
         },
         __self: this
       }, this.state.type.options.map(function (item) {
@@ -528,13 +412,13 @@ function (_Component) {
           className: "cotizar-select-item ".concat(_this2.state.subtype && item.name === _this2.state.subtype.name ? 'active' : ''),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 342
+            lineNumber: 286
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 345
+            lineNumber: 289
           },
           __self: this
         }, item.name));
@@ -542,7 +426,7 @@ function (_Component) {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 356
+          lineNumber: 300
         },
         __self: this
       }, this.state.subtype.options.map(function (item) {
@@ -553,17 +437,189 @@ function (_Component) {
           className: "cotizar-select-item ".concat(_this2.state.category && item.name === _this2.state.category.name ? 'active' : ''),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 358
+            lineNumber: 302
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 361
+            lineNumber: 305
           },
           __self: this
         }, item.name));
       })), this.state.subtype && this.state.subtype.name === 'Herramientas' && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        className: "cotizar-select",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 316
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        className: "form-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 317
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("select", {
+        name: "tipo_herramienta",
+        className: "input",
+        onChange: this.onChangeTipoHerramienta,
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 319
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 325
+        },
+        __self: this
+      }, "Seleccionar una herramienta"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Taladro",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 326
+        },
+        __self: this
+      }, "Taladro"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Pulidora",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 327
+        },
+        __self: this
+      }, "Pulidora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Caladora",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 328
+        },
+        __self: this
+      }, "Caladora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Trozadora",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 329
+        },
+        __self: this
+      }, "Tronzadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Ingledora",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 330
+        },
+        __self: this
+      }, "Ingletadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Sierra Circular",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 331
+        },
+        __self: this
+      }, "Sierra Circular"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Lijadora",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 332
+        },
+        __self: this
+      }, "Lijadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Ruteadora",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 333
+        },
+        __self: this
+      }, "Ruteadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Pistola de Impacto",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 334
+        },
+        __self: this
+      }, "Pistola de Impacto"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Cortadora",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 335
+        },
+        __self: this
+      }, "Cortadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Otro",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 336
+        },
+        __self: this
+      }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Electrodomésticos' && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        className: "cotizar-select",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 347
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        className: "form-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 348
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("select", {
+        name: "tipo_electrodomesticos",
+        className: "input",
+        onChange: this.onChangeElectrodomesticos,
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 350
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 356
+        },
+        __self: this
+      }, "Selecciona un electrodom\xE9stico"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Televisor",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 357
+        },
+        __self: this
+      }, "Televisor"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Nevera",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 358
+        },
+        __self: this
+      }, "Nevera"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Estufa",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 359
+        },
+        __self: this
+      }, "Estufa"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Equipo de Sonido",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 360
+        },
+        __self: this
+      }, "Equipo de Sonido"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
+        value: "Otro",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 361
+        },
+        __self: this
+      }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Tecnología' && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
@@ -578,9 +634,9 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("select", {
-        name: "tipo_herramienta",
+        name: "tipo_tecnologia",
         className: "input",
-        onChange: this.onChangeTipoHerramienta,
+        onChange: this.onChangeTecnologia,
         required: true,
         __source: {
           fileName: _jsxFileName,
@@ -593,218 +649,46 @@ function (_Component) {
           lineNumber: 381
         },
         __self: this
-      }, "Seleccionar una herramienta"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Taladro",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 382
-        },
-        __self: this
-      }, "Taladro"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Pulidora",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 383
-        },
-        __self: this
-      }, "Pulidora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Caladora",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 384
-        },
-        __self: this
-      }, "Caladora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Trozadora",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 385
-        },
-        __self: this
-      }, "Tronzadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Ingledora",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 386
-        },
-        __self: this
-      }, "Ingletadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Sierra Circular",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 387
-        },
-        __self: this
-      }, "Sierra Circular"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Lijadora",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 388
-        },
-        __self: this
-      }, "Lijadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Ruteadora",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 389
-        },
-        __self: this
-      }, "Ruteadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Pistola de Impacto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 390
-        },
-        __self: this
-      }, "Pistola de Impacto"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Cortadora",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 391
-        },
-        __self: this
-      }, "Cortadora"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Otro",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 392
-        },
-        __self: this
-      }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Electrodomésticos' && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "cotizar-select",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 403
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "form-row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 404
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("select", {
-        name: "tipo_electrodomesticos",
-        className: "input",
-        onChange: this.onChangeElectrodomesticos,
-        required: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 406
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 412
-        },
-        __self: this
-      }, "Selecciona un electrodom\xE9stico"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Televisor",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 413
-        },
-        __self: this
-      }, "Televisor"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Nevera",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 414
-        },
-        __self: this
-      }, "Nevera"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Estufa",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 415
-        },
-        __self: this
-      }, "Estufa"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Equipo de Sonido",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 416
-        },
-        __self: this
-      }, "Equipo de Sonido"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        value: "Otro",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 417
-        },
-        __self: this
-      }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Tecnología' && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "cotizar-select",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 428
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "form-row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 429
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("select", {
-        name: "tipo_tecnologia",
-        className: "input",
-        onChange: this.onChangeTecnologia,
-        required: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 431
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 437
-        },
-        __self: this
       }, "Selecciona un articulo"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Portatil",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 438
+          lineNumber: 382
         },
         __self: this
       }, "Portatil"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Tablet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 439
+          lineNumber: 383
         },
         __self: this
       }, "Tablet"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 440
+          lineNumber: 384
         },
         __self: this
-      }, "Otros")))), this.state.type && this.state.type.name === 'Joyería' && this.state.category && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+      }, "Otros")))), this.state.type && this.state.type.name === 'Joyería' && this.state.category && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 453
+          lineNumber: 398
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 454
+          lineNumber: 399
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 455
+          lineNumber: 400
         },
         __self: this
       }, "Peso aproximado"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -815,28 +699,144 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 456
+          lineNumber: 401
         },
         __self: this
-      }))), this.state.type && this.state.type.name === 'Artículos' && this.state.category && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+      }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Dropzone, {
+        onDrop: this.onDrop,
+        multiple: false,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 410
+        },
+        __self: this
+      }, function (_ref) {
+        var getRootProps = _ref.getRootProps,
+            getInputProps = _ref.getInputProps,
+            isDragActive = _ref.isDragActive;
+        return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("section", {
+          style: {
+            margin: '30px 0 10px 0'
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 412
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
+          style: {
+            textAlign: 'left',
+            fontSize: 14
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 415
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("strong", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 418
+          },
+          __self: this
+        }, "Agregar imagen"), " (opcional)"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getRootProps(), {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 419
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getInputProps(), {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 420
+          },
+          __self: this
+        })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+          style: {
+            padding: 30,
+            color: '#aaa',
+            textAlign: 'center',
+            border: '1px dashed #ccc'
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 421
+          },
+          __self: this
+        }, isDragActive ? react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 430
+          },
+          __self: this
+        }, "Soltar archivo") : react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 432
+          },
+          __self: this
+        }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+          style: {
+            marginTop: 10,
+            padding: '10px 20px',
+            textAlign: 'left',
+            fontSize: 14,
+            backgroundColor: '#f3f0ee',
+            borderRadius: 4
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 441
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h4", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 449
+          },
+          __self: this
+        }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
+          return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("li", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 451
+            },
+            __self: this
+          }, item.name);
+        }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("a", {
+          href: "#",
+          onClick: _this2.deleteFiles,
+          style: {
+            display: 'block',
+            marginTop: 10,
+            fontSize: 13,
+            color: '#555'
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 454
+          },
+          __self: this
+        }, "Borrar archivos seleccionados")));
+      })), this.state.type && this.state.type.name === 'Artículos' && this.state.category && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 475
+          lineNumber: 476
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 476
+          lineNumber: 477
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 477
+          lineNumber: 478
         },
         __self: this
       }, "Marca *"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -847,28 +847,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 478
+          lineNumber: 479
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 487
+          lineNumber: 488
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 488
+          lineNumber: 489
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 489
+          lineNumber: 490
         },
         __self: this
       }, "Modelo"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -879,28 +879,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 490
+          lineNumber: 491
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 499
+          lineNumber: 500
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 500
+          lineNumber: 501
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 501
+          lineNumber: 502
         },
         __self: this
       }, "Tiempo de uso (Ej. 2 a\xF1o y/o 3 meses) *"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -911,35 +911,35 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 502
+          lineNumber: 503
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 511
+          lineNumber: 512
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 512
+          lineNumber: 513
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 513
+          lineNumber: 514
         },
         __self: this
       }, "\xBFTiene factura? *"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 515
+          lineNumber: 516
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -950,14 +950,14 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 516
+          lineNumber: 517
         },
         __self: this
       }), " Si"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 524
+          lineNumber: 525
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -968,28 +968,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 525
+          lineNumber: 526
         },
         __self: this
       }), " No"))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 535
+          lineNumber: 536
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 536
+          lineNumber: 537
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 537
+          lineNumber: 538
         },
         __self: this
       }, "Comentarios"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("textarea", {
@@ -1003,28 +1003,144 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 538
+          lineNumber: 539
         },
         __self: this
-      })))), this.state.type && this.state.type.name === 'Otros' && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+      }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Dropzone, {
+        onDrop: this.onDrop,
+        multiple: false,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 549
+        },
+        __self: this
+      }, function (_ref2) {
+        var getRootProps = _ref2.getRootProps,
+            getInputProps = _ref2.getInputProps,
+            isDragActive = _ref2.isDragActive;
+        return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("section", {
+          style: {
+            margin: '30px 0 10px 0'
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 551
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
+          style: {
+            textAlign: 'left',
+            fontSize: 14
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 554
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("strong", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 557
+          },
+          __self: this
+        }, "Agregar imagen"), " (opcional)"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getRootProps(), {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 558
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getInputProps(), {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 559
+          },
+          __self: this
+        })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+          style: {
+            padding: 30,
+            color: '#aaa',
+            textAlign: 'center',
+            border: '1px dashed #ccc'
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 560
+          },
+          __self: this
+        }, isDragActive ? react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 569
+          },
+          __self: this
+        }, "Soltar archivo") : react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 571
+          },
+          __self: this
+        }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+          style: {
+            marginTop: 10,
+            padding: '10px 20px',
+            textAlign: 'left',
+            fontSize: 14,
+            backgroundColor: '#f3f0ee',
+            borderRadius: 4
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 580
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h4", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 588
+          },
+          __self: this
+        }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
+          return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("li", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 590
+            },
+            __self: this
+          }, item.name);
+        }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("a", {
+          href: "#",
+          onClick: _this2.deleteFiles,
+          style: {
+            display: 'block',
+            marginTop: 10,
+            fontSize: 13,
+            color: '#555'
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 593
+          },
+          __self: this
+        }, "Borrar archivos seleccionados")));
+      })), this.state.type && this.state.type.name === 'Otros' && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 557
+          lineNumber: 613
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 558
+          lineNumber: 614
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 559
+          lineNumber: 615
         },
         __self: this
       }, "Tipo de articulo"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1035,28 +1151,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 560
+          lineNumber: 616
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 569
+          lineNumber: 625
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 570
+          lineNumber: 626
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 571
+          lineNumber: 627
         },
         __self: this
       }, "Marca"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1067,28 +1183,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 572
+          lineNumber: 628
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 581
+          lineNumber: 637
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 582
+          lineNumber: 638
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 583
+          lineNumber: 639
         },
         __self: this
       }, "Tiempo de uso"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1099,28 +1215,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 584
+          lineNumber: 640
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 593
+          lineNumber: 649
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 594
+          lineNumber: 650
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 595
+          lineNumber: 651
         },
         __self: this
       }, "Comentarios"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("textarea", {
@@ -1134,28 +1250,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 596
+          lineNumber: 652
         },
         __self: this
       })))), this.state.type && this.state.type.name === 'Vender CDT' && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 615
+          lineNumber: 671
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 616
+          lineNumber: 672
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 617
+          lineNumber: 673
         },
         __self: this
       }, "Valor CDT"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1166,28 +1282,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 618
+          lineNumber: 674
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 627
+          lineNumber: 683
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 628
+          lineNumber: 684
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 629
+          lineNumber: 685
         },
         __self: this
       }, "Fecha de apertura"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1198,28 +1314,28 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 630
+          lineNumber: 686
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-select",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 639
+          lineNumber: 695
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-input",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 640
+          lineNumber: 696
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 641
+          lineNumber: 697
         },
         __self: this
       }, "Fecha de vencimiento"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1230,26 +1346,26 @@ function (_Component) {
         onChange: this.onChangeInput,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 642
+          lineNumber: 698
         },
         __self: this
       })))), this.state.type && this.state.type.name === 'Joyería' && this.state.weight && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 661
+          lineNumber: 717
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 662
+          lineNumber: 718
         },
         __self: this
       }, "\xBFCu\xE1nto me dan por mi joya?"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 663
+          lineNumber: 719
         },
         __self: this
       }, "Te damos hasta $ ", _funciones_funciones__WEBPACK_IMPORTED_MODULE_16__["FormatMil"](this.state.value), " pesos"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("a", {
@@ -1258,7 +1374,7 @@ function (_Component) {
         className: "cotizar-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 665
+          lineNumber: 721
         },
         __self: this
       }, "\xA1Quiero el dinero ya!"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
@@ -1268,20 +1384,20 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 667
+          lineNumber: 723
         },
         __self: this
       }, "*Aplican condiciones")), this.state.type && this.state.type.name === 'Artículos' && this.state.brand && this.state.time && this.state.invoice && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 687
+          lineNumber: 743
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 688
+          lineNumber: 744
         },
         __self: this
       }, "\xBFCu\xE1nto me dan por mi art\xEDculo?"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("a", {
@@ -1290,7 +1406,7 @@ function (_Component) {
         className: "cotizar-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 690
+          lineNumber: 746
         },
         __self: this
       }, "\xA1Desc\xFAbrelo!"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
@@ -1300,20 +1416,20 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 692
+          lineNumber: 748
         },
         __self: this
       }, "*Aplican condiciones")), this.state.type && this.state.type.name === 'Vender CDT' && this.state.valueCDT && this.state.openCDT && this.state.closeCDT && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 713
+          lineNumber: 769
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 714
+          lineNumber: 770
         },
         __self: this
       }, "\xBFCu\xE1nto me dan por mi CDT?"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("a", {
@@ -1322,7 +1438,7 @@ function (_Component) {
         className: "cotizar-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 716
+          lineNumber: 772
         },
         __self: this
       }, "\xA1Desc\xFAbrelo!"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
@@ -1332,20 +1448,20 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 718
+          lineNumber: 774
         },
         __self: this
       }, "*Aplican condiciones")), this.state.type && this.state.type.name === 'Otros' && this.state.articleType && this.state.brand && this.state.time && this.state.comment && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "cotizar-result",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 741
+          lineNumber: 797
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 742
+          lineNumber: 798
         },
         __self: this
       }, "\xBFCu\xE1nto me dan por mi art\xEDculo?"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("a", {
@@ -1354,7 +1470,7 @@ function (_Component) {
         className: "cotizar-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 744
+          lineNumber: 800
         },
         __self: this
       }, "\xA1Desc\xFAbrelo!"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
@@ -1364,7 +1480,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 746
+          lineNumber: 802
         },
         __self: this
       }, "*Aplican condiciones")), this.state.visible && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
@@ -1372,14 +1488,14 @@ function (_Component) {
         className: "modal",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 759
+          lineNumber: 815
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "modal-content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 760
+          lineNumber: 816
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
@@ -1387,7 +1503,7 @@ function (_Component) {
         className: "close",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 761
+          lineNumber: 817
         },
         __self: this
       }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("form", {
@@ -1396,7 +1512,7 @@ function (_Component) {
         onSubmit: this.submit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 763
+          lineNumber: 819
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h3", {
@@ -1405,21 +1521,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 764
+          lineNumber: 820
         },
         __self: this
       }, "Completa tus datos personales"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 765
+          lineNumber: 821
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 766
+          lineNumber: 822
         },
         __self: this
       }, "Nombres y Apellidos *"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1430,21 +1546,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 767
+          lineNumber: 823
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 774
+          lineNumber: 830
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 775
+          lineNumber: 831
         },
         __self: this
       }, "Celular *"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1455,21 +1571,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 776
+          lineNumber: 832
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 783
+          lineNumber: 839
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 784
+          lineNumber: 840
         },
         __self: this
       }, "Correo"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1479,21 +1595,21 @@ function (_Component) {
         name: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 785
+          lineNumber: 841
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 791
+          lineNumber: 847
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 792
+          lineNumber: 848
         },
         __self: this
       }, "\xBFCu\xE1nto necesita?"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -1503,21 +1619,21 @@ function (_Component) {
         name: "many",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 793
+          lineNumber: 849
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 799
+          lineNumber: 855
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 800
+          lineNumber: 856
         },
         __self: this
       }, "\xBFC\xF3mo nos contact\xF3? *"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("select", {
@@ -1528,62 +1644,62 @@ function (_Component) {
         placeholder: "Seleccione una opcion",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 801
+          lineNumber: 857
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 808
+          lineNumber: 864
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 809
+          lineNumber: 865
         },
         __self: this
       }, "Radio"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Volantes",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 810
+          lineNumber: 866
         },
         __self: this
       }, "Volantes"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Facebook",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 811
+          lineNumber: 867
         },
         __self: this
       }, "Facebook"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 812
+          lineNumber: 868
         },
         __self: this
       }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Google",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 813
+          lineNumber: 869
         },
         __self: this
       }, "Google"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Amigos",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 814
+          lineNumber: 870
         },
         __self: this
       }, "Amigos"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 815
+          lineNumber: 871
         },
         __self: this
       }, "Otro"))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("button", {
@@ -1591,20 +1707,20 @@ function (_Component) {
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 819
+          lineNumber: 875
         },
         __self: this
       }, "Enviar datos"))))))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 829
+          lineNumber: 885
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 830
+          lineNumber: 886
         },
         __self: this
       })));
@@ -1619,4 +1735,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=cotizar.js.a009d306049df9338d1b.hot-update.js.map
+//# sourceMappingURL=cotizar.js.1b1e313d3d4df987330b.hot-update.js.map
