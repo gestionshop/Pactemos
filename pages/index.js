@@ -271,11 +271,11 @@ class Home extends Component {
                   <span onClick={ this.closeModal } className="close">&times;</span>
                   
                   {
-                    this.state.submited
-                    ?
-                    <Thanks/>
-                    // <p>La información se envio a la CompraVenta.</p>
-                    :
+                    // this.state.submited
+                    // ?
+                    // <Thanks/>
+                    // // <p>La información se envio a la CompraVenta.</p>
+                    // :
                     <form name="cotizacion" method="POST" onSubmit={ this.submit }>
                       <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
                       <div className="form-row">

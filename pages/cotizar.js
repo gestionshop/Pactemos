@@ -219,7 +219,8 @@ class Cotizar extends Component {
   
   submit = (e) => {
     e.preventDefault()
-    const url = 'http://localhost:3001/api/pactemos/cotizacion'
+    const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+    // const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
     let formData = new FormData()
     for( var i = 0; i < this.state.files.length; i++ ){

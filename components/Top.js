@@ -36,8 +36,8 @@ class Top extends Component {
   submit = (e) => {
     e.preventDefault()
 
-    const url = 'http://localhost:3001/api/pactemos/domicilio'
-    // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+    // const url = 'http://localhost:3001/api/pactemos/domicilio'
+    const url = 'https://gestionshop.co/api/pactemos/domicilio'
     axios.post(url, this.state).then(res => {
       this.setState({ submited: true })
       console.log('ENVIADOO')
