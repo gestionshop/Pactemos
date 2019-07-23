@@ -396,14 +396,14 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 58
         },
         __self: this
       }), this.state.visible && react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", {
         className: "Top_list",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 63
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -411,7 +411,7 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 64
         },
         __self: this
       }, "Inicio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -419,7 +419,7 @@ function (_Component) {
         href: "/sucursales",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 65
         },
         __self: this
       }, "Sucursales"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -427,7 +427,7 @@ function (_Component) {
         href: "/noticias",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 66
         },
         __self: this
       }, "Noticias"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -436,7 +436,7 @@ function (_Component) {
         onClick: this.showModal,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 67
         },
         __self: this
       }, "Servicio a Domicilio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -444,14 +444,14 @@ function (_Component) {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 68
         },
         __self: this
       }, "Cotizar en linea")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", {
         className: "Top_list_desktop",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 71
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -459,7 +459,7 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 72
         },
         __self: this
       }, "Inicio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -467,7 +467,7 @@ function (_Component) {
         href: "/sucursales",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 73
         },
         __self: this
       }, "Sucursales"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -475,7 +475,7 @@ function (_Component) {
         href: "/noticias",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 74
         },
         __self: this
       }, "Noticias"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -484,7 +484,7 @@ function (_Component) {
         onClick: this.showModal,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 75
         },
         __self: this
       }, "Servicio a Domicilio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -492,7 +492,7 @@ function (_Component) {
         href: "/cotizar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 76
         },
         __self: this
       }, "Cotizar en linea")))), this.state.visibleModal && react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
@@ -500,14 +500,14 @@ function (_Component) {
         className: "modal",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 83
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "modal-content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 84
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
@@ -515,7 +515,7 @@ function (_Component) {
         className: "close",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 85
         },
         __self: this
       }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
@@ -524,7 +524,7 @@ function (_Component) {
         onSubmit: this.submit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 86
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", {
@@ -533,21 +533,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 87
         },
         __self: this
       }, "Completa tus datos personales"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 88
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 89
         },
         __self: this
       }, "Nombres y Apellidos *"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
@@ -558,21 +558,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 90
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 97
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 98
         },
         __self: this
       }, "Celular *"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
@@ -583,21 +583,21 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 99
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 106
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 107
         },
         __self: this
       }, "Correo"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
@@ -607,21 +607,21 @@ function (_Component) {
         name: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 108
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115
+          lineNumber: 114
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116
+          lineNumber: 115
         },
         __self: this
       }, "\xBFCu\xE1nto necesita?"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
@@ -631,21 +631,21 @@ function (_Component) {
         name: "many",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 116
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "form-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 122
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         className: "label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 123
         },
         __self: this
       }, "\xBFC\xF3mo nos contact\xF3? *"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("select", {
@@ -655,62 +655,62 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 124
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131
+          lineNumber: 130
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Radio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 131
         },
         __self: this
       }, "Radio"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Volantes",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 132
         },
         __self: this
       }, "Volantes"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Facebook",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134
+          lineNumber: 133
         },
         __self: this
       }, "Facebook"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Instagram",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 134
         },
         __self: this
       }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Google",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 135
         },
         __self: this
       }, "Google"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Amigos",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 136
         },
         __self: this
       }, "Amigos"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("option", {
         value: "Otro",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138
+          lineNumber: 137
         },
         __self: this
       }, "Otro"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
@@ -718,7 +718,7 @@ function (_Component) {
         className: "form-btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142
+          lineNumber: 141
         },
         __self: this
       }, "Enviar datos")))));
@@ -7529,30 +7529,42 @@ function (_Component) {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 212
+          lineNumber: 211
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 213
+          lineNumber: 212
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 214
+          lineNumber: 213
         },
         __self: this
       }, "Gaira"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 215
+          lineNumber: 214
         },
         __self: this
       }, "Cra 10 # 9-35"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 214
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 215
+        },
+        __self: this
+      }, "Tel\xE9fono: (57) (5) 4223031"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 215
         },
         __self: this
@@ -7560,18 +7572,6 @@ function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 216
-        },
-        __self: this
-      }, "Tel\xE9fono: (57) (5) 4223031"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 216
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 217
         },
         __self: this
       }, "Whatsapp: (300) 3427389")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("iframe", {
@@ -7585,7 +7585,121 @@ function (_Component) {
         allowFullScreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 219
+          lineNumber: 218
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("article", {
+        className: "offices-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 221
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("address", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 222
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 223
+        },
+        __self: this
+      }, "Av. del Ferrocarril"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 224
+        },
+        __self: this
+      }, "Av. Ferrocarril, # 5-08"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 224
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 225
+        },
+        __self: this
+      }, "Tel\xE9fono: (57) (5) 44216373"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 225
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.194914198342!2d-74.21224398533664!3d11.247067453405645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f564549ec591%3A0x4b1c90a1043bf4a7!2sAv.+Del+Ferrocarril+%235-8%2C+Santa+Marta%2C+Magdalena!5e0!3m2!1ses!2sco!4v1563850523268!5m2!1ses!2sco",
+        width: "100%",
+        height: "300",
+        frameBorder: "0",
+        style: {
+          border: 0
+        },
+        allowFullScreen: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 228
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("article", {
+        className: "offices-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 231
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("address", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 232
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 233
+        },
+        __self: this
+      }, "Mercado"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 234
+        },
+        __self: this
+      }, "Calle 12 # 8-80 Local 5"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 234
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 235
+        },
+        __self: this
+      }, "Tel\xE9fono: (57) (5) 4217422"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 235
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("iframe", {
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2244271548257!2d-74.20915378533667!3d11.244894253446802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f565660075f5%3A0xa7a2b5c7fd991589!2sCl.+12+%238-80%2C+Santa+Marta%2C+Magdalena!5e0!3m2!1ses!2sco!4v1563850892523!5m2!1ses!2sco",
+        width: "100%",
+        height: "300",
+        frameBorder: "0",
+        style: {
+          border: 0
+        },
+        allowFullScreen: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 238
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("section", {
@@ -7593,69 +7707,69 @@ function (_Component) {
         className: "offices-section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 224
+          lineNumber: 243
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 225
+          lineNumber: 244
         },
         __self: this
       }, "Sucursales en Sabanalarga"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "offices-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 227
+          lineNumber: 246
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("article", {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 228
+          lineNumber: 247
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 229
+          lineNumber: 248
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230
+          lineNumber: 249
         },
         __self: this
       }, "Centro"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 231
+          lineNumber: 250
         },
         __self: this
       }, "Calle 20 # 18 56"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 231
+          lineNumber: 250
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 232
+          lineNumber: 251
         },
         __self: this
       }, "Tel\xE9fono: (57) (5) 8783266"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 232
+          lineNumber: 251
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 233
+          lineNumber: 252
         },
         __self: this
       }, "Whatsapp: (301) 4690900")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("iframe", {
@@ -7669,56 +7783,56 @@ function (_Component) {
         allowFullScreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 235
+          lineNumber: 254
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("article", {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 238
+          lineNumber: 257
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 239
+          lineNumber: 258
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 240
+          lineNumber: 259
         },
         __self: this
       }, "Centro"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241
+          lineNumber: 260
         },
         __self: this
       }, "Cra 19 # 20-14"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241
+          lineNumber: 260
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 242
+          lineNumber: 261
         },
         __self: this
       }, "Tel\xE9fono: (57) (5) 8780844"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 242
+          lineNumber: 261
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 243
+          lineNumber: 262
         },
         __self: this
       }, "Whatsapp: (300) 3427390")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("iframe", {
@@ -7732,7 +7846,7 @@ function (_Component) {
         allowFullScreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245
+          lineNumber: 264
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("section", {
@@ -7740,69 +7854,69 @@ function (_Component) {
         className: "offices-section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 251
+          lineNumber: 270
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 252
+          lineNumber: 271
         },
         __self: this
       }, "Sucursales en Baranoa"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "offices-row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 254
+          lineNumber: 273
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("article", {
         className: "offices-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 255
+          lineNumber: 274
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("address", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 256
+          lineNumber: 275
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 257
+          lineNumber: 276
         },
         __self: this
       }, "Baranoa"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 258
+          lineNumber: 277
         },
         __self: this
       }, " Cra 19 # 18-18 Local 2"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 258
+          lineNumber: 277
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 259
+          lineNumber: 278
         },
         __self: this
       }, "Tel\xE9fono: (57) (5) 8789116"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 259
+          lineNumber: 278
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 260
+          lineNumber: 279
         },
         __self: this
       }, "Whatsapp: (301) 4690917")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("iframe", {
@@ -7816,20 +7930,20 @@ function (_Component) {
         allowFullScreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 262
+          lineNumber: 281
         },
         __self: this
       }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 269
+          lineNumber: 288
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 270
+          lineNumber: 289
         },
         __self: this
       }))));
@@ -7843,7 +7957,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fsucursales&absolutePagePath=%2FUsers%2Fsr.arnold%2FSites%2Fcotizador%2FPactemos%2Fpages%2Fsucursales.js ***!
   \******************************************************************************************************************************************************/
@@ -7866,5 +7980,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]));;
+},[[0,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=sucursales.js.map

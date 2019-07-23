@@ -53,9 +53,8 @@ class Top extends Component {
         <div className="container">
           <div className="Top_row">
           <a href="/">
-            <img className="Top_logo" src="/static/img/logo.png" alt="Compra Venta Pactemos" /> 
+            <img className="Top_logo" src="/static/img/logo.png" alt="Compra Venta Pactemos" />
           </a>
-
             <img onClick={ this.showMenu } className="Top_menu_icon" src="/static/img/menu.svg" alt=""/>
 
             {
