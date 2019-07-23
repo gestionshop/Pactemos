@@ -235,7 +235,7 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 4217422</span><br/>
                     {/* <span>Whatsapp: (300) 3427389</span> */}
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2244271548257!2d-74.20915378533667!3d11.244894253446802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f565660075f5%3A0xa7a2b5c7fd991589!2sCl.+12+%238-80%2C+Santa+Marta%2C+Magdalena!5e0!3m2!1ses!2sco!4v1563850892523!5m2!1ses!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.273643066322!2d-74.2101576736155!3d11.245752499227798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f573ab8c0e59%3A0x7c4780c6b7700d2!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1563852149152!5m2!1ses!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>                  
                 </article>
               </div>
             </section>
