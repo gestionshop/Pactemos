@@ -267,62 +267,6 @@ class Cotizar extends Component {
               <h1>Cotizador en línea</h1>
               <p>Rellene los campos y recuerde que la información personal la utilizaremos para confirmarle cuánto dinero le damos por su artículo</p>
 
-              <Dropzone onDrop={this.onDrop} multiple={false}>
-                {({getRootProps, getInputProps, isDragActive}) => (
-                  <section style={{
-                    margin: '30px 0 10px 0',
-                  }}>
-                    <p style={{
-                      textAlign: 'left',
-                      fontSize: 14,
-                    }}><strong>Agregar imagen</strong> (opcional)</p>
-                    <div {...getRootProps()}>
-                      <input {...getInputProps()} />
-                      <div style={{
-                        padding: 30,
-                        color: '#aaa',
-                        textAlign: 'center',
-                        border: '1px dashed #ccc',
-                      }}>
-                        {
-                          isDragActive
-                          ?
-                          <span>Soltar archivo</span>
-                          :
-                          <span>Arrastra la imagen o clic para elegir</span>
-                        }
-                      </div>
-                    </div>
-                    {
-                      this.state.files
-                      &&
-                      this.state.files.length > 0
-                      &&
-                      <div style={{
-                        marginTop: 10,
-                        padding: '10px 20px',
-                        textAlign: 'left',
-                        fontSize: 14,
-                        backgroundColor: '#f3f0ee',
-                        borderRadius: 4,
-                      }}>
-                        <h4>Archivo seleccionado</h4>
-                        {
-                          this.state.files.map(item => <li>{ item.name }</li>)
-                        }
-
-                        <a href="#" onClick={ this.deleteFiles } style={{
-                          display: 'block',
-                          marginTop: 10,
-                          fontSize: 13,
-                          color: '#555',
-                        }}>Borrar archivos seleccionados</a>
-                      </div>
-                    }
-                  </section>
-                )}
-              </Dropzone>
-
               <div className="cotizar-select">
                 {
                   data.map(item => <div
@@ -451,18 +395,75 @@ class Cotizar extends Component {
                 &&
                 this.state.category
                 &&
-                <div className="cotizar-select">
-                  <div className="form-input">
-                    <label className="label">Peso aproximado</label>
-                    <input
-                      className="input"
-                      type="text"
-                      placeholder="En gramos"
-                      name="weight"
-                      onChange={ this.onChangeInput }
-                    />
+                <>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">Peso aproximado</label>
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder="En gramos"
+                        name="weight"
+                        onChange={ this.onChangeInput }
+                      />
+                    </div>
                   </div>
-                </div>
+                  <Dropzone onDrop={this.onDrop} multiple={false}>
+                    {({getRootProps, getInputProps, isDragActive}) => (
+                      <section style={{
+                        margin: '30px 0 10px 0',
+                      }}>
+                        <p style={{
+                          textAlign: 'left',
+                          fontSize: 14,
+                        }}><strong>Agregar imagen</strong> (opcional)</p>
+                        <div {...getRootProps()}>
+                          <input {...getInputProps()} />
+                          <div style={{
+                            padding: 30,
+                            color: '#aaa',
+                            textAlign: 'center',
+                            border: '1px dashed #ccc',
+                          }}>
+                            {
+                              isDragActive
+                              ?
+                              <span>Soltar archivo</span>
+                              :
+                              <span>Arrastra la imagen o clic para elegir</span>
+                            }
+                          </div>
+                        </div>
+                        {
+                          this.state.files
+                          &&
+                          this.state.files.length > 0
+                          &&
+                          <div style={{
+                            marginTop: 10,
+                            padding: '10px 20px',
+                            textAlign: 'left',
+                            fontSize: 14,
+                            backgroundColor: '#f3f0ee',
+                            borderRadius: 4,
+                          }}>
+                            <h4>Archivo seleccionado</h4>
+                            {
+                              this.state.files.map(item => <li>{ item.name }</li>)
+                            }
+
+                            <a href="#" onClick={ this.deleteFiles } style={{
+                              display: 'block',
+                              marginTop: 10,
+                              fontSize: 13,
+                              color: '#555',
+                            }}>Borrar archivos seleccionados</a>
+                          </div>
+                        }
+                      </section>
+                    )}
+                  </Dropzone>
+                </>
               }
 
               {
@@ -546,6 +547,61 @@ class Cotizar extends Component {
                       />
                     </div>
                   </div>
+                  <Dropzone onDrop={this.onDrop} multiple={false}>
+                    {({getRootProps, getInputProps, isDragActive}) => (
+                      <section style={{
+                        margin: '30px 0 10px 0',
+                      }}>
+                        <p style={{
+                          textAlign: 'left',
+                          fontSize: 14,
+                        }}><strong>Agregar imagen</strong> (opcional)</p>
+                        <div {...getRootProps()}>
+                          <input {...getInputProps()} />
+                          <div style={{
+                            padding: 30,
+                            color: '#aaa',
+                            textAlign: 'center',
+                            border: '1px dashed #ccc',
+                          }}>
+                            {
+                              isDragActive
+                              ?
+                              <span>Soltar archivo</span>
+                              :
+                              <span>Arrastra la imagen o clic para elegir</span>
+                            }
+                          </div>
+                        </div>
+                        {
+                          this.state.files
+                          &&
+                          this.state.files.length > 0
+                          &&
+                          <div style={{
+                            marginTop: 10,
+                            padding: '10px 20px',
+                            textAlign: 'left',
+                            fontSize: 14,
+                            backgroundColor: '#f3f0ee',
+                            borderRadius: 4,
+                          }}>
+                            <h4>Archivo seleccionado</h4>
+                            {
+                              this.state.files.map(item => <li>{ item.name }</li>)
+                            }
+
+                            <a href="#" onClick={ this.deleteFiles } style={{
+                              display: 'block',
+                              marginTop: 10,
+                              fontSize: 13,
+                              color: '#555',
+                            }}>Borrar archivos seleccionados</a>
+                          </div>
+                        }
+                      </section>
+                    )}
+                  </Dropzone>
                 </>
               }
 
@@ -604,6 +660,61 @@ class Cotizar extends Component {
                       />
                     </div>
                   </div>
+                  <Dropzone onDrop={this.onDrop} multiple={false}>
+                    {({getRootProps, getInputProps, isDragActive}) => (
+                      <section style={{
+                        margin: '30px 0 10px 0',
+                      }}>
+                        <p style={{
+                          textAlign: 'left',
+                          fontSize: 14,
+                        }}><strong>Agregar imagen</strong> (opcional)</p>
+                        <div {...getRootProps()}>
+                          <input {...getInputProps()} />
+                          <div style={{
+                            padding: 30,
+                            color: '#aaa',
+                            textAlign: 'center',
+                            border: '1px dashed #ccc',
+                          }}>
+                            {
+                              isDragActive
+                              ?
+                              <span>Soltar archivo</span>
+                              :
+                              <span>Arrastra la imagen o clic para elegir</span>
+                            }
+                          </div>
+                        </div>
+                        {
+                          this.state.files
+                          &&
+                          this.state.files.length > 0
+                          &&
+                          <div style={{
+                            marginTop: 10,
+                            padding: '10px 20px',
+                            textAlign: 'left',
+                            fontSize: 14,
+                            backgroundColor: '#f3f0ee',
+                            borderRadius: 4,
+                          }}>
+                            <h4>Archivo seleccionado</h4>
+                            {
+                              this.state.files.map(item => <li>{ item.name }</li>)
+                            }
+
+                            <a href="#" onClick={ this.deleteFiles } style={{
+                              display: 'block',
+                              marginTop: 10,
+                              fontSize: 13,
+                              color: '#555',
+                            }}>Borrar archivos seleccionados</a>
+                          </div>
+                        }
+                      </section>
+                    )}
+                  </Dropzone>
                 </>
               }
 
