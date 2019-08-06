@@ -20,8 +20,6 @@ export default class MyDocument extends Document {
           })(window,document,'script','dataLayer','GTM-WRKG84J');`}}/>
           {/* <!-- End Google Tag Manager --> */}
 
-
-          
         </Head>
         <body>
           <Main />
@@ -48,18 +46,29 @@ export default class MyDocument extends Document {
             }}/>
             {/* <!-- End Google Tag Manager (noscript) --> */}
 
-            <script dangerouslySetInnerHTML={{__html: `async src="https://www.googletagmanager.com/gtag/js?id=UA-136342870-1"`}}/>
+            <script dangerouslySetInnerHTML={{__html: `async src="https://www.googletagmanager.com/gtag/js?id=AW-881748292"`}}/>
 
             <script dangerouslySetInnerHTML={{__html:`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments)}
               gtag('js', new Date());
 
-              gtag('config', 'UA-136342870-1');`}}
+              gtag('config', 'AW-881748292');
+              `}}
             />
 
+            {/* 
+              <script dangerouslySetInnerHTML={{__html: `async src="https://www.googletagmanager.com/gtag/js?id=UA-136342870-1"`}}/>
 
+              <script dangerouslySetInnerHTML={{__html:`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments)}
+                gtag('js', new Date());
 
+                gtag('config', 'UA-136342870-1');
+                `}}
+              /> 
+            */}
 
         </body>
       </html>
