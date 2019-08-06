@@ -21,7 +21,7 @@ const data = [
         options: [
           {
             name: '18k',
-            value: 90000,
+            value: 100000,
           },
           {
             name: '14k',
