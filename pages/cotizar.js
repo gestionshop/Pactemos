@@ -379,7 +379,7 @@ class Cotizar extends Component {
                       onChange={ this.onChangeTecnologia }
                       required
                     >
-                      <option>Selecciona un articulo</option>
+                      <option>Selecciona un artículo</option>
                       <option value="Portatil">Portatil</option>
                       <option value="Tablet">Tablet</option>
                       <option value="Otro">Otros</option>
