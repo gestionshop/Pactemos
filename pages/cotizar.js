@@ -219,8 +219,8 @@ class Cotizar extends Component {
   
   submit = (e) => {
     e.preventDefault()
-    const url = 'https://gestionshop.co/api/pactemos/cotizacion'
-    // const url = 'http://localhost:3001/api/pactemos/cotizacion'
+    // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+    const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
     let formData = new FormData()
     for( var i = 0; i < this.state.files.length; i++ ){
@@ -772,15 +772,15 @@ class Cotizar extends Component {
                 &&
                 <div className="cotizar-result">
                   <h4>¿Cuánto me dan por mi joya?</h4>
-                  <span>Te damos hasta $ { funtions.FormatMil(this.state.value) } pesos</span>
+                  {/* <span>Te damos hasta $ { funtions.FormatMil(this.state.value) } pesos</span> */}
 
-                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Quiero el dinero ya!</a>
+                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡ Descúbrelo !</a>
 
                   <p style={{
                     marginTop: 10,
                     fontSize: 13,
                   }}>
-                    *Aplican condiciones
+                    * Aplican condiciones
                   </p>
                 </div>
               }
@@ -799,13 +799,13 @@ class Cotizar extends Component {
                 <div className="cotizar-result">
                   <h4>¿Cuánto me dan por mi artículo?</h4>
 
-                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡ Descúbrelo !</a>
 
                   <p style={{
                     marginTop: 10,
                     fontSize: 13,
                   }}>
-                    *Aplican condiciones
+                    * Aplican condiciones
                   </p>
 
                 </div>
@@ -825,7 +825,7 @@ class Cotizar extends Component {
                 <div className="cotizar-result">
                   <h4>¿Cuánto me dan por mi CDT?</h4>
 
-                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡ Descúbrelo !</a>
 
                   <p style={{
                     marginTop: 10,
@@ -853,7 +853,7 @@ class Cotizar extends Component {
                 <div className="cotizar-result">
                   <h4>¿Cuánto me dan por mi artículo?</h4>
 
-                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡Descúbrelo!</a>
+                  <a href="#" onClick={ this.showModal } className="cotizar-btn">¡ Descúbrelo !</a>
 
                   <p style={{
                     marginTop: 10,
@@ -901,7 +901,7 @@ class Cotizar extends Component {
                           name="email" />
                       </div>
                       <div className="form-row">
-                        <label className="label">¿Cuánto necesita?</label>
+                        <label className="label">¿ Cuánto necesita ?</label>
                         <input
                           className="input"
                           type="text"
@@ -909,7 +909,7 @@ class Cotizar extends Component {
                           name="many" />
                       </div>
                       <div className="form-row">
-                        <label className="label">¿Cómo nos contactó? *</label>
+                        <label className="label">¿ Cómo nos contactó ? *</label>
                         <select
                           name="source"
                           className="input"

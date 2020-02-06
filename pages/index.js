@@ -46,8 +46,8 @@ class Home extends Component {
   submit = (e) => {
     e.preventDefault()
 
-    // const url = 'http://localhost:3001/api/pactemos/domicilio'
-    const url = 'https://gestionshop.co/api/pactemos/domicilio'
+    const url = 'http://localhost:3001/api/pactemos/domicilio'
+    // const url = 'https://gestionshop.co/api/pactemos/domicilio'
     axios.post(url, this.state).then(res => {
       this.setState({ submited: true })
       window.location.replace('/gracias')
@@ -175,7 +175,7 @@ class Home extends Component {
             
             <section className="home-contact">
               <div className="home-contact-header">
-                <h3>¿Cuanto me dan por mis artículos?</h3>
+                {/* <h3>¿Cuanto me dan por mis artículos?</h3> */}
                 <p>Ya no tienes que salir de casa para saber cuánto dinero puedes recibir por tu joya de oro, televisor o herramienta, ahora puedes hacerlo desde la comodidad de tu casa u oficina.</p>
               </div>
               <div className="home-contact-row">
@@ -305,7 +305,7 @@ class Home extends Component {
                           name="email" />
                       </div>
                       <div className="form-row">
-                        <label className="label">¿Cuánto necesita?</label>
+                        <label className="label">¿ Cuánto necesita ?</label>
                         <input
                           className="input"
                           type="text"
@@ -313,7 +313,7 @@ class Home extends Component {
                           name="many" />
                       </div>
                       <div className="form-row">
-                        <label className="label">¿Cómo nos contactó? *</label>
+                        <label className="label">¿ Cómo nos contactó ? *</label>
                         <select
                           name="source"
                           className="input"
