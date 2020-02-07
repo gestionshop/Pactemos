@@ -47,11 +47,10 @@ class Top extends Component {
   submit = (e) => {
     e.preventDefault()
 
-    const url = 'http://localhost:3001/api/pactemos/domicilio'
-    // const url = 'https://gestionshop.co/api/pactemos/domicilio'
+    // const url = 'http://localhost:3001/api/pactemos/domicilio'
+    const url = 'https://gestionshop.co/api/pactemos/domicilio'
     axios.post(url, this.state).then(res => {
       this.setState({ submited: true })
-      console.log('ENVIADOO')
       window.location.replace('/gracias')
     }).catch(error => {
       alert('Ocurrio un error y no se pudo enviar la información')
@@ -97,6 +96,113 @@ class Top extends Component {
               <form name="cotizacion" method="POST" onSubmit={ this.submit }>
                 <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
                 <div className="form-row">
+                    <label className="label">Selecciona tu ciudad *</label>
+                    <select
+                      name="city"
+                      className="input"
+                      onChange={ this.onChangeCiudad }
+                      required
+                      placeholder = "Seleccione tu cuidad"
+                    >
+                      <option></option>
+                      <option value="Cartagena">Cartagena</option>
+                      <option value="Sabanalarga">Sabanalarga</option>
+                      <option value="Baranoa">Baranoa</option>
+                      <option value="SantaMarta">Santa Marta</option>
+                    </select>
+                </div>
+                { 
+                  this.state.category
+                  &&
+                  this.state.category.value === 'Cartagena'
+                  &&
+                  <div className="form-row">
+                    <label className="label">Tu sucursal más cercana *</label>
+                      <select
+                        name="compraventa"
+                        className="input"
+                        onChange={ this.onChangeSelect }
+                        required
+                      >
+                        <option></option>
+                        <option value="PAC02">Centro, Calle del Cabo. C.C Invercrédito. Local 5</option>
+                        <option value="PAC01">Centro, Calle del Cabo. C.C Invercrédito. Local 9</option>
+                        <option value="PAC03">Centro, Calle de las Carretas</option>
+                        <option value="PAC04">Centro. Portal De Los Dulces, Calle Portocarrero</option>
+                        <option value="PAC16">Centro, C.C. El Cañonazo Lc 7</option>
+                        <option value="PAC17">Bocagrande. Cra 3 # 5- 187</option>
+                        <option value="PAC12">San jose de los Campanos. Cra 101B. # 38A-83</option>
+                        <option value="PAC13">Boquilla, Calle Principal. CRA 9 # 59-17</option>
+                        <option value="PAC14">Bazurto, C.C Almacentro. Local 4</option>
+                        <option value="PAC15">Turbaco, Calle Real #17-91</option>
+                        <option value="PAC19">Pozón, Carrera 88 #56-1. A una cuadra de la entrada</option>
+                        <option value="SantaRosa">Santa Rosa. Calle 16 # 27-19</option>
+                      </select>
+                </div>
+                }
+                {  
+                  this.state.category
+                  &&
+                  this.state.category.value === 'Sabanalarga'
+                  &&
+                  <div className="form-row">
+                    <label className="label">Tu sucursal más cercanaa *</label>
+                    <select
+                      name="compraventa"
+                      className="input"
+                      onChange={ this.onChangeSelect }
+                      required
+                    >
+                      <option></option>
+                      <option value="PAC05">Cra 19 Nº 20 - 14</option>
+                      <option value="PAC06">Calle 20 Nº 18 - 56</option>
+                    </select>
+                  </div>
+                }
+                { 
+                 this.state.category
+                 &&
+                 this.state.category.value === 'Baranoa'
+                 &&
+                 <div className="form-row">
+                    <label className="label">Tu sucursal más cercana *</label>
+                    <select
+                      name="compraventa"
+                      className="input"
+                      onChange={ this.onChangeSelect }
+                      required
+                    >
+                      <option></option>
+                      <option value="PAC08">Carrera 19 #18-18 Local 2</option>
+                    </select>
+                  </div>
+                }
+                { 
+                 this.state.category
+                 &&
+                 this.state.category.value === 'SantaMarta'
+                 &&
+                  <div className="form-row">
+                      <label className="label">Tu sucursal más cercana *</label>
+                      <select
+                        name="compraventa"
+                        className="input"
+                        onChange={ this.onChangeSelect }
+                        required
+                      >
+                        <option></option>
+                        <option value="PAC09">Centro, Cra 5, Edificio Galaxia. Local 102</option>
+                        <option value="PAC10">Centro, Cra 5 # 21 - 16</option>
+                        <option value="PAC11">Gaira, Cra 10 # 9- 35</option>
+                        <option value="PAC17">Avenida El Libertador #27 - 231</option>
+                        <option value="PAC18">Concepción 2 Mz Y Casa 19. 2da Etapa </option>
+                        <option value="GranPunto">Av. el Rio con Av. del libertador 30 -146</option>
+                        <option value="Tayrona">Avenida Del Ferrocarril #5-08</option>
+                        <option value="Sierra">Mercado, Calle 12 #8-80</option>
+                      </select>
+                    </div>
+                }
+                <div className="form-row">
                   <label className="label">Nombres y Apellidos *</label>
                   <input
                     className="input"
@@ -131,129 +237,23 @@ class Top extends Component {
                     name="many" />
                 </div>
                 <div className="form-row">
-                    <label className="label">Selecciona la ciudad *</label>
-                    <select
-                      name="city"
-                      className="input"
-                      onChange={ this.onChangeCiudad }
-                      required
-                      placeholder = "Seleccione tu cuidad"
-                    >
-                      <option></option>
-                      <option value="Cartagena">Cartagena</option>
-                      <option value="Sabanalarga">Sabanalarga</option>
-                      <option value="Baranoa">Baranoa</option>
-                      <option value="SantaMarta">Santa Marta</option>
-                    </select>
-                  </div>
-                { 
-                  this.state.category
-                  &&
-                  this.state.category.value === 'Cartagena'
-                  &&
-                  <div className="form-row">
-                      <label className="label">Sucursal en Cartagena *</label>
-                      <select
-                        name="compraventa"
-                        className="input"
-                        onChange={ this.onChangeSelect }
-                        required
-                        placeholder = "Sucursal mas cercana"
-                      >
-                        <option></option>
-                        <option value="Molino">Centro, Calle del Cabo. C.C Invercrédito. Local 9</option>
-                        <option value="Heroica">Centro, C.C. El Cañonazo Lc 7 </option>
-                        <option value="India">Centro, Calle del Cabo. C.C Invercrédito. Local 5</option>
-                        <option value="Pegasos">Centro, Calle de las Carretas</option>
-                        <option value="Guaca">Centro. Portal De Los Dulces</option>
-                        <option value="Bazurto">Bazurto, C.C Almacentro. Local 4</option>
-                        <option value="Pozon">Pozón, Carrera 88 #56-1</option>
-                        <option value="Boquilla">Boquilla, Calle Principal</option>
-                        <option value="Turbaco">Turbaco, Calle Real #17-91</option>
-                      </select>
-                    </div>
-                }
-                {  
-                  this.state.category
-                  &&
-                  this.state.category.value === 'Sabanalarga'
-                  &&
-                  <div className="form-row">
-                    <label className="label">Sucursal en Sabanalarga *</label>
-                    <select
-                      name="compraventa"
-                      className="input"
-                      onChange={ this.onChangeSelect }
-                      required
-                      placeholder = "Sucursal mas cercana"
-                    >
-                      <option></option>
-                      <option value="Exito">Calle 20 Nº 18 - 56</option>
-                      <option value="Carolina">Cra 19 Nº 20 - 14</option>
-                    </select>
-                  </div>
-                }
-                { 
-                 this.state.category
-                 &&
-                 this.state.category.value === 'Baranoa'
-                 &&
-                 <div className="form-row">
-                    <label className="label">Sucursal en Baranoa *</label>
-                    <select
-                      name="compraventa"
-                      className="input"
-                      onChange={ this.onChangeSelect }
-                      required
-                      placeholder = "Sucursal mas cercana"
-                    >
-                      <option value="Baranoa">Carrera 19 #18-18 Local 2</option>
-                    </select>
-                  </div>
-                }
-                { 
-                 this.state.category
-                 &&
-                 this.state.category.value === 'SantaMarta'
-                 &&
-                  <div className="form-row">
-                      <label className="label">Sucursal en Santa Marta *</label>
-                      <select
-                        name="compraventa"
-                        className="input"
-                        onChange={ this.onChangeSelect }
-                        required
-                        placeholder = "Sucursal mas cercana"
-                      >
-                        <option></option>
-                        <option value="Exito">Centro, Cra 5, Edificio Galaxia. Local 102</option>
-                        <option value="Ciclon">Centro, Cra 5 # 21 - 16</option>
-                        <option value="Gaira">Gaira, Cra 10 # 9- 35</option>
-                        <option value="Concepcion">Concepción 2 Mz Y Casa 19. 2da Etapa </option>
-                        <option value="Livartador">Av. el Rio con Av. del libertador 30 -146</option>
-                        <option value="Ferrocarril">Avenida Del Ferrocarril #5-08</option>
-                        <option value="Mercado">Mercado, Calle 12 #8-80</option>
-                      </select>
-                    </div>
-                }
-                  <div className="form-row">
-                    <label className="label">¿ Cómo nos contactó ? *</label>
-                    <select
-                      name="source"
-                      className="input"
-                      onChange={ this.onChangeSelect }
-                      required
-                    >
-                      <option></option>
-                      <option value="Radio">Radio</option>
-                      <option value="Volantes">Volantes</option>
-                      <option value="Facebook">Facebook</option>
-                      <option value="Instagram">Instagram</option>
-                      <option value="Google">Google</option>
-                      <option value="Amigos">Amigos</option>
-                      <option value="Otro">Otro</option>
-                    </select>
-                  </div>
+                  <label className="label">¿ Cómo nos contactó ? *</label>
+                  <select
+                    name="source"
+                    className="input"
+                    onChange={ this.onChangeSelect }
+                    required
+                  >
+                    <option></option>
+                    <option value="Radio">Radio</option>
+                    <option value="Volantes">Volantes</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Google">Google</option>
+                    <option value="Amigos">Amigos</option>
+                    <option value="Otro">Otro</option>
+                  </select>
+                </div>
 
                 <button type="submit" className="form-btn">Enviar datos</button>
               </form>

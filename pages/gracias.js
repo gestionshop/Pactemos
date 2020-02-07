@@ -21,7 +21,7 @@ class Thanks extends Component {
                   fontSize: 18,
                 }}>
               <h2>¡YA ESTÁ EN PROCESO TU SOLICITUD!</h2>
-              <p>En minutos recibirás la llamada de uno de nuestros asesores</p>
+              <p>Uno de nuestros asesores se pondrá en contacto contigo</p>
               <p>¡En COMPRAVENTAS PACTEMOS estamos para servirte!</p>
             </div>
           </div>
