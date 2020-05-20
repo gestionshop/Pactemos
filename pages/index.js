@@ -191,7 +191,7 @@ class Home extends Component {
               </div>
               <div className="home-contact-row">
                 <div className="home-contact-item">
-                  <a className="home-contact-link" href="https://wa.me/573015371656" target="_blank">
+                  <a className="home-contact-link" href="https://wa.me/573012693491" target="_blank">
                     <img src="/static/img/whatsapp.svg" alt="Asesoría por Whatsapp" />
                     <span>Asesoría por Whatsapp</span>
                   </a>

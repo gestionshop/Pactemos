@@ -75,7 +75,7 @@ var Footer = function Footer() {
       lineNumber: 11
     },
     __self: this
-  }, "Email:"), " mercadeo@pactemos.co"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Email:"), " comercial@pactemos.co"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -87,7 +87,7 @@ var Footer = function Footer() {
       lineNumber: 12
     },
     __self: this
-  }, "Celular:"), " +57 301 5371656 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Celular:"), " 301 2693491 - 301 5371656 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -99,7 +99,7 @@ var Footer = function Footer() {
       lineNumber: 13
     },
     __self: this
-  }, "Whatsapp:"), " +57 301 5371656")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Whatsapp:"), " 301 2693491")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -7300,7 +7300,7 @@ function (_Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         className: "home-contact-link",
-        href: "https://wa.me/573015371656",
+        href: "https://wa.me/573012693491",
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
