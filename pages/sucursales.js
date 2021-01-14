@@ -32,7 +32,7 @@ class Sucursales extends Component {
             </section>
 
             <section id="Cartagena" className="offices-section">
-              <h2>Sucursales en Cartagena</h2>
+              <h1>Compraventas en Cartagena</h1>
 
               <div className="offices-row">
                 <article className="offices-item">
@@ -159,7 +159,7 @@ class Sucursales extends Component {
             </section>
 
             <section id="Turbaco" className="offices-section">
-              <h2>Sucursales en Turbaco</h2>
+              <h1>Compraventas en Turbaco</h1>
 
               <div className="offices-row">
               <article className="offices-item">
@@ -175,7 +175,7 @@ class Sucursales extends Component {
             </section>
 
             <section id="Arjona" className="offices-section">
-              <h2>Sucursales en Arjona</h2>
+              <h1>Compraventas en Arjona</h1>
 
               <div className="offices-row">
               <article className="offices-item">
@@ -191,7 +191,7 @@ class Sucursales extends Component {
             </section>
 
             <section id="SantaMarta" className="offices-section">
-              <h2>Sucursales en Santa Marta</h2>
+              <h1>Compraventas en Santa Marta</h1>
 
               <div className="offices-row">
                 <article className="offices-item">
@@ -287,7 +287,7 @@ class Sucursales extends Component {
             </section>
 
             <section id="Sabanalarga" className="offices-section">
-              <h2>Sucursales en Sabanalarga</h2>
+              <h1>Compraventas en Sabanalarga</h1>
 
               <div className="offices-row">
                 <article className="offices-item">
@@ -314,7 +314,7 @@ class Sucursales extends Component {
             </section>
 
             <section id="Baranoa" className="offices-section">
-              <h2>Sucursales en Baranoa</h2>
+              <h1>Compraventas en Baranoa</h1>
 
               <div className="offices-row">
                 <article className="offices-item">

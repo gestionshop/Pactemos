@@ -966,7 +966,7 @@ class Cotizar extends Component {
                       required
                     >
                       <option></option>
-                      <option value="Arjona">Calle del Coco con Mercado, Esquinas</option>
+                      <option value="Arjona">Calle del Coco con Mercado, Esquina.</option>
                     </select>
                   </div>
                 }
