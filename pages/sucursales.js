@@ -17,6 +17,7 @@ class Sucursales extends Component {
           <img className="cover" src="/static/img/oficinas.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
           <div className="container">
             <section className="offices-header">
+              {/* <h1>Compraventas en Cartagena, Compraventas en Santa Marta, Compraventas en Sabanalarga, Compraventas en Baranoa, Compraventas en Arjona.</h1> */}
               <h1>Sucursales de Compraventas Pactemos</h1>
               <p>Compraventas PACTEMOS está presente en la Región Caribe con la misión de ofrecer dinero de manera inmediata, con el profesionalismo y la seguridad que nos caracteriza</p>
 

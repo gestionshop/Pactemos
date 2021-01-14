@@ -9,7 +9,8 @@ class Sucursales extends Component {
     return (
       <>
         <Head>
-          <title>Noticias</title>
+          <title>¿Casas de empeño o Compraventas?</title>
+          <meta name="description" content="Todo lo que necesitas saber para negociar en una casa de empeño o compraventa."/>
         </Head>
         <div>
           <Top />
@@ -24,7 +25,7 @@ class Sucursales extends Component {
                 <img src="/static/img/blog.jpg" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                 <div>
                   <h2>¿Cómo identificar una compraventa confiable?</h2>
-                  
+
                   <p>Ten en cuenta estos tres consejos.
                       Son conocidas comúnmente como casas de empeño y hay un sinnúmero de estas en
                       el país, pero ¿Cómo escoger una compraventa confiable y segura en caso de
@@ -40,7 +41,7 @@ class Sucursales extends Component {
                     </p>
                 </div>
               </article>
-            
+
               {/* <article className="news-item">
                 <img src="https://picsum.photos/600/300/?gravity=east" alt="Noticia img"/>
                 <div>

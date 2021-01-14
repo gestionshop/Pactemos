@@ -82,6 +82,7 @@ class Home extends Component {
       <>
         <Head>
           <title>Compraventas Pactemos - Obten dinero inmediato de manera segura</title>
+          <meta name="description" content="Más que casas de empeño, somos una cadena de compraventas confiables y seguras donde te ofrecemos más dinero por tus joyas y artículos."/>
         </Head>
         <div>
           <Top />

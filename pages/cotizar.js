@@ -268,7 +268,8 @@ class Cotizar extends Component {
     return (
       <>
         <Head>
-          <title>Cotiza en Compraventa Pactemos</title>
+          <title>Cotizador-Obtén la Valoración de tu joya o artículo.</title>
+          <meta name="description" content="Nos empeñamos en darte mas dinero. Ingresa al cotizador en línea para obtener el valor estimado que puedes recibir por tus joyas de oro y artículos."/>
         </Head>
         <div className="cotizar">
           <Top />

@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="/static/css/core.css" />
           <link href="https://fonts.googleapis.com/css?family=Rubik:300,500" rel="stylesheet" />
           <link rel="icon" href="/static/img/icon.ico" />
-          
+
           {/* <!-- Google Tag Manager --> */}
           <script dangerouslySetInnerHTML={{__html:`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -57,7 +57,7 @@ export default class MyDocument extends Document {
               `}}
             />
 
-            {/* 
+            {/*
               <script dangerouslySetInnerHTML={{__html: `async src="https://www.googletagmanager.com/gtag/js?id=UA-136342870-1"`}}/>
 
               <script dangerouslySetInnerHTML={{__html:`
@@ -67,7 +67,7 @@ export default class MyDocument extends Document {
 
                 gtag('config', 'UA-136342870-1');
                 `}}
-              /> 
+              />
             */}
 
         </body>

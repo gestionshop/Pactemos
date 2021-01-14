@@ -25,7 +25,6 @@ class Thanks extends Component {
               <p>¡En COMPRAVENTAS PACTEMOS estamos para servirte!</p>
             </div>
           </div>
-          
         </div>
         <div className="container">
           <Footer />
