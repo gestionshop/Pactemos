@@ -21,7 +21,7 @@ class Sucursales extends Component {
 
             <section className="news-list">
               <article className="news-item">
-                <img src="/static/img/blog.jpg" alt="Noticia img"/>
+                <img src="/static/img/blog.jpg" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                 <div>
                   <h2>¿Cómo identificar una compraventa confiable?</h2>
                   

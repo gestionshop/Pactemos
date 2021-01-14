@@ -9,11 +9,12 @@ class Sucursales extends Component {
     return (
       <>
         <Head>
-          <title>Sucursales y oficinas de Compraventa Pactemos</title>
+          <title>Conoce nuestros Almacenes de Compraventas</title>
+          <meta name="description" content="Contamos con mas de 25 compraventas presentes en  Cartagena, Santa Marta, sabanalarga, Baranoa, Arjona. Encuentra tu sucursal más cercana."/>
         </Head>
         <div>
           <Top />
-          <img className="cover" src="/static/img/oficinas.png" alt=""/>
+          <img className="cover" src="/static/img/oficinas.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
           <div className="container">
             <section className="offices-header">
               <h1>Sucursales de Compraventas Pactemos</h1>
@@ -21,6 +22,8 @@ class Sucursales extends Component {
 
               <div className="offices-links">
                 <a href="#Cartagena">Cartagena</a>
+                <a href="#Turbaco">Turbaco</a>
+                <a href="#Arjona">Arjona</a>
                 <a href="#SantaMarta">Santa Marta</a>
                 <a href="#Sabanalarga">Sabanalarga</a>
                 <a href="#Baranoa">Baranoa</a>
@@ -40,7 +43,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678351597" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
                 <article className="offices-item">
                   <address>
                     <h4>Centro Historico</h4>
@@ -70,7 +73,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678758676" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
                 <article className="offices-item">
                   <address>
                   <h4>Centro Historico</h4>
@@ -89,6 +92,16 @@ class Sucursales extends Component {
                     <span>Whatsapp: (301) 4690899</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.975917491086!2d-75.55167528520231!3d10.423485592561649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd85ca545176562b9!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334285429" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
+                </article>
+
+                <article className="offices-item">
+                  <address>
+                   <h4>Centro Historico</h4>
+                    <span>Parque centenario, Centro, Avenida Daniel lemaitre</span><br/>
+                    {/* <span>Teléfono: (57) (5) 6642182</span><br/> */}
+                    <span>Whatsapp: (301) 4591953</span>
+                  </address>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.97429100076!2d-75.54848208467318!3d10.423614692561511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fbacb4615d3%3A0xb06ef6da2b9c189b!2sCompraventas%20PACTEMOS!5e0!3m2!1ses!2sco!4v1610583134693!5m2!1ses!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -120,7 +133,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.316602453616!2d-75.49634278520185!3d10.475688692526003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6dc9239c51bf628!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686118622" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
                 <article className="offices-item">
                   <address>
                   <h4>Pozón</h4>
@@ -129,16 +142,6 @@ class Sucursales extends Component {
                     <span>Whatsapp: (301) 5371045</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.187033103457!2d-75.45656518520244!3d10.406715192573053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f3ddd534608a617!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686260599" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
-                </article>
-
-                <article className="offices-item">
-                  <address>
-                  <h4>Turbaco</h4>
-                    <span>Calle Real</span><br/>
-                    <span>Teléfono: (57) (5) 6556703</span><br/>
-                    <span>Whatsapp: (300) 3624794</span>
-                  </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.153038568312!2d-75.4133455852031!3d10.329635092625642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef621201fd2b38f%3A0xd3322370741e7037!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686340612" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
@@ -153,7 +156,39 @@ class Sucursales extends Component {
 
               </div>
             </section>
-            
+
+            <section id="Turbaco" className="offices-section">
+              <h2>Sucursales en Turbaco</h2>
+
+              <div className="offices-row">
+              <article className="offices-item">
+                  <address>
+                  <h4>Turbaco</h4>
+                    <span>Calle Real. #17-91 Dg a MerKmas</span><br/>
+                    <span>Teléfono: (57) (5) 6556703</span><br/>
+                    <span>Whatsapp: (300) 3624794</span>
+                  </address>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.153038568312!2d-75.4133455852031!3d10.329635092625642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef621201fd2b38f%3A0xd3322370741e7037!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686340612" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
+                </article>
+              </div>
+            </section>
+
+            <section id="Arjona" className="offices-section">
+              <h2>Sucursales en Arjona</h2>
+
+              <div className="offices-row">
+              <article className="offices-item">
+                  <address>
+                  <h4>Arjona</h4>
+                    <span>Calle del Coco con Mercado, Esquina.</span><br/>
+                    {/* <span>Teléfono: (57) (5) 6556703</span><br/> */}
+                    <span>Whatsapp: (300) 6916874</span>
+                  </address>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.1157612366956!2d-75.34567798520376!3d10.252246692678508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e589f19d8b2f979%3A0x5f67824f79c01a4a!2sCompraventas%20Pactemos!5e0!3m2!1ses!2sco!4v1610582904960!5m2!1ses!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
+                </article>
+              </div>
+            </section>
+
             <section id="SantaMarta" className="offices-section">
               <h2>Sucursales en Santa Marta</h2>
 
@@ -167,7 +202,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2956707198887!2d-74.21331748519506!3d11.239646492008227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f6e47c110cbfe8e!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686996394" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
                 <article className="offices-item">
                   <address>
                     <h4>Centro</h4>
@@ -177,7 +212,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.280309546607!2d-74.21315948519509!3d11.240778192007443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a2c8b1df5ce81f!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687087695" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
                 <article className="offices-item">
                   <address>
                     <h4>Concepción 2</h4>
@@ -187,7 +222,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.2843219031215!2d-74.1851218017892!3d11.217330699060529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85addced21a4077b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687212249" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
                 <article className="offices-item">
                   <address>
                     <h4>Av. El Río</h4>
@@ -197,7 +232,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.3693103837036!2d-74.18024168519506!3d11.234219692011902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9502c4bc05dd012b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687299501" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
                 <article className="offices-item">
                   <address>
                     <h4>Av. del Libertador</h4>
@@ -207,7 +242,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31306.821438336814!2d-74.1914037844727!3d11.235445492707479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f50509742b69%3A0x70dcf32fd507edfc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687408283" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
                 <article className="offices-item">
                   <address>
                   <h4>Gaira</h4>
@@ -235,7 +270,17 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 4217422</span><br/>
                     {/* <span>Whatsapp: (300) 3427389</span> */}
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.273643066322!2d-74.2101576736155!3d11.245752499227798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f573ab8c0e59%3A0x7c4780c6b7700d2!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1563852149152!5m2!1ses!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>                  
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.273643066322!2d-74.2101576736155!3d11.245752499227798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f573ab8c0e59%3A0x7c4780c6b7700d2!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1563852149152!5m2!1ses!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
+                </article>
+
+              <article className="offices-item">
+                  <address>
+                  <h4>El Yucal</h4>
+                    <span>Vía a Minca, Cra 66 N. 39 - 81, Yucal</span><br/>
+                    {/* <span>Teléfono: (57) (5) 4217422</span><br/> */}
+                    <span>Whatsapp: (300) 6168139</span>
+                  </address>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.573566391226!2d-74.1606957851953!3d11.219153692022033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f538f35a708d%3A0xbaf81f32e9746a4b!2sCompraventas%20Pactemos!5e0!3m2!1ses!2sco!4v1610583934683!5m2!1ses!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
               </div>
             </section>
@@ -253,7 +298,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.3240711754543!2d-74.92180648520049!3d10.631912492419694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x639e96966faedc13!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687625791" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
                 <article className="offices-item">
                   <address>
                     <h4>Centro</h4>
@@ -263,7 +308,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.320161577322!2d-74.9218880852005!3d10.63221679241953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5de3543be7879%3A0xa7b0a4514b66adc1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687728972" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
               </div>
             </section>
 
@@ -280,7 +325,7 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2076397095116!2d-74.91727868519912!3d10.795402992308668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde4ef80f7d4b722d!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687835364" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-                
+
               </div>
             </section>
           </div>

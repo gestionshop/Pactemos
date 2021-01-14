@@ -13,7 +13,7 @@ class Thanks extends Component {
         </Head>
         <div className="cotizar">
           <Top />
-          <img className="cover" src="/static/img/cover-cotizar.png" alt=""/>
+          <img className="cover" src="/static/img/cover-cotizar.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
           <div className="container">
             <div style={{
                   margin: 30,

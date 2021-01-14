@@ -71,7 +71,7 @@ class Home extends Component {
     this.setState({step})
   }
   render () {
-  
+
     const classStep = 'home-steps-circle'
     const classStepActive = 'home-steps-circle active'
     const {
@@ -81,7 +81,7 @@ class Home extends Component {
     return (
       <>
         <Head>
-          <title>Compraventas Pactemos</title>
+          <title>Compraventas Pactemos - Obten dinero inmediato de manera segura</title>
         </Head>
         <div>
           <Top />
@@ -89,12 +89,12 @@ class Home extends Component {
           <section className="home-welcome">
             <div className="container">
               <figure className="home-welcome-img">
-                <img src="/static/img/banner-home.png" alt=""/>
+                <img src="/static/img/banner-home.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
               </figure>
               <a className="home-welcome-btn" href="/cotizar">Obtenlo aqui</a>
             </div>
           </section>
-        
+
           <div className="container">
 
             <section className="home-steps">
@@ -124,7 +124,7 @@ class Home extends Component {
                   </li>
                 </ul>
                 <figure className="home-steps-figures">
-                  <img src={"/static/img/step-" + this.state.step + ".png"} alt=""/>
+                  <img src={"/static/img/step-" + this.state.step + ".png"} alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                 </figure>
               </div>
             </section>
@@ -149,14 +149,14 @@ class Home extends Component {
 
             <section className="home-products">
               <div className="home-products-row">
-                <img className="home-products-img" src="/static/img/productos.png" alt=""/>
+                <img className="home-products-img" src="/static/img/productos.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                 <div>
                   <h2 className="home-products-title">Artículos que puedes convertir en Dinero Inmediato</h2>
 
                   <div>
                     <div className="home-products-item">
                       <div className="home-products-item-header">
-                        <img className="home-products-item-img" src="/static/img/diamond.svg" alt=""/>
+                        <img className="home-products-item-img" src="/static/img/diamond.svg" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                         <h4>Joyas de oro y plata</h4>
                       </div>
                       <p>La valorización de tus joyas depende de características como: el peso, estado de la joya, pureza del oro, (22k,18k, 14k, 10k etc)</p>
@@ -164,7 +164,7 @@ class Home extends Component {
 
                     <div className="home-products-item">
                       <div className="home-products-item-header">
-                        <img className="home-products-item-img" src="/static/img/refrigerator.svg" alt=""/>
+                        <img className="home-products-item-img" src="/static/img/refrigerator.svg" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                         <h4>Otros productos</h4>
                       </div>
                       <p>Electrodomésticos, Herramientas, Tecnología, Bicicletas y más.</p>
@@ -172,7 +172,7 @@ class Home extends Component {
 
                     <div className="home-products-item">
                       <div className="home-products-item-header">
-                        <img className="home-products-item-img" src="/static/img/file.svg" alt=""/>
+                        <img className="home-products-item-img" src="/static/img/file.svg" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                         <h4>Tu CDT</h4>
                       </div>
                       <p>Puedes obtener el dinero de tu cdt antes de la fecha de vencimiento.</p>
@@ -183,7 +183,7 @@ class Home extends Component {
                 </div>
               </div>
             </section>
-            
+
             <section className="home-contact">
               <div className="home-contact-header">
                 {/* <h3>¿Cuanto me dan por mis artículos?</h3> */}
@@ -218,7 +218,7 @@ class Home extends Component {
 
               <div className="home-choose-list">
                 <div className="home-choose-item">
-                  <img src="/static/img/seguridad.png" alt=""/>
+                  <img src="/static/img/seguridad.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                   <div>
                     <h3>Por seguridad</h3>
                     <p>Compraventas Pactemos es la única empresa en Colombia en la que tus artículos son custodiados y guardados por una empresa de valores hasta que tu decidas regresar por ellas, eso te da la garantía de que tus joyas cuentan con un seguro sin generar costos adicionales.</p>
@@ -230,23 +230,23 @@ class Home extends Component {
                     <h3>Personal calificado</h3>
                     <p>Tenemos más de 60 colaboradores capacitados para brindar un buen servicio y la mejor atención, además cuentan con amplios conocimientos y gran experiencia para valorar tus artículos de manera profesional.</p>
                   </div>
-                  <img src="/static/img/calificado.png" alt=""/>
+                  <img src="/static/img/calificado.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                 </div>
 
                 <div className="home-choose-item">
-                  <img src="/static/img/respaldo.png" alt=""/>
+                  <img src="/static/img/respaldo.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                   <div>
                     <h3>Cuentas con mayor respaldo</h3>
                     <p>Somos una empresa en constante crecimiento, organizada y con procesos administrativos transparentes que permiten que nuestros clientes tengan total confianza a la hora de realizar sus transacciones.</p>
                   </div>
                 </div>
-                
+
                 <div className="home-choose-item right">
                   <div>
                     <h3>Hacemos todo lo posible para que recupere su articulo</h3>
                     <p>Le avisamos por SMS, mail, llamadas telefónicas, whatsapp, o personalmente el tiempo de su artículo.</p>
                   </div>
-                  <img src="/static/img/recuperacion.png" alt=""/>
+                  <img src="/static/img/recuperacion.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                 </div>
               </div>
             </div>
@@ -255,7 +255,7 @@ class Home extends Component {
           <div className="container">
             <section className="home-products">
               <div className="home-products-row">
-                <img className="home-products-img" src="/static/img/mas-servicios.png" alt=""/>
+                <img className="home-products-img" src="/static/img/mas-servicios.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                 <div>
                   <h2 className="home-products-title">Además en compraventas pactemos podrás:</h2>
                   <p>Comprar lo que necesites, joyas de oro y plata, electrodomésticos, herramientas, tecnología, bicicletas y mucho más.</p>
@@ -280,7 +280,7 @@ class Home extends Component {
               <div id="myModal" className="modal">
                 <div className="modal-content">
                   <span onClick={ this.closeModal } className="close">&times;</span>
-                  
+
                   {
                     // this.state.submited
                     // ?
@@ -300,12 +300,14 @@ class Home extends Component {
                     >
                       <option></option>
                       <option value="Cartagena">Cartagena</option>
+                      <option value="Turbaco">Turbaco</option>
+                      <option value="Arjona">Arjona</option>
+                      <option value="SantaMarta">Santa Marta</option>
                       <option value="Sabanalarga">Sabanalarga</option>
                       <option value="Baranoa">Baranoa</option>
-                      <option value="SantaMarta">Santa Marta</option>
                     </select>
                 </div>
-                { 
+                {
                   this.state.category
                   &&
                   this.state.category.value === 'Cartagena'
@@ -321,26 +323,63 @@ class Home extends Component {
                         <option></option>
                         <option value="PAC02">Centro, Calle del Cabo. C.C Invercrédito. Local 5</option>
                         <option value="PAC01">Centro, Calle del Cabo. C.C Invercrédito. Local 9</option>
-                        <option value="PAC03">Centro, Calle de las Carretas</option>
+                        {/* <option value="PAC03">Centro, Calle de las Carretas</option> */}
                         <option value="PAC04">Centro. Portal De Los Dulces, Calle Portocarrero</option>
-                        <option value="PAC16">Centro, C.C. El Cañonazo Lc 7</option>
+                        <option value="Centenario">Parque centenario, Centro, Avenida Daniel lemaitre</option>
+                        {/* <option value="PAC16">Centro, C.C. El Cañonazo Lc 7</option> */}
                         <option value="PAC07">Bocagrande. Cra 3 # 5- 187</option>
                         <option value="PAC12">San jose de los Campanos. Cra 101B. # 38A-83</option>
                         <option value="PAC13">Boquilla, Calle Principal. CRA 9 # 59-17</option>
                         <option value="PAC14">Bazurto, C.C Almacentro. Local 4</option>
-                        <option value="PAC15">Turbaco, Calle Real #17-91</option>
+                        {/* <option value="PAC15">Turbaco, Calle Real #17-91</option> */}
                         <option value="PAC19">Pozón, Carrera 88 #56-1. A una cuadra de la entrada</option>
                         <option value="SantaRosa">Santa Rosa. Calle 16 # 27-19</option>
                       </select>
                 </div>
                 }
-                {  
+                {
+                  this.state.category
+                  &&
+                  this.state.category.value === 'Turbaco'
+                  &&
+                  <div className="form-row">
+                    <label className="label">Tu sucursal más cercana *</label>
+                    <select
+                      name="compraventa"
+                      className="input"
+                      onChange={ this.onChangeSelect }
+                      required
+                    >
+                      <option></option>
+                      <option value="PAC15">Calle Real. #17-91 Dg a MerKmas</option>
+                    </select>
+                  </div>
+                }
+                {
+                  this.state.category
+                  &&
+                  this.state.category.value === 'Arjona'
+                  &&
+                  <div className="form-row">
+                    <label className="label">Tu sucursal más cercana *</label>
+                    <select
+                      name="compraventa"
+                      className="input"
+                      onChange={ this.onChangeSelect }
+                      required
+                    >
+                      <option></option>
+                      <option value="Arjona">Calle del Coco con Mercado, Esquinas</option>
+                    </select>
+                  </div>
+                }
+                {
                   this.state.category
                   &&
                   this.state.category.value === 'Sabanalarga'
                   &&
                   <div className="form-row">
-                    <label className="label">Tu sucursal más cercanaa *</label>
+                    <label className="label">Tu sucursal más cercana *</label>
                     <select
                       name="compraventa"
                       className="input"
@@ -353,7 +392,7 @@ class Home extends Component {
                     </select>
                   </div>
                 }
-                { 
+                {
                  this.state.category
                  &&
                  this.state.category.value === 'Baranoa'
@@ -371,7 +410,7 @@ class Home extends Component {
                     </select>
                   </div>
                 }
-                { 
+                {
                  this.state.category
                  &&
                  this.state.category.value === 'SantaMarta'
@@ -392,6 +431,7 @@ class Home extends Component {
                         <option value="PAC18">Concepción 2 Mz Y Casa 19. 2da Etapa </option>
                         <option value="GranPunto">Av. el Rio con Av. del libertador 30 -146</option>
                         <option value="Tayrona">Avenida Del Ferrocarril #5-08</option>
+                        <option value="Yucal">Vía a Minca, Cra 66 N. 39 - 81, Yucal</option>
                         <option value="Sierra">Mercado, Calle 12 #8-80</option>
                       </select>
                     </div>

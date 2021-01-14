@@ -122,7 +122,7 @@ class Cotizar extends Component {
       visible: true,
     })
   }
-  
+
   closeModal = () => {
     this.setState({
       visible: false,
@@ -138,7 +138,7 @@ class Cotizar extends Component {
       value: undefined,
     })
   }
-  
+
   selectSubType = (subtype) => {
     this.setState({
       subtype,
@@ -183,7 +183,7 @@ class Cotizar extends Component {
       [name]: value,
     })
   }
-  
+
   onChangeTipoHerramienta = (e) => {
     const name = e.target.name
     const value = e.target.value
@@ -227,7 +227,7 @@ class Cotizar extends Component {
       }
     })
   }
-  
+
   submit = (e) => {
     e.preventDefault()
     const url = 'https://gestionshop.co/api/pactemos/cotizacion'
@@ -239,7 +239,7 @@ class Cotizar extends Component {
       formData.append('files[' + i + ']', file)
     }
     formData.append('data', JSON.stringify(this.state))
-    
+
     axios.post(url,
       formData,
       {
@@ -272,7 +272,7 @@ class Cotizar extends Component {
         </Head>
         <div className="cotizar">
           <Top />
-          <img className="cover" src="/static/img/cover-cotizar.png" alt=""/>
+          <img className="cover" src="/static/img/cover-cotizar.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
           <div className="container">
             <section className="offices-header">
               <h1>Cotizador en línea</h1>
@@ -287,7 +287,7 @@ class Cotizar extends Component {
                   </div>)
                 }
               </div>
-              
+
               {
                 this.state.type
                 &&
@@ -398,7 +398,7 @@ class Cotizar extends Component {
                   </div>
                 </div>
               }
-              
+
               {
                 this.state.type
                 &&
@@ -882,7 +882,7 @@ class Cotizar extends Component {
                 <div id="myModal" className="modal">
                   <div className="modal-content">
                     <span onClick={ this.closeModal } className="close">&times;</span>
-                    
+
                     <form name="cotizacion" method="POST" onSubmit={ this.submit }>
                       <h3 style={{ marginBottom: 30 }}>Completa tus datos personales</h3>
                       <div className="form-row">
@@ -896,12 +896,14 @@ class Cotizar extends Component {
                     >
                       <option></option>
                       <option value="Cartagena">Cartagena</option>
+                      <option value="Turbaco">Turbaco</option>
+                      <option value="Arjona">Arjona</option>
+                      <option value="SantaMarta">Santa Marta</option>
                       <option value="Sabanalarga">Sabanalarga</option>
                       <option value="Baranoa">Baranoa</option>
-                      <option value="SantaMarta">Santa Marta</option>
                     </select>
                   </div>
-                { 
+                {
                   this.state.localizacion
                   &&
                   this.state.localizacion.value === 'Cartagena'
@@ -917,26 +919,63 @@ class Cotizar extends Component {
                         <option></option>
                         <option value="PAC02">Centro, Calle del Cabo. C.C Invercrédito. Local 5</option>
                         <option value="PAC01">Centro, Calle del Cabo. C.C Invercrédito. Local 9</option>
-                        <option value="PAC03">Centro, Calle de las Carretas</option>
+                        {/* <option value="PAC03">Centro, Calle de las Carretas</option> */}
                         <option value="PAC04">Centro. Portal De Los Dulces, Calle Portocarrero</option>
-                        <option value="PAC16">Centro, C.C. El Cañonazo Lc 7</option>
+                        <option value="Centenario">Parque centenario, Centro, Avenida Daniel lemaitre</option>
+                        {/* <option value="PAC16">Centro, C.C. El Cañonazo Lc 7</option> */}
                         <option value="PAC07">Bocagrande. Cra 3 # 5- 187</option>
                         <option value="PAC12">San jose de los Campanos. Cra 101B. # 38A-83</option>
                         <option value="PAC13">Boquilla, Calle Principal. CRA 9 # 59-17</option>
                         <option value="PAC14">Bazurto, C.C Almacentro. Local 4</option>
-                        <option value="PAC15">Turbaco, Calle Real #17-91</option>
+                        {/* <option value="PAC15">Turbaco, Calle Real #17-91</option> */}
                         <option value="PAC19">Pozón, Carrera 88 #56-1. A una cuadra de la entrada</option>
                         <option value="SantaRosa">Santa Rosa. Calle 16 # 27-19</option>
                       </select>
                 </div>
                 }
-                {  
+                {
+                  this.state.localizacion
+                  &&
+                  this.state.localizacion.value === 'Turbaco'
+                  &&
+                  <div className="form-row">
+                    <label className="label">Tu sucursal más cercana *</label>
+                    <select
+                      name="compraventa"
+                      className="input"
+                      onChange={ this.onChangeSelect }
+                      required
+                    >
+                      <option></option>
+                      <option value="PAC15">Calle Real. #17-91 Dg a MerKmas</option>
+                    </select>
+                  </div>
+                }
+                {
+                  this.state.localizacion
+                  &&
+                  this.state.localizacion.value === 'Arjona'
+                  &&
+                  <div className="form-row">
+                    <label className="label">Tu sucursal más cercana *</label>
+                    <select
+                      name="compraventa"
+                      className="input"
+                      onChange={ this.onChangeSelect }
+                      required
+                    >
+                      <option></option>
+                      <option value="Arjona">Calle del Coco con Mercado, Esquinas</option>
+                    </select>
+                  </div>
+                }
+                {
                   this.state.localizacion
                   &&
                   this.state.localizacion.value === 'Sabanalarga'
                   &&
                   <div className="form-row">
-                    <label className="label">Tu sucursal más cercanaa *</label>
+                    <label className="label">Tu sucursal más cercana *</label>
                     <select
                       name="compraventa"
                       className="input"
@@ -949,7 +988,7 @@ class Cotizar extends Component {
                     </select>
                   </div>
                 }
-                { 
+                {
                  this.state.localizacion
                  &&
                  this.state.localizacion.value === 'Baranoa'
@@ -967,7 +1006,7 @@ class Cotizar extends Component {
                     </select>
                   </div>
                 }
-                { 
+                {
                  this.state.localizacion
                  &&
                  this.state.localizacion.value === 'SantaMarta'
@@ -988,6 +1027,7 @@ class Cotizar extends Component {
                         <option value="PAC18">Concepción 2 Mz Y Casa 19. 2da Etapa </option>
                         <option value="GranPunto">Av. el Rio con Av. del libertador 30 -146</option>
                         <option value="Tayrona">Avenida Del Ferrocarril #5-08</option>
+                        <option value="Yucal">Vía a Minca, Cra 66 N. 39 - 81, Yucal</option>
                         <option value="Sierra">Mercado, Calle 12 #8-80</option>
                       </select>
                     </div>
@@ -1048,13 +1088,13 @@ class Cotizar extends Component {
 
                       <button type="submit" className="form-btn">Enviar datos</button>
                     </form>
-                    
+
                   </div>
                 </div>
               }
             </section>
           </div>
-          
+
         </div>
         <div className="container">
           <Footer />
