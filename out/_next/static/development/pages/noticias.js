@@ -189,7 +189,7 @@ var Footer = function Footer() {
       lineNumber: 24,
       columnNumber: 7
     }
-  }, "Pactemos \xA9 2019 - Derechos Reservados"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Pactemos \xA9 2021 - Derechos Reservados"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -889,7 +889,7 @@ var Top = /*#__PURE__*/function (_Component) {
           lineNumber: 178,
           columnNumber: 23
         }
-      }, "Calle del Coco con Mercado, Esquinas"))), this.state.category && this.state.category.value === 'Sabanalarga' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      }, "Calle del Coco con Mercado, Esquina."))), this.state.category && this.state.category.value === 'Sabanalarga' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
@@ -7210,39 +7210,228 @@ var Sucursales = /*#__PURE__*/function (_Component) {
           lineNumber: 27,
           columnNumber: 19
         }
-      }, "\xBFC\xF3mo identificar una compraventa confiable?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+      }, "10 Preguntas frecuentes de los clientes antes negociar con una casa de empe\xF1os o compraventa."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 19
+        }
+      }, "1. \xBFQu\xE9 diferencia hay entre una casa de empe\xF1o y una compraventa? Es lo mismo? ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29,
-          columnNumber: 19
+          columnNumber: 101
         }
-      }, "Ten en cuenta estos tres consejos. Son conocidas com\xFAnmente como casas de empe\xF1o y hay un sinn\xFAmero de estas en el pa\xEDs, pero \xBFC\xF3mo escoger una compraventa confiable y segura en caso de necesitar dinero?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+      }), "2. \xBFQu\xE9 es un contrato con pacto de retroventa (Un empe\xF1o)?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 80
+        }
+      }), "3. \xBFQu\xE9 se puede empe\xF1ar?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 46
+        }
+      }), "4. \xBFQu\xE9 requisitos solicitan las casas de empe\xF1o?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 70
+        }
+      }), "5. \xBFPor cu\xE1nto empe\xF1an el gramo de oro?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 60
+        }
+      }), "6. \xBFQu\xE9 garant\xEDa tengo al empe\xF1ar mis joyas de oro?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34,
-          columnNumber: 19
+          columnNumber: 72
         }
-      }, "1. Observa las instalaciones y el nivel de seguridad de estas, esto te dar\xE1 mayor tranquilidad a la hora de dejar tus joyas de oro u otros art\xEDculos.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+      }), "7. \xBFCu\xE1nto me dan por empe\xF1ar otros art\xEDculos?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 67
+        }
+      }), "8. \xBFQu\xE9 necesito para empe\xF1ar un electrodom\xE9stico?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36,
-          columnNumber: 90
+          columnNumber: 71
         }
-      }), "2. Ten en cuenta la atenci\xF3n y el profesionalismo del personal, es muy importante que te generen confianza y que te ayuden a resolver todas las dudas que tengas.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+      }), "9. \xBFCu\xE1nto tiempo tengo para retirar mi art\xEDculo?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 70
+        }
+      }), "10. \xBFC\xF3mo prorrog\xF3 el tiempo?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38,
-          columnNumber: 98
+          columnNumber: 50
         }
-      }), "3. Cobertura, una compraventa con m\xFAltiples sucursales te generar\xE1 m\xE1s confianza y respaldo.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 40,
+          columnNumber: 19
+        }
+      }, "1. \xBFQu\xE9 diferencia hay entre una casa de empe\xF1o y una compraventa? \xBFEs lo mismo?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 19
+        }
+      }, "La l\xEDnea que divide estos dos t\xE9rminos es m\xEDnima pero es importante aclarar que hay una diferencia. En las casas de empe\xF1o se obtiene un pr\xE9stamo de dinero a cambio de una garant\xEDa en este caso una joya o art\xEDculo. Sin embargo en la compraventa, usted realiza un contrato de venta con pacto de retroventa. Cabe aclarar que en las siguientes preguntas utilizaremos el t\xE9rmino \u201Cempe\xF1ar\u201D por ser m\xE1s com\xFAn para todos pero debe ser claro que en compraventas Pactemos, realizar\xE1s un contrato de venta con pacto de retroventa."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 19
+        }
+      }, "2. \xBFQu\xE9 es un contrato de venta con pacto de retroventa?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 19
+        }
+      }, "En este tipo de contrato, el cliente vende su art\xEDculo pero se establece su derecho de recomprarlo. Para esto, se pacta un plazo y un precio de retroventa, en caso de vencimiento del plazo sin ejercer el derecho de retroventa, la compraventa puede disponer del art\xEDculo para venderlo a otro cliente."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 19
+        }
+      }, "3. \xBFQu\xE9 se puede empe\xF1ar?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57,
+          columnNumber: 19
+        }
+      }, "En Compraventas Pactemos recibimos gran variedad de art\xEDculos, los cuales deben encontrarse en buen estado."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 19
+        }
+      }, "4. \xBFQue requisitos solicitan las casas de empe\xF1o?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 19
+        }
+      }, "Para realizar un \u201Cempe\xF1o\u201D solo necesitar\xE1s el art\xEDculo y tu documento de identidad."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 19
+        }
+      }, "5. \xBFPor cuanto empe\xF1an el gramo de oro?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 19
+        }
+      }, "Muchos clientes preguntan \xBFCu\xE1nto me dan por un anillo de oro? O \xBFen cu\xE1nto empe\xF1an esta cadena de oro? Lo cierto es que para poder realizar la valoraci\xF3n es necesario conocer las caracter\xEDsticas de la joya tales como: peso, tipo de oro (nacional, italiano, 14k, 18k etc) adem\xE1s se debe tener en cuenta el estado de las joyas, ya que en algunos casos la joya puede estar partida o con enmendaduras."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 19
+        }
+      }, "6. \xBFQu\xE9 garant\xEDa tengo al empe\xF1ar mis joyas de oro?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
+          columnNumber: 19
+        }
+      }, "La mejor garant\xEDa que puedes tener, es que las joyas son aseguradas por una reconocida empresa de custodia de valores hasta que decidas regresar por ellas. Es un servicio adicional sin ning\xFAn costo que proporciona seguridad y tranquilidad."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 19
+        }
+      }, "7. \xBFCu\xE1nto me dan por empe\xF1ar?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79,
+          columnNumber: 19
+        }
+      }, "De igual forma que con las joyas de oro, es importante conocer las caracter\xEDsticas de los art\xEDculos que necesitas \u201Cempe\xF1ar\u201D, para esto contamos con un cotizador en l\xEDnea (insertar link https://compraventaspactemos.com/cotizar/) en el que podr\xE1s ingresar los datos del art\xEDculo y te contactaremos para confirmar cu\xE1nto puedes recibir."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85,
+          columnNumber: 19
+        }
+      }, "8. \xBFQu\xE9 necesito para empe\xF1ar un electrodom\xE9stico?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 19
+        }
+      }, "Si tu inter\xE9s es \u201Cempe\xF1ar un televisor\u201D, una herramienta o un port\xE1til, solo debes acercarte a una de nuestras sucursales (https://compraventaspactemos.com/sucursales/) con tu art\xEDculo y tu documento de identificaci\xF3n, recuerda que puedes solicitar la valoraci\xF3n previa a trav\xE9s de cotizador virtual."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92,
+          columnNumber: 19
+        }
+      }, "9. \xBFCu\xE1nto tiempo tengo para retirar mi art\xEDculo?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93,
+          columnNumber: 19
+        }
+      }, "En Compraventas PACTEMOS el tiempo es tuyo, tu pr\xF3rrogas el tiempo hasta cuando lo decidas, la \xFAnica condici\xF3n es que debes hacerlo mensualmente."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97,
+          columnNumber: 19
+        }
+      }, "10. \xBFComo prorrogo el tiempo?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98,
+          columnNumber: 19
+        }
+      }, "Para ampliar el tiempo de tu contrato solo debes pagar el precio de la prorroga mensualmente. La prorroga es el pago mensual que debes hacer para mantener tu contrato activo. Esto depender\xE1 del valor del \u201Ccontrato que realices\u201D por ejemplo: s\xED el contrato es por valor de $100.000 deber\xE1s cancelar $10.000 para prorrogar el tiempo.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
           columnNumber: 13
         }
       }))));

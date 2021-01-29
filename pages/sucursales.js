@@ -45,7 +45,7 @@ class Sucursales extends Component {
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678351597" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
-                <article className="offices-item">
+                {/* <article className="offices-item">
                   <address>
                     <h4>Centro Historico</h4>
                     <span>C.C. El Cañonazo Lc 7</span><br/>
@@ -53,7 +53,7 @@ class Sucursales extends Component {
                     <span>Whatsapp: (301) 4591953</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.9438841859064!2d-75.54726288520233!3d10.426027892559857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336734bcab%3A0x80fb1c0a483159fc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678599400" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
-                </article>
+                </article> */}
 
                 <article className="offices-item">
                   <address>
@@ -75,7 +75,7 @@ class Sucursales extends Component {
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678758676" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
-                <article className="offices-item">
+                {/* <article className="offices-item">
                   <address>
                   <h4>Centro Historico</h4>
                     <span>Calle de las Carretas # 34-35</span><br/>
@@ -83,7 +83,7 @@ class Sucursales extends Component {
                     <span>Whatsapp: (301) 3427402</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d980.9932095654385!2d-75.5499182!3d10.42373!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac2a1efd5a816337!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334238857" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
-                </article>
+                </article> */}
 
                 <article className="offices-item">
                   <address>
