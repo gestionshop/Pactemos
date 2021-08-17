@@ -258,7 +258,7 @@ class Home extends Component {
               <div className="home-products-row">
                 <img className="home-products-img" src="/static/img/mas-servicios.png" alt="compraventas pactemos, casas de empeño, compraventas en cartagena, compraventas en santa marta, comprayventas"/>
                 <div>
-                  <h2 className="home-products-title">Además en compraventas pactemos podrás:</h2>
+                  <h2 className="home-products-title">Además en Compraventas Pactemos podrás:</h2>
                   <p>Comprar lo que necesites, joyas de oro y plata, electrodomésticos, herramientas, tecnología, bicicletas y mucho más.</p>
 
                   <div>

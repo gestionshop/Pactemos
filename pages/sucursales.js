@@ -42,18 +42,17 @@ class Sucursales extends Component {
                     <span>Teléfono: (57) (5) 6799000</span><br/>
                     <span>Whatsapp: (300) 7820709</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.0692495631791!2d-75.5581635!3d10.3995605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fed77c76ded%3A0x15b57ad2b1a0583c!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678351597" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15694.856006512227!2d-75.5179115!3d10.4442544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8cc7410b2c1c38f8!2sCompraventas%20PACTEMOS!5e0!3m2!1ses-419!2sco!4v1629215096817!5m2!1ses-419!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
-                {/* <article className="offices-item">
+                <article className="offices-item">
                   <address>
-                    <h4>Centro Historico</h4>
-                    <span>C.C. El Cañonazo Lc 7</span><br/>
-                    <span>Teléfono: (57) (5) 6641747</span><br/>
-                    <span>Whatsapp: (301) 4591953</span>
+                    <h4>Crespo</h4>
+                    <span>Calle 70 # 2-67 al lado de Megatiendas</span><br/>
+                    <span>Whatsapp: (301) 7278815</span>
                   </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.9438841859064!2d-75.54726288520233!3d10.426027892559857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336734bcab%3A0x80fb1c0a483159fc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678599400" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
-                </article> */}
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15694.856006512227!2d-75.5179115!3d10.4442544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8cc7410b2c1c38f8!2sCompraventas%20PACTEMOS!5e0!3m2!1ses-419!2sco!4v1629215096817!5m2!1ses-419!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
+                </article>
 
                 <article className="offices-item">
                   <address>
@@ -74,16 +73,6 @@ class Sucursales extends Component {
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678758676" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
-
-                {/* <article className="offices-item">
-                  <address>
-                  <h4>Centro Historico</h4>
-                    <span>Calle de las Carretas # 34-35</span><br/>
-                    <span>Teléfono: (57) (5) 6602165</span><br/>
-                    <span>Whatsapp: (301) 3427402</span>
-                  </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d980.9932095654385!2d-75.5499182!3d10.42373!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac2a1efd5a816337!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334238857" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
-                </article> */}
 
                 <article className="offices-item">
                   <address>
@@ -113,6 +102,15 @@ class Sucursales extends Component {
                     <span>Whatsapp: (301) 5641662</span>
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15696.435195677646!2d-75.5319144!3d10.412933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336739ee27%3A0xe004f300461b33f5!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685706336" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
+                </article>
+
+                <article className="offices-item">
+                  <address>
+                  <h4>Plazuela</h4>
+                    <span>Frente al multicentro La Plazuela, Dg. 31 # 71-59</span><br/>
+                    <span>Whatsapp: (301) 5641662</span>
+                  </address>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15697.36868601264!2d-75.4852552!3d10.3943744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ba8d956b8a567ed!2sCompraventas%20PACTEMOS!5e0!3m2!1ses-419!2sco!4v1629215804066!5m2!1ses-419!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
                 <article className="offices-item">
