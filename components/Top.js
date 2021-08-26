@@ -139,6 +139,8 @@ class Top extends Component {
                         <option value="PAC14">Bazurto, C.C Almacentro. Local 4</option>
                         {/* <option value="PAC15">Turbaco, Calle Real #17-91</option> */}
                         <option value="PAC19">Pozón, Carrera 88 #56-1. A una cuadra de la entrada</option>
+                        <option value="PAC20">Plazuela, Frente al multicentro La Plazuela, Dg. 31 # 71-59</option>
+                        <option value="Crespo">Crespo, Calle 70 # 2-67 al lado de Megatiendas</option>
                         <option value="SantaRosa">Santa Rosa. Calle 16 # 27-19</option>
                       </select>
                 </div>
