@@ -177,7 +177,7 @@ class Top extends Component {
                       required
                     >
                       <option></option>
-                      <option value="Arjona">Calle del Coco con Mercado, Esquina.</option>
+                      <option value="PAC17">Calle del Coco con Mercado, Esquina.</option>
                     </select>
                   </div>
                 }
@@ -235,7 +235,7 @@ class Top extends Component {
                         <option value="PAC09">Centro, Cra 5, Edificio Galaxia. Local 102</option>
                         <option value="PAC10">Centro, Cra 5 # 21 - 16</option>
                         <option value="PAC11">Gaira, Cra 10 # 9- 35</option>
-                        <option value="PAC17">Avenida El Libertador #27 - 231</option>
+                        <option value="PAC Estrella">Avenida El Libertador #27 - 231</option>
                         <option value="PAC18">Concepción 2 Mz Y Casa 19. 2da Etapa </option>
                         <option value="GranPunto">Av. el Rio con Av. del libertador 30 -146</option>
                         <option value="Tayrona">Avenida Del Ferrocarril #5-08</option>
