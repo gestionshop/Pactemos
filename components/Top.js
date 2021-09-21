@@ -297,6 +297,20 @@ class Top extends Component {
                   </select>
                 </div>
 
+                <div>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="politica-tratamiento-datos"
+                      required
+                    />
+                    &nbsp;Acepto
+                    <a href="/politica">
+                      &nbsp;politica de tratamiento de datos
+                    </a>
+                  </label>
+                </div>
+
                 <button type="submit" className="form-btn">Enviar datos</button>
               </form>
             </div>

@@ -18,6 +18,7 @@ const Footer = () => (
         <p><a href="/sucursales">Sucursales</a></p>
         <p><a href="/noticias">Noticias</a></p>
         <p><a href="/cotizar">Cotizar en linea</a></p>
+        <p><a href="/politica">Politica de tratamiento de datos</a></p>
       </div>
     </div>
     <footer className="Footer">
