@@ -5,7 +5,8 @@ module.exports = {
       '/sucursales': { page: '/sucursales' },
       '/cotizar': { page: '/cotizar' },
       '/noticias': { page: '/noticias' },
-      '/gracias': { page: '/gracias' }
+      '/gracias': { page: '/gracias' },
+      '/politica': { page: '/politica' }
     }
   }
 }
