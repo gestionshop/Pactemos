@@ -263,10 +263,11 @@ class Top extends Component {
                     required />
                 </div>
                 <div className="form-row">
-                  <label className="label">Correo</label>
+                  <label className="label">Correo *</label>
                   <input
                     className="input"
                     type="text"
+                    required
                     onChange={ this.onChangeInput }
                     name="email" />
                 </div>
