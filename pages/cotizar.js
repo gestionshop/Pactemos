@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Thanks from './gracias'
 import * as funtions from '../funciones/funciones';
 
+import { serviceSendToSalesforce } from '../services/salesforce'
 
 const Dropzone = dynamic(import('react-dropzone'), {
   ssr: false,
@@ -115,6 +116,7 @@ class Cotizar extends Component {
     visible: false,
     submited: false,
     files: [],
+    names: ''
   }
 
   showModal = () => {
@@ -164,6 +166,14 @@ class Cotizar extends Component {
     const name = e.target.name
     const value = e.target.value
 
+    const names = (
+      name === 'name'
+        ? `${value} ${ this.state.lasname || '' }`.trim()
+      : name === 'lastname'
+        ? `${ this.state.name || '' } ${value}`.trim()
+      : this.state.names
+    )
+
     if (this.state.type.name === 'Joyería' && name === 'weight') {
       this.setState({
         [name]: value,
@@ -172,6 +182,7 @@ class Cotizar extends Component {
     } else {
       this.setState({
         [name]: value,
+        names
       })
     }
   }
@@ -247,10 +258,29 @@ class Cotizar extends Component {
           'Content-Type': 'multipart/form-data'
         }
       }
-    ).then(res => {
+    ).then(() => this.sendToSalesforce())
+    .then(res => {
       this.setState({ visible: false, submited: true })
       window.location.replace('/gracias')
     })
+  }
+
+  sendToSalesforce = () => {
+    const values = {
+      oid: '00D4x000006qQ0N',
+      retURL: 'https://compraventaspactemos.com/cotizar/',
+      first_name: this.state.name,
+      last_name: this.state.lastname,
+      email: this.state.email,
+      mobile: this.state.mobile,
+      '00N4x00000Knv0j': this.state.localizacion.value,
+      '00N4x00000Q5kDM': 'Dinero inmediato',
+      '00N4x00000Knv1D': this.state.compraventa,
+      '00N4x00000KnvIO': this.state.many,
+      'lead_source': this.state.source
+    }
+
+    return serviceSendToSalesforce(values)
   }
 
   onDrop = (newFiles) => {
@@ -893,10 +923,10 @@ class Cotizar extends Component {
                       className="input"
                       onChange={ this.onChangeCiudad }
                       required
-                      placeholder = "Seleccione tu cuidad"
+                      placeholder = "Seleccione tu ciudad"
                     >
                       <option></option>
-                      <option value="Cartagena">Cartagena</option>
+                      <option value="Cartagena De Indias">Cartagena De Indias</option>
                       <option value="Turbaco">Turbaco</option>
                       <option value="Arjona">Arjona</option>
                       <option value="SantaMarta">Santa Marta</option>
@@ -907,7 +937,7 @@ class Cotizar extends Component {
                 {
                   this.state.localizacion
                   &&
-                  this.state.localizacion.value === 'Cartagena'
+                  this.state.localizacion.value === 'Cartagena De Indias'
                   &&
                   <div className="form-row">
                     <label className="label">Tu sucursal más cercana *</label>
@@ -918,21 +948,19 @@ class Cotizar extends Component {
                         required
                       >
                         <option></option>
-                        <option value="PAC02">Centro, Calle del Cabo. C.C Invercrédito. Local 5</option>
-                        <option value="PAC01">Centro, Calle del Cabo. C.C Invercrédito. Local 9</option>
-                        {/* <option value="PAC03">Centro, Calle de las Carretas</option> */}
-                        <option value="PAC04">Centro. Portal De Los Dulces, Calle Portocarrero</option>
-                        <option value="Centenario">Parque centenario, Centro, Avenida Daniel lemaitre</option>
-                        {/* <option value="PAC16">Centro, C.C. El Cañonazo Lc 7</option> */}
-                        <option value="PAC07">Bocagrande. Cra 3 # 5- 187</option>
-                        <option value="PAC12">San jose de los Campanos. Cra 101B. # 38A-83</option>
-                        <option value="PAC13">Boquilla, Calle Principal. CRA 9 # 59-17</option>
-                        <option value="PAC14">Bazurto, C.C Almacentro. Local 4</option>
-                        {/* <option value="PAC15">Turbaco, Calle Real #17-91</option> */}
-                        <option value="PAC19">Pozón, Carrera 88 #56-1. A una cuadra de la entrada</option>
-                        <option value="PAC20">Plazuela, Frente al multicentro La Plazuela, Dg. 31 # 71-59</option>
-                        <option value="Crespo">Crespo, Calle 70 # 2-67 al lado de Megatiendas</option>
-                        <option value="SantaRosa">Santa Rosa. Calle 16 # 27-19</option>
+                        <option value="PCT 02">Centro, Calle del Cabo. C.C Invercrédito. Local 5</option>
+                        <option value="PCT 01">Centro, Calle del Cabo. C.C Invercrédito. Local 9</option>
+                        <option value="PCT 04">Centro. Portal De Los Dulces, Calle Portocarrero</option>
+                        <option value="PCT 16">Centro, Av Daniel Lemaitre al lado del Hotel San Felipe</option>
+                        <option value="PCT 07">Bocagrande. Cra 3 # 5- 187</option>
+                        <option value="PCT 12">San jose de los Campanos. Cra 101B. # 38A-83</option>
+                        <option value="PCT 13">Boquilla, Calle Principal. CRA 9 # 59-17</option>
+                        <option value="PCT 14">Bazurto, C.C Almacentro. Local 4</option>
+                        <option value="PCT 19">Pozón, Carrera 88 #56-1. A una cuadra de la entrada</option>
+                        <option value="PCT 20">Plazuela, Frente al multicentro La Plazuela, Dg. 31 # 71-59</option>
+                        <option value="PCT 201">Crespo, Calle 70 # 2-67 al lado de Megatiendas</option>
+                        <option value="PCT 103">Superefectivo Terminal</option>
+                        <option value="PCT 104">Superefectivo Socorro</option>
                       </select>
                 </div>
                 }
@@ -950,7 +978,7 @@ class Cotizar extends Component {
                       required
                     >
                       <option></option>
-                      <option value="PAC15">Calle Real. #17-91 Dg a MerKmas</option>
+                      <option value="PCT 15">Turbaco, Calle Real. #17-91</option>
                     </select>
                   </div>
                 }
@@ -968,7 +996,7 @@ class Cotizar extends Component {
                       required
                     >
                       <option></option>
-                      <option value="PAC17">Calle del Coco con Mercado, Esquina.</option>
+                      <option value="PCT 17">Arjona, Calle del Coco con Mercado, Esquina.</option>
                     </select>
                   </div>
                 }
@@ -986,8 +1014,8 @@ class Cotizar extends Component {
                       required
                     >
                       <option></option>
-                      <option value="PAC05">Cra 19 Nº 20 - 14</option>
-                      <option value="PAC06">Calle 20 Nº 18 - 56</option>
+                      <option value="PCT 05">Cra 19 Nº 20 - 14</option>
+                      <option value="PCT 06">Calle 20 Nº 18 - 56</option>
                     </select>
                   </div>
                 }
@@ -1005,7 +1033,7 @@ class Cotizar extends Component {
                       required
                     >
                       <option></option>
-                      <option value="PAC08">Carrera 19 #18-18 Local 2</option>
+                      <option value="PCT 08">Carrera 19 #18-18 Local 2</option>
                     </select>
                   </div>
                 }
@@ -1023,24 +1051,33 @@ class Cotizar extends Component {
                         required
                       >
                         <option></option>
-                        <option value="PAC09">Centro, Cra 5, Edificio Galaxia. Local 102</option>
-                        <option value="PAC10">Centro, Cra 5 # 21 - 16</option>
-                        <option value="PAC11">Gaira, Cra 10 # 9- 35</option>
-                        <option value="PAC Estrella">Avenida El Libertador #27 - 231</option>
-                        <option value="PAC18">Concepción 2 Mz Y Casa 19. 2da Etapa </option>
-                        <option value="GranPunto">Av. el Rio con Av. del libertador 30 -146</option>
-                        <option value="Tayrona">Avenida Del Ferrocarril #5-08</option>
-                        <option value="Yucal">Vía a Minca, Cra 66 N. 39 - 81, Yucal</option>
-                        <option value="Sierra">Mercado, Calle 12 #8-80</option>
+                        <option value="PCT 09">Centro, Cra 5, Edificio Galaxia. Local 102</option>
+                        <option value="PCT 10">Centro, Cra 5 # 21 - 16</option>
+                        <option value="PCT 11">Gaira, Cra 10 # 9- 35</option>
+                        <option value="PCT 202">Avenida El Libertador #27 - 231</option>
+                        <option value="PCT 18">Concepción 2 Mz Y Casa 19. 2da Etapa </option>
+                        <option value="PCT 06">Av. el Rio con Av. del libertador 30 -146</option>
+                        <option value="PCT 102">Avenida Del Ferrocarril #5-08</option>
+                        <option value="PCT 105">Vía a Minca, Cra 66 N. 39 - 81, Yucal</option>
+                        <option value="PCT 101">Mercado, Calle 12 #8-80</option>
                       </select>
                     </div>
                 }
                       <div className="form-row">
-                        <label className="label">Nombres y Apellidos *</label>
+                        <label className="label">Nombres *</label>
                         <input
                           className="input"
                           type="text"
-                          name="names"
+                          name="name"
+                          onChange={ this.onChangeInput }
+                          required />
+                      </div>
+                      <div className="form-row">
+                        <label className="label">Apellidos *</label>
+                        <input
+                          className="input"
+                          type="text"
+                          name="lastname"
                           onChange={ this.onChangeInput }
                           required />
                       </div>
