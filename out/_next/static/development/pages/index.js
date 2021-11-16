@@ -174,26 +174,41 @@ var Footer = function Footer() {
       lineNumber: 20,
       columnNumber: 12
     }
-  }, "Cotizar en linea")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+  }, "Cotizar en linea")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/politica",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 12
+    }
+  }, "Politica de tratamiento de datos")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     className: "Footer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 24,
       columnNumber: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 25,
       columnNumber: 7
     }
   }, "Pactemos \xA9 2021 - Derechos Reservados"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 7
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -203,7 +218,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -215,7 +230,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 9
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -225,7 +240,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -237,7 +252,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 9
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -247,7 +262,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -259,7 +274,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 9
     }
   })))));
@@ -898,7 +913,7 @@ var Top = /*#__PURE__*/function (_Component) {
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
-        value: "Arjona",
+        value: "PAC17",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -1056,7 +1071,7 @@ var Top = /*#__PURE__*/function (_Component) {
           columnNumber: 25
         }
       }, "Gaira, Cra 10 # 9- 35"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
-        value: "PAC17",
+        value: "PAC Estrella",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -1303,13 +1318,45 @@ var Top = /*#__PURE__*/function (_Component) {
           lineNumber: 296,
           columnNumber: 21
         }
-      }, "Otro"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+      }, "Otro"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 300,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 301,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
+        type: "checkbox",
+        name: "politica-tratamiento-datos",
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 302,
+          columnNumber: 21
+        }
+      }), "\xA0Acepto", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        href: "/politica",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 308,
+          columnNumber: 21
+        }
+      }, "\xA0politica de tratamiento de datos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
         type: "submit",
         className: "form-btn",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 300,
+          lineNumber: 314,
           columnNumber: 17
         }
       }, "Enviar datos")))));
@@ -8530,7 +8577,7 @@ var Home = /*#__PURE__*/function (_Component) {
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
-        value: "Arjona",
+        value: "PAC17",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -8688,7 +8735,7 @@ var Home = /*#__PURE__*/function (_Component) {
           columnNumber: 25
         }
       }, "Gaira, Cra 10 # 9- 35"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
-        value: "PAC17",
+        value: "PAC Estrella",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -8935,13 +8982,45 @@ var Home = /*#__PURE__*/function (_Component) {
           lineNumber: 491,
           columnNumber: 27
         }
-      }, "Otro"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+      }, "Otro"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 495,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 496,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
+        type: "checkbox",
+        name: "politica-tratamiento-datos",
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 497,
+          columnNumber: 27
+        }
+      }), "\xA0Acepto", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        href: "/politica",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 503,
+          columnNumber: 27
+        }
+      }, "\xA0politica de tratamiento de datos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
         type: "submit",
         className: "form-btn",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 495,
+          lineNumber: 508,
           columnNumber: 23
         }
       }, "Enviar datos")))))));
@@ -8955,7 +9034,7 @@ var Home = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Farnoldtorres%2FSites%2Fcotizador%2FPactemos%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************************/
@@ -8978,5 +9057,5 @@ module.exports = dll_6b27229dcf0f0fec5747;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
