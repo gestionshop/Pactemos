@@ -278,7 +278,7 @@ class Cotizar extends Component {
       '00N4x00000Knv1D': this.state.compraventa,
       '00N4x00000KnvIO': this.state.many,
       'lead_source': this.state.source,
-      xSucusal: 'PCT 100'
+      xSucursal: 'PCT 100'
     }
 
     return serviceSendToSalesforce(values)
