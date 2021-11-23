@@ -11487,6 +11487,7 @@ var serviceSendToSalesforce = function serviceSendToSalesforce(values) {
 
   return fetch('https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8', {
     method: 'POST',
+    mode: 'no-cors',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
     },
@@ -11498,7 +11499,7 @@ var serviceSendToSalesforce = function serviceSendToSalesforce(values) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!***************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcotizar&absolutePagePath=%2FUsers%2Farnoldtorres%2FSites%2Fcotizador%2FPactemos%2Fpages%2Fcotizar.js ***!
   \***************************************************************************************************************************************************/
@@ -11521,5 +11522,5 @@ module.exports = dll_6b27229dcf0f0fec5747;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=cotizar.js.map

@@ -930,7 +930,7 @@ class Cotizar extends Component {
                       <option value="Cartagena De Indias">Cartagena De Indias</option>
                       <option value="Turbaco">Turbaco</option>
                       <option value="Arjona">Arjona</option>
-                      <option value="SantaMarta">Santa Marta</option>
+                      <option value="Santa Marta">Santa Marta</option>
                       <option value="Sabanalarga">Sabanalarga</option>
                       <option value="Baranoa">Baranoa</option>
                     </select>
@@ -1041,7 +1041,7 @@ class Cotizar extends Component {
                 {
                  this.state.localizacion
                  &&
-                 this.state.localizacion.value === 'SantaMarta'
+                 this.state.localizacion.value === 'Santa Marta'
                  &&
                   <div className="form-row">
                       <label className="label">Tu sucursal más cercana *</label>
