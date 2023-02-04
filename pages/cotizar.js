@@ -22,7 +22,7 @@ const data = [
         options: [
           {
             name: '18k',
-            value: 100000,
+            value: 170000,
           },
           {
             name: '14k',
@@ -241,8 +241,8 @@ class Cotizar extends Component {
 
   submit = (e) => {
     e.preventDefault()
-    const url = 'https://gestionshop.co/api/pactemos/cotizacion'
-    // const url = 'http://localhost:3001/api/pactemos/cotizacion'
+    // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+    const url = 'http://localhost:3001/api/pactemos/cotizacion'
 
     let formData = new FormData()
     for( var i = 0; i < this.state.files.length; i++ ){
@@ -425,6 +425,7 @@ class Cotizar extends Component {
                       <option>Seleccione un artículo</option>
                       <option value="Portatil">Portatil</option>
                       <option value="Tablet">Tablet</option>
+                      <option value="Celular">Celular</option>
                       <option value="Otro">Otros</option>
                     </select>
                   </div>
@@ -551,6 +552,30 @@ class Cotizar extends Component {
                         name="time"
                         onChange={ this.onChangeInput }
                       />
+                    </div>
+                  </div>
+                  <div className="cotizar-select">
+                    <div className="form-input">
+                      <label className="label">¿Tiene cargador? *</label>
+
+                      <label className="radio">
+                        <input
+                          type="radio"
+                          placeholder=""
+                          name="charger"
+                          value="Si"
+                          onChange={ this.onChangeInput }
+                        /> Si
+                      </label>
+                      <label className="radio">
+                        <input
+                          type="radio"
+                          placeholder=""
+                          name="charger"
+                          value="No"
+                          onChange={ this.onChangeInput }
+                        /> No
+                      </label>
                     </div>
                   </div>
                   <div className="cotizar-select">
@@ -837,6 +862,8 @@ class Cotizar extends Component {
                 &&
                 this.state.time
                 &&
+                this.state.charger
+                &&
                 this.state.invoice
                 &&
                 <div className="cotizar-result">
@@ -957,6 +984,7 @@ class Cotizar extends Component {
                         <option value="PCT 12">San jose de los Campanos. Cra 101B. # 38A-83</option>
                         <option value="PCT 13">Boquilla, Calle Principal. CRA 9 # 59-17</option>
                         <option value="PCT 14">Bazurto, C.C Almacentro. Local 4</option>
+                        <option value="PCT 21">Avenida Pedro de Heredia, Frente a la Castellana</option>
                         <option value="PCT 19">Pozón, Carrera 88 #56-1. A una cuadra de la entrada</option>
                         <option value="PCT 20">Plazuela, Frente al multicentro La Plazuela, Dg. 31 # 71-59</option>
                         <option value="PCT 201">Crespo, Calle 70 # 2-67 al lado de Megatiendas</option>

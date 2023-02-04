@@ -106,6 +106,15 @@ class Sucursales extends Component {
 
                 <article className="offices-item">
                   <address>
+                  <h4>Castellana</h4>
+                    <span>Avenida Pedro de Heredia #31A 10. Frente a la Castellana</span><br/>
+                    <span>Whatsapp: (300) 7699473</span>
+                  </address>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3924.3411592726306!2d-75.48741262024028!3d10.394454966854713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x685908801b114698!2sCompraventas%20PACTEMOS!5e0!3m2!1ses-419!2sco!4v1674832212250!5m2!1ses-419!2sco" width="100%" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
+                </article>
+
+                <article className="offices-item">
+                  <address>
                   <h4>Plazuela</h4>
                     <span>Frente al multicentro La Plazuela, Dg. 31 # 71-59</span><br/>
                     <span>Whatsapp: (301) 5592475</span>
