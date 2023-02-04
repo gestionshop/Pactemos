@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/sucursales.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/cotizar.js"],{
 
 /***/ "./components/Footer.js":
 /*!******************************!*\
@@ -831,11 +831,19 @@ var Top = /*#__PURE__*/function (_Component) {
           columnNumber: 25
         }
       }, "Bazurto, C.C Almacentro. Local 4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
-        value: "PCT 19",
+        value: "PCT 21",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 175,
+          columnNumber: 25
+        }
+      }, "Avenida Pedro de Heredia, Frente a la Castellana"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
+        value: "PCT 19",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 176,
           columnNumber: 25
         }
       }, "Poz\xF3n, Carrera 88 #56-1. A una cuadra de la entrada"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -843,7 +851,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 176,
+          lineNumber: 177,
           columnNumber: 25
         }
       }, "Plazuela, Frente al multicentro La Plazuela, Dg. 31 # 71-59"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -851,7 +859,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 177,
+          lineNumber: 178,
           columnNumber: 25
         }
       }, "Crespo, Calle 70 # 2-67 al lado de Megatiendas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -859,7 +867,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 178,
+          lineNumber: 179,
           columnNumber: 25
         }
       }, "Superefectivo Terminal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -867,7 +875,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 179,
+          lineNumber: 180,
           columnNumber: 25
         }
       }, "Superefectivo Socorro"))), this.state.category && this.state.category.value === 'Turbaco' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -875,7 +883,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 188,
+          lineNumber: 189,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -883,7 +891,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 189,
+          lineNumber: 190,
           columnNumber: 21
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -894,14 +902,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 190,
+          lineNumber: 191,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 196,
+          lineNumber: 197,
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -909,7 +917,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 197,
+          lineNumber: 198,
           columnNumber: 23
         }
       }, "Turbaco, Calle Real. #17-91"))), this.state.category && this.state.category.value === 'Arjona' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -917,7 +925,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 206,
+          lineNumber: 207,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -925,7 +933,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 207,
+          lineNumber: 208,
           columnNumber: 21
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -936,14 +944,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 208,
+          lineNumber: 209,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 214,
+          lineNumber: 215,
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -951,7 +959,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 215,
+          lineNumber: 216,
           columnNumber: 23
         }
       }, "Arjona, Calle del Coco con Mercado, Esquina."))), this.state.category && this.state.category.value === 'Sabanalarga' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -959,7 +967,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 224,
+          lineNumber: 225,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -967,7 +975,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 225,
+          lineNumber: 226,
           columnNumber: 21
         }
       }, "Tu sucursal m\xE1s cercanaa *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -978,14 +986,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 226,
+          lineNumber: 227,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 232,
+          lineNumber: 233,
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -993,7 +1001,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 233,
+          lineNumber: 234,
           columnNumber: 23
         }
       }, "Cra 19 N\xBA 20 - 14"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1001,7 +1009,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234,
+          lineNumber: 235,
           columnNumber: 23
         }
       }, "Calle 20 N\xBA 18 - 56"))), this.state.category && this.state.category.value === 'Baranoa' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1009,7 +1017,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 243,
+          lineNumber: 244,
           columnNumber: 18
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1017,7 +1025,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 244,
+          lineNumber: 245,
           columnNumber: 21
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -1028,14 +1036,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245,
+          lineNumber: 246,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 251,
+          lineNumber: 252,
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1043,7 +1051,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 252,
+          lineNumber: 253,
           columnNumber: 23
         }
       }, "Carrera 19 #18-18 Local 2"))), this.state.category && this.state.category.value === 'Santa Marta' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1051,7 +1059,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 261,
+          lineNumber: 262,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1059,7 +1067,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 262,
+          lineNumber: 263,
           columnNumber: 23
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -1070,14 +1078,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 263,
+          lineNumber: 264,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 269,
+          lineNumber: 270,
           columnNumber: 25
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1085,7 +1093,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 270,
+          lineNumber: 271,
           columnNumber: 25
         }
       }, "Centro, Cra 5, Edificio Galaxia. Local 102"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1093,7 +1101,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 271,
+          lineNumber: 272,
           columnNumber: 25
         }
       }, "Centro, Cra 5 # 21 - 16"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1101,7 +1109,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 272,
+          lineNumber: 273,
           columnNumber: 25
         }
       }, "Gaira, Cra 10 # 9- 35"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1109,7 +1117,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 273,
+          lineNumber: 274,
           columnNumber: 25
         }
       }, "Avenida El Libertador #27 - 231"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1117,7 +1125,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 274,
+          lineNumber: 275,
           columnNumber: 25
         }
       }, "Concepci\xF3n 2 Mz Y Casa 19. 2da Etapa "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1125,7 +1133,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 275,
+          lineNumber: 276,
           columnNumber: 25
         }
       }, "Av. el Rio con Av. del libertador 30 -146"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1133,7 +1141,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 276,
+          lineNumber: 277,
           columnNumber: 25
         }
       }, "Avenida Del Ferrocarril #5-08"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1141,7 +1149,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 277,
+          lineNumber: 278,
           columnNumber: 25
         }
       }, "V\xEDa a Minca, Cra 66 N. 39 - 81, Yucal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1149,7 +1157,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 278,
+          lineNumber: 279,
           columnNumber: 25
         }
       }, "Mercado, Calle 12 #8-80"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1157,7 +1165,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 279,
+          lineNumber: 280,
           columnNumber: 25
         }
       }, "Av. Santa rita, Calle 22 con 18. Esquina"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1165,7 +1173,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 280,
+          lineNumber: 281,
           columnNumber: 25
         }
       }, "Bonga, Cra 17 con 7"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1173,7 +1181,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 284,
+          lineNumber: 285,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1181,7 +1189,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 285,
+          lineNumber: 286,
           columnNumber: 19
         }
       }, "Nombres *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1193,7 +1201,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 286,
+          lineNumber: 287,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1201,7 +1209,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 293,
+          lineNumber: 294,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1209,7 +1217,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 294,
+          lineNumber: 295,
           columnNumber: 19
         }
       }, "Apellidos *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1221,7 +1229,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 295,
+          lineNumber: 296,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1229,7 +1237,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 302,
+          lineNumber: 303,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1237,7 +1245,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 303,
+          lineNumber: 304,
           columnNumber: 19
         }
       }, "Celular *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1249,7 +1257,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 304,
+          lineNumber: 305,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1257,7 +1265,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 311,
+          lineNumber: 312,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1265,7 +1273,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 312,
+          lineNumber: 313,
           columnNumber: 19
         }
       }, "Correo *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1277,7 +1285,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 313,
+          lineNumber: 314,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1285,7 +1293,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 320,
+          lineNumber: 321,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1293,7 +1301,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 321,
+          lineNumber: 322,
           columnNumber: 19
         }
       }, "\xBF Cu\xE1nto necesita ?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1304,7 +1312,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 322,
+          lineNumber: 323,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1312,7 +1320,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 328,
+          lineNumber: 329,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1320,7 +1328,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 329,
+          lineNumber: 330,
           columnNumber: 19
         }
       }, "\xBF C\xF3mo nos contact\xF3 ? *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -1331,14 +1339,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 330,
+          lineNumber: 331,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 336,
+          lineNumber: 337,
           columnNumber: 21
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1346,7 +1354,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 337,
+          lineNumber: 338,
           columnNumber: 21
         }
       }, "Radio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1354,7 +1362,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 338,
+          lineNumber: 339,
           columnNumber: 21
         }
       }, "Volantes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1362,7 +1370,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 339,
+          lineNumber: 340,
           columnNumber: 21
         }
       }, "Facebook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1370,7 +1378,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 340,
+          lineNumber: 341,
           columnNumber: 21
         }
       }, "Instagram"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1378,7 +1386,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 341,
+          lineNumber: 342,
           columnNumber: 21
         }
       }, "Google"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1386,7 +1394,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 342,
+          lineNumber: 343,
           columnNumber: 21
         }
       }, "Amigos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1394,21 +1402,21 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 343,
+          lineNumber: 344,
           columnNumber: 21
         }
       }, "Otro"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 347,
+          lineNumber: 348,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 348,
+          lineNumber: 349,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1418,7 +1426,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 349,
+          lineNumber: 350,
           columnNumber: 21
         }
       }), "\xA0Acepto", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
@@ -1426,7 +1434,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 355,
+          lineNumber: 356,
           columnNumber: 21
         }
       }, "\xA0politica de tratamiento de datos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
@@ -1435,7 +1443,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 361,
+          lineNumber: 362,
           columnNumber: 17
         }
       }, "Enviar datos")))));
@@ -1446,6 +1454,46 @@ var Top = /*#__PURE__*/function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_8__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Top);
+
+/***/ }),
+
+/***/ "./funciones/funciones.js":
+/*!********************************!*\
+  !*** ./funciones/funciones.js ***!
+  \********************************/
+/*! exports provided: number_format, FormatMil */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "number_format", function() { return number_format; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormatMil", function() { return FormatMil; });
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var number_format = function number_format(amount) {
+  amount += '';
+  return amount.split(".").join("");
+};
+
+var FormatMil = function FormatMil(amount) {
+  var num = amount += '';
+  num = num.replace(/\./g, '');
+
+  if (!isNaN(num)) {
+    num = num.toString().split('').reverse().join('').replace(/(?=\d*\.?)(\d{3})/g, '$1.');
+    num = num.split('').reverse().join('').replace(/^[\.]/, '');
+    return num;
+  } else {
+    num = number_format(num);
+    num = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(num);
+    if (!num) return "";
+    return FormatMil(num);
+  }
+};
+
+
 
 /***/ }),
 
@@ -1479,6 +1527,28 @@ module.exports = __webpack_require__(/*! core-js/library/fn/array/is-array */ ".
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./node_modules/core-js/library/fn/is-iterable.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "./node_modules/core-js/library/fn/json/stringify.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "./node_modules/core-js/library/fn/object/assign.js");
 
 /***/ }),
 
@@ -1534,6 +1604,28 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./no
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "./node_modules/core-js/library/fn/object/set-prototype-of.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/parse-int.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/parse-int */ "./node_modules/core-js/library/fn/parse-int.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/promise.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/promise.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "./node_modules/core-js/library/fn/promise.js");
 
 /***/ }),
 
@@ -1703,6 +1795,39 @@ function _defineProperty(obj, key, value) {
   }
 
   return obj;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
+
+function _extends() {
+  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
 }
 
 /***/ }),
@@ -3567,6 +3692,35 @@ module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/json/stringify.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/json/stringify.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js");
+var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
+module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
+  return $JSON.stringify.apply($JSON, arguments);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/assign.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/assign.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.assign */ "./node_modules/core-js/library/modules/es6.object.assign.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.assign;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/fn/object/create.js":
 /*!**********************************************************!*\
   !*** ./node_modules/core-js/library/fn/object/create.js ***!
@@ -3634,6 +3788,37 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 
 __webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.setPrototypeOf;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/parse-int.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/library/fn/parse-int.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/es6.parse-int */ "./node_modules/core-js/library/modules/es6.parse-int.js");
+module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/library/modules/_core.js").parseInt;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/promise.js":
+/*!****************************************************!*\
+  !*** ./node_modules/core-js/library/fn/promise.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/es6.object.to-string */ "./node_modules/core-js/library/modules/es6.object.to-string.js");
+__webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
+__webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
+__webpack_require__(/*! ../modules/es6.promise */ "./node_modules/core-js/library/modules/es6.promise.js");
+__webpack_require__(/*! ../modules/es7.promise.finally */ "./node_modules/core-js/library/modules/es7.promise.finally.js");
+__webpack_require__(/*! ../modules/es7.promise.try */ "./node_modules/core-js/library/modules/es7.promise.try.js");
+module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Promise;
 
 
 /***/ }),
@@ -4960,6 +5145,166 @@ var meta = module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_microtask.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_microtask.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var macrotask = __webpack_require__(/*! ./_task */ "./node_modules/core-js/library/modules/_task.js").set;
+var Observer = global.MutationObserver || global.WebKitMutationObserver;
+var process = global.process;
+var Promise = global.Promise;
+var isNode = __webpack_require__(/*! ./_cof */ "./node_modules/core-js/library/modules/_cof.js")(process) == 'process';
+
+module.exports = function () {
+  var head, last, notify;
+
+  var flush = function () {
+    var parent, fn;
+    if (isNode && (parent = process.domain)) parent.exit();
+    while (head) {
+      fn = head.fn;
+      head = head.next;
+      try {
+        fn();
+      } catch (e) {
+        if (head) notify();
+        else last = undefined;
+        throw e;
+      }
+    } last = undefined;
+    if (parent) parent.enter();
+  };
+
+  // Node.js
+  if (isNode) {
+    notify = function () {
+      process.nextTick(flush);
+    };
+  // browsers with MutationObserver, except iOS Safari - https://github.com/zloirock/core-js/issues/339
+  } else if (Observer && !(global.navigator && global.navigator.standalone)) {
+    var toggle = true;
+    var node = document.createTextNode('');
+    new Observer(flush).observe(node, { characterData: true }); // eslint-disable-line no-new
+    notify = function () {
+      node.data = toggle = !toggle;
+    };
+  // environments with maybe non-completely correct, but existent Promise
+  } else if (Promise && Promise.resolve) {
+    // Promise.resolve without an argument throws an error in LG WebOS 2
+    var promise = Promise.resolve(undefined);
+    notify = function () {
+      promise.then(flush);
+    };
+  // for other environments - macrotask based on:
+  // - setImmediate
+  // - MessageChannel
+  // - window.postMessag
+  // - onreadystatechange
+  // - setTimeout
+  } else {
+    notify = function () {
+      // strange IE + webpack dev server bug - use .call(global)
+      macrotask.call(global, flush);
+    };
+  }
+
+  return function (fn) {
+    var task = { fn: fn, next: undefined };
+    if (last) last.next = task;
+    if (!head) {
+      head = task;
+      notify();
+    } last = task;
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_new-promise-capability.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_new-promise-capability.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// 25.4.1.5 NewPromiseCapability(C)
+var aFunction = __webpack_require__(/*! ./_a-function */ "./node_modules/core-js/library/modules/_a-function.js");
+
+function PromiseCapability(C) {
+  var resolve, reject;
+  this.promise = new C(function ($$resolve, $$reject) {
+    if (resolve !== undefined || reject !== undefined) throw TypeError('Bad Promise constructor');
+    resolve = $$resolve;
+    reject = $$reject;
+  });
+  this.resolve = aFunction(resolve);
+  this.reject = aFunction(reject);
+}
+
+module.exports.f = function (C) {
+  return new PromiseCapability(C);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-assign.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-assign.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// 19.1.2.1 Object.assign(target, source, ...)
+var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
+var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+var gOPS = __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js");
+var pIE = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js");
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var IObject = __webpack_require__(/*! ./_iobject */ "./node_modules/core-js/library/modules/_iobject.js");
+var $assign = Object.assign;
+
+// should work with symbols and should have deterministic property order (V8 bug)
+module.exports = !$assign || __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
+  var A = {};
+  var B = {};
+  // eslint-disable-next-line no-undef
+  var S = Symbol();
+  var K = 'abcdefghijklmnopqrst';
+  A[S] = 7;
+  K.split('').forEach(function (k) { B[k] = k; });
+  return $assign({}, A)[S] != 7 || Object.keys($assign({}, B)).join('') != K;
+}) ? function assign(target, source) { // eslint-disable-line no-unused-vars
+  var T = toObject(target);
+  var aLen = arguments.length;
+  var index = 1;
+  var getSymbols = gOPS.f;
+  var isEnum = pIE.f;
+  while (aLen > index) {
+    var S = IObject(arguments[index++]);
+    var keys = getSymbols ? getKeys(S).concat(getSymbols(S)) : getKeys(S);
+    var length = keys.length;
+    var j = 0;
+    var key;
+    while (length > j) {
+      key = keys[j++];
+      if (!DESCRIPTORS || isEnum.call(S, key)) T[key] = S[key];
+    }
+  } return T;
+} : $assign;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_object-create.js":
 /*!****************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_object-create.js ***!
@@ -5253,6 +5598,67 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_parse-int.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_parse-int.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $parseInt = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").parseInt;
+var $trim = __webpack_require__(/*! ./_string-trim */ "./node_modules/core-js/library/modules/_string-trim.js").trim;
+var ws = __webpack_require__(/*! ./_string-ws */ "./node_modules/core-js/library/modules/_string-ws.js");
+var hex = /^[-+]?0[xX]/;
+
+module.exports = $parseInt(ws + '08') !== 8 || $parseInt(ws + '0x16') !== 22 ? function parseInt(str, radix) {
+  var string = $trim(String(str), 3);
+  return $parseInt(string, (radix >>> 0) || (hex.test(string) ? 16 : 10));
+} : $parseInt;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_perform.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_perform.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (exec) {
+  try {
+    return { e: false, v: exec() };
+  } catch (e) {
+    return { e: true, v: e };
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_promise-resolve.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_promise-resolve.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+var newPromiseCapability = __webpack_require__(/*! ./_new-promise-capability */ "./node_modules/core-js/library/modules/_new-promise-capability.js");
+
+module.exports = function (C, x) {
+  anObject(C);
+  if (isObject(x) && x.constructor === C) return x;
+  var promiseCapability = newPromiseCapability.f(C);
+  var resolve = promiseCapability.resolve;
+  resolve(x);
+  return promiseCapability.promise;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_property-desc.js":
 /*!****************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_property-desc.js ***!
@@ -5485,6 +5891,26 @@ var store = global[SHARED] || (global[SHARED] = {});
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_species-constructor.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_species-constructor.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 7.3.20 SpeciesConstructor(O, defaultConstructor)
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var aFunction = __webpack_require__(/*! ./_a-function */ "./node_modules/core-js/library/modules/_a-function.js");
+var SPECIES = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('species');
+module.exports = function (O, D) {
+  var C = anObject(O).constructor;
+  var S;
+  return C === undefined || (S = anObject(C)[SPECIES]) == undefined ? D : aFunction(S);
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_string-at.js":
 /*!************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_string-at.js ***!
@@ -5508,6 +5934,155 @@ module.exports = function (TO_STRING) {
       ? TO_STRING ? s.charAt(i) : a
       : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
   };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_string-trim.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_string-trim.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var defined = __webpack_require__(/*! ./_defined */ "./node_modules/core-js/library/modules/_defined.js");
+var fails = __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js");
+var spaces = __webpack_require__(/*! ./_string-ws */ "./node_modules/core-js/library/modules/_string-ws.js");
+var space = '[' + spaces + ']';
+var non = '\u200b\u0085';
+var ltrim = RegExp('^' + space + space + '*');
+var rtrim = RegExp(space + space + '*$');
+
+var exporter = function (KEY, exec, ALIAS) {
+  var exp = {};
+  var FORCE = fails(function () {
+    return !!spaces[KEY]() || non[KEY]() != non;
+  });
+  var fn = exp[KEY] = FORCE ? exec(trim) : spaces[KEY];
+  if (ALIAS) exp[ALIAS] = fn;
+  $export($export.P + $export.F * FORCE, 'String', exp);
+};
+
+// 1 -> String#trimLeft
+// 2 -> String#trimRight
+// 3 -> String#trim
+var trim = exporter.trim = function (string, TYPE) {
+  string = String(defined(string));
+  if (TYPE & 1) string = string.replace(ltrim, '');
+  if (TYPE & 2) string = string.replace(rtrim, '');
+  return string;
+};
+
+module.exports = exporter;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_string-ws.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_string-ws.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u2003' +
+  '\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028\u2029\uFEFF';
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_task.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_task.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
+var invoke = __webpack_require__(/*! ./_invoke */ "./node_modules/core-js/library/modules/_invoke.js");
+var html = __webpack_require__(/*! ./_html */ "./node_modules/core-js/library/modules/_html.js");
+var cel = __webpack_require__(/*! ./_dom-create */ "./node_modules/core-js/library/modules/_dom-create.js");
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var process = global.process;
+var setTask = global.setImmediate;
+var clearTask = global.clearImmediate;
+var MessageChannel = global.MessageChannel;
+var Dispatch = global.Dispatch;
+var counter = 0;
+var queue = {};
+var ONREADYSTATECHANGE = 'onreadystatechange';
+var defer, channel, port;
+var run = function () {
+  var id = +this;
+  // eslint-disable-next-line no-prototype-builtins
+  if (queue.hasOwnProperty(id)) {
+    var fn = queue[id];
+    delete queue[id];
+    fn();
+  }
+};
+var listener = function (event) {
+  run.call(event.data);
+};
+// Node.js 0.9+ & IE10+ has setImmediate, otherwise:
+if (!setTask || !clearTask) {
+  setTask = function setImmediate(fn) {
+    var args = [];
+    var i = 1;
+    while (arguments.length > i) args.push(arguments[i++]);
+    queue[++counter] = function () {
+      // eslint-disable-next-line no-new-func
+      invoke(typeof fn == 'function' ? fn : Function(fn), args);
+    };
+    defer(counter);
+    return counter;
+  };
+  clearTask = function clearImmediate(id) {
+    delete queue[id];
+  };
+  // Node.js 0.8-
+  if (__webpack_require__(/*! ./_cof */ "./node_modules/core-js/library/modules/_cof.js")(process) == 'process') {
+    defer = function (id) {
+      process.nextTick(ctx(run, id, 1));
+    };
+  // Sphere (JS game engine) Dispatch API
+  } else if (Dispatch && Dispatch.now) {
+    defer = function (id) {
+      Dispatch.now(ctx(run, id, 1));
+    };
+  // Browsers with MessageChannel, includes WebWorkers
+  } else if (MessageChannel) {
+    channel = new MessageChannel();
+    port = channel.port2;
+    channel.port1.onmessage = listener;
+    defer = ctx(port.postMessage, port, 1);
+  // Browsers with postMessage, skip WebWorkers
+  // IE8 has postMessage, but it's sync & typeof its postMessage is 'object'
+  } else if (global.addEventListener && typeof postMessage == 'function' && !global.importScripts) {
+    defer = function (id) {
+      global.postMessage(id + '', '*');
+    };
+    global.addEventListener('message', listener, false);
+  // IE8-
+  } else if (ONREADYSTATECHANGE in cel('script')) {
+    defer = function (id) {
+      html.appendChild(cel('script'))[ONREADYSTATECHANGE] = function () {
+        html.removeChild(this);
+        run.call(id);
+      };
+    };
+  // Rest old browsers
+  } else {
+    defer = function (id) {
+      setTimeout(ctx(run, id, 1), 0);
+    };
+  }
+}
+module.exports = {
+  set: setTask,
+  clear: clearTask
 };
 
 
@@ -5633,6 +6208,21 @@ var px = Math.random();
 module.exports = function (key) {
   return 'Symbol('.concat(key === undefined ? '' : key, ')_', (++id + px).toString(36));
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_user-agent.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_user-agent.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var navigator = global.navigator;
+
+module.exports = navigator && navigator.userAgent || '';
 
 
 /***/ }),
@@ -5857,6 +6447,21 @@ addToUnscopables('entries');
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/es6.object.assign.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.assign.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.3.1 Object.assign(target, source)
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ "./node_modules/core-js/library/modules/_object-assign.js") });
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/es6.object.create.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/core-js/library/modules/es6.object.create.js ***!
@@ -5946,6 +6551,319 @@ $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-pr
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.parse-int.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.parse-int.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var $parseInt = __webpack_require__(/*! ./_parse-int */ "./node_modules/core-js/library/modules/_parse-int.js");
+// 18.2.5 parseInt(string, radix)
+$export($export.G + $export.F * (parseInt != $parseInt), { parseInt: $parseInt });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.promise.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.promise.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var LIBRARY = __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js");
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
+var classof = __webpack_require__(/*! ./_classof */ "./node_modules/core-js/library/modules/_classof.js");
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+var aFunction = __webpack_require__(/*! ./_a-function */ "./node_modules/core-js/library/modules/_a-function.js");
+var anInstance = __webpack_require__(/*! ./_an-instance */ "./node_modules/core-js/library/modules/_an-instance.js");
+var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
+var speciesConstructor = __webpack_require__(/*! ./_species-constructor */ "./node_modules/core-js/library/modules/_species-constructor.js");
+var task = __webpack_require__(/*! ./_task */ "./node_modules/core-js/library/modules/_task.js").set;
+var microtask = __webpack_require__(/*! ./_microtask */ "./node_modules/core-js/library/modules/_microtask.js")();
+var newPromiseCapabilityModule = __webpack_require__(/*! ./_new-promise-capability */ "./node_modules/core-js/library/modules/_new-promise-capability.js");
+var perform = __webpack_require__(/*! ./_perform */ "./node_modules/core-js/library/modules/_perform.js");
+var userAgent = __webpack_require__(/*! ./_user-agent */ "./node_modules/core-js/library/modules/_user-agent.js");
+var promiseResolve = __webpack_require__(/*! ./_promise-resolve */ "./node_modules/core-js/library/modules/_promise-resolve.js");
+var PROMISE = 'Promise';
+var TypeError = global.TypeError;
+var process = global.process;
+var versions = process && process.versions;
+var v8 = versions && versions.v8 || '';
+var $Promise = global[PROMISE];
+var isNode = classof(process) == 'process';
+var empty = function () { /* empty */ };
+var Internal, newGenericPromiseCapability, OwnPromiseCapability, Wrapper;
+var newPromiseCapability = newGenericPromiseCapability = newPromiseCapabilityModule.f;
+
+var USE_NATIVE = !!function () {
+  try {
+    // correct subclassing with @@species support
+    var promise = $Promise.resolve(1);
+    var FakePromise = (promise.constructor = {})[__webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('species')] = function (exec) {
+      exec(empty, empty);
+    };
+    // unhandled rejections tracking support, NodeJS Promise without it fails @@species test
+    return (isNode || typeof PromiseRejectionEvent == 'function')
+      && promise.then(empty) instanceof FakePromise
+      // v8 6.6 (Node 10 and Chrome 66) have a bug with resolving custom thenables
+      // https://bugs.chromium.org/p/chromium/issues/detail?id=830565
+      // we can't detect it synchronously, so just check versions
+      && v8.indexOf('6.6') !== 0
+      && userAgent.indexOf('Chrome/66') === -1;
+  } catch (e) { /* empty */ }
+}();
+
+// helpers
+var isThenable = function (it) {
+  var then;
+  return isObject(it) && typeof (then = it.then) == 'function' ? then : false;
+};
+var notify = function (promise, isReject) {
+  if (promise._n) return;
+  promise._n = true;
+  var chain = promise._c;
+  microtask(function () {
+    var value = promise._v;
+    var ok = promise._s == 1;
+    var i = 0;
+    var run = function (reaction) {
+      var handler = ok ? reaction.ok : reaction.fail;
+      var resolve = reaction.resolve;
+      var reject = reaction.reject;
+      var domain = reaction.domain;
+      var result, then, exited;
+      try {
+        if (handler) {
+          if (!ok) {
+            if (promise._h == 2) onHandleUnhandled(promise);
+            promise._h = 1;
+          }
+          if (handler === true) result = value;
+          else {
+            if (domain) domain.enter();
+            result = handler(value); // may throw
+            if (domain) {
+              domain.exit();
+              exited = true;
+            }
+          }
+          if (result === reaction.promise) {
+            reject(TypeError('Promise-chain cycle'));
+          } else if (then = isThenable(result)) {
+            then.call(result, resolve, reject);
+          } else resolve(result);
+        } else reject(value);
+      } catch (e) {
+        if (domain && !exited) domain.exit();
+        reject(e);
+      }
+    };
+    while (chain.length > i) run(chain[i++]); // variable length - can't use forEach
+    promise._c = [];
+    promise._n = false;
+    if (isReject && !promise._h) onUnhandled(promise);
+  });
+};
+var onUnhandled = function (promise) {
+  task.call(global, function () {
+    var value = promise._v;
+    var unhandled = isUnhandled(promise);
+    var result, handler, console;
+    if (unhandled) {
+      result = perform(function () {
+        if (isNode) {
+          process.emit('unhandledRejection', value, promise);
+        } else if (handler = global.onunhandledrejection) {
+          handler({ promise: promise, reason: value });
+        } else if ((console = global.console) && console.error) {
+          console.error('Unhandled promise rejection', value);
+        }
+      });
+      // Browsers should not trigger `rejectionHandled` event if it was handled here, NodeJS - should
+      promise._h = isNode || isUnhandled(promise) ? 2 : 1;
+    } promise._a = undefined;
+    if (unhandled && result.e) throw result.v;
+  });
+};
+var isUnhandled = function (promise) {
+  return promise._h !== 1 && (promise._a || promise._c).length === 0;
+};
+var onHandleUnhandled = function (promise) {
+  task.call(global, function () {
+    var handler;
+    if (isNode) {
+      process.emit('rejectionHandled', promise);
+    } else if (handler = global.onrejectionhandled) {
+      handler({ promise: promise, reason: promise._v });
+    }
+  });
+};
+var $reject = function (value) {
+  var promise = this;
+  if (promise._d) return;
+  promise._d = true;
+  promise = promise._w || promise; // unwrap
+  promise._v = value;
+  promise._s = 2;
+  if (!promise._a) promise._a = promise._c.slice();
+  notify(promise, true);
+};
+var $resolve = function (value) {
+  var promise = this;
+  var then;
+  if (promise._d) return;
+  promise._d = true;
+  promise = promise._w || promise; // unwrap
+  try {
+    if (promise === value) throw TypeError("Promise can't be resolved itself");
+    if (then = isThenable(value)) {
+      microtask(function () {
+        var wrapper = { _w: promise, _d: false }; // wrap
+        try {
+          then.call(value, ctx($resolve, wrapper, 1), ctx($reject, wrapper, 1));
+        } catch (e) {
+          $reject.call(wrapper, e);
+        }
+      });
+    } else {
+      promise._v = value;
+      promise._s = 1;
+      notify(promise, false);
+    }
+  } catch (e) {
+    $reject.call({ _w: promise, _d: false }, e); // wrap
+  }
+};
+
+// constructor polyfill
+if (!USE_NATIVE) {
+  // 25.4.3.1 Promise(executor)
+  $Promise = function Promise(executor) {
+    anInstance(this, $Promise, PROMISE, '_h');
+    aFunction(executor);
+    Internal.call(this);
+    try {
+      executor(ctx($resolve, this, 1), ctx($reject, this, 1));
+    } catch (err) {
+      $reject.call(this, err);
+    }
+  };
+  // eslint-disable-next-line no-unused-vars
+  Internal = function Promise(executor) {
+    this._c = [];             // <- awaiting reactions
+    this._a = undefined;      // <- checked in isUnhandled reactions
+    this._s = 0;              // <- state
+    this._d = false;          // <- done
+    this._v = undefined;      // <- value
+    this._h = 0;              // <- rejection state, 0 - default, 1 - handled, 2 - unhandled
+    this._n = false;          // <- notify
+  };
+  Internal.prototype = __webpack_require__(/*! ./_redefine-all */ "./node_modules/core-js/library/modules/_redefine-all.js")($Promise.prototype, {
+    // 25.4.5.3 Promise.prototype.then(onFulfilled, onRejected)
+    then: function then(onFulfilled, onRejected) {
+      var reaction = newPromiseCapability(speciesConstructor(this, $Promise));
+      reaction.ok = typeof onFulfilled == 'function' ? onFulfilled : true;
+      reaction.fail = typeof onRejected == 'function' && onRejected;
+      reaction.domain = isNode ? process.domain : undefined;
+      this._c.push(reaction);
+      if (this._a) this._a.push(reaction);
+      if (this._s) notify(this, false);
+      return reaction.promise;
+    },
+    // 25.4.5.1 Promise.prototype.catch(onRejected)
+    'catch': function (onRejected) {
+      return this.then(undefined, onRejected);
+    }
+  });
+  OwnPromiseCapability = function () {
+    var promise = new Internal();
+    this.promise = promise;
+    this.resolve = ctx($resolve, promise, 1);
+    this.reject = ctx($reject, promise, 1);
+  };
+  newPromiseCapabilityModule.f = newPromiseCapability = function (C) {
+    return C === $Promise || C === Wrapper
+      ? new OwnPromiseCapability(C)
+      : newGenericPromiseCapability(C);
+  };
+}
+
+$export($export.G + $export.W + $export.F * !USE_NATIVE, { Promise: $Promise });
+__webpack_require__(/*! ./_set-to-string-tag */ "./node_modules/core-js/library/modules/_set-to-string-tag.js")($Promise, PROMISE);
+__webpack_require__(/*! ./_set-species */ "./node_modules/core-js/library/modules/_set-species.js")(PROMISE);
+Wrapper = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js")[PROMISE];
+
+// statics
+$export($export.S + $export.F * !USE_NATIVE, PROMISE, {
+  // 25.4.4.5 Promise.reject(r)
+  reject: function reject(r) {
+    var capability = newPromiseCapability(this);
+    var $$reject = capability.reject;
+    $$reject(r);
+    return capability.promise;
+  }
+});
+$export($export.S + $export.F * (LIBRARY || !USE_NATIVE), PROMISE, {
+  // 25.4.4.6 Promise.resolve(x)
+  resolve: function resolve(x) {
+    return promiseResolve(LIBRARY && this === Wrapper ? $Promise : this, x);
+  }
+});
+$export($export.S + $export.F * !(USE_NATIVE && __webpack_require__(/*! ./_iter-detect */ "./node_modules/core-js/library/modules/_iter-detect.js")(function (iter) {
+  $Promise.all(iter)['catch'](empty);
+})), PROMISE, {
+  // 25.4.4.1 Promise.all(iterable)
+  all: function all(iterable) {
+    var C = this;
+    var capability = newPromiseCapability(C);
+    var resolve = capability.resolve;
+    var reject = capability.reject;
+    var result = perform(function () {
+      var values = [];
+      var index = 0;
+      var remaining = 1;
+      forOf(iterable, false, function (promise) {
+        var $index = index++;
+        var alreadyCalled = false;
+        values.push(undefined);
+        remaining++;
+        C.resolve(promise).then(function (value) {
+          if (alreadyCalled) return;
+          alreadyCalled = true;
+          values[$index] = value;
+          --remaining || resolve(values);
+        }, reject);
+      });
+      --remaining || resolve(values);
+    });
+    if (result.e) reject(result.v);
+    return capability.promise;
+  },
+  // 25.4.4.4 Promise.race(iterable)
+  race: function race(iterable) {
+    var C = this;
+    var capability = newPromiseCapability(C);
+    var reject = capability.reject;
+    var result = perform(function () {
+      forOf(iterable, false, function (promise) {
+        C.resolve(promise).then(capability.resolve, reject);
+      });
+    });
+    if (result.e) reject(result.v);
+    return capability.promise;
+  }
+});
 
 
 /***/ }),
@@ -6321,6 +7239,62 @@ setToStringTag(global.JSON, 'JSON', true);
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/es7.promise.finally.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.promise.finally.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// https://github.com/tc39/proposal-promise-finally
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var core = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js");
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var speciesConstructor = __webpack_require__(/*! ./_species-constructor */ "./node_modules/core-js/library/modules/_species-constructor.js");
+var promiseResolve = __webpack_require__(/*! ./_promise-resolve */ "./node_modules/core-js/library/modules/_promise-resolve.js");
+
+$export($export.P + $export.R, 'Promise', { 'finally': function (onFinally) {
+  var C = speciesConstructor(this, core.Promise || global.Promise);
+  var isFunction = typeof onFinally == 'function';
+  return this.then(
+    isFunction ? function (x) {
+      return promiseResolve(C, onFinally()).then(function () { return x; });
+    } : onFinally,
+    isFunction ? function (e) {
+      return promiseResolve(C, onFinally()).then(function () { throw e; });
+    } : onFinally
+  );
+} });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.promise.try.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.promise.try.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// https://github.com/tc39/proposal-promise-try
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var newPromiseCapability = __webpack_require__(/*! ./_new-promise-capability */ "./node_modules/core-js/library/modules/_new-promise-capability.js");
+var perform = __webpack_require__(/*! ./_perform */ "./node_modules/core-js/library/modules/_perform.js");
+
+$export($export.S, 'Promise', { 'try': function (callbackfn) {
+  var promiseCapability = newPromiseCapability.f(this);
+  var result = perform(callbackfn);
+  (result.e ? promiseCapability.reject : promiseCapability.resolve)(result.v);
+  return promiseCapability.promise;
+} });
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/es7.set.from.js":
 /*!**************************************************************!*\
   !*** ./node_modules/core-js/library/modules/es7.set.from.js ***!
@@ -6536,6 +7510,157 @@ exports.AmpModeContext = React.createContext({});
 
 /***/ }),
 
+/***/ "./node_modules/next-server/dist/lib/dynamic.js":
+/*!******************************************************!*\
+  !*** ./node_modules/next-server/dist/lib/dynamic.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+var _keys = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js"));
+
+var _assign = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js"));
+
+var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var loadable_1 = __importDefault(__webpack_require__(/*! ./loadable */ "./node_modules/next-server/dist/lib/loadable.js"));
+
+var isServerSide = typeof window === 'undefined';
+
+function noSSR(LoadableInitializer, loadableOptions) {
+  // Removing webpack and modules means react-loadable won't try preloading
+  delete loadableOptions.webpack;
+  delete loadableOptions.modules; // This check is neccesary to prevent react-loadable from initializing on the server
+
+  if (!isServerSide) {
+    return LoadableInitializer(loadableOptions);
+  } // This will only be rendered on the server side
+
+
+  return function () {
+    return react_1.default.createElement(loadableOptions.loading, {
+      error: null,
+      isLoading: true,
+      pastDelay: false,
+      timedOut: false
+    });
+  };
+}
+
+exports.noSSR = noSSR;
+
+function DefaultLoading() {
+  return react_1.default.createElement("p", null, "loading...");
+}
+
+function dynamic(dynamicOptions, options) {
+  var loadableFn = loadable_1.default;
+  var loadableOptions = {
+    // A loading component is not required, so we default it
+    loading: function loading(_ref) {
+      var error = _ref.error,
+          isLoading = _ref.isLoading,
+          pastDelay = _ref.pastDelay;
+      if (!pastDelay) return null;
+
+      if (true) {
+        if (isLoading) {
+          return react_1.default.createElement(DefaultLoading, null);
+        }
+
+        if (error) {
+          return react_1.default.createElement("p", null, error.message, react_1.default.createElement("br", null), error.stack);
+        }
+      }
+
+      return react_1.default.createElement(DefaultLoading, null);
+    }
+  }; // Support for direct import(), eg: dynamic(import('../hello-world'))
+  // Note that this is only kept for the edge case where someone is passing in a promise as first argument
+  // The react-loadable babel plugin will turn dynamic(import('../hello-world')) into dynamic(() => import('../hello-world'))
+  // To make sure we don't execute the import without rendering first
+
+  if (typeof dynamicOptions.then === 'function') {
+    loadableOptions.loader = function () {
+      return dynamicOptions;
+    }; // Support for having import as a function, eg: dynamic(() => import('../hello-world'))
+
+  } else if (typeof dynamicOptions === 'function') {
+    loadableOptions.loader = dynamicOptions; // Support for having first argument being options, eg: dynamic({loader: import('../hello-world')})
+  } else if (typeof dynamicOptions === 'object') {
+    loadableOptions = (0, _assign.default)({}, loadableOptions, dynamicOptions);
+  } // Support for passing options, eg: dynamic(import('../hello-world'), {loading: () => <p>Loading something</p>})
+
+
+  loadableOptions = (0, _assign.default)({}, loadableOptions, options); // Support for `render` when using a mapping, eg: `dynamic({ modules: () => {return {HelloWorld: import('../hello-world')}, render(props, loaded) {} } })
+
+  if (dynamicOptions.render) {
+    loadableOptions.render = function (loaded, props) {
+      return dynamicOptions.render(props, loaded);
+    };
+  } // Support for `modules` when using a mapping, eg: `dynamic({ modules: () => {return {HelloWorld: import('../hello-world')}, render(props, loaded) {} } })
+
+
+  if (dynamicOptions.modules) {
+    loadableFn = loadable_1.default.Map;
+    var loadModules = {};
+    var modules = dynamicOptions.modules();
+    (0, _keys.default)(modules).forEach(function (key) {
+      var value = modules[key];
+
+      if (typeof value.then === 'function') {
+        loadModules[key] = function () {
+          return value.then(function (mod) {
+            return mod.default || mod;
+          });
+        };
+
+        return;
+      }
+
+      loadModules[key] = value;
+    });
+    loadableOptions.loader = loadModules;
+  } // coming from build/babel/plugins/react-loadable-plugin.js
+
+
+  if (loadableOptions.loadableGenerated) {
+    loadableOptions = (0, _assign.default)({}, loadableOptions, loadableOptions.loadableGenerated);
+    delete loadableOptions.loadableGenerated;
+  } // support for disabling server side rendering, eg: dynamic(import('../hello-world'), {ssr: false})
+
+
+  if (typeof loadableOptions.ssr === 'boolean') {
+    if (!loadableOptions.ssr) {
+      delete loadableOptions.ssr;
+      return noSSR(loadableFn, loadableOptions);
+    }
+
+    delete loadableOptions.ssr;
+  }
+
+  return loadableFn(loadableOptions);
+}
+
+exports.default = dynamic;
+
+/***/ }),
+
 /***/ "./node_modules/next-server/dist/lib/head-manager-context.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/next-server/dist/lib/head-manager-context.js ***!
@@ -6732,6 +7857,434 @@ exports.default = Head;
 
 /***/ }),
 
+/***/ "./node_modules/next-server/dist/lib/loadable-context.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next-server/dist/lib/loadable-context.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importStar = void 0 && (void 0).__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js")); // @ts-ignore for some reason the React types don't like this, but it's correct.
+
+
+exports.LoadableContext = React.createContext(null);
+
+/***/ }),
+
+/***/ "./node_modules/next-server/dist/lib/loadable.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/next-server/dist/lib/loadable.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+@copyright (c) 2017-present James Kyle <me@thejameskyle.com>
+ MIT License
+ Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+ The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+*/
+// https://github.com/jamiebuilds/react-loadable/blob/v5.5.0/src/index.js
+// Modified to be compatible with webpack 4 / Next.js
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+var _Reflect$construct = __webpack_require__(/*! @babel/runtime-corejs2/core-js/reflect/construct */ "./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js");
+
+var _Array$isArray2 = __webpack_require__(/*! @babel/runtime-corejs2/core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js");
+
+var _Symbol$iterator = __webpack_require__(/*! @babel/runtime-corejs2/core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
+
+var _Symbol = __webpack_require__(/*! @babel/runtime-corejs2/core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
+
+var _Array$from = __webpack_require__(/*! @babel/runtime-corejs2/core-js/array/from */ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js");
+
+var _isArray = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js"));
+
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js"));
+
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js"));
+
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js"));
+
+var _assign = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js"));
+
+var _promise = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js"));
+
+var _keys = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js"));
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = _Reflect$construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !_Reflect$construct) return false; if (_Reflect$construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(_Reflect$construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof _Symbol !== "undefined" && o[_Symbol$iterator] || o["@@iterator"]; if (!it) { if (_Array$isArray2(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return _Array$from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var loadable_context_1 = __webpack_require__(/*! ./loadable-context */ "./node_modules/next-server/dist/lib/loadable-context.js");
+
+var ALL_INITIALIZERS = [];
+var READY_INITIALIZERS = [];
+var initialized = false;
+
+function load(loader) {
+  var promise = loader();
+  var state = {
+    loading: true,
+    loaded: null,
+    error: null
+  };
+  state.promise = promise.then(function (loaded) {
+    state.loading = false;
+    state.loaded = loaded;
+    return loaded;
+  }).catch(function (err) {
+    state.loading = false;
+    state.error = err;
+    throw err;
+  });
+  return state;
+}
+
+function loadMap(obj) {
+  var state = {
+    loading: false,
+    loaded: {},
+    error: null
+  };
+  var promises = [];
+
+  try {
+    (0, _keys.default)(obj).forEach(function (key) {
+      var result = load(obj[key]);
+
+      if (!result.loading) {
+        state.loaded[key] = result.loaded;
+        state.error = result.error;
+      } else {
+        state.loading = true;
+      }
+
+      promises.push(result.promise);
+      result.promise.then(function (res) {
+        state.loaded[key] = res;
+      }).catch(function (err) {
+        state.error = err;
+      });
+    });
+  } catch (err) {
+    state.error = err;
+  }
+
+  state.promise = _promise.default.all(promises).then(function (res) {
+    state.loading = false;
+    return res;
+  }).catch(function (err) {
+    state.loading = false;
+    throw err;
+  });
+  return state;
+}
+
+function resolve(obj) {
+  return obj && obj.__esModule ? obj.default : obj;
+}
+
+function render(loaded, props) {
+  return react_1.default.createElement(resolve(loaded), props);
+}
+
+function createLoadableComponent(loadFn, options) {
+  var _a;
+
+  var opts = (0, _assign.default)({
+    loader: null,
+    loading: null,
+    delay: 200,
+    timeout: null,
+    render: render,
+    webpack: null,
+    modules: null
+  }, options);
+  var res = null;
+
+  function init() {
+    if (!res) {
+      res = loadFn(opts.loader);
+    }
+
+    return res.promise;
+  } // Server only
+
+
+  if (typeof window === 'undefined') {
+    ALL_INITIALIZERS.push(init);
+  } // Client only
+
+
+  if (!initialized && typeof window !== 'undefined' && typeof opts.webpack === 'function') {
+    var moduleIds = opts.webpack();
+    READY_INITIALIZERS.push(function (ids) {
+      var _iterator = _createForOfIteratorHelper(moduleIds),
+          _step;
+
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var moduleId = _step.value;
+
+          if (ids.indexOf(moduleId) !== -1) {
+            return init();
+          }
+        }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
+      }
+    });
+  }
+
+  return _a = /*#__PURE__*/function (_react_1$default$Comp) {
+    (0, _inherits2.default)(LoadableComponent, _react_1$default$Comp);
+
+    var _super = _createSuper(LoadableComponent);
+
+    function LoadableComponent(props) {
+      var _this;
+
+      (0, _classCallCheck2.default)(this, LoadableComponent);
+      _this = _super.call(this, props);
+
+      _this.retry = function () {
+        _this.setState({
+          error: null,
+          loading: true,
+          timedOut: false
+        });
+
+        res = loadFn(opts.loader);
+
+        _this._loadModule();
+      };
+
+      init();
+      _this.state = {
+        error: res.error,
+        pastDelay: false,
+        timedOut: false,
+        loading: res.loading,
+        loaded: res.loaded
+      };
+      return _this;
+    }
+
+    (0, _createClass2.default)(LoadableComponent, [{
+      key: "componentWillMount",
+      value: function componentWillMount() {
+        this._mounted = true;
+
+        this._loadModule();
+      }
+    }, {
+      key: "_loadModule",
+      value: function _loadModule() {
+        var _this2 = this;
+
+        if (this.context && (0, _isArray.default)(opts.modules)) {
+          opts.modules.forEach(function (moduleName) {
+            _this2.context(moduleName);
+          });
+        }
+
+        if (!res.loading) {
+          return;
+        }
+
+        if (typeof opts.delay === 'number') {
+          if (opts.delay === 0) {
+            this.setState({
+              pastDelay: true
+            });
+          } else {
+            this._delay = setTimeout(function () {
+              _this2.setState({
+                pastDelay: true
+              });
+            }, opts.delay);
+          }
+        }
+
+        if (typeof opts.timeout === 'number') {
+          this._timeout = setTimeout(function () {
+            _this2.setState({
+              timedOut: true
+            });
+          }, opts.timeout);
+        }
+
+        var update = function update() {
+          if (!_this2._mounted) {
+            return;
+          }
+
+          _this2.setState({
+            error: res.error,
+            loaded: res.loaded,
+            loading: res.loading
+          });
+
+          _this2._clearTimeouts();
+        };
+
+        res.promise.then(function () {
+          update();
+        }) // eslint-disable-next-line handle-callback-err
+        .catch(function (err) {
+          update();
+        });
+      }
+    }, {
+      key: "componentWillUnmount",
+      value: function componentWillUnmount() {
+        this._mounted = false;
+
+        this._clearTimeouts();
+      }
+    }, {
+      key: "_clearTimeouts",
+      value: function _clearTimeouts() {
+        clearTimeout(this._delay);
+        clearTimeout(this._timeout);
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        if (this.state.loading || this.state.error) {
+          return react_1.default.createElement(opts.loading, {
+            isLoading: this.state.loading,
+            pastDelay: this.state.pastDelay,
+            timedOut: this.state.timedOut,
+            error: this.state.error,
+            retry: this.retry
+          });
+        } else if (this.state.loaded) {
+          return opts.render(this.state.loaded, this.props);
+        } else {
+          return null;
+        }
+      }
+    }], [{
+      key: "preload",
+      value: function preload() {
+        return init();
+      }
+    }]);
+    return LoadableComponent;
+  }(react_1.default.Component), _a.contextType = loadable_context_1.LoadableContext, _a;
+}
+
+function Loadable(opts) {
+  return createLoadableComponent(load, opts);
+}
+
+function LoadableMap(opts) {
+  if (typeof opts.render !== 'function') {
+    throw new Error('LoadableMap requires a `render(loaded, props)` function');
+  }
+
+  return createLoadableComponent(loadMap, opts);
+}
+
+Loadable.Map = LoadableMap;
+
+function flushInitializers(initializers, ids) {
+  var promises = [];
+
+  while (initializers.length) {
+    var init = initializers.pop();
+    promises.push(init(ids));
+  }
+
+  return _promise.default.all(promises).then(function () {
+    if (initializers.length) {
+      return flushInitializers(initializers, ids);
+    }
+  });
+}
+
+Loadable.preloadAll = function () {
+  return new _promise.default(function (resolve, reject) {
+    flushInitializers(ALL_INITIALIZERS).then(resolve, reject);
+  });
+};
+
+Loadable.preloadReady = function (ids) {
+  return new _promise.default(function (resolve) {
+    var res = function res() {
+      initialized = true;
+      return resolve();
+    }; // We always will resolve, errors should be handled within loading UIs.
+
+
+    flushInitializers(READY_INITIALIZERS, ids).then(res, res);
+  });
+};
+
+exports.default = Loadable;
+
+/***/ }),
+
 /***/ "./node_modules/next-server/dist/lib/side-effect.js":
 /*!**********************************************************!*\
   !*** ./node_modules/next-server/dist/lib/side-effect.js ***!
@@ -6847,21 +8400,21 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsucursales&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fsucursales.js!./":
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsucursales&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fsucursales.js ***!
-  \********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcotizar&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fcotizar.js!./":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcotizar&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fcotizar.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/sucursales", function() {
-      var page = __webpack_require__(/*! ./pages/sucursales.js */ "./pages/sucursales.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/cotizar", function() {
+      var page = __webpack_require__(/*! ./pages/cotizar.js */ "./pages/cotizar.js")
       if(true) {
-        module.hot.accept(/*! ./pages/sucursales.js */ "./pages/sucursales.js", function() {
-          if(!next.router.components["/sucursales"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/sucursales.js */ "./pages/sucursales.js")
-          next.router.update("/sucursales", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/cotizar.js */ "./pages/cotizar.js", function() {
+          if(!next.router.components["/cotizar"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/cotizar.js */ "./pages/cotizar.js")
+          next.router.update("/cotizar", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -7076,6 +8629,2755 @@ module.exports = (__webpack_require__(/*! dll-reference dll_6b27229dcf0f0fec5747
 
 /***/ }),
 
+/***/ "./pages/cotizar.js":
+/*!**************************!*\
+  !*** ./pages/cotizar.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/reflect/construct */ "./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/dynamic */ "./node_modules/next-server/dist/lib/dynamic.js");
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _components_Top__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Top */ "./components/Top.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _gracias__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./gracias */ "./pages/gracias.js");
+/* harmony import */ var _funciones_funciones__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../funciones/funciones */ "./funciones/funciones.js");
+/* harmony import */ var _services_salesforce__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../services/salesforce */ "./services/salesforce.js");
+
+
+
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/arnoldtorresmm/sites/cotizador/pages/cotizar.js";
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8__["default"])(this).constructor; result = _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default.a) return false; if (_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default.a.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+
+
+
+
+
+
+
+var Dropzone = next_dynamic__WEBPACK_IMPORTED_MODULE_12___default()(function () {
+  return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! react-dropzone */ "./node_modules/react-dropzone/dist/es/index.js"));
+}, {
+  ssr: false,
+  loadableGenerated: {
+    webpack: function webpack() {
+      return [/*require.resolve*/(/*! react-dropzone */ "./node_modules/react-dropzone/dist/es/index.js")];
+    },
+    modules: ['react-dropzone']
+  }
+});
+var data = [{
+  name: 'Joyería',
+  options: [{
+    name: 'Oro',
+    options: [{
+      name: '18k',
+      value: 100000
+    }, {
+      name: '14k',
+      value: 48000
+    }, {
+      name: '10k',
+      value: 27000
+    }]
+  }, {
+    name: 'Plata',
+    options: [{
+      name: 'Ley 925',
+      value: 800
+    }]
+  }]
+}, {
+  name: 'Artículos',
+  options: [{
+    name: 'Electrodomésticos' // options: [
+    //   {
+    //     name: 'Televisor',
+    //     value: 0,
+    //   },
+    //   {
+    //     name: 'Nevera',
+    //     value: 0,
+    //   },
+    //   {
+    //     name: 'Estufa',
+    //     value: 0,
+    //   },
+    //   {
+    //     name: 'Lavadora',
+    //     value: 0,
+    //   },
+    //   {
+    //     name: 'Equipo de sonido',
+    //     value: 0,
+    //   },
+    // ],
+
+  }, {
+    name: 'Herramientas' // options: [
+    //   {
+    //     name: 'Tipo de herramientas',
+    //     value: 0,
+    //   },
+    // ],
+
+  }, {
+    name: 'Tecnología' // options: [
+    //   {
+    //     name: 'Portatil',
+    //     value: 0,
+    //   },
+    //   {
+    //     name: 'Tablet',
+    //     value: 0,
+    //   },
+    // ],
+
+  }]
+}, {
+  name: 'Otros'
+}, {
+  name: 'Vender CDT'
+}];
+
+var Cotizar = /*#__PURE__*/function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Cotizar, _Component);
+
+  var _super = _createSuper(Cotizar);
+
+  function Cotizar() {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Cotizar);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {
+      type: null,
+      subtype: null,
+      category: null,
+      localizacion: null,
+      weight: undefined,
+      value: undefined,
+      visible: false,
+      submited: false,
+      files: [],
+      names: ''
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "showModal", function () {
+      _this.setState({
+        visible: true
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "closeModal", function () {
+      _this.setState({
+        visible: false
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "selectType", function (type) {
+      _this.setState({
+        type: type,
+        subtype: null,
+        category: null,
+        weight: undefined,
+        value: undefined
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "selectSubType", function (subtype) {
+      _this.setState({
+        subtype: subtype,
+        category: null,
+        weight: undefined,
+        value: undefined
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "selectCategory", function (category) {
+      _this.setState({
+        category: null
+      }, function () {
+        _this.setState({
+          category: category,
+          weight: undefined,
+          value: undefined
+        });
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onChangeInput", function (e) {
+      var name = e.target.name;
+      var value = e.target.value;
+      var names = name === 'name' ? "".concat(value, " ").concat(_this.state.lasname || '').trim() : name === 'lastname' ? "".concat(_this.state.name || '', " ").concat(value).trim() : _this.state.names;
+
+      if (_this.state.type.name === 'Joyería' && name === 'weight') {
+        var _this$setState;
+
+        _this.setState((_this$setState = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(_this$setState, name, value), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(_this$setState, "value", value * _this.state.category.value), _this$setState));
+      } else {
+        var _this$setState2;
+
+        _this.setState((_this$setState2 = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(_this$setState2, name, value), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(_this$setState2, "names", names), _this$setState2));
+      }
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onChangeSelect", function (e) {
+      var name = e.target.name;
+      var value = e.target.value;
+
+      _this.setState(Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])({}, name, value));
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onChangeTipoHerramienta", function (e) {
+      var name = e.target.name;
+      var value = e.target.value;
+
+      _this.setState({
+        category: {
+          name: name,
+          value: value
+        }
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onChangeElectrodomesticos", function (e) {
+      var name = e.target.name;
+      var value = e.target.value;
+
+      _this.setState({
+        category: {
+          name: name,
+          value: value
+        }
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onChangeTecnologia", function (e) {
+      var name = e.target.name;
+      var value = e.target.value;
+
+      _this.setState({
+        category: {
+          name: name,
+          value: value
+        }
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onChangeCiudad", function (e) {
+      var name = e.target.name;
+      var value = e.target.value;
+
+      _this.setState({
+        localizacion: {
+          name: name,
+          value: value
+        }
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "submit", function (e) {
+      e.preventDefault(); // const url = 'https://gestionshop.co/api/pactemos/cotizacion'
+
+      var url = 'http://localhost:3001/api/pactemos/cotizacion';
+      var formData = new FormData();
+
+      for (var i = 0; i < _this.state.files.length; i++) {
+        var file = _this.state.files[i];
+        formData.append('files[' + i + ']', file);
+      }
+
+      formData.append('data', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_2___default()(_this.state));
+      axios__WEBPACK_IMPORTED_MODULE_14___default.a.post(url, formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      }).then(function () {
+        return _this.sendToSalesforce();
+      }).then(function (res) {
+        _this.setState({
+          visible: false,
+          submited: true
+        });
+
+        window.location.replace('/gracias');
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "sendToSalesforce", function () {
+      var values = {
+        oid: '00D4x000006qQ0N',
+        retURL: 'https://compraventaspactemos.com/cotizar/',
+        first_name: _this.state.name,
+        last_name: _this.state.lastname,
+        email: _this.state.email,
+        mobile: _this.state.mobile,
+        '00N4x00000Knv0j': _this.state.localizacion.value,
+        '00N4x00000Q5kDM': 'Dinero inmediato',
+        '00N4x00000Knv1D': _this.state.compraventa,
+        '00N4x00000KnvIO': _this.state.many,
+        'lead_source': _this.state.source,
+        xSucursal: 'PCT 100'
+      };
+      return Object(_services_salesforce__WEBPACK_IMPORTED_MODULE_18__["serviceSendToSalesforce"])(values);
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onDrop", function (newFiles) {
+      var files = _this.state.files;
+      files = files.concat(newFiles);
+
+      _this.setState({
+        files: files
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "deleteFiles", function (e) {
+      e.preventDefault();
+
+      _this.setState({
+        files: []
+      });
+    });
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__["default"])(Cotizar, [{
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_11___default.a, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 301,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("title", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 302,
+          columnNumber: 11
+        }
+      }, "Cotizador-Obt\xE9n la Valoraci\xF3n de tu joya o art\xEDculo."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("meta", {
+        name: "description",
+        content: "Nos empe\xF1amos en darte mas dinero. Ingresa al cotizador en l\xEDnea para obtener el valor estimado que puedes recibir por tus joyas de oro y art\xEDculos.",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 303,
+          columnNumber: 11
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 305,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_components_Top__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 306,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
+        className: "cover",
+        src: "/static/img/cover-cotizar.png",
+        alt: "compraventas pactemos, casas de empe\xF1o, compraventas en cartagena, compraventas en santa marta, comprayventas",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 307,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 308,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("section", {
+        className: "offices-header",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 309,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h1", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 310,
+          columnNumber: 15
+        }
+      }, "Cotizador en l\xEDnea"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 311,
+          columnNumber: 15
+        }
+      }, "Rellene los campos y recuerde que la informaci\xF3n personal la utilizaremos para confirmarle cu\xE1nto dinero le damos por su art\xEDculo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 313,
+          columnNumber: 15
+        }
+      }, data.map(function (item) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          onClick: function onClick() {
+            return _this2.selectType(item);
+          },
+          className: "cotizar-select-item ".concat(_this2.state.type && item.name === _this2.state.type.name ? 'active' : ''),
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 315,
+            columnNumber: 36
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 318,
+            columnNumber: 21
+          }
+        }, item.name));
+      })), this.state.type && (this.state.type.name === 'Joyería' || this.state.type.name === 'Artículos') && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 328,
+          columnNumber: 17
+        }
+      }, this.state.type.options.map(function (item) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          onClick: function onClick() {
+            return _this2.selectSubType(item);
+          },
+          className: "cotizar-select-item ".concat(_this2.state.subtype && item.name === _this2.state.subtype.name ? 'active' : ''),
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 330,
+            columnNumber: 57
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 333,
+            columnNumber: 23
+          }
+        }, item.name));
+      })), this.state.subtype && this.state.subtype.options && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 344,
+          columnNumber: 17
+        }
+      }, this.state.subtype.options.map(function (item) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          onClick: function onClick() {
+            return _this2.selectCategory(item);
+          },
+          className: "cotizar-select-item ".concat(_this2.state.category && item.name === _this2.state.category.name ? 'active' : ''),
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 346,
+            columnNumber: 60
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 349,
+            columnNumber: 23
+          }
+        }, item.name));
+      })), this.state.subtype && this.state.subtype.name === 'Herramientas' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 360,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 361,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "tipo_herramienta",
+        className: "input",
+        onChange: this.onChangeTipoHerramienta,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 363,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 369,
+          columnNumber: 23
+        }
+      }, "Seleccionar una herramienta"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Taladro",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 370,
+          columnNumber: 23
+        }
+      }, "Taladro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Pulidora",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 371,
+          columnNumber: 23
+        }
+      }, "Pulidora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Caladora",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 372,
+          columnNumber: 23
+        }
+      }, "Caladora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Trozadora",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 373,
+          columnNumber: 23
+        }
+      }, "Tronzadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Ingledora",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 374,
+          columnNumber: 23
+        }
+      }, "Ingletadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Sierra Circular",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 375,
+          columnNumber: 23
+        }
+      }, "Sierra Circular"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Lijadora",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 376,
+          columnNumber: 23
+        }
+      }, "Lijadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Ruteadora",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 377,
+          columnNumber: 23
+        }
+      }, "Ruteadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Pistola de Impacto",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 378,
+          columnNumber: 23
+        }
+      }, "Pistola de Impacto"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Cortadora",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 379,
+          columnNumber: 23
+        }
+      }, "Cortadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Otro",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 380,
+          columnNumber: 23
+        }
+      }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Electrodomésticos' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 391,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 392,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "tipo_electrodomesticos",
+        className: "input",
+        onChange: this.onChangeElectrodomesticos,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 394,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 400,
+          columnNumber: 23
+        }
+      }, "Selecciona un electrodom\xE9stico"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Televisor",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 401,
+          columnNumber: 23
+        }
+      }, "Televisor"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Nevera",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 402,
+          columnNumber: 23
+        }
+      }, "Nevera"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Estufa",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 403,
+          columnNumber: 23
+        }
+      }, "Estufa"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Equipo de Sonido",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 404,
+          columnNumber: 23
+        }
+      }, "Equipo de Sonido"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Otro",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 405,
+          columnNumber: 23
+        }
+      }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Tecnología' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 416,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 417,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "tipo_tecnologia",
+        className: "input",
+        onChange: this.onChangeTecnologia,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 419,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 425,
+          columnNumber: 23
+        }
+      }, "Seleccione un art\xEDculo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Portatil",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 426,
+          columnNumber: 23
+        }
+      }, "Portatil"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Tablet",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 427,
+          columnNumber: 23
+        }
+      }, "Tablet"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Celular",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 428,
+          columnNumber: 23
+        }
+      }, "Celular"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Otro",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 429,
+          columnNumber: 23
+        }
+      }, "Otros")))), this.state.type && this.state.type.name === 'Joyería' && this.state.category && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 443,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 444,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 445,
+          columnNumber: 23
+        }
+      }, "Peso aproximado"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        placeholder: "En gramos",
+        name: "weight",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 446,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Dropzone, {
+        onDrop: this.onDrop,
+        multiple: false,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 455,
+          columnNumber: 19
+        }
+      }, function (_ref) {
+        var getRootProps = _ref.getRootProps,
+            getInputProps = _ref.getInputProps,
+            isDragActive = _ref.isDragActive;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("section", {
+          style: {
+            margin: '30px 0 10px 0'
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 457,
+            columnNumber: 23
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+          style: {
+            textAlign: 'left',
+            fontSize: 14
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 460,
+            columnNumber: 25
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("strong", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 463,
+            columnNumber: 28
+          }
+        }, "Agregar imagen"), " (opcional)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getRootProps(), {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 464,
+            columnNumber: 25
+          }
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getInputProps(), {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 465,
+            columnNumber: 27
+          }
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          style: {
+            padding: 30,
+            color: '#aaa',
+            textAlign: 'center',
+            border: '1px dashed #ccc'
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 466,
+            columnNumber: 27
+          }
+        }, isDragActive ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 475,
+            columnNumber: 31
+          }
+        }, "Soltar archivo") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 477,
+            columnNumber: 31
+          }
+        }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          style: {
+            marginTop: 10,
+            padding: '10px 20px',
+            textAlign: 'left',
+            fontSize: 14,
+            backgroundColor: '#f3f0ee',
+            borderRadius: 4
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 486,
+            columnNumber: 27
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 494,
+            columnNumber: 29
+          }
+        }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
+            __self: _this2,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 496,
+              columnNumber: 60
+            }
+          }, item.name);
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
+          href: "#",
+          onClick: _this2.deleteFiles,
+          style: {
+            display: 'block',
+            marginTop: 10,
+            fontSize: 13,
+            color: '#555'
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 499,
+            columnNumber: 29
+          }
+        }, "Borrar archivos seleccionados")));
+      })), this.state.type && this.state.type.name === 'Artículos' && this.state.category && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 521,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 522,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 523,
+          columnNumber: 23
+        }
+      }, "Marca *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        placeholder: "",
+        name: "brand",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 524,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 533,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 534,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 535,
+          columnNumber: 23
+        }
+      }, "Modelo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        placeholder: "",
+        name: "model",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 536,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 545,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 546,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 547,
+          columnNumber: 23
+        }
+      }, "Tiempo de uso (Ej. 2 a\xF1o y/o 3 meses) *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        placeholder: "",
+        name: "time",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 548,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 557,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 558,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 559,
+          columnNumber: 23
+        }
+      }, "\xBFTiene cargador? *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "radio",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 561,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        type: "radio",
+        placeholder: "",
+        name: "charger",
+        value: "Si",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 562,
+          columnNumber: 25
+        }
+      }), " Si"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "radio",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 570,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        type: "radio",
+        placeholder: "",
+        name: "charger",
+        value: "No",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 571,
+          columnNumber: 25
+        }
+      }), " No"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 581,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 582,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 583,
+          columnNumber: 23
+        }
+      }, "\xBFTiene factura? *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "radio",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 585,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        type: "radio",
+        placeholder: "",
+        name: "invoice",
+        value: "Si",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 586,
+          columnNumber: 25
+        }
+      }), " Si"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "radio",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 594,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        type: "radio",
+        placeholder: "",
+        name: "invoice",
+        value: "No",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 595,
+          columnNumber: 25
+        }
+      }), " No"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 605,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 606,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 607,
+          columnNumber: 23
+        }
+      }, "Comentarios"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("textarea", {
+        style: {
+          height: 60
+        },
+        className: "input",
+        type: "text",
+        placeholder: "",
+        name: "comment",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 608,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Dropzone, {
+        onDrop: this.onDrop,
+        multiple: false,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 618,
+          columnNumber: 19
+        }
+      }, function (_ref2) {
+        var getRootProps = _ref2.getRootProps,
+            getInputProps = _ref2.getInputProps,
+            isDragActive = _ref2.isDragActive;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("section", {
+          style: {
+            margin: '30px 0 10px 0'
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 620,
+            columnNumber: 23
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+          style: {
+            textAlign: 'left',
+            fontSize: 14
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 623,
+            columnNumber: 25
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("strong", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 626,
+            columnNumber: 28
+          }
+        }, "Agregar imagen"), " (opcional)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getRootProps(), {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 627,
+            columnNumber: 25
+          }
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getInputProps(), {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 628,
+            columnNumber: 27
+          }
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          style: {
+            padding: 30,
+            color: '#aaa',
+            textAlign: 'center',
+            border: '1px dashed #ccc'
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 629,
+            columnNumber: 27
+          }
+        }, isDragActive ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 638,
+            columnNumber: 31
+          }
+        }, "Soltar archivo") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 640,
+            columnNumber: 31
+          }
+        }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          style: {
+            marginTop: 10,
+            padding: '10px 20px',
+            textAlign: 'left',
+            fontSize: 14,
+            backgroundColor: '#f3f0ee',
+            borderRadius: 4
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 649,
+            columnNumber: 27
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 657,
+            columnNumber: 29
+          }
+        }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
+            __self: _this2,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 659,
+              columnNumber: 60
+            }
+          }, item.name);
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
+          href: "#",
+          onClick: _this2.deleteFiles,
+          style: {
+            display: 'block',
+            marginTop: 10,
+            fontSize: 13,
+            color: '#555'
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 662,
+            columnNumber: 29
+          }
+        }, "Borrar archivos seleccionados")));
+      })), this.state.type && this.state.type.name === 'Otros' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 682,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 683,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 684,
+          columnNumber: 23
+        }
+      }, "Tipo de articulo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        placeholder: "",
+        name: "articleType",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 685,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 694,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 695,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 696,
+          columnNumber: 23
+        }
+      }, "Marca"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        placeholder: "",
+        name: "brand",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 697,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 706,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 707,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 708,
+          columnNumber: 23
+        }
+      }, "Tiempo de uso"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        placeholder: "",
+        name: "time",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 709,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 718,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 719,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 720,
+          columnNumber: 23
+        }
+      }, "Comentarios"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("textarea", {
+        style: {
+          height: 60
+        },
+        className: "input",
+        type: "text",
+        placeholder: "",
+        name: "comment",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 721,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Dropzone, {
+        onDrop: this.onDrop,
+        multiple: false,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 731,
+          columnNumber: 19
+        }
+      }, function (_ref3) {
+        var getRootProps = _ref3.getRootProps,
+            getInputProps = _ref3.getInputProps,
+            isDragActive = _ref3.isDragActive;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("section", {
+          style: {
+            margin: '30px 0 10px 0'
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 733,
+            columnNumber: 23
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+          style: {
+            textAlign: 'left',
+            fontSize: 14
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 736,
+            columnNumber: 25
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("strong", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 739,
+            columnNumber: 28
+          }
+        }, "Agregar imagen"), " (opcional)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getRootProps(), {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 740,
+            columnNumber: 25
+          }
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getInputProps(), {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 741,
+            columnNumber: 27
+          }
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          style: {
+            padding: 30,
+            color: '#aaa',
+            textAlign: 'center',
+            border: '1px dashed #ccc'
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 742,
+            columnNumber: 27
+          }
+        }, isDragActive ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 751,
+            columnNumber: 31
+          }
+        }, "Soltar archivo") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 753,
+            columnNumber: 31
+          }
+        }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          style: {
+            marginTop: 10,
+            padding: '10px 20px',
+            textAlign: 'left',
+            fontSize: 14,
+            backgroundColor: '#f3f0ee',
+            borderRadius: 4
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 762,
+            columnNumber: 27
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 770,
+            columnNumber: 29
+          }
+        }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
+            __self: _this2,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 772,
+              columnNumber: 60
+            }
+          }, item.name);
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
+          href: "#",
+          onClick: _this2.deleteFiles,
+          style: {
+            display: 'block',
+            marginTop: 10,
+            fontSize: 13,
+            color: '#555'
+          },
+          __self: _this2,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 775,
+            columnNumber: 29
+          }
+        }, "Borrar archivos seleccionados")));
+      })), this.state.type && this.state.type.name === 'Vender CDT' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 795,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 796,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 797,
+          columnNumber: 23
+        }
+      }, "Valor CDT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        placeholder: "",
+        name: "valueCDT",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 798,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 807,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 808,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 809,
+          columnNumber: 23
+        }
+      }, "Fecha de apertura"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "date",
+        placeholder: "",
+        name: "openCDT",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 810,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-select",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 819,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 820,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 821,
+          columnNumber: 23
+        }
+      }, "Fecha de vencimiento"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "date",
+        placeholder: "",
+        name: "closeCDT",
+        onChange: this.onChangeInput,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 822,
+          columnNumber: 23
+        }
+      })))), this.state.type && this.state.type.name === 'Joyería' && this.state.weight && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-result",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 841,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 842,
+          columnNumber: 19
+        }
+      }, "\xBFCu\xE1nto me dan por mi joya?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
+        href: "#",
+        onClick: this.showModal,
+        className: "cotizar-btn",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 845,
+          columnNumber: 19
+        }
+      }, "\xA1 Desc\xFAbrelo !"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        style: {
+          marginTop: 10,
+          fontSize: 13
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 847,
+          columnNumber: 19
+        }
+      }, "* Aplican condiciones")), this.state.type && this.state.type.name === 'Artículos' && this.state.brand && this.state.time && this.state.charger && this.state.invoice && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-result",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 869,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 870,
+          columnNumber: 19
+        }
+      }, "\xBFCu\xE1nto me dan por mi art\xEDculo?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
+        href: "#",
+        onClick: this.showModal,
+        className: "cotizar-btn",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 872,
+          columnNumber: 19
+        }
+      }, "\xA1 Desc\xFAbrelo !"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        style: {
+          marginTop: 10,
+          fontSize: 13
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 874,
+          columnNumber: 19
+        }
+      }, "* Aplican condiciones")), this.state.type && this.state.type.name === 'Vender CDT' && this.state.valueCDT && this.state.openCDT && this.state.closeCDT && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-result",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 895,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 896,
+          columnNumber: 19
+        }
+      }, "\xBFCu\xE1nto me dan por mi CDT?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
+        href: "#",
+        onClick: this.showModal,
+        className: "cotizar-btn",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 898,
+          columnNumber: 19
+        }
+      }, "\xA1 Desc\xFAbrelo !"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        style: {
+          marginTop: 10,
+          fontSize: 13
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 900,
+          columnNumber: 19
+        }
+      }, "*Aplican condiciones")), this.state.type && this.state.type.name === 'Otros' && this.state.articleType && this.state.brand && this.state.time && this.state.comment && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "cotizar-result",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 923,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 924,
+          columnNumber: 19
+        }
+      }, "\xBFCu\xE1nto me dan por mi art\xEDculo?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
+        href: "#",
+        onClick: this.showModal,
+        className: "cotizar-btn",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 926,
+          columnNumber: 19
+        }
+      }, "\xA1 Desc\xFAbrelo !"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        style: {
+          marginTop: 10,
+          fontSize: 13
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 928,
+          columnNumber: 19
+        }
+      }, "*Aplican condiciones")), this.state.visible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        id: "myModal",
+        className: "modal",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 941,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "modal-content",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 942,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
+        onClick: this.closeModal,
+        className: "close",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 943,
+          columnNumber: 21
+        }
+      }, "\xD7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("form", {
+        name: "cotizacion",
+        method: "POST",
+        onSubmit: this.submit,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 945,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h3", {
+        style: {
+          marginBottom: 30
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 946,
+          columnNumber: 23
+        }
+      }, "Completa tus datos personales"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 947,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 948,
+          columnNumber: 21
+        }
+      }, "Selecciona tu ciudad *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "city",
+        className: "input",
+        onChange: this.onChangeCiudad,
+        required: true,
+        placeholder: "Seleccione tu ciudad",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 949,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 956,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Cartagena De Indias",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 957,
+          columnNumber: 23
+        }
+      }, "Cartagena De Indias"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Turbaco",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 958,
+          columnNumber: 23
+        }
+      }, "Turbaco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Arjona",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 959,
+          columnNumber: 23
+        }
+      }, "Arjona"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Santa Marta",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 960,
+          columnNumber: 23
+        }
+      }, "Santa Marta"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Sabanalarga",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 961,
+          columnNumber: 23
+        }
+      }, "Sabanalarga"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Baranoa",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 962,
+          columnNumber: 23
+        }
+      }, "Baranoa"))), this.state.localizacion && this.state.localizacion.value === 'Cartagena De Indias' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 970,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 971,
+          columnNumber: 21
+        }
+      }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "compraventa",
+        className: "input",
+        onChange: this.onChangeSelect,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 972,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 978,
+          columnNumber: 25
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 02",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 979,
+          columnNumber: 25
+        }
+      }, "Centro, Calle del Cabo. C.C Invercr\xE9dito. Local 5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 01",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 980,
+          columnNumber: 25
+        }
+      }, "Centro, Calle del Cabo. C.C Invercr\xE9dito. Local 9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 04",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 981,
+          columnNumber: 25
+        }
+      }, "Centro. Portal De Los Dulces, Calle Portocarrero"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 16",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 982,
+          columnNumber: 25
+        }
+      }, "Centro, Av Daniel Lemaitre al lado del Hotel San Felipe"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 07",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 983,
+          columnNumber: 25
+        }
+      }, "Bocagrande. Cra 3 # 5- 187"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 12",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 984,
+          columnNumber: 25
+        }
+      }, "San jose de los Campanos. Cra 101B. # 38A-83"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 13",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 985,
+          columnNumber: 25
+        }
+      }, "Boquilla, Calle Principal. CRA 9 # 59-17"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 14",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 986,
+          columnNumber: 25
+        }
+      }, "Bazurto, C.C Almacentro. Local 4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 21",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 987,
+          columnNumber: 25
+        }
+      }, "Avenida Pedro de Heredia, Frente a la Castellana"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 19",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 988,
+          columnNumber: 25
+        }
+      }, "Poz\xF3n, Carrera 88 #56-1. A una cuadra de la entrada"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 20",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 989,
+          columnNumber: 25
+        }
+      }, "Plazuela, Frente al multicentro La Plazuela, Dg. 31 # 71-59"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 201",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 990,
+          columnNumber: 25
+        }
+      }, "Crespo, Calle 70 # 2-67 al lado de Megatiendas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 103",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 991,
+          columnNumber: 25
+        }
+      }, "Superefectivo Terminal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 104",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 992,
+          columnNumber: 25
+        }
+      }, "Superefectivo Socorro"))), this.state.localizacion && this.state.localizacion.value === 'Turbaco' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1001,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1002,
+          columnNumber: 21
+        }
+      }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "compraventa",
+        className: "input",
+        onChange: this.onChangeSelect,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1003,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1009,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 15",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1010,
+          columnNumber: 23
+        }
+      }, "Turbaco, Calle Real. #17-91"))), this.state.localizacion && this.state.localizacion.value === 'Arjona' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1019,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1020,
+          columnNumber: 21
+        }
+      }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "compraventa",
+        className: "input",
+        onChange: this.onChangeSelect,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1021,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1027,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 17",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1028,
+          columnNumber: 23
+        }
+      }, "Arjona, Calle del Coco con Mercado, Esquina."))), this.state.localizacion && this.state.localizacion.value === 'Sabanalarga' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1037,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1038,
+          columnNumber: 21
+        }
+      }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "compraventa",
+        className: "input",
+        onChange: this.onChangeSelect,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1039,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1045,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 05",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1046,
+          columnNumber: 23
+        }
+      }, "Cra 19 N\xBA 20 - 14"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 06",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1047,
+          columnNumber: 23
+        }
+      }, "Calle 20 N\xBA 18 - 56"))), this.state.localizacion && this.state.localizacion.value === 'Baranoa' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1056,
+          columnNumber: 18
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1057,
+          columnNumber: 21
+        }
+      }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "compraventa",
+        className: "input",
+        onChange: this.onChangeSelect,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1058,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1064,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 08",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1065,
+          columnNumber: 23
+        }
+      }, "Carrera 19 #18-18 Local 2"))), this.state.localizacion && this.state.localizacion.value === 'Santa Marta' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1074,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1075,
+          columnNumber: 23
+        }
+      }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "compraventa",
+        className: "input",
+        onChange: this.onChangeSelect,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1076,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1082,
+          columnNumber: 25
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 09",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1083,
+          columnNumber: 25
+        }
+      }, "Centro, Cra 5, Edificio Galaxia. Local 102"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 10",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1084,
+          columnNumber: 25
+        }
+      }, "Centro, Cra 5 # 21 - 16"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 11",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1085,
+          columnNumber: 25
+        }
+      }, "Gaira, Cra 10 # 9- 35"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 202",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1086,
+          columnNumber: 25
+        }
+      }, "Avenida El Libertador #27 - 231"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 18",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1087,
+          columnNumber: 25
+        }
+      }, "Concepci\xF3n 2 Mz Y Casa 19. 2da Etapa "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 06",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1088,
+          columnNumber: 25
+        }
+      }, "Av. el Rio con Av. del libertador 30 -146"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 102",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1089,
+          columnNumber: 25
+        }
+      }, "Avenida Del Ferrocarril #5-08"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 105",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1090,
+          columnNumber: 25
+        }
+      }, "V\xEDa a Minca, Cra 66 N. 39 - 81, Yucal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 101",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1091,
+          columnNumber: 25
+        }
+      }, "Mercado, Calle 12 #8-80"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 107",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1092,
+          columnNumber: 25
+        }
+      }, "Av. Santa rita, Calle 22 con 18. Esquina"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "PCT 108",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1093,
+          columnNumber: 25
+        }
+      }, "Bonga, Cra 17 con 7"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1097,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1098,
+          columnNumber: 25
+        }
+      }, "Nombres *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        name: "name",
+        onChange: this.onChangeInput,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1099,
+          columnNumber: 25
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1106,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1107,
+          columnNumber: 25
+        }
+      }, "Apellidos *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        name: "lastname",
+        onChange: this.onChangeInput,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1108,
+          columnNumber: 25
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1115,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1116,
+          columnNumber: 25
+        }
+      }, "Celular *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        name: "mobile",
+        onChange: this.onChangeInput,
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1117,
+          columnNumber: 25
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1124,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1125,
+          columnNumber: 25
+        }
+      }, "Correo *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        required: true,
+        onChange: this.onChangeInput,
+        name: "email",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1126,
+          columnNumber: 25
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1133,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1134,
+          columnNumber: 25
+        }
+      }, "\xBF Cu\xE1nto necesita ?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        className: "input",
+        type: "text",
+        onChange: this.onChangeInput,
+        name: "many",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1135,
+          columnNumber: 25
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "form-row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1141,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        className: "label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1142,
+          columnNumber: 25
+        }
+      }, "\xBF C\xF3mo nos contact\xF3 ? *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
+        name: "source",
+        className: "input",
+        onChange: this.onChangeSelect,
+        required: true,
+        placeholder: "Seleccione una opcion",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1143,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1150,
+          columnNumber: 27
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Radio",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1151,
+          columnNumber: 27
+        }
+      }, "Radio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Volantes",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1152,
+          columnNumber: 27
+        }
+      }, "Volantes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Facebook",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1153,
+          columnNumber: 27
+        }
+      }, "Facebook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Instagram",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1154,
+          columnNumber: 27
+        }
+      }, "Instagram"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Google",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1155,
+          columnNumber: 27
+        }
+      }, "Google"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Amigos",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1156,
+          columnNumber: 27
+        }
+      }, "Amigos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Otro",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1157,
+          columnNumber: 27
+        }
+      }, "Otro"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1161,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1162,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+        type: "checkbox",
+        name: "politica-tratamiento-datos",
+        required: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1163,
+          columnNumber: 27
+        }
+      }), "\xA0Acepto", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
+        href: "/politica",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1169,
+          columnNumber: 27
+        }
+      }, "\xA0politica de tratamiento de datos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
+        type: "submit",
+        className: "form-btn",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1175,
+          columnNumber: 23
+        }
+      }, "Enviar datos"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1185,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 1186,
+          columnNumber: 11
+        }
+      })));
+    }
+  }]);
+
+  return Cotizar;
+}(react__WEBPACK_IMPORTED_MODULE_10__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Cotizar);
+
+/***/ }),
+
 /***/ "./pages/gracias.js":
 /*!**************************!*\
   !*** ./pages/gracias.js ***!
@@ -7235,2238 +11537,6 @@ var Thanks = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./pages/sucursales.js":
-/*!*****************************!*\
-  !*** ./pages/sucursales.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/reflect/construct */ "./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_Top__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Top */ "./components/Top.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-
-
-
-
-
-
-var _jsxFileName = "/Users/arnoldtorresmm/sites/cotizador/pages/sucursales.js";
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default.a) return false; if (_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default.a.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-
-
-
-
-
-
-var Sucursales = /*#__PURE__*/function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(Sucursales, _Component);
-
-  var _super = _createSuper(Sucursales);
-
-  function Sucursales() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Sucursales);
-
-    return _super.apply(this, arguments);
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Sucursales, [{
-    key: "render",
-    value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11,
-          columnNumber: 9
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12,
-          columnNumber: 11
-        }
-      }, "Conoce nuestros Almacenes de Compraventas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
-        name: "description",
-        content: "Contamos con mas de 25 compraventas presentes en  Cartagena, Santa Marta, sabanalarga, Baranoa, Arjona. Encuentra tu sucursal m\xE1s cercana.",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13,
-          columnNumber: 11
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15,
-          columnNumber: 9
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Top__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16,
-          columnNumber: 11
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "cover",
-        src: "/static/img/oficinas.png",
-        alt: "compraventas pactemos, casas de empe\xF1o, compraventas en cartagena, compraventas en santa marta, comprayventas",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17,
-          columnNumber: 11
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "container",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18,
-          columnNumber: 11
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        className: "offices-header",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19,
-          columnNumber: 13
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 15
-        }
-      }, "Sucursales de Compraventas Pactemos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 15
-        }
-      }, "Compraventas PACTEMOS est\xE1 presente en la Regi\xF3n Caribe con la misi\xF3n de ofrecer dinero de manera inmediata, con el profesionalismo y la seguridad que nos caracteriza"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "offices-links",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        href: "#Cartagena",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25,
-          columnNumber: 17
-        }
-      }, "Cartagena"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        href: "#Turbaco",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26,
-          columnNumber: 17
-        }
-      }, "Turbaco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        href: "#Arjona",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27,
-          columnNumber: 17
-        }
-      }, "Arjona"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        href: "#SantaMarta",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28,
-          columnNumber: 17
-        }
-      }, "Santa Marta"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        href: "#Sabanalarga",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29,
-          columnNumber: 17
-        }
-      }, "Sabanalarga"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        href: "#Baranoa",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30,
-          columnNumber: 17
-        }
-      }, "Baranoa"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        id: "Cartagena",
-        className: "offices-section",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34,
-          columnNumber: 13
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35,
-          columnNumber: 15
-        }
-      }, "Compraventas en Cartagena"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "offices-row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40,
-          columnNumber: 21
-        }
-      }, "Bocagrande"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41,
-          columnNumber: 21
-        }
-      }, "Cra 3. #5-187."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41,
-          columnNumber: 48
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 6799000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 7820709")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15694.856006512227!2d-75.5179115!3d10.4442544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8cc7410b2c1c38f8!2sCompraventas%20PACTEMOS!5e0!3m2!1ses-419!2sco!4v1629215096817!5m2!1ses-419!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50,
-          columnNumber: 21
-        }
-      }, "Crespo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51,
-          columnNumber: 21
-        }
-      }, "Calle 70 # 2-67 al lado de Megatiendas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51,
-          columnNumber: 72
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 7278815")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15694.856006512227!2d-75.5179115!3d10.4442544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8cc7410b2c1c38f8!2sCompraventas%20PACTEMOS!5e0!3m2!1ses-419!2sco!4v1629215096817!5m2!1ses-419!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59,
-          columnNumber: 19
-        }
-      }, "Centro Historico"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60,
-          columnNumber: 21
-        }
-      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60,
-          columnNumber: 70
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 6602108"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 3427401")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31391.53792661738!2d-75.5588053!3d10.4261583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9e98238177%3A0xe738cc01ffab19d!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1551970686506",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69,
-          columnNumber: 19
-        }
-      }, "Centro Historico"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70,
-          columnNumber: 21
-        }
-      }, "Calle del Cabo C.C.Invercr\xE9dito Lc 9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70,
-          columnNumber: 70
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 6643639"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 5641900")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.942896213083!2d-75.54786118520227!3d10.426106292559798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62433423449a1%3A0xb454e36780459ab1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550678758676",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 79,
-          columnNumber: 20
-        }
-      }, "Centro Historico"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80,
-          columnNumber: 21
-        }
-      }, "Portal de Los Dulces"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80,
-          columnNumber: 54
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 6642182"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 82,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 4690899")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.975917491086!2d-75.55167528520231!3d10.423485592561649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd85ca545176562b9!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2spe!4v1549334285429",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89,
-          columnNumber: 20
-        }
-      }, "Centro Historico"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90,
-          columnNumber: 21
-        }
-      }, "Parque centenario, Centro, Avenida Daniel lemaitre"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90,
-          columnNumber: 84
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 92,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 4591953")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.97429100076!2d-75.54848208467318!3d10.423614692561511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62fbacb4615d3%3A0xb06ef6da2b9c189b!2sCompraventas%20PACTEMOS!5e0!3m2!1ses!2sco!4v1610583134693!5m2!1ses!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 98,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99,
-          columnNumber: 19
-        }
-      }, "Bazurto"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100,
-          columnNumber: 21
-        }
-      }, "C.C Almacentro. Lc 4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100,
-          columnNumber: 54
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 6722307"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 5641662")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15696.435195677646!2d-75.5319144!3d10.412933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef624336739ee27%3A0xe004f300461b33f5!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685706336",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 109,
-          columnNumber: 19
-        }
-      }, "Plazuela"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 110,
-          columnNumber: 21
-        }
-      }, "Frente al multicentro La Plazuela, Dg. 31 # 71-59"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 110,
-          columnNumber: 83
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 111,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 5592475")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15697.36868601264!2d-75.4852552!3d10.3943744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ba8d956b8a567ed!2sCompraventas%20PACTEMOS!5e0!3m2!1ses-419!2sco!4v1629215804066!5m2!1ses-419!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118,
-          columnNumber: 19
-        }
-      }, "San Jos\xE9 de los Campanos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119,
-          columnNumber: 21
-        }
-      }, "Cra 101 B # 38a \u2013 83"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119,
-          columnNumber: 54
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 120,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 6510864"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 120,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 121,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 5743072")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62793.386460644135!2d-75.5196553502831!3d10.37489710418542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6243d5ad04cb9%3A0x447ed1d5cc8838d1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550685997994",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 123,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 126,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 127,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 128,
-          columnNumber: 19
-        }
-      }, "Boquilla"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 129,
-          columnNumber: 21
-        }
-      }, "Calle Principal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 129,
-          columnNumber: 49
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 130,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 6567398"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 130,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 131,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 5641898")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.316602453616!2d-75.49634278520185!3d10.475688692526003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6dc9239c51bf628!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686118622",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 133,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 136,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 137,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 138,
-          columnNumber: 19
-        }
-      }, "Poz\xF3n"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 139,
-          columnNumber: 21
-        }
-      }, "Cra 88 # 56 \u2013 01"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 139,
-          columnNumber: 50
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 140,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 6525986"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 140,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 141,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 5371045")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.187033103457!2d-75.45656518520244!3d10.406715192573053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f3ddd534608a617!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686260599",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 143,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 146,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 147,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 148,
-          columnNumber: 19
-        }
-      }, "Santa Rosa"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 149,
-          columnNumber: 21
-        }
-      }, "Cll 16 # 27 \u2013 19"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 149,
-          columnNumber: 50
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 151,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 5371641")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.737488074561!2d-75.37505958520211!3d10.442393692548684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50bda012238516e6!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686568316",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 153,
-          columnNumber: 19
-        }
-      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        id: "Turbaco",
-        className: "offices-section",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 159,
-          columnNumber: 13
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 160,
-          columnNumber: 15
-        }
-      }, "Compraventas en Turbaco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "offices-row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 162,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 163,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 164,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 165,
-          columnNumber: 19
-        }
-      }, "Turbaco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 166,
-          columnNumber: 21
-        }
-      }, "Calle Real. #17-91 Dg a MerKmas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 166,
-          columnNumber: 65
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 167,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 6556703"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 167,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 168,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 3624794")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.153038568312!2d-75.4133455852031!3d10.329635092625642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef621201fd2b38f%3A0xd3322370741e7037!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686340612",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 170,
-          columnNumber: 19
-        }
-      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        id: "Arjona",
-        className: "offices-section",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 175,
-          columnNumber: 13
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 176,
-          columnNumber: 15
-        }
-      }, "Compraventas en Arjona"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "offices-row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 178,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 179,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 180,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 181,
-          columnNumber: 19
-        }
-      }, "Arjona"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 182,
-          columnNumber: 21
-        }
-      }, "Calle del Coco con Mercado, Esquina."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 182,
-          columnNumber: 70
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 184,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 6916874")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.1157612366956!2d-75.34567798520376!3d10.252246692678508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e589f19d8b2f979%3A0x5f67824f79c01a4a!2sCompraventas%20Pactemos!5e0!3m2!1ses!2sco!4v1610582904960!5m2!1ses!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 186,
-          columnNumber: 19
-        }
-      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        id: "SantaMarta",
-        className: "offices-section",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 191,
-          columnNumber: 13
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 192,
-          columnNumber: 15
-        }
-      }, "Compraventas en Santa Marta"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "offices-row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 194,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 195,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 196,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 197,
-          columnNumber: 21
-        }
-      }, "Centro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 198,
-          columnNumber: 21
-        }
-      }, "Cra 5 # 22-42. Edificio Galaxia, Lc 102"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 198,
-          columnNumber: 73
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 199,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 4230982"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 199,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 200,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 4690898")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2956707198887!2d-74.21331748519506!3d11.239646492008227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f6e47c110cbfe8e!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686996394",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 202,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 205,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 206,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 207,
-          columnNumber: 21
-        }
-      }, "Centro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 208,
-          columnNumber: 21
-        }
-      }, "Cra 5 # 21-16"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 208,
-          columnNumber: 47
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 209,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 4235885"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 209,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 210,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 3427387")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.280309546607!2d-74.21315948519509!3d11.240778192007443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a2c8b1df5ce81f!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687087695",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 212,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 215,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 216,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 217,
-          columnNumber: 21
-        }
-      }, "Concepci\xF3n 2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 218,
-          columnNumber: 21
-        }
-      }, "Mz Y, Casa 19, V\xEDa Bodegas Donado"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 218,
-          columnNumber: 67
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 219,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 4227033"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 219,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 220,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 4591962")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.2843219031215!2d-74.1851218017892!3d11.217330699060529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85addced21a4077b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687212249",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 222,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 225,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 226,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 227,
-          columnNumber: 21
-        }
-      }, "Av. El R\xEDo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 228,
-          columnNumber: 21
-        }
-      }, "Av el R\xEDo con Av del Libertador 30 -146 Local 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 228,
-          columnNumber: 81
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 229,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 4335584"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 229,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 230,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (302) 2354964")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.3693103837036!2d-74.18024168519506!3d11.234219692011902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9502c4bc05dd012b!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687299501",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 232,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 235,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 236,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 237,
-          columnNumber: 21
-        }
-      }, "Av. del Libertador"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 238,
-          columnNumber: 21
-        }
-      }, "Av. del Libertador # 27- 231"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 238,
-          columnNumber: 62
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 240,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 5182136")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31306.821438336814!2d-74.1914037844727!3d11.235445492707479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f50509742b69%3A0x70dcf32fd507edfc!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687408283",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 242,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 245,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 246,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 247,
-          columnNumber: 19
-        }
-      }, "Gaira"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 248,
-          columnNumber: 21
-        }
-      }, "Cra 10 # 9-35"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 248,
-          columnNumber: 47
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 249,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 4223031"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 249,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 250,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 3427389")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.782486285229!2d-74.22803368519541!3d11.20372299203245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f55792c3773%3A0xf297fd92c7ec589!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1551971258960",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 252,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 255,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 256,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 257,
-          columnNumber: 19
-        }
-      }, "Av. del Ferrocarril"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 258,
-          columnNumber: 21
-        }
-      }, "Av. Ferrocarril, # 5-08"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 258,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 259,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 44216373"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 259,
-          columnNumber: 58
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.194914198342!2d-74.21224398533664!3d11.247067453405645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f564549ec591%3A0x4b1c90a1043bf4a7!2sAv.+Del+Ferrocarril+%235-8%2C+Santa+Marta%2C+Magdalena!5e0!3m2!1ses!2sco!4v1563850523268!5m2!1ses!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 262,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 265,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 266,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 267,
-          columnNumber: 19
-        }
-      }, "Mercado"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 268,
-          columnNumber: 21
-        }
-      }, "Calle 12 # 8-80 Local 5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 268,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 269,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 4217422"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 269,
-          columnNumber: 57
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.273643066322!2d-74.2101576736155!3d11.245752499227798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f573ab8c0e59%3A0x7c4780c6b7700d2!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1563852149152!5m2!1ses!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 272,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 275,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 276,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 277,
-          columnNumber: 19
-        }
-      }, "El Yucal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 278,
-          columnNumber: 21
-        }
-      }, "V\xEDa a Minca, Cra 66 N. 39 - 81, Yucal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 278,
-          columnNumber: 71
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 280,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 6168139")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.573566391226!2d-74.1606957851953!3d11.219153692022033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f538f35a708d%3A0xbaf81f32e9746a4b!2sCompraventas%20Pactemos!5e0!3m2!1ses!2sco!4v1610583934683!5m2!1ses!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 282,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 285,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 286,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 287,
-          columnNumber: 19
-        }
-      }, "20 de Julio - Bonga"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 288,
-          columnNumber: 21
-        }
-      }, "Cra 17 con 7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 288,
-          columnNumber: 46
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 290,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 5394661")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.166231877938!2d-74.20087758519502!3d11.249179092001736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f888751b949%3A0x35f6974f922e2bf6!2sCompraventas%20PACTEMOS!5e0!3m2!1ses-419!2sco!4v1646426069253!5m2!1ses-419!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 292,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 295,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 296,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 297,
-          columnNumber: 19
-        }
-      }, "Av. Santa rita"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 298,
-          columnNumber: 21
-        }
-      }, "Calle 22 con 18. Esquina- Bomba Terpel"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 298,
-          columnNumber: 72
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 300,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 5394361")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.3349238846577!2d-74.19901178519514!3d11.23675409201016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f5ae0e234499%3A0x1bd329b2ad1e57b3!2sCompraventas%20PACTEMOS!5e0!3m2!1ses-419!2sco!4v1646426829418!5m2!1ses-419!2sco",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 302,
-          columnNumber: 19
-        }
-      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        id: "Sabanalarga",
-        className: "offices-section",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 308,
-          columnNumber: 13
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 309,
-          columnNumber: 15
-        }
-      }, "Compraventas en Sabanalarga"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "offices-row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 311,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 312,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 313,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 314,
-          columnNumber: 21
-        }
-      }, "Centro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 315,
-          columnNumber: 21
-        }
-      }, "Calle 20 # 18 56"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 315,
-          columnNumber: 50
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 316,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 8783266"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 316,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 317,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 4690900")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.3240711754543!2d-74.92180648520049!3d10.631912492419694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x639e96966faedc13!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687625791",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 319,
-          columnNumber: 19
-        }
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 322,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 323,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 324,
-          columnNumber: 21
-        }
-      }, "Centro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 325,
-          columnNumber: 21
-        }
-      }, "Cra 19 # 20-14"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 325,
-          columnNumber: 48
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 326,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 8780844"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 326,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 327,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (300) 3427390")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.320161577322!2d-74.9218880852005!3d10.63221679241953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5de3543be7879%3A0xa7b0a4514b66adc1!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687728972",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 329,
-          columnNumber: 19
-        }
-      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        id: "Baranoa",
-        className: "offices-section",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 335,
-          columnNumber: 13
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 336,
-          columnNumber: 15
-        }
-      }, "Compraventas en Baranoa"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "offices-row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 338,
-          columnNumber: 15
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
-        className: "offices-item",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 339,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("address", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 340,
-          columnNumber: 19
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 341,
-          columnNumber: 21
-        }
-      }, "Baranoa"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 342,
-          columnNumber: 21
-        }
-      }, " Cra 19 # 18-18 Local 2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 342,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 343,
-          columnNumber: 21
-        }
-      }, "Tel\xE9fono: (605) 8789116"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 343,
-          columnNumber: 57
-        }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 344,
-          columnNumber: 21
-        }
-      }, "Whatsapp: (301) 4690917")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("iframe", {
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2076397095116!2d-74.91727868519912!3d10.795402992308668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde4ef80f7d4b722d!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550687835364",
-        width: "100%",
-        height: "300",
-        frameBorder: "0",
-        style: {
-          border: 0
-        },
-        allowFullScreen: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 346,
-          columnNumber: 19
-        }
-      }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "container",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 353,
-          columnNumber: 11
-        }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 354,
-          columnNumber: 13
-        }
-      }))));
-    }
-  }]);
-
-  return Sucursales;
-}(react__WEBPACK_IMPORTED_MODULE_6__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (Sucursales);
-
-/***/ }),
-
 /***/ "./services/salesforce.js":
 /*!********************************!*\
   !*** ./services/salesforce.js ***!
@@ -9502,14 +11572,14 @@ var serviceSendToSalesforce = function serviceSendToSalesforce(values) {
 
 /***/ }),
 
-/***/ 3:
-/*!************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fsucursales&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fsucursales.js ***!
-  \************************************************************************************************************************************************/
+/***/ 0:
+/*!******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcotizar&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fcotizar.js ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsucursales&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fsucursales.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsucursales&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fsucursales.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcotizar&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fcotizar.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcotizar&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fcotizar.js!./");
 
 
 /***/ }),
@@ -9525,5 +11595,5 @@ module.exports = dll_6b27229dcf0f0fec5747;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=sucursales.js.map
+},[[0,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=cotizar.js.map
