@@ -11,6 +11,7 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="/static/css/core.css" />
           <link href="https://fonts.googleapis.com/css?family=Rubik:300,500" rel="stylesheet" />
           <link rel="icon" href="/static/img/icon.ico" />
+          <link rel="stylesheet" href="/static/css/whatsapp.css" />
 
           {/* <!-- Google Tag Manager --> */}
           <script dangerouslySetInnerHTML={{__html:`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -25,7 +26,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
             {/* Chat Inicio */}
-              <script dangerouslySetInnerHTML={{__html: `type="text/javascript"
+              {/* <script dangerouslySetInnerHTML={{__html: `type="text/javascript"
               var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
               (function(){
               var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -34,9 +35,19 @@ export default class MyDocument extends Document {
               s1.charset='UTF-8';
               s1.setAttribute('crossorigin','*');
               s0.parentNode.insertBefore(s1,s0);
-              })()`}}/>
+              })()`}}/> */}
             {/* Chat Final */}
 
+              {/* chat de whatsapp */}
+              <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+              <a href="https://wa.link/7pt4m3"
+                className='btn-wsp'
+                target={'_blank'}>
+               <i className='fa fa-whatsapp icono'></i>
+              </a>
+              {/* Hola!! Estuve revisando la web de COMPRAVENTAS PACTEMOS y necesito asesoría. */}
+              {/* https://api.whatsapp.com/send?phone=573012693491&text=%F0%9F%91%8B%20%20Hola!!%20Estuve%20revisando%20la%20web%20de%20*COMPRAVENTAS%20PACTEMOS*%20y%20necesito%20asesor%C3%ADa */}
+              {/* https://wa.link/7pt4m3 */}
 
             {/* <!-- Google Tag Manager (noscript) --> */}
             <noscript dangerouslySetInnerHTML={{__html:`
