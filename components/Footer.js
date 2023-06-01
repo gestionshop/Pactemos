@@ -9,8 +9,8 @@ const Footer = () => (
       <div>
         <h4 className="Footer-info-title">Contactos</h4>
         <p><strong>Email:</strong> comercial@pactemos.co</p>
-        <p><strong>Celular:</strong> 301 2693491 - 301 5371656 </p>
-        <p><strong>Whatsapp:</strong> 301 2693491</p>
+        {/* <p><strong>Celular:</strong> 301 2693491 - 301 5371656 </p> */}
+        <p><strong>Whatsapp:</strong> <a href="https://wa.me/573009048675" target="_blank">(300) 9048675</a></p>
       </div>
       <div>
         <h4 className="Footer-info-title">Vinculos</h4>
@@ -18,7 +18,8 @@ const Footer = () => (
         <p><a href="/sucursales">Sucursales</a></p>
         <p><a href="/noticias">Noticias</a></p>
         <p><a href="/cotizar">Cotizar en linea</a></p>
-        <p><a href="/politica">Politica de tratamiento de datos</a></p>
+        <p><a href="/politica" target="_blank">Politica de tratamiento de datos</a></p>
+        <p><a href="https://kawak.com.co/pactemos/pqrs/pqrs_index.php" target="_blank">Atención al cliente - PQRS</a></p>
       </div>
     </div>
     <footer className="Footer">

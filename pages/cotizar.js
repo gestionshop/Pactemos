@@ -1088,9 +1088,9 @@ class Cotizar extends Component {
                         <option value="PCT 06">Av. el Rio con Av. del libertador 30 -146</option>
                         <option value="PCT 102">Avenida Del Ferrocarril #5-08</option>
                         <option value="PCT 105">Vía a Minca, Cra 66 N. 39 - 81, Yucal</option>
-                        <option value="PCT 101">Mercado, Calle 12 #8-80</option>
                         <option value="PCT 107">Av. Santa rita, Calle 22 con 18. Esquina</option>
                         <option value="PCT 108">Bonga, Cra 17 con 7</option>
+                        <option value="PCT 109">Rodadero, Cra 4 # 18-62, al lado de Rapimercar</option>
                       </select>
                     </div>
                 }
