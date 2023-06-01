@@ -119,7 +119,8 @@ class Top extends Component {
                 <a className="Top_item" href="/">Inicio</a>
                 <a className="Top_item" href="/sucursales">Sucursales</a>
                 <a className="Top_item" href="/noticias">Noticias</a>
-                <a className="Top_item" href="#" onClick={ this.showModal }>Servicio a Domicilio</a>
+                <a className="Top_item" href="https://wa.link/ze8jcg" target="_blank">Servicio a Domicilio</a>
+                {/* <a className="Top_item" href="#" onClick={ this.showModal }>Servicio a Domicilio</a> */}
                 <a className="Top_item Top_item_button" href="/cotizar">Cotizar en linea</a>
               </nav>
           </div>

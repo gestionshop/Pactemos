@@ -243,7 +243,8 @@ class Home extends Component {
                   </a>
                 </div>
                 <div className="home-contact-item">
-                  <a className="home-contact-link" href="#" onClick={this.showModal}>
+                  <a className="home-contact-link" href="https://wa.link/ze8jcg" target="_blank" >
+                  {/* <a className="home-contact-link" href="#" onClick={this.showModal}> */}
                     <img src="/static/img/hand.svg" alt="Servicio a Domicilio" />
                     <span>Servicio a Domicilio</span>
                   </a>
