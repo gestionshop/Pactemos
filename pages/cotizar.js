@@ -4,8 +4,6 @@ import dynamic from 'next/dynamic';
 import Top from '../components/Top';
 import axios from 'axios';
 import Footer from '../components/Footer'
-import Thanks from './gracias'
-import * as funtions from '../funciones/funciones';
 
 import { serviceSendToSalesforce } from '../services/salesforce'
 
@@ -544,7 +542,8 @@ class Cotizar extends Component {
                   </div>
                   <div className="cotizar-select">
                     <div className="form-input">
-                      <label className="label">Tiempo de uso (Ej. 2 año y/o 3 meses) *</label>
+                      <label className='label etiqueta-izquierda'>{this.state.category.value === 'Celular' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 6 meses para poder recibirlo.' : 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 12 meses para poder recibirlo.'}</label>
+                      {/* <label className="label">Tiempo de uso (Ej. 2 año y/o 3 meses) *</label> */}
                       <input
                         className="input"
                         type="text"
@@ -580,7 +579,7 @@ class Cotizar extends Component {
                   </div>
                   <div className="cotizar-select">
                     <div className="form-input">
-                      <label className="label">¿Tiene factura? *</label>
+                      <label className="label">¿Tiene factura? (Indispensable) *</label>
 
                       <label className="radio">
                         <input
@@ -1118,20 +1117,23 @@ class Cotizar extends Component {
                           className="input"
                           type="text"
                           name="mobile"
+                          pattern="[0-9]{10}"// falta subir y facturar
+                          title="Ingrese un número de celular válido de 10 dígitos"
                           onChange={ this.onChangeInput }
                           required />
+                          <span>Debe ingresar un número correcto para que el equipo comercial pueda confirmarle la valoración</span>
                       </div>
                       <div className="form-row">
                         <label className="label">Correo *</label>
                         <input
                           className="input"
-                          type="text"
+                          type="email"// falta subir y facturar
                           required
                           onChange={ this.onChangeInput }
                           name="email" />
                       </div>
                       <div className="form-row">
-                        <label className="label">¿ Cuánto necesita ?</label>
+                        <label className="label">¿Cuánto necesita?</label>
                         <input
                           className="input"
                           type="text"
@@ -1139,7 +1141,7 @@ class Cotizar extends Component {
                           name="many" />
                       </div>
                       <div className="form-row">
-                        <label className="label">¿ Cómo nos contactó ? *</label>
+                        <label className="label">¿Cómo nos contactó? *</label>
                         <select
                           name="source"
                           className="input"

@@ -21,8 +21,9 @@ class Thanks extends Component {
                   fontSize: 18,
                 }}>
               <h2>¡YA ESTÁ EN PROCESO TU SOLICITUD!</h2>
-              <p>Uno de nuestros asesores se pondrá en contacto contigo</p>
-              <p>¡En COMPRAVENTAS PACTEMOS estamos para servirte!</p>
+              <p>Te informamos que para confirmarte la valoración por tu artículo, necesitamos que nos compartas información adicional, por esto, pronto alguien del equipo comercial de PACTEMOS te estará contactando</p>
+              {/* <p>Uno de nuestros asesores se pondrá en contacto contigo</p>
+              <p>¡En COMPRAVENTAS PACTEMOS estamos para servirte!</p> */}
             </div>
           </div>
         </div>

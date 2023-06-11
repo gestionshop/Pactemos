@@ -16,7 +16,7 @@ const FormatMil = (amount) => {
     num = parseInt(num)
     if(!num) return ""
     return FormatMil(num)
-  }  
+  }
 }
 
 export {

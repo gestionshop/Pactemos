@@ -160,7 +160,12 @@ th {
 
 label {
   display: inline-block;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  text-align: left}
+
+etiqueta-izquierda {
+    text-align: left;
+}
 
 button {
   border-radius: 0; }
