@@ -507,7 +507,7 @@ class Cotizar extends Component {
                   </Dropzone>
                 </>
               }
-
+{/* {console.log('this.state.type',this.state.type , this.state.category) } */}
               {
                 this.state.type
                 &&
@@ -542,7 +542,7 @@ class Cotizar extends Component {
                   </div>
                   <div className="cotizar-select">
                     <div className="form-input">
-                      <label className='label etiqueta-izquierda'>{this.state.category.value === 'Celular' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 6 meses para poder recibirlo.' : 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 12 meses para poder recibirlo.'}</label>
+                      <label className='label etiqueta-izquierda'>{this.state.category.value === 'Celular' && this.state.category.name === 'tipo_tecnologia' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 6 meses para poder recibirlo.' : this.state.category.value !== 'Celular' && this.state.category.name === 'tipo_tecnologia' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 12 meses para poder recibirlo.' : 'Tiempo de uso (Ej. 2 año y/o 3 meses)'}</label>
                       {/* <label className="label">Tiempo de uso (Ej. 2 año y/o 3 meses) *</label> */}
                       <input
                         className="input"
@@ -579,7 +579,7 @@ class Cotizar extends Component {
                   </div>
                   <div className="cotizar-select">
                     <div className="form-input">
-                      <label className="label">¿Tiene factura? (Indispensable) *</label>
+                      <label className="label">{`¿Tiene factura? ${this.state.category.name === 'tipo_tecnologia' ? '(Indispensable)' :''} *`}</label>
 
                       <label className="radio">
                         <input
