@@ -9527,7 +9527,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           lineNumber: 545,
           columnNumber: 23
         }
-      }, this.state.category.value === 'Celular' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 6 meses para poder recibirlo.' : 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 12 meses para poder recibirlo.'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+      }, this.state.category.value === 'Celular' && this.state.category.name === 'tipo_tecnologia' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 6 meses para poder recibirlo.' : this.state.category.value !== 'Celular' && this.state.category.name === 'tipo_tecnologia' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 12 meses para poder recibirlo.' : 'Tiempo de uso (Ej. 2 año y/o 3 meses)'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
         className: "input",
         type: "text",
         placeholder: "",
@@ -9627,7 +9627,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           lineNumber: 582,
           columnNumber: 23
         }
-      }, "\xBFTiene factura? (Indispensable) *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+      }, "\xBFTiene factura? ".concat(this.state.category.name === 'tipo_tecnologia' ? '(Indispensable)' : '', " *")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "radio",
         __self: this,
         __source: {
@@ -11431,7 +11431,7 @@ var serviceSendToSalesforce = function serviceSendToSalesforce(values) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcotizar&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fcotizar.js ***!
   \******************************************************************************************************************************************/
@@ -11454,5 +11454,5 @@ module.exports = dll_6b27229dcf0f0fec5747;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=cotizar.js.map
