@@ -371,6 +371,8 @@ class Home extends Component {
                         <option value="PCT 13">Boquilla, Calle Principal. CRA 9 # 59-17</option>
                         <option value="PCT 14">Bazurto, C.C Almacentro. Local 4</option>
                         <option value="PCT 21">Avenida Pedro de Heredia, Frente a la Castellana</option>
+                        <option value="PCT 22">Las Ramblas</option>
+                        <option value="PCT 23">Bosque</option>
                         <option value="PCT 19">Pozón, Carrera 88 #56-1. A una cuadra de la entrada</option>
                         <option value="PCT 20">Plazuela, Frente al multicentro La Plazuela, Dg. 31 # 71-59</option>
                         <option value="PCT 201">Crespo, Calle 70 # 2-67 al lado de Megatiendas</option>
