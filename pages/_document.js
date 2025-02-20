@@ -40,7 +40,7 @@ export default class MyDocument extends Document {
 
               {/* chat de whatsapp */}
               <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-              <a href="https://wa.link/lonao6" className='btn-wsp' target={'_blank'}>
+              <a href="https://api.whatsapp.com/send?phone=573012693491&text=%F0%9F%91%8B%20%20Hola!!%20Estuve%20revisando%20la%20web%20de%20*COMPRAVENTAS%20PACTEMOS*%20y%20necesito%20asesor%C3%ADa" className='btn-wsp' target={'_blank'}>
                <i className='fa fa-whatsapp icono'></i>
               </a>
               {/* Hola!! Estuve revisando la web de COMPRAVENTAS PACTEMOS y necesito asesoría. */}

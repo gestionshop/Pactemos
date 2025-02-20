@@ -113,7 +113,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 16,
       columnNumber: 7
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
@@ -121,14 +121,14 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 17,
       columnNumber: 9
     }
   }, "Vinculos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -136,14 +136,14 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 12
     }
   }, "Sucursales")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -151,14 +151,14 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 12
     }
   }, "Noticias")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -166,14 +166,14 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 12
     }
   }, "Cotizar en linea")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -182,14 +182,14 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 12
     }
   }, "Politica de tratamiento de datos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -198,7 +198,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 12
     }
   }, "Atenci\xF3n al cliente - PQRS")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
@@ -206,21 +206,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, "Pactemos \xA9 2021 - Derechos Reservados"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 7
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -230,7 +230,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -242,7 +242,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 9
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -252,7 +252,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -264,7 +264,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 9
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -274,7 +274,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -286,7 +286,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 9
     }
   })))));
@@ -597,7 +597,7 @@ var Top = /*#__PURE__*/function (_Component) {
         }
       }, "Noticias"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
         className: "Top_item",
-        href: "https://wa.link/ze8jcg",
+        href: "https://api.whatsapp.com/send?phone=573012693491&text=%F0%9F%91%8B%20%20Hola!!%20Estuve%20revisando%20la%20web%20de%20*COMPRAVENTAS%20PACTEMOS*%20y%20necesito%20asesor%C3%ADa",
         target: "_blank",
         __self: this,
         __source: {
@@ -611,7 +611,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124,
+          lineNumber: 125,
           columnNumber: 17
         }
       }, "Cotizar en linea")))), this.state.visibleModal && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -620,7 +620,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131,
+          lineNumber: 132,
           columnNumber: 11
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -628,7 +628,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132,
+          lineNumber: 133,
           columnNumber: 13
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
@@ -637,7 +637,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 134,
           columnNumber: 15
         }
       }, "\xD7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("form", {
@@ -647,7 +647,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 135,
           columnNumber: 15
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h3", {
@@ -657,7 +657,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135,
+          lineNumber: 136,
           columnNumber: 17
         }
       }, "Completa tus datos personales"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -665,7 +665,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136,
+          lineNumber: 137,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -673,7 +673,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137,
+          lineNumber: 138,
           columnNumber: 21
         }
       }, "Selecciona tu ciudad *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -685,14 +685,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138,
+          lineNumber: 139,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145,
+          lineNumber: 146,
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -700,7 +700,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146,
+          lineNumber: 147,
           columnNumber: 23
         }
       }, "Cartagena De Indias"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -708,7 +708,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147,
+          lineNumber: 148,
           columnNumber: 23
         }
       }, "Turbaco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -716,7 +716,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148,
+          lineNumber: 149,
           columnNumber: 23
         }
       }, "Arjona"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -724,7 +724,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 149,
+          lineNumber: 150,
           columnNumber: 23
         }
       }, "Santa Marta"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -732,7 +732,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150,
+          lineNumber: 151,
           columnNumber: 23
         }
       }, "Sabanalarga"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -740,7 +740,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151,
+          lineNumber: 152,
           columnNumber: 23
         }
       }, "Baranoa"))), this.state.category && this.state.category.value === 'Cartagena De Indias' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -748,7 +748,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159,
+          lineNumber: 160,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -756,7 +756,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160,
+          lineNumber: 161,
           columnNumber: 21
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -767,14 +767,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161,
+          lineNumber: 162,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 167,
+          lineNumber: 168,
           columnNumber: 25
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -782,7 +782,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 168,
+          lineNumber: 169,
           columnNumber: 25
         }
       }, "Centro, Calle del Cabo. C.C Invercr\xE9dito. Local 5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -790,7 +790,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 169,
+          lineNumber: 170,
           columnNumber: 25
         }
       }, "Centro, Calle del Cabo. C.C Invercr\xE9dito. Local 9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -798,7 +798,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 170,
+          lineNumber: 171,
           columnNumber: 25
         }
       }, "Centro. Portal De Los Dulces, Calle Portocarrero"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -806,7 +806,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 171,
+          lineNumber: 172,
           columnNumber: 25
         }
       }, "Centro, Av Daniel Lemaitre al lado del Hotel San Felipe"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -814,7 +814,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 172,
+          lineNumber: 173,
           columnNumber: 25
         }
       }, "Bocagrande. Cra 3 # 5-187"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -822,7 +822,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173,
+          lineNumber: 174,
           columnNumber: 25
         }
       }, "San jose de los Campanos. Cra 101B. # 38A-83"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -830,7 +830,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 174,
+          lineNumber: 175,
           columnNumber: 25
         }
       }, "Boquilla, Calle Principal. CRA 9 # 59-17"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -838,7 +838,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 175,
+          lineNumber: 176,
           columnNumber: 25
         }
       }, "Bazurto, C.C Almacentro. Local 4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -846,7 +846,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 176,
+          lineNumber: 177,
           columnNumber: 25
         }
       }, "Avenida Pedro de Heredia, Frente a la Castellana"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -854,7 +854,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 177,
+          lineNumber: 178,
           columnNumber: 25
         }
       }, "Poz\xF3n, Carrera 88 # 56-1. A una cuadra de la entrada"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -862,7 +862,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 178,
+          lineNumber: 179,
           columnNumber: 25
         }
       }, "Plazuela, Frente al multicentro La Plazuela, Dg. 31 # 71-59"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -870,7 +870,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 179,
+          lineNumber: 180,
           columnNumber: 25
         }
       }, "Crespo, Calle 70 # 2-67 al lado de Megatiendas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -878,7 +878,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 180,
+          lineNumber: 181,
           columnNumber: 25
         }
       }, "Superefectivo Terminal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -886,7 +886,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 181,
+          lineNumber: 182,
           columnNumber: 25
         }
       }, "Superefectivo Socorro"))), this.state.category && this.state.category.value === 'Turbaco' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -894,7 +894,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 190,
+          lineNumber: 191,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -902,7 +902,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 191,
+          lineNumber: 192,
           columnNumber: 21
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -913,14 +913,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 192,
+          lineNumber: 193,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 198,
+          lineNumber: 199,
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -928,7 +928,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 199,
+          lineNumber: 200,
           columnNumber: 23
         }
       }, "Turbaco, Calle Real. #17-91"))), this.state.category && this.state.category.value === 'Arjona' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -936,7 +936,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 208,
+          lineNumber: 209,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -944,7 +944,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 209,
+          lineNumber: 210,
           columnNumber: 21
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -955,14 +955,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 210,
+          lineNumber: 211,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 216,
+          lineNumber: 217,
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -970,7 +970,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 217,
+          lineNumber: 218,
           columnNumber: 23
         }
       }, "Arjona, Calle del Coco con Mercado, Esquina."))), this.state.category && this.state.category.value === 'Sabanalarga' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -978,7 +978,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 226,
+          lineNumber: 227,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -986,7 +986,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 227,
+          lineNumber: 228,
           columnNumber: 21
         }
       }, "Tu sucursal m\xE1s cercanaa *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -997,14 +997,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 228,
+          lineNumber: 229,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234,
+          lineNumber: 235,
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1012,7 +1012,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 235,
+          lineNumber: 236,
           columnNumber: 23
         }
       }, "Cra 19 N\xBA 20 - 14"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1020,7 +1020,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 236,
+          lineNumber: 237,
           columnNumber: 23
         }
       }, "Calle 20 N\xBA 18 - 56"))), this.state.category && this.state.category.value === 'Baranoa' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1028,7 +1028,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245,
+          lineNumber: 246,
           columnNumber: 18
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1036,7 +1036,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 246,
+          lineNumber: 247,
           columnNumber: 21
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -1047,14 +1047,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 247,
+          lineNumber: 248,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 253,
+          lineNumber: 254,
           columnNumber: 23
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1062,7 +1062,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 254,
+          lineNumber: 255,
           columnNumber: 23
         }
       }, "Carrera 19 #18-18 Local 2"))), this.state.category && this.state.category.value === 'Santa Marta' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1070,7 +1070,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 263,
+          lineNumber: 264,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1078,7 +1078,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 264,
+          lineNumber: 265,
           columnNumber: 23
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -1089,14 +1089,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 265,
+          lineNumber: 266,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 271,
+          lineNumber: 272,
           columnNumber: 25
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1104,7 +1104,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 272,
+          lineNumber: 273,
           columnNumber: 25
         }
       }, "Centro, Cra 5, Edificio Galaxia. Local 102"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1112,7 +1112,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 273,
+          lineNumber: 274,
           columnNumber: 25
         }
       }, "Centro, Cra 5 # 21 - 16"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1120,7 +1120,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 274,
+          lineNumber: 275,
           columnNumber: 25
         }
       }, "Gaira, Cra 10 # 9- 35"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1128,7 +1128,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 275,
+          lineNumber: 276,
           columnNumber: 25
         }
       }, "Avenida El Libertador #27 - 231"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1136,7 +1136,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 276,
+          lineNumber: 277,
           columnNumber: 25
         }
       }, "Concepci\xF3n 2 Mz Y Casa 19. 2da Etapa "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1144,23 +1144,15 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 277,
-          columnNumber: 25
-        }
-      }, "Av. el Rio con Av. del libertador 30 -146"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
-        value: "PCT 102",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 278,
           columnNumber: 25
         }
-      }, "Avenida Del Ferrocarril #5-08"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
+      }, "Av. el Rio con Av. del libertador 30 -146"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         value: "PCT 105",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 279,
+          lineNumber: 280,
           columnNumber: 25
         }
       }, "V\xEDa a Minca, Cra 66 N. 39 - 81, Yucal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1168,7 +1160,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 280,
+          lineNumber: 281,
           columnNumber: 25
         }
       }, "Mercado, Calle 12 #8-80"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1176,7 +1168,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 281,
+          lineNumber: 282,
           columnNumber: 25
         }
       }, "Av. Santa rita, Calle 22 con 18. Esquina"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1184,7 +1176,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 282,
+          lineNumber: 283,
           columnNumber: 25
         }
       }, "Bonga, Cra 17 con 7"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1192,7 +1184,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 286,
+          lineNumber: 287,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1200,7 +1192,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 287,
+          lineNumber: 288,
           columnNumber: 19
         }
       }, "Nombres *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1212,7 +1204,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 288,
+          lineNumber: 289,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1220,7 +1212,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 295,
+          lineNumber: 296,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1228,7 +1220,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 296,
+          lineNumber: 297,
           columnNumber: 19
         }
       }, "Apellidos *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1240,7 +1232,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 297,
+          lineNumber: 298,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1248,7 +1240,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 304,
+          lineNumber: 305,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1256,7 +1248,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 305,
+          lineNumber: 306,
           columnNumber: 19
         }
       }, "Celular *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1268,7 +1260,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 306,
+          lineNumber: 307,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1276,7 +1268,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 313,
+          lineNumber: 314,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1284,7 +1276,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 314,
+          lineNumber: 315,
           columnNumber: 19
         }
       }, "Correo *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1296,7 +1288,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 315,
+          lineNumber: 316,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1304,7 +1296,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 322,
+          lineNumber: 323,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1312,7 +1304,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 323,
+          lineNumber: 324,
           columnNumber: 19
         }
       }, "\xBF Cu\xE1nto necesita ?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1323,7 +1315,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 324,
+          lineNumber: 325,
           columnNumber: 19
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -1331,7 +1323,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 330,
+          lineNumber: 331,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -1339,7 +1331,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 331,
+          lineNumber: 332,
           columnNumber: 19
         }
       }, "\xBF C\xF3mo nos contact\xF3 ? *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("select", {
@@ -1350,14 +1342,14 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 332,
+          lineNumber: 333,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 338,
+          lineNumber: 339,
           columnNumber: 21
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1365,7 +1357,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 339,
+          lineNumber: 340,
           columnNumber: 21
         }
       }, "Radio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1373,7 +1365,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 340,
+          lineNumber: 341,
           columnNumber: 21
         }
       }, "Volantes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1381,7 +1373,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 341,
+          lineNumber: 342,
           columnNumber: 21
         }
       }, "Facebook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1389,7 +1381,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 342,
+          lineNumber: 343,
           columnNumber: 21
         }
       }, "Instagram"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1397,7 +1389,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 343,
+          lineNumber: 344,
           columnNumber: 21
         }
       }, "Google"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1405,7 +1397,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 344,
+          lineNumber: 345,
           columnNumber: 21
         }
       }, "Amigos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("option", {
@@ -1413,21 +1405,21 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 345,
+          lineNumber: 346,
           columnNumber: 21
         }
       }, "Otro"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 349,
+          lineNumber: 350,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 350,
+          lineNumber: 351,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -1437,7 +1429,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 351,
+          lineNumber: 352,
           columnNumber: 21
         }
       }), "\xA0Acepto", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
@@ -1445,7 +1437,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 357,
+          lineNumber: 358,
           columnNumber: 21
         }
       }, "\xA0politica de tratamiento de datos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
@@ -1454,7 +1446,7 @@ var Top = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 363,
+          lineNumber: 364,
           columnNumber: 17
         }
       }, "Enviar datos")))));
@@ -8702,7 +8694,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onChangeInput", function (e) {
       var name = e.target.name;
       var value = e.target.value;
-      var names = name === 'name' ? "".concat(value, " ").concat(_this.state.lasname || '').trim() : name === 'lastname' ? "".concat(_this.state.name || '', " ").concat(value).trim() : _this.state.names;
+      var names = name === 'name' ? "".concat(value, " ").concat(_this.state.lasname || '').trim() : name === 'lastname' ? "".concat(_this.state.names || '', " ").concat(value).trim() : _this.state.names;
 
       if (_this.state.type.name === 'Joyería' && name === 'weight') {
         var _this$setState;
@@ -8802,7 +8794,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
       var values = {
         oid: '00D4x000006qQ0N',
         retURL: 'https://compraventaspactemos.com/cotizar/',
-        first_name: _this.state.name,
+        first_name: _this.state.names,
         last_name: _this.state.lastname,
         email: _this.state.email,
         mobile: _this.state.mobile,
@@ -8810,7 +8802,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         '00N4x00000Q5kDM': 'Dinero inmediato',
         '00N4x00000Knv1D': _this.state.compraventa,
         '00N4x00000KnvIO': _this.state.many,
-        'lead_source': _this.state.source,
+        lead_source: _this.state.source,
         xSucursal: 'PCT 100'
       };
       return Object(_services_salesforce__WEBPACK_IMPORTED_MODULE_16__["serviceSendToSalesforce"])(values);
@@ -8845,14 +8837,14 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 299,
+          lineNumber: 300,
           columnNumber: 9
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("title", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 300,
+          lineNumber: 301,
           columnNumber: 11
         }
       }, "Cotizador-Obt\xE9n la Valoraci\xF3n de tu joya o art\xEDculo."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("meta", {
@@ -8861,7 +8853,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 301,
+          lineNumber: 302,
           columnNumber: 11
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -8869,14 +8861,14 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 303,
+          lineNumber: 307,
           columnNumber: 9
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_components_Top__WEBPACK_IMPORTED_MODULE_13__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 304,
+          lineNumber: 308,
           columnNumber: 11
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -8886,7 +8878,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 305,
+          lineNumber: 309,
           columnNumber: 11
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -8894,7 +8886,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 306,
+          lineNumber: 314,
           columnNumber: 11
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("section", {
@@ -8902,21 +8894,21 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 307,
+          lineNumber: 315,
           columnNumber: 13
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h1", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 308,
+          lineNumber: 316,
           columnNumber: 15
         }
       }, "Cotizador en l\xEDnea"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 309,
+          lineNumber: 317,
           columnNumber: 15
         }
       }, "Rellene los campos y recuerde que la informaci\xF3n personal la utilizaremos para confirmarle cu\xE1nto dinero le damos por su art\xEDculo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -8924,7 +8916,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 311,
+          lineNumber: 323,
           columnNumber: 15
         }
       }, data.map(function (item) {
@@ -8936,14 +8928,14 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 313,
-            columnNumber: 36
+            lineNumber: 325,
+            columnNumber: 19
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 316,
+            lineNumber: 333,
             columnNumber: 21
           }
         }, item.name));
@@ -8952,8 +8944,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 326,
-          columnNumber: 17
+          lineNumber: 341,
+          columnNumber: 19
         }
       }, this.state.type.options.map(function (item) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -8964,15 +8956,15 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 328,
-            columnNumber: 57
+            lineNumber: 343,
+            columnNumber: 23
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 331,
-            columnNumber: 23
+            lineNumber: 352,
+            columnNumber: 25
           }
         }, item.name));
       })), this.state.subtype && this.state.subtype.options && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -8980,7 +8972,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 342,
+          lineNumber: 359,
           columnNumber: 17
         }
       }, this.state.subtype.options.map(function (item) {
@@ -8992,14 +8984,14 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 344,
-            columnNumber: 60
+            lineNumber: 361,
+            columnNumber: 21
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 347,
+            lineNumber: 370,
             columnNumber: 23
           }
         }, item.name));
@@ -9008,16 +9000,16 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 358,
-          columnNumber: 17
+          lineNumber: 378,
+          columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 359,
-          columnNumber: 19
+          lineNumber: 379,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "tipo_herramienta",
@@ -9027,119 +9019,119 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 361,
-          columnNumber: 21
+          lineNumber: 381,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 367,
-          columnNumber: 23
+          lineNumber: 387,
+          columnNumber: 25
         }
       }, "Seleccionar una herramienta"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Taladro",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 368,
-          columnNumber: 23
+          lineNumber: 388,
+          columnNumber: 25
         }
       }, "Taladro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Pulidora",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 369,
-          columnNumber: 23
+          lineNumber: 389,
+          columnNumber: 25
         }
       }, "Pulidora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Caladora",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 370,
-          columnNumber: 23
+          lineNumber: 390,
+          columnNumber: 25
         }
       }, "Caladora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Trozadora",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 371,
-          columnNumber: 23
+          lineNumber: 391,
+          columnNumber: 25
         }
       }, "Tronzadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Ingledora",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 372,
-          columnNumber: 23
+          lineNumber: 392,
+          columnNumber: 25
         }
       }, "Ingletadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Sierra Circular",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 373,
-          columnNumber: 23
+          lineNumber: 393,
+          columnNumber: 25
         }
       }, "Sierra Circular"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Lijadora",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 374,
-          columnNumber: 23
+          lineNumber: 394,
+          columnNumber: 25
         }
       }, "Lijadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Ruteadora",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 375,
-          columnNumber: 23
+          lineNumber: 395,
+          columnNumber: 25
         }
       }, "Ruteadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Pistola de Impacto",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 376,
-          columnNumber: 23
+          lineNumber: 396,
+          columnNumber: 25
         }
       }, "Pistola de Impacto"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Cortadora",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 377,
-          columnNumber: 23
+          lineNumber: 399,
+          columnNumber: 25
         }
       }, "Cortadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Otro",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 378,
-          columnNumber: 23
+          lineNumber: 400,
+          columnNumber: 25
         }
       }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Electrodomésticos' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-select",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 389,
-          columnNumber: 17
+          lineNumber: 408,
+          columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 390,
-          columnNumber: 19
+          lineNumber: 409,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "tipo_electrodomesticos",
@@ -9149,71 +9141,71 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 392,
-          columnNumber: 21
+          lineNumber: 411,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 398,
-          columnNumber: 23
+          lineNumber: 417,
+          columnNumber: 25
         }
       }, "Selecciona un electrodom\xE9stico"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Televisor",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 399,
-          columnNumber: 23
+          lineNumber: 418,
+          columnNumber: 25
         }
       }, "Televisor"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Nevera",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 400,
-          columnNumber: 23
+          lineNumber: 419,
+          columnNumber: 25
         }
       }, "Nevera"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Estufa",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 401,
-          columnNumber: 23
+          lineNumber: 420,
+          columnNumber: 25
         }
       }, "Estufa"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Equipo de Sonido",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 402,
-          columnNumber: 23
+          lineNumber: 421,
+          columnNumber: 25
         }
       }, "Equipo de Sonido"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Otro",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 403,
-          columnNumber: 23
+          lineNumber: 424,
+          columnNumber: 25
         }
       }, "Otros")))), this.state.subtype && this.state.subtype.name === 'Tecnología' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-select",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 414,
-          columnNumber: 17
+          lineNumber: 432,
+          columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 415,
-          columnNumber: 19
+          lineNumber: 433,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "tipo_tecnologia",
@@ -9223,71 +9215,71 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 417,
-          columnNumber: 21
+          lineNumber: 435,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 423,
-          columnNumber: 23
+          lineNumber: 441,
+          columnNumber: 25
         }
       }, "Seleccione un art\xEDculo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Portatil",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 424,
-          columnNumber: 23
+          lineNumber: 442,
+          columnNumber: 25
         }
       }, "Portatil"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
-        value: "Tablet",
+        value: "PlayStation",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 425,
-          columnNumber: 23
+          lineNumber: 443,
+          columnNumber: 25
         }
-      }, "Tablet"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
-        value: "Celular",
+      }, "PlayStation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+        value: "Xbox",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 426,
-          columnNumber: 23
+          lineNumber: 444,
+          columnNumber: 25
         }
-      }, "Celular"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+      }, "Xbox"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Otro",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 427,
-          columnNumber: 23
+          lineNumber: 445,
+          columnNumber: 25
         }
       }, "Otros")))), this.state.type && this.state.type.name === 'Joyería' && this.state.category && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-select",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 441,
-          columnNumber: 19
+          lineNumber: 455,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-input",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 442,
-          columnNumber: 21
+          lineNumber: 456,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 443,
-          columnNumber: 23
+          lineNumber: 457,
+          columnNumber: 25
         }
       }, "Peso aproximado"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
         className: "input",
@@ -9298,8 +9290,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 444,
-          columnNumber: 23
+          lineNumber: 458,
+          columnNumber: 25
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Dropzone, {
         onDrop: this.onDrop,
@@ -9307,8 +9299,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 453,
-          columnNumber: 19
+          lineNumber: 467,
+          columnNumber: 21
         }
       }, function (_ref) {
         var getRootProps = _ref.getRootProps,
@@ -9321,8 +9313,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 455,
-            columnNumber: 23
+            lineNumber: 469,
+            columnNumber: 25
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           style: {
@@ -9332,29 +9324,29 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 458,
-            columnNumber: 25
+            lineNumber: 474,
+            columnNumber: 27
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("strong", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 461,
-            columnNumber: 28
+            lineNumber: 480,
+            columnNumber: 29
           }
-        }, "Agregar imagen"), " (opcional)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getRootProps(), {
+        }, "Agregar imagen")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getRootProps(), {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 462,
-            columnNumber: 25
+            lineNumber: 482,
+            columnNumber: 27
           }
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getInputProps(), {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 463,
-            columnNumber: 27
+            lineNumber: 483,
+            columnNumber: 29
           }
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           style: {
@@ -9366,22 +9358,22 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 464,
-            columnNumber: 27
+            lineNumber: 484,
+            columnNumber: 29
           }
         }, isDragActive ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 473,
-            columnNumber: 31
+            lineNumber: 493,
+            columnNumber: 33
           }
         }, "Soltar archivo") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 475,
-            columnNumber: 31
+            lineNumber: 495,
+            columnNumber: 33
           }
         }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           style: {
@@ -9395,23 +9387,23 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 484,
-            columnNumber: 27
+            lineNumber: 502,
+            columnNumber: 29
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 492,
-            columnNumber: 29
+            lineNumber: 512,
+            columnNumber: 31
           }
         }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
           return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
             __self: _this2,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 494,
-              columnNumber: 60
+              lineNumber: 514,
+              columnNumber: 33
             }
           }, item.name);
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
@@ -9426,8 +9418,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 497,
-            columnNumber: 29
+            lineNumber: 517,
+            columnNumber: 31
           }
         }, "Borrar archivos seleccionados")));
       })), this.state.type && this.state.type.name === 'Artículos' && this.state.category && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -9435,24 +9427,24 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 519,
-          columnNumber: 19
+          lineNumber: 541,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-input",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 520,
-          columnNumber: 21
+          lineNumber: 542,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 521,
-          columnNumber: 23
+          lineNumber: 543,
+          columnNumber: 25
         }
       }, "Marca *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
         className: "input",
@@ -9463,32 +9455,32 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 522,
-          columnNumber: 23
+          lineNumber: 544,
+          columnNumber: 25
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-select",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 531,
-          columnNumber: 19
+          lineNumber: 553,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-input",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 532,
-          columnNumber: 21
+          lineNumber: 554,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 533,
-          columnNumber: 23
+          lineNumber: 555,
+          columnNumber: 25
         }
       }, "Modelo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
         className: "input",
@@ -9499,34 +9491,34 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 534,
-          columnNumber: 23
+          lineNumber: 556,
+          columnNumber: 25
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-select",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 543,
-          columnNumber: 19
+          lineNumber: 565,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-input",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 544,
-          columnNumber: 21
+          lineNumber: 566,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label etiqueta-izquierda",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 545,
-          columnNumber: 23
+          lineNumber: 567,
+          columnNumber: 25
         }
-      }, this.state.category.value === 'Celular' && this.state.category.name === 'tipo_tecnologia' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 6 meses para poder recibirlo.' : this.state.category.value !== 'Celular' && this.state.category.name === 'tipo_tecnologia' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 12 meses para poder recibirlo.' : 'Tiempo de uso (Ej. 2 año y/o 3 meses)'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+      }, this.state.category.value === 'Celular' && this.state.category.name === 'tipo_tecnologia' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 6 meses para poder recibirlo *' : this.state.category.value !== 'Celular' && this.state.category.name === 'tipo_tecnologia' ? 'Tiempo de uso en meses. (1, 2, 6) - Debe ser menor a 12 meses para poder recibirlo *' : 'Tiempo de uso (Ej. 2 año y/o 3 meses) *'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
         className: "input",
         type: "text",
         placeholder: "",
@@ -9535,40 +9527,40 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 547,
-          columnNumber: 23
+          lineNumber: 577,
+          columnNumber: 25
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-select",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 556,
-          columnNumber: 19
+          lineNumber: 586,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-input",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 557,
-          columnNumber: 21
+          lineNumber: 587,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 558,
-          columnNumber: 23
+          lineNumber: 588,
+          columnNumber: 25
         }
       }, "\xBFTiene cargador? *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "radio",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 560,
-          columnNumber: 23
+          lineNumber: 590,
+          columnNumber: 25
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
         type: "radio",
@@ -9579,16 +9571,16 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 561,
-          columnNumber: 25
+          lineNumber: 591,
+          columnNumber: 27
         }
-      }), " Si"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+      }), ' ', "Si"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "radio",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 569,
-          columnNumber: 23
+          lineNumber: 600,
+          columnNumber: 25
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
         type: "radio",
@@ -9599,40 +9591,40 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 570,
-          columnNumber: 25
+          lineNumber: 601,
+          columnNumber: 27
         }
-      }), " No"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+      }), ' ', "No"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-select",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 580,
-          columnNumber: 19
+          lineNumber: 612,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-input",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 581,
-          columnNumber: 21
+          lineNumber: 613,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 582,
-          columnNumber: 23
+          lineNumber: 614,
+          columnNumber: 25
         }
       }, "\xBFTiene factura? ".concat(this.state.category.name === 'tipo_tecnologia' ? '(Indispensable)' : '', " *")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "radio",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 584,
-          columnNumber: 23
+          lineNumber: 620,
+          columnNumber: 25
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
         type: "radio",
@@ -9643,16 +9635,16 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 585,
-          columnNumber: 25
+          lineNumber: 621,
+          columnNumber: 27
         }
-      }), " Si"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
+      }), ' ', "Si"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "radio",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 593,
-          columnNumber: 23
+          lineNumber: 630,
+          columnNumber: 25
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
         type: "radio",
@@ -9663,32 +9655,32 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 594,
-          columnNumber: 25
+          lineNumber: 631,
+          columnNumber: 27
         }
-      }), " No"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+      }), ' ', "No"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-select",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 604,
-          columnNumber: 19
+          lineNumber: 642,
+          columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-input",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 605,
-          columnNumber: 21
+          lineNumber: 643,
+          columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 606,
-          columnNumber: 23
+          lineNumber: 644,
+          columnNumber: 25
         }
       }, "Comentarios"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("textarea", {
         style: {
@@ -9702,8 +9694,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 607,
-          columnNumber: 23
+          lineNumber: 645,
+          columnNumber: 25
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Dropzone, {
         onDrop: this.onDrop,
@@ -9711,8 +9703,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 617,
-          columnNumber: 19
+          lineNumber: 655,
+          columnNumber: 21
         }
       }, function (_ref2) {
         var getRootProps = _ref2.getRootProps,
@@ -9725,8 +9717,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 619,
-            columnNumber: 23
+            lineNumber: 657,
+            columnNumber: 25
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           style: {
@@ -9736,29 +9728,29 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 622,
-            columnNumber: 25
+            lineNumber: 662,
+            columnNumber: 27
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("strong", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 625,
-            columnNumber: 28
+            lineNumber: 668,
+            columnNumber: 29
           }
-        }, "Agregar imagen"), " (opcional)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getRootProps(), {
+        }, "Agregar imagen")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getRootProps(), {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 626,
-            columnNumber: 25
+            lineNumber: 670,
+            columnNumber: 27
           }
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getInputProps(), {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 627,
-            columnNumber: 27
+            lineNumber: 671,
+            columnNumber: 29
           }
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           style: {
@@ -9770,22 +9762,22 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 628,
-            columnNumber: 27
+            lineNumber: 672,
+            columnNumber: 29
           }
         }, isDragActive ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 637,
-            columnNumber: 31
+            lineNumber: 681,
+            columnNumber: 33
           }
         }, "Soltar archivo") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 639,
-            columnNumber: 31
+            lineNumber: 683,
+            columnNumber: 33
           }
         }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           style: {
@@ -9799,23 +9791,23 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 648,
-            columnNumber: 27
+            lineNumber: 690,
+            columnNumber: 29
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 656,
-            columnNumber: 29
+            lineNumber: 700,
+            columnNumber: 31
           }
         }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
           return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
             __self: _this2,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 658,
-              columnNumber: 60
+              lineNumber: 702,
+              columnNumber: 33
             }
           }, item.name);
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
@@ -9830,8 +9822,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 661,
-            columnNumber: 29
+            lineNumber: 705,
+            columnNumber: 31
           }
         }, "Borrar archivos seleccionados")));
       })), this.state.type && this.state.type.name === 'Otros' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -9839,7 +9831,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 681,
+          lineNumber: 727,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -9847,7 +9839,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 682,
+          lineNumber: 728,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -9855,7 +9847,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 683,
+          lineNumber: 729,
           columnNumber: 23
         }
       }, "Tipo de articulo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -9867,7 +9859,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 684,
+          lineNumber: 730,
           columnNumber: 23
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -9875,7 +9867,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 693,
+          lineNumber: 739,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -9883,7 +9875,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 694,
+          lineNumber: 740,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -9891,7 +9883,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 695,
+          lineNumber: 741,
           columnNumber: 23
         }
       }, "Marca"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -9903,7 +9895,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 696,
+          lineNumber: 742,
           columnNumber: 23
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -9911,7 +9903,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 705,
+          lineNumber: 751,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -9919,7 +9911,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 706,
+          lineNumber: 752,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -9927,7 +9919,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 707,
+          lineNumber: 753,
           columnNumber: 23
         }
       }, "Tiempo de uso"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -9939,7 +9931,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 708,
+          lineNumber: 754,
           columnNumber: 23
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -9947,7 +9939,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 717,
+          lineNumber: 763,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -9955,7 +9947,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 718,
+          lineNumber: 764,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -9963,7 +9955,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 719,
+          lineNumber: 765,
           columnNumber: 23
         }
       }, "Comentarios"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("textarea", {
@@ -9978,7 +9970,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 720,
+          lineNumber: 766,
           columnNumber: 23
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Dropzone, {
@@ -9987,7 +9979,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 730,
+          lineNumber: 776,
           columnNumber: 19
         }
       }, function (_ref3) {
@@ -10001,7 +9993,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 732,
+            lineNumber: 778,
             columnNumber: 23
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
@@ -10012,28 +10004,28 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 735,
+            lineNumber: 783,
             columnNumber: 25
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("strong", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 738,
-            columnNumber: 28
+            lineNumber: 789,
+            columnNumber: 27
           }
-        }, "Agregar imagen"), " (opcional)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getRootProps(), {
+        }, "Agregar imagen")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getRootProps(), {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 739,
+            lineNumber: 791,
             columnNumber: 25
           }
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, getInputProps(), {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 740,
+            lineNumber: 792,
             columnNumber: 27
           }
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10046,21 +10038,21 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 741,
+            lineNumber: 793,
             columnNumber: 27
           }
         }, isDragActive ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 750,
+            lineNumber: 802,
             columnNumber: 31
           }
         }, "Soltar archivo") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 752,
+            lineNumber: 804,
             columnNumber: 31
           }
         }, "Arrastra la imagen o clic para elegir"))), _this2.state.files && _this2.state.files.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10075,14 +10067,14 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 761,
+            lineNumber: 809,
             columnNumber: 27
           }
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 769,
+            lineNumber: 819,
             columnNumber: 29
           }
         }, "Archivo seleccionado"), _this2.state.files.map(function (item) {
@@ -10090,8 +10082,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
             __self: _this2,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 771,
-              columnNumber: 60
+              lineNumber: 821,
+              columnNumber: 31
             }
           }, item.name);
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
@@ -10106,7 +10098,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 774,
+            lineNumber: 824,
             columnNumber: 29
           }
         }, "Borrar archivos seleccionados")));
@@ -10115,7 +10107,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 794,
+          lineNumber: 846,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10123,7 +10115,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 795,
+          lineNumber: 847,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -10131,7 +10123,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 796,
+          lineNumber: 848,
           columnNumber: 23
         }
       }, "Valor CDT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -10143,7 +10135,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 797,
+          lineNumber: 849,
           columnNumber: 23
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10151,7 +10143,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 806,
+          lineNumber: 858,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10159,7 +10151,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 807,
+          lineNumber: 859,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -10167,7 +10159,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 808,
+          lineNumber: 860,
           columnNumber: 23
         }
       }, "Fecha de apertura"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -10179,7 +10171,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 809,
+          lineNumber: 861,
           columnNumber: 23
         }
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10187,7 +10179,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 818,
+          lineNumber: 870,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10195,7 +10187,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 819,
+          lineNumber: 871,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -10203,7 +10195,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 820,
+          lineNumber: 872,
           columnNumber: 23
         }
       }, "Fecha de vencimiento"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -10215,7 +10207,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 821,
+          lineNumber: 873,
           columnNumber: 23
         }
       })))), this.state.type && this.state.type.name === 'Joyería' && this.state.weight && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10223,15 +10215,15 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 840,
-          columnNumber: 17
+          lineNumber: 888,
+          columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 841,
-          columnNumber: 19
+          lineNumber: 889,
+          columnNumber: 21
         }
       }, "\xBFCu\xE1nto me dan por mi joya?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
         href: "#",
@@ -10240,8 +10232,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 844,
-          columnNumber: 19
+          lineNumber: 892,
+          columnNumber: 21
         }
       }, "\xA1 Desc\xFAbrelo !"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
         style: {
@@ -10251,23 +10243,23 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 846,
-          columnNumber: 19
+          lineNumber: 900,
+          columnNumber: 21
         }
       }, "* Aplican condiciones")), this.state.type && this.state.type.name === 'Artículos' && this.state.brand && this.state.time && this.state.charger && this.state.invoice && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-result",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 868,
-          columnNumber: 17
+          lineNumber: 917,
+          columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 869,
-          columnNumber: 19
+          lineNumber: 918,
+          columnNumber: 21
         }
       }, "\xBFCu\xE1nto me dan por mi art\xEDculo?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
         href: "#",
@@ -10276,8 +10268,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 871,
-          columnNumber: 19
+          lineNumber: 920,
+          columnNumber: 21
         }
       }, "\xA1 Desc\xFAbrelo !"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
         style: {
@@ -10287,23 +10279,23 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 873,
-          columnNumber: 19
+          lineNumber: 928,
+          columnNumber: 21
         }
       }, "* Aplican condiciones")), this.state.type && this.state.type.name === 'Vender CDT' && this.state.valueCDT && this.state.openCDT && this.state.closeCDT && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-result",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 894,
-          columnNumber: 17
+          lineNumber: 944,
+          columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 895,
-          columnNumber: 19
+          lineNumber: 945,
+          columnNumber: 21
         }
       }, "\xBFCu\xE1nto me dan por mi CDT?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
         href: "#",
@@ -10312,8 +10304,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 897,
-          columnNumber: 19
+          lineNumber: 947,
+          columnNumber: 21
         }
       }, "\xA1 Desc\xFAbrelo !"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
         style: {
@@ -10323,23 +10315,23 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 899,
-          columnNumber: 19
+          lineNumber: 955,
+          columnNumber: 21
         }
       }, "*Aplican condiciones")), this.state.type && this.state.type.name === 'Otros' && this.state.articleType && this.state.brand && this.state.time && this.state.comment && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "cotizar-result",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 922,
-          columnNumber: 17
+          lineNumber: 972,
+          columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h4", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 923,
-          columnNumber: 19
+          lineNumber: 973,
+          columnNumber: 21
         }
       }, "\xBFCu\xE1nto me dan por mi art\xEDculo?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
         href: "#",
@@ -10348,8 +10340,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 925,
-          columnNumber: 19
+          lineNumber: 975,
+          columnNumber: 21
         }
       }, "\xA1 Desc\xFAbrelo !"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
         style: {
@@ -10359,8 +10351,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 927,
-          columnNumber: 19
+          lineNumber: 983,
+          columnNumber: 21
         }
       }, "*Aplican condiciones")), this.state.visible && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         id: "myModal",
@@ -10368,7 +10360,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 940,
+          lineNumber: 995,
           columnNumber: 17
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10376,7 +10368,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 941,
+          lineNumber: 996,
           columnNumber: 19
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
@@ -10385,7 +10377,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 942,
+          lineNumber: 997,
           columnNumber: 21
         }
       }, "\xD7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("form", {
@@ -10395,7 +10387,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 944,
+          lineNumber: 1001,
           columnNumber: 21
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h3", {
@@ -10405,7 +10397,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 945,
+          lineNumber: 1006,
           columnNumber: 23
         }
       }, "Completa tus datos personales"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10413,7 +10405,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 946,
+          lineNumber: 1009,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -10421,8 +10413,8 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 947,
-          columnNumber: 21
+          lineNumber: 1010,
+          columnNumber: 25
         }
       }, "Selecciona tu ciudad *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "city",
@@ -10433,79 +10425,79 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 948,
-          columnNumber: 21
+          lineNumber: 1011,
+          columnNumber: 25
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 955,
-          columnNumber: 23
+          lineNumber: 1018,
+          columnNumber: 27
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Cartagena De Indias",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 956,
-          columnNumber: 23
+          lineNumber: 1019,
+          columnNumber: 27
         }
       }, "Cartagena De Indias"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Turbaco",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 957,
-          columnNumber: 23
+          lineNumber: 1022,
+          columnNumber: 27
         }
       }, "Turbaco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Arjona",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 958,
-          columnNumber: 23
+          lineNumber: 1023,
+          columnNumber: 27
         }
       }, "Arjona"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Santa Marta",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 959,
-          columnNumber: 23
+          lineNumber: 1024,
+          columnNumber: 27
         }
       }, "Santa Marta"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Sabanalarga",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 960,
-          columnNumber: 23
+          lineNumber: 1025,
+          columnNumber: 27
         }
       }, "Sabanalarga"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "Baranoa",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 961,
-          columnNumber: 23
+          lineNumber: 1026,
+          columnNumber: 27
         }
       }, "Baranoa"))), this.state.localizacion && this.state.localizacion.value === 'Cartagena De Indias' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 969,
-          columnNumber: 19
+          lineNumber: 1032,
+          columnNumber: 27
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 970,
-          columnNumber: 21
+          lineNumber: 1033,
+          columnNumber: 29
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "compraventa",
@@ -10515,159 +10507,159 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 971,
-          columnNumber: 23
+          lineNumber: 1036,
+          columnNumber: 29
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 977,
-          columnNumber: 25
+          lineNumber: 1042,
+          columnNumber: 31
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 02",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 978,
-          columnNumber: 25
+          lineNumber: 1043,
+          columnNumber: 31
         }
       }, "Centro, Calle del Cabo. C.C Invercr\xE9dito. Local 5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 01",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 979,
-          columnNumber: 25
+          lineNumber: 1047,
+          columnNumber: 31
         }
       }, "Centro, Calle del Cabo. C.C Invercr\xE9dito. Local 9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 04",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 980,
-          columnNumber: 25
+          lineNumber: 1051,
+          columnNumber: 31
         }
       }, "Centro. Portal De Los Dulces, Calle Portocarrero"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 16",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 981,
-          columnNumber: 25
+          lineNumber: 1054,
+          columnNumber: 31
         }
       }, "Centro, Av Daniel Lemaitre al lado del Hotel San Felipe"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 07",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 982,
-          columnNumber: 25
+          lineNumber: 1058,
+          columnNumber: 31
         }
       }, "Bocagrande. Cra 3 # 5-187"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 12",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 983,
-          columnNumber: 25
+          lineNumber: 1061,
+          columnNumber: 31
         }
       }, "San jose de los Campanos. Cra 101B. # 38A-83"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 13",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 984,
-          columnNumber: 25
+          lineNumber: 1064,
+          columnNumber: 31
         }
       }, "Boquilla, Calle Principal. CRA 9 # 59-17"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 14",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 985,
-          columnNumber: 25
+          lineNumber: 1067,
+          columnNumber: 31
         }
       }, "Bazurto, C.C Almacentro. Local 4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 21",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 986,
-          columnNumber: 25
+          lineNumber: 1070,
+          columnNumber: 31
         }
       }, "Avenida Pedro de Heredia, Frente a la Castellana"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 22",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 987,
-          columnNumber: 25
+          lineNumber: 1073,
+          columnNumber: 31
         }
       }, "Las Ramblas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 23",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 988,
-          columnNumber: 25
+          lineNumber: 1074,
+          columnNumber: 31
         }
       }, "Bosque"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 19",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 989,
-          columnNumber: 25
+          lineNumber: 1075,
+          columnNumber: 31
         }
       }, "Poz\xF3n, Carrera 88 # 56-1. A una cuadra de la entrada"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 20",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 990,
-          columnNumber: 25
+          lineNumber: 1079,
+          columnNumber: 31
         }
       }, "Plazuela, Frente al multicentro La Plazuela, Dg. 31 # 71-59"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 201",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 991,
-          columnNumber: 25
+          lineNumber: 1083,
+          columnNumber: 31
         }
       }, "Crespo, Calle 70 # 2-67 al lado de Megatiendas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 103",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 992,
-          columnNumber: 25
+          lineNumber: 1086,
+          columnNumber: 31
         }
       }, "Superefectivo Terminal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 104",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 993,
-          columnNumber: 25
+          lineNumber: 1089,
+          columnNumber: 31
         }
       }, "Superefectivo Socorro"))), this.state.localizacion && this.state.localizacion.value === 'Turbaco' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1002,
-          columnNumber: 19
+          lineNumber: 1097,
+          columnNumber: 27
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1003,
-          columnNumber: 21
+          lineNumber: 1098,
+          columnNumber: 29
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "compraventa",
@@ -10677,39 +10669,39 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1004,
-          columnNumber: 21
+          lineNumber: 1101,
+          columnNumber: 29
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1010,
-          columnNumber: 23
+          lineNumber: 1107,
+          columnNumber: 31
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 15",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1011,
-          columnNumber: 23
+          lineNumber: 1108,
+          columnNumber: 31
         }
       }, "Turbaco, Calle Real. #17-91"))), this.state.localizacion && this.state.localizacion.value === 'Arjona' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1020,
-          columnNumber: 19
+          lineNumber: 1116,
+          columnNumber: 27
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1021,
-          columnNumber: 21
+          lineNumber: 1117,
+          columnNumber: 29
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "compraventa",
@@ -10719,39 +10711,39 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1022,
-          columnNumber: 21
+          lineNumber: 1120,
+          columnNumber: 29
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1028,
-          columnNumber: 23
+          lineNumber: 1126,
+          columnNumber: 31
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 17",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1029,
-          columnNumber: 23
+          lineNumber: 1127,
+          columnNumber: 31
         }
       }, "Arjona, Calle del Coco con Mercado, Esquina."))), this.state.localizacion && this.state.localizacion.value === 'Sabanalarga' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1038,
-          columnNumber: 19
+          lineNumber: 1135,
+          columnNumber: 27
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1039,
-          columnNumber: 21
+          lineNumber: 1136,
+          columnNumber: 29
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "compraventa",
@@ -10761,47 +10753,47 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1040,
-          columnNumber: 21
+          lineNumber: 1139,
+          columnNumber: 29
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1046,
-          columnNumber: 23
+          lineNumber: 1145,
+          columnNumber: 31
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 05",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1047,
-          columnNumber: 23
+          lineNumber: 1146,
+          columnNumber: 31
         }
       }, "Cra 19 N\xBA 20 - 14"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 06",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1048,
-          columnNumber: 23
+          lineNumber: 1147,
+          columnNumber: 31
         }
       }, "Calle 20 N\xBA 18 - 56"))), this.state.localizacion && this.state.localizacion.value === 'Baranoa' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1057,
-          columnNumber: 18
+          lineNumber: 1155,
+          columnNumber: 27
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1058,
-          columnNumber: 21
+          lineNumber: 1156,
+          columnNumber: 29
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "compraventa",
@@ -10811,39 +10803,39 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1059,
-          columnNumber: 21
+          lineNumber: 1159,
+          columnNumber: 29
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1065,
-          columnNumber: 23
+          lineNumber: 1165,
+          columnNumber: 31
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 08",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1066,
-          columnNumber: 23
+          lineNumber: 1166,
+          columnNumber: 31
         }
       }, "Carrera 19 #18-18 Local 2"))), this.state.localizacion && this.state.localizacion.value === 'Santa Marta' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1075,
-          columnNumber: 19
+          lineNumber: 1174,
+          columnNumber: 27
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         className: "label",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1076,
-          columnNumber: 23
+          lineNumber: 1175,
+          columnNumber: 29
         }
       }, "Tu sucursal m\xE1s cercana *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
         name: "compraventa",
@@ -10853,110 +10845,102 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1077,
-          columnNumber: 23
+          lineNumber: 1178,
+          columnNumber: 29
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1083,
-          columnNumber: 25
+          lineNumber: 1184,
+          columnNumber: 31
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 09",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1084,
-          columnNumber: 25
+          lineNumber: 1185,
+          columnNumber: 31
         }
       }, "Centro, Cra 5, Edificio Galaxia. Local 102"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 10",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1085,
-          columnNumber: 25
+          lineNumber: 1188,
+          columnNumber: 31
         }
       }, "Centro, Cra 5 # 21 - 16"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 11",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1086,
-          columnNumber: 25
+          lineNumber: 1191,
+          columnNumber: 31
         }
       }, "Gaira, Cra 10 # 9- 35"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 202",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1087,
-          columnNumber: 25
+          lineNumber: 1194,
+          columnNumber: 31
         }
       }, "Avenida El Libertador #27 - 231"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 18",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1088,
-          columnNumber: 25
+          lineNumber: 1197,
+          columnNumber: 31
         }
-      }, "Concepci\xF3n 2 Mz Y Casa 19. 2da Etapa "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
+      }, "Concepci\xF3n 2 Mz Y Casa 19. 2da Etapa", ' '), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 06",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1089,
-          columnNumber: 25
+          lineNumber: 1200,
+          columnNumber: 31
         }
       }, "Av. el Rio con Av. del libertador 30 -146"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
-        value: "PCT 102",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 1090,
-          columnNumber: 25
-        }
-      }, "Avenida Del Ferrocarril #5-08"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 105",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1091,
-          columnNumber: 25
+          lineNumber: 1204,
+          columnNumber: 31
         }
       }, "V\xEDa a Minca, Cra 66 N. 39 - 81, Yucal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 107",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1092,
-          columnNumber: 25
+          lineNumber: 1207,
+          columnNumber: 31
         }
       }, "Av. Santa rita, Calle 22 con 18. Esquina"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 108",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1093,
-          columnNumber: 25
+          lineNumber: 1210,
+          columnNumber: 31
         }
       }, "Bonga, Cra 17 con 7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         value: "PCT 109",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1094,
-          columnNumber: 25
+          lineNumber: 1213,
+          columnNumber: 31
         }
       }, "Rodadero, Cra 4 # 18-62, al lado de Rapimercar"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1098,
+          lineNumber: 1219,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -10964,7 +10948,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1099,
+          lineNumber: 1220,
           columnNumber: 25
         }
       }, "Nombres *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -10976,7 +10960,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1100,
+          lineNumber: 1221,
           columnNumber: 25
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -10984,7 +10968,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1107,
+          lineNumber: 1229,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -10992,7 +10976,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1108,
+          lineNumber: 1230,
           columnNumber: 25
         }
       }, "Apellidos *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -11004,7 +10988,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1109,
+          lineNumber: 1231,
           columnNumber: 25
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -11012,7 +10996,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1116,
+          lineNumber: 1239,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -11020,7 +11004,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1117,
+          lineNumber: 1240,
           columnNumber: 25
         }
       }, "Celular *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -11035,22 +11019,22 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1118,
+          lineNumber: 1241,
           columnNumber: 25
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1126,
-          columnNumber: 27
+          lineNumber: 1250,
+          columnNumber: 25
         }
       }, "Debe ingresar un n\xFAmero correcto para que el equipo comercial pueda confirmarle la valoraci\xF3n")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "form-row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1128,
+          lineNumber: 1255,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -11058,7 +11042,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1129,
+          lineNumber: 1256,
           columnNumber: 25
         }
       }, "Correo *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -11071,7 +11055,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1130,
+          lineNumber: 1257,
           columnNumber: 25
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -11079,7 +11063,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1137,
+          lineNumber: 1265,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -11087,7 +11071,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1138,
+          lineNumber: 1266,
           columnNumber: 25
         }
       }, "\xBFCu\xE1nto necesita?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -11098,7 +11082,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1139,
+          lineNumber: 1267,
           columnNumber: 25
         }
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -11106,7 +11090,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1145,
+          lineNumber: 1274,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
@@ -11114,7 +11098,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1146,
+          lineNumber: 1275,
           columnNumber: 25
         }
       }, "\xBFC\xF3mo nos contact\xF3? *"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("select", {
@@ -11126,14 +11110,14 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1147,
+          lineNumber: 1276,
           columnNumber: 25
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1154,
+          lineNumber: 1283,
           columnNumber: 27
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
@@ -11141,7 +11125,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1155,
+          lineNumber: 1284,
           columnNumber: 27
         }
       }, "Radio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
@@ -11149,7 +11133,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1156,
+          lineNumber: 1285,
           columnNumber: 27
         }
       }, "Volantes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
@@ -11157,7 +11141,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1157,
+          lineNumber: 1286,
           columnNumber: 27
         }
       }, "Facebook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
@@ -11165,7 +11149,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1158,
+          lineNumber: 1287,
           columnNumber: 27
         }
       }, "Instagram"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
@@ -11173,7 +11157,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1159,
+          lineNumber: 1288,
           columnNumber: 27
         }
       }, "Google"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
@@ -11181,7 +11165,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1160,
+          lineNumber: 1289,
           columnNumber: 27
         }
       }, "Amigos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("option", {
@@ -11189,21 +11173,21 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1161,
+          lineNumber: 1290,
           columnNumber: 27
         }
       }, "Otro"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1165,
+          lineNumber: 1294,
           columnNumber: 23
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("label", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1166,
+          lineNumber: 1295,
           columnNumber: 25
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -11213,7 +11197,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1167,
+          lineNumber: 1296,
           columnNumber: 27
         }
       }), "\xA0Acepto", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("a", {
@@ -11221,7 +11205,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1173,
+          lineNumber: 1302,
           columnNumber: 27
         }
       }, "\xA0politica de tratamiento de datos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
@@ -11230,7 +11214,7 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1179,
+          lineNumber: 1308,
           columnNumber: 23
         }
       }, "Enviar datos"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -11238,14 +11222,14 @@ var Cotizar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1189,
+          lineNumber: 1318,
           columnNumber: 9
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_15__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 1190,
+          lineNumber: 1319,
           columnNumber: 11
         }
       })));
@@ -11294,7 +11278,7 @@ var serviceSendToSalesforce = function serviceSendToSalesforce(values) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcotizar&absolutePagePath=%2FUsers%2Farnoldtorresmm%2Fsites%2Fcotizador%2Fpages%2Fcotizar.js ***!
   \******************************************************************************************************************************************/
@@ -11317,5 +11301,5 @@ module.exports = dll_6b27229dcf0f0fec5747;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=cotizar.js.map

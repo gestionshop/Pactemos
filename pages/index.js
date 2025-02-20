@@ -229,7 +229,7 @@ class Home extends Component {
               <div className="home-contact-row">
                 <div className="home-contact-item">
                   <a className="home-contact-link"
-                    href="https://wa.link/lonao6"
+                    href="https://api.whatsapp.com/send?phone=573012693491&text=%F0%9F%91%8B%20%20Hola!!%20Estuve%20revisando%20la%20web%20de%20*COMPRAVENTAS%20PACTEMOS*%20y%20necesito%20asesor%C3%ADa"
                   // href="https://wa.me/573012693491"
                     target="_blank">
                     <img src="/static/img/whatsapp.svg" alt="Asesoría por Whatsapp" />
@@ -243,7 +243,7 @@ class Home extends Component {
                   </a>
                 </div>
                 <div className="home-contact-item">
-                  <a className="home-contact-link" href="https://wa.link/ze8jcg" target="_blank" >
+                  <a className="home-contact-link" href="https://api.whatsapp.com/send?phone=573012693491&text=%F0%9F%91%8B%20%20Hola!!%20Estuve%20revisando%20la%20web%20de%20*COMPRAVENTAS%20PACTEMOS*%20y%20necesito%20asesor%C3%ADa" target="_blank" >
                   {/* <a className="home-contact-link" href="#" onClick={this.showModal}> */}
                     <img src="/static/img/hand.svg" alt="Servicio a Domicilio" />
                     <span>Servicio a Domicilio</span>
@@ -474,7 +474,7 @@ class Home extends Component {
                         <option value="PCT 202">Avenida El Libertador #27 - 231</option>
                         <option value="PCT 18">Concepción 2 Mz Y Casa 19. 2da Etapa </option>
                         <option value="PCT 06">Av. el Rio con Av. del libertador 30 -146</option>
-                        <option value="PCT 102">Avenida Del Ferrocarril #5-08</option>
+                        {/* <option value="PCT 102">Avenida Del Ferrocarril #5-08</option> */}
                         <option value="PCT 105">Vía a Minca, Cra 66 N. 39 - 81, Yucal</option>
                         <option value="PCT 101">Mercado, Calle 12 #8-80</option>
                         <option value="PCT 107">Av. Santa rita, Calle 22 con 18. Esquina</option>

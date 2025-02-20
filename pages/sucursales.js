@@ -279,15 +279,15 @@ class Sucursales extends Component {
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.782486285229!2d-74.22803368519541!3d11.20372299203245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef45f55792c3773%3A0xf297fd92c7ec589!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1551971258960" width="100%" height="300" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
-                <article className="offices-item">
+                {/* se comento por que fue solicitadomaria, el 19 de feb de 2025 */}
+                {/* <article className="offices-item">
                   <address>
                   <h4>Av. del Ferrocarril</h4>
                     <span>Av. Ferrocarril, # 5-08</span><br/>
                     <span>Teléfono: (605) 44216373</span><br/>
-                    {/* <span>Whatsapp: (300) 3427389</span> */}
                   </address>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.194914198342!2d-74.21224398533664!3d11.247067453405645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f564549ec591%3A0x4b1c90a1043bf4a7!2sAv.+Del+Ferrocarril+%235-8%2C+Santa+Marta%2C+Magdalena!5e0!3m2!1ses!2sco!4v1563850523268!5m2!1ses!2sco" width="100%" height="300" style={{border:0}} allowFullScreen></iframe>
-                </article>
+                </article> */}
 
               <article className="offices-item">
                   <address>
