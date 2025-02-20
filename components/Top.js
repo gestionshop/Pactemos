@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Thanks from '../pages/gracias'
+// import Thanks from '../pages/gracias'
 
 import { serviceSendToSalesforce } from '../services/salesforce'
 
@@ -31,7 +31,7 @@ class Top extends Component {
       name === 'name'
         ? `${value} ${ this.state.lasname || '' }`.trim()
       : name === 'lastname'
-        ? `${ this.state.name || '' } ${value}`.trim()
+        ? `${ this.state.names || '' } ${value}`.trim()
       : this.state.names
     )
 
@@ -79,7 +79,7 @@ class Top extends Component {
     const values = {
       oid: '00D4x000006qQ0N',
       retURL: 'https://compraventaspactemos.com/cotizar/',
-      first_name: this.state.name,
+      first_name: this.state.names,
       last_name: this.state.lastname,
       email: this.state.email,
       mobile: this.state.mobile,

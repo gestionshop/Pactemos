@@ -8,9 +8,9 @@ const Footer = () => (
       </div>
       <div>
         <h4 className="Footer-info-title">Contactos</h4>
-        <p><strong>Email:</strong> comercial@pactemos.co</p>
+        <p><strong>Email:</strong> asesorvirtual.pactemos@gmail.com</p>
         {/* <p><strong>Celular:</strong> 301 2693491 - 301 5371656 </p> */}
-        <p><strong>Whatsapp:</strong> <a href="https://wa.me/573009048675" target="_blank">(300) 9048675</a></p>
+        <p><strong>Whatsapp:</strong> <a href="https://wa.me/573012693491" target="_blank">(301) 2693491</a></p>
       </div>
       <div>
         <h4 className="Footer-info-title">Vinculos</h4>
