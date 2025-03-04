@@ -170,16 +170,6 @@ class Sucursales extends Component {
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.187033103457!2d-75.45656518520244!3d10.406715192573053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f3ddd534608a617!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686260599" width="100%" height="300" style={{border:0}} allowFullScreen></iframe>
                 </article>
 
-                <article className="offices-item">
-                  <address>
-                  <h4>Santa Rosa</h4>
-                    <span>Cll 16 # 27 – 19</span><br/>
-                    {/* <span>Teléfono: (605) 6601479</span><br/> */}
-                    <span>Whatsapp: <a href="https://wa.me/573005371641" target="_blank">(300) 5371641</a></span>
-                  </address>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.737488074561!2d-75.37505958520211!3d10.442393692548684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50bda012238516e6!2sCompraventas+PACTEMOS!5e0!3m2!1ses!2sco!4v1550686568316" width="100%" height="300" style={{border:0}} allowFullScreen></iframe>
-                </article>
-
               </div>
             </section>
 
